@@ -1,0 +1,7 @@
+{
+    "identifier": "bluerobotics.waterlinked-ugps",
+    "name": "Underwater GPS support)",
+    "website": "https://github.com/Williangalvani/blueos-ugps-extension",
+    "docker": "williangalvani/blueos-ugps",
+    "description": "In development, not working yet."
+}

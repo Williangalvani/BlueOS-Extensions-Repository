@@ -1,0 +1,7 @@
+{
+    "identifier": "williangalvani.zerotier",
+    "name": "ZeroTier",
+    "website": "https://github.com/Williangalvani/ZeroTierOne",
+    "docker": "williangalvani/zerotier",
+    "description": "ZeroTier integration"
+}

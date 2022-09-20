@@ -1,0 +1,7 @@
+{
+    "identifier": "bluerobotics.waterlinkeddvl",
+    "name": "Water Linked DVL Integration",
+    "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
+    "docker": "bluerobotics/blueos-water-linked-dvl",
+    "description": "BlueOS integration for Water Linked's DVLs"
+}

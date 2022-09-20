@@ -1,0 +1,7 @@
+{
+    "identifier": "williangalvani.webrtc",
+    "name": "WebRTC Experiments",
+    "website": "https://github.com/Williangalvani/blueos-webrtc",
+    "docker": "williangalvani/companion-webrtc",
+    "description": "Janus Gateway experiments"
+}

@@ -1,0 +1,44 @@
+# This file is used only for setting up CI. no deployment is done with it
+
+[tool.poetry]
+name = "blueos-extensions-repository"
+version = "0.0.1"
+description = "Blue Robotics BlueOS Extensions Repository"
+authors = ["software@bluerobotics.com"]
+license = "MIT"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+    [tool.pylint.master]
+    enable = "all"
+    disable = [
+        "attribute-defined-outside-init",
+        "broad-except",
+        "duplicate-code",
+        "import-error",
+        "inconsistent-return-statements",
+        "invalid-name",
+        "line-too-long", # We already have this in black.
+        "locally-disabled", # We know what we are doing, necessary to load plugins in runtime
+        "logging-fstring-interpolation", # We want a good-to-read logging interface
+        "missing-class-docstring",
+        "missing-function-docstring",
+        "missing-module-docstring",
+        "no-member", # Some members are created in runtime, pylint fails to detect such cases
+        "no-name-in-module", # Names can be generated in runtime
+        "protected-access", # Necessary for internal tests
+        "suppressed-message",
+        "too-few-public-methods", # We know what kind of architecture we want
+        "too-many-public-methods", # Wrappers will have multiple public methods
+        "useless-super-delegation", # Fails to check it properly
+        "wildcard-import", # Necessary to locate installed plugins
+        "wrong-import-position",
+        ]
+
+    [tool.pylint.miscellaneous]
+    notes = [ "FIXME" ] # TODO is removed for internal development
