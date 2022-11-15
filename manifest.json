@@ -125,7 +125,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
@@ -200,7 +200,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example1 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
@@ -243,7 +243,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example3 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
@@ -353,7 +353,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`\n\nThen pull it in blueos:\n\n\n```\nred-pill\nsudo docker run -d --net=host --name=blueos-example2 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest\n```",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
