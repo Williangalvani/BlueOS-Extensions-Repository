@@ -283,6 +283,32 @@
         "description": "VirtualHere extension for exposing USB devices over IP",
         "docker": "williangalvani/blueos-extension-virtualhere",
         "versions": {
+            "v1.0.2": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.2",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
+            },
             "v1.0.0": {
                 "permissions": {
                     "NetworkMode": "host",
