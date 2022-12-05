@@ -355,6 +355,49 @@
         "description": "In development, not working yet.",
         "docker": "williangalvani/blueos-ugps",
         "versions": {
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "Env": [
+                        "UGPS_IP=192.168.2.94",
+                        "TOPSIDE_IP=192.168.2.94"
+                    ],
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "Experimental, not working\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+            },
             "v0.0.1": {
                 "permissions": {
                     "ExposedPorts": {
