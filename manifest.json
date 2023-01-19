@@ -218,10 +218,10 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/company_logo.png"
     },
     {
-        "identifier": "bluerobotics.example2",
-        "name": "Example 2",
+        "identifier": "bluerobotics.example4",
+        "name": "Example 4",
         "description": "Static HTML plus MAVLink data",
-        "docker": "williangalvani/blueos-example2",
+        "docker": "williangalvani/blueos-example4",
         "versions": {
             "v1.0.0": {
                 "permissions": {
@@ -229,6 +229,9 @@
                         "80/tcp": {}
                     },
                     "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
                         "PortBindings": {
                             "80/tcp": [
                                 {
@@ -248,7 +251,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
@@ -257,8 +260,8 @@
                 "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/company_logo.png"
     },
     {
         "identifier": "williangalvani.virtualhere",
@@ -320,6 +323,174 @@
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/company_logo.png"
+    },
+    {
+        "identifier": "bluerobotics.example1",
+        "name": "Example 1",
+        "description": "Hello World",
+        "docker": "williangalvani/blueos-example1",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >  1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/company_logo.png"
+    },
+    {
+        "identifier": "bluerobotics.example2",
+        "name": "Example 2",
+        "description": "Static HTML plus MAVLink data",
+        "docker": "williangalvani/blueos-example2",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.webrtc",
+        "name": "WebRTC Experiments",
+        "description": "Janus Gateway experiments",
+        "docker": "williangalvani/companion-webrtc",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host"
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/blueos-webrtc",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-webrtc/issues"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.zerotier",
+        "name": "ZeroTier",
+        "description": "ZeroTier integration",
+        "docker": "williangalvani/zerotier",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/williangalvani/zerotierone",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/williangalvani/zerotierone"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/company_logo.png"
     },
     {
         "identifier": "bluerobotics.example3",
@@ -395,176 +566,5 @@
         },
         "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/usbip/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/usbip/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.zerotier",
-        "name": "ZeroTier",
-        "description": "ZeroTier integration",
-        "docker": "williangalvani/zerotier",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/williangalvani/zerotierone",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/williangalvani/zerotierone"
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/company_logo.png"
-    },
-    {
-        "identifier": "bluerobotics.example1",
-        "name": "Example 1",
-        "description": "Hello World",
-        "docker": "williangalvani/blueos-example1",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/company_logo.png"
-    },
-    {
-        "identifier": "bluerobotics.example4",
-        "name": "Example 4",
-        "description": "Static HTML plus MAVLink data",
-        "docker": "williangalvani/blueos-example4",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.webrtc",
-        "name": "WebRTC Experiments",
-        "description": "Janus Gateway experiments",
-        "docker": "williangalvani/companion-webrtc",
-        "versions": {
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/blueos-webrtc",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "This exposes an webrtc stream for your browser.\n\nYou need to send an UDP h264 stream to localhost:8004",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/blueos-webrtc/issues"
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/webrtc/company_logo.png"
     }
 ]
