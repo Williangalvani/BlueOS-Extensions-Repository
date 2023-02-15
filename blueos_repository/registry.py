@@ -1,3 +1,4 @@
+import platform
 from typing import Any, Dict, List, Optional
 
 import aiohttp
@@ -57,11 +58,43 @@ class Registry:
                 print(valid_images)
                 return valid_images
 
+    def is_compatible(self, entry: Any) -> bool:
+        if entry["os"] != "linux":
+            return False
+        return bool(entry["architecture"] == "arm")
+
+    async def extract_digest(self, data: Any, repo: str) -> str:
+        # regular images/ OCI images
+        if "config" in data:
+            return str(data["config"]["digest"])
+        # OCI index. we need to filter for the right arch
+        manifests = data["manifests"]
+        filtered_manifests = [entry for entry in manifests if self.is_compatible(entry["platform"])]
+        if len(filtered_manifests) != 1:
+            raise RuntimeError(f"unexpected number of manifests found for current arch: {len(filtered_manifests)}")
+        digest = filtered_manifests[0]["digest"]
+        return await self.fetch_oci_digest(digest, repo)
+
+    async def fetch_oci_digest(self, digest: str, repository: str) -> str:
+        header = {
+            "Authorization": f"Bearer {self.token}",
+            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json,application/vnd.oci.image.index.v1+json",
+        }
+        async with aiohttp.ClientSession() as session:
+            url = f"{self.index_url}/v2/{repository}/manifests/{digest}"
+            async with session.get(url, headers=header) as resp:
+                if resp.status != 200:
+                    print(f"Error status {resp.status}")
+                    print(await resp.text())
+                    raise Exception(f"Failed getting sha from DockerHub at {url} : {resp.status} : {await resp.text()}")
+                data = await resp.json(content_type=None)
+                return str(data["config"]["digest"])
+
     async def fetch_labels(self, repo: str) -> Dict[str, Any]:
         """Fetches the digest sha from a tag. This returns the image id displayed by 'docker image ls'"""
         header = {
             "Authorization": f"Bearer {self.token}",
-            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json",
+            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json,application/vnd.oci.image.index.v1+json",
         }
         repository, tag = repo.split(":")
         print(f"fetching labels for {repository}:{tag}")
@@ -72,13 +105,13 @@ class Registry:
                     print(f"Error status {resp.status}")
                     raise Exception(f"Failed getting sha from DockerHub at {url} : {resp.status} : {await resp.text()}")
                 data = await resp.json(content_type=None)
-                digest = str(data["config"]["digest"])
-
+                digest = await self.extract_digest(data, repository)
                 blob_url = f"{self.index_url}/v2/{repository}/blobs/{digest}"
 
                 async with session.get(blob_url, headers=header) as resp:
                     if resp.status != 200:
                         print(f"Error status {resp.status}")
+                        print(resp.text)
                         raise Exception("Failed getting blob from DockerHub!")
                     data = await resp.json(content_type=None)
                     try:
