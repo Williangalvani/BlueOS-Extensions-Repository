@@ -1,7 +1,7 @@
 from typing import Any, Dict, List, Optional
 
 import aiohttp
-
+import platform
 
 class Registry:
     """
@@ -57,11 +57,40 @@ class Registry:
                 print(valid_images)
                 return valid_images
 
+    def get_current_arch(self) -> str:
+        """Maps platform.machine() outputs to docker architectures"""
+        arch_map = {"x86_64": "amd64", "aarch64": "arm", "armv7l": "arm"}  # TODO: differentiate arm64v8/ arm32v7
+        machine = platform.machine()
+        arch = arch_map.get(machine, None)
+        if not arch:
+            raise RuntimeError(f"Unknown architecture! {machine}")
+        return arch
+
+
+    def is_compatible(self, entry):
+        if entry["os"] != "linux":
+            return False
+        return entry["architecture"] == self.get_current_arch()
+
+    def extract_digest(self, data):
+        # regular images/ OCI images
+        if "config" in data:
+          return  str(data["config"]["digest"])
+        # OCI index. we need to filter for the right arch
+        manifests = data["manifests"]
+        filtered_manifests = [entry for entry in manifests if self.is_compatible(entry["platform"])]
+        import pprint
+        pprint.pprint(filtered_manifests)
+        if len(filtered_manifests) != 1:
+            raise RuntimeError(f"unexpected number of manifests found for current arch: {len(filtered_manifests)}")
+        return filtered_manifests[0]["digest"]
+
+
     async def fetch_labels(self, repo: str) -> Dict[str, Any]:
         """Fetches the digest sha from a tag. This returns the image id displayed by 'docker image ls'"""
         header = {
             "Authorization": f"Bearer {self.token}",
-            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json",
+            "Accept": "application/vnd.docker.distribution.manifest.v2+json,application/vnd.oci.image.manifest.v1+json,application/vnd.oci.image.index.v1+json",
         }
         repository, tag = repo.split(":")
         print(f"fetching labels for {repository}:{tag}")
@@ -72,8 +101,8 @@ class Registry:
                     print(f"Error status {resp.status}")
                     raise Exception(f"Failed getting sha from DockerHub at {url} : {resp.status} : {await resp.text()}")
                 data = await resp.json(content_type=None)
-                digest = str(data["config"]["digest"])
-
+                digest = self.extract_digest(data)
+                print(digest)
                 blob_url = f"{self.index_url}/v2/{repository}/blobs/{digest}"
 
                 async with session.get(blob_url, headers=header) as resp:
