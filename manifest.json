@@ -477,7 +477,7 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Experimental, needs testing\n",
+                "readme": "### UGPS Extension\n\nThis extension is not ready.\nThis extension currently has no UI. You need to copy the permissions over to \"User permissions and change\n\n```\n    \"UGPS_IP=192.168.2.94\",\n    \"TOPSIDE_IP=192.168.2.1\"\n```\n\nTo relevant values if you need to.\n\nTo check for functionality, check read the logs.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
