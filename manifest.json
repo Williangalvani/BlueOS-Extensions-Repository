@@ -464,6 +464,50 @@
         "description": "In development, not working yet.",
         "docker": "williangalvani/blueos-ugps",
         "versions": {
+            "v1.0.3": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "MAVLINK_HOST=http://192.168.2.2:6040",
+                        "QGC_IP=192.168.2.1"
+                    ],
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.3",
+                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS Extension for Water Linked Underwater GPS\n\n## State\n\nThis extension is currently in development. It currently **has no UI page** (so creates no listing in the sidebar of BlueOS).\n\n## Functionality\n\nAssuming the UGPS is detected and working this service\n* forwards MAVLink data from [Mavlink2Rest](https://github.com/patrickelectric/mavlink2rest) like depth to the UGPS Topside (to enable it to function)\n* forwards locator position from UGPS Topside to MAVLink (message `GPS_INPUT`)\n    * the autopilot should send corresponding `GPS_RAW_INT` messages to the topside computer (QGroundControl)\n    * the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside computer with its filtered position estimates\n* forwards topside position from UGPS Topside to UDP port `14401` with NMEA to be received by QGroundControl (implemented, but currently not tested)\n\nIf you do not have access to a UGPS system, you can use https://demo.waterlinked.com , which simulates a UGPS system with its API.\n\nHardware documentation can be found at https://waterlinked.github.io/underwater-gps/integration/bluerov-integration/\n\n## How to install\n\nThere are 2 options\n\n### Use the extensions manager in BlueOS 1.1\n\u26a0\ufe0f Latest version of this extension is not available in extensions manager yet. This documents the future.\n\n* Click Extensions > Extensions Manager\n* Install this extension\n\nConfiguration is usually not required, but can be done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs/Host addresses:\n```\n    \"UGPS_HOST=http://192.168.2.94\",\n    \"MAVLINK_HOST=http://192.168.2.2:6040\",\n    \"QGC_IP=192.168.2.1\"\n```\n\nUse the \"View Logs\" button to check the status.\n\n### Build docker image yourself and start it\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal))\n\ninstall git, clone this repository and run\n```\ndocker build -t ghcr.io/waterlinked/blueos-ugps-extension:latest .\n# see all images\ndocker images\n\n\n# either: run detached\n#   with standard command\ndocker run -d --net=host ghcr.io/waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ndocker run -d --net=host ghcr.io/waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n\n# or: in interactive shell to get debug output\ndocker run -it ghcr.io/waterlinked/blueos-ugps-extension:latest /bin/bash\n#   with standard command\ncd app && python main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ncd app && python main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n# end interactive session\nexit\n\n# then stop/start/look at log with\ndocker stop [container-id]\ndocker start [container-id]\ndocker log [container-id] # if run detached\n```",
+                "company": {
+                    "name": "Blue Robotics/Water Linked",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+            },
             "v1.0.1": {
                 "permissions": {
                     "ExposedPorts": {
