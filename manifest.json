@@ -1,54 +1,26 @@
 [
     {
-        "identifier": "bluerobotics.example4",
-        "name": "Example 4",
-        "description": "Static HTML plus MAVLink data",
-        "docker": "williangalvani/blueos-example4",
+        "identifier": "bluerobotics.waterlinked-ugps",
+        "name": "Underwater GPS support)",
+        "description": "In development, not working yet.",
+        "docker": "williangalvani/blueos-ugps",
         "versions": {
-            "v1.0.1": {
+            "v1.0.3": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
+                    "Env": [
+                        "UGPS_HOST=http://192.168.2.94",
+                        "MAVLINK_HOST=http://192.168.2.2:6040",
+                        "QGC_IP=192.168.2.1"
+                    ],
                     "HostConfig": {
                         "Binds": [
                             "/root/.config:/root/.config"
                         ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1.1",
-                "tag": "v1.0.1",
-                "website": null,
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": null
-            },
-            "v1.0.0": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
                         ],
                         "PortBindings": {
                             "80/tcp": [
@@ -60,8 +32,8 @@
                     }
                 },
                 "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "tag": "v1.0.3",
+                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -69,35 +41,152 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "readme": "# BlueOS Extension for Water Linked Underwater GPS\n\n## State\n\nThis extension is currently in development. It currently **has no UI page** (so creates no listing in the sidebar of BlueOS).\n\n## Functionality\n\nAssuming the UGPS is detected and working this service\n* forwards MAVLink data from [Mavlink2Rest](https://github.com/patrickelectric/mavlink2rest) like depth to the UGPS Topside (to enable it to function)\n* forwards locator position from UGPS Topside to MAVLink (message `GPS_INPUT`)\n    * the autopilot should send corresponding `GPS_RAW_INT` messages to the topside computer (QGroundControl)\n    * the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside computer with its filtered position estimates\n* forwards topside position from UGPS Topside to UDP port `14401` with NMEA to be received by QGroundControl (implemented, but currently not tested)\n\nIf you do not have access to a UGPS system, you can use https://demo.waterlinked.com , which simulates a UGPS system with its API.\n\nHardware documentation can be found at https://waterlinked.github.io/underwater-gps/integration/bluerov-integration/\n\n## How to install\n\nThere are 2 options\n\n### Use the extensions manager in BlueOS 1.1\n\u26a0\ufe0f Latest version of this extension is not available in extensions manager yet. This documents the future.\n\n* Click Extensions > Extensions Manager\n* Install this extension\n\nConfiguration is usually not required, but can be done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs/Host addresses:\n```\n    \"UGPS_HOST=http://192.168.2.94\",\n    \"MAVLINK_HOST=http://192.168.2.2:6040\",\n    \"QGC_IP=192.168.2.1\"\n```\n\nUse the \"View Logs\" button to check the status.\n\n### Build docker image yourself and start it\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal))\n\ninstall git, clone this repository and run\n```\ndocker build -t ghcr.io/waterlinked/blueos-ugps-extension:latest .\n# see all images\ndocker images\n\n\n# either: run detached\n#   with standard command\ndocker run -d --net=host ghcr.io/waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ndocker run -d --net=host ghcr.io/waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n\n# or: in interactive shell to get debug output\ndocker run -it ghcr.io/waterlinked/blueos-ugps-extension:latest /bin/bash\n#   with standard command\ncd app && python main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ncd app && python main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n# end interactive session\nexit\n\n# then stop/start/look at log with\ndocker stop [container-id]\ndocker start [container-id]\ndocker log [container-id] # if run detached\n```",
+                "company": {
+                    "name": "Blue Robotics/Water Linked",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+            },
+            "v1.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "Env": [
+                        "UGPS_IP=192.168.2.94",
+                        "TOPSIDE_IP=192.168.2.1"
+                    ],
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.1",
+                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "### UGPS Extension\n\n\u26a0\ufe0f This extension **has not been validated**, and currently **has no UI page** (so creates no listing in the sidebar).\n\n#### Usage\n\nConfiguration is done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs to relevant alternatives:\n```\n    \"UGPS_IP=192.168.2.94\",\n    \"TOPSIDE_IP=192.168.2.1\"\n```\n\nUse the \"View Logs\" button to check the status.\n\n#### Communication Details\n\nAssuming the UGPS is detected and working (which should be visible in the extension logs):\n- the extension sends depth and orientation information to the UGPS (to enable it to function)\n- the extension sends NMEA GPS messages of the master position to port `14401` on the topside\n- the extension sends`GPS_INPUT` MAVLink messages of the locator position to the autopilot\n    - the autopilot should send corresponding `GPS_RAW_INT` messages to the topside\n- the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside with its filtered position estimates\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+            },
+            "v0.0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v0.0.1",
+                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "Experimental, not working\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+            },
+            "v0.1": {
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v0.1",
+                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "Experimental, not working\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/company_logo.png"
     },
     {
-        "identifier": "williangalvani.virtualhere",
-        "name": "VirtualHere",
-        "description": "VirtualHere extension for exposing USB devices over IP",
-        "docker": "williangalvani/blueos-extension-virtualhere",
+        "identifier": "bluerobotics.waterlinkeddvl",
+        "name": "Water Linked DVL Integration",
+        "description": "BlueOS integration for Water Linked's DVLs",
+        "docker": "bluerobotics/blueos-water-linked-dvl",
         "versions": {
             "v1.0.2": {
                 "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
+                    "NetworkMode": "host"
                 },
-                "requirements": "core >= 1",
+                "requirements": "core >  1",
                 "tag": "v1.0.2",
-                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -105,67 +194,21 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL A50 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
             },
-            "v1.0.0": {
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/company_logo.png"
-    },
-    {
-        "identifier": "bluerobotics.example1",
-        "name": "Example 1",
-        "description": "Hello World",
-        "docker": "williangalvani/blueos-example1",
-        "versions": {
             "v1.0.1": {
                 "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
+                    "NetworkMode": "host"
                 },
-                "requirements": "core >= 1.1",
+                "requirements": "core >  1",
                 "tag": "v1.0.1",
-                "website": null,
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -173,32 +216,21 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": null
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
             },
             "v1.0.0": {
                 "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
+                    "NetworkMode": "host"
                 },
                 "requirements": "core >  1",
                 "tag": "v1.0.0",
-                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -206,49 +238,21 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
+                "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/BlueOS-examples/"
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/company_logo.png"
-    },
-    {
-        "identifier": "williangalvani.zerotier",
-        "name": "ZeroTier",
-        "description": "ZeroTier integration",
-        "docker": "williangalvani/zerotier",
-        "versions": {
-            "v1.0.0": {
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+            },
+            "v1.0": {
                 "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
+                    "NetworkMode": "host"
                 },
-                "requirements": "core >= 1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/williangalvani/zerotierone",
+                "requirements": "core >  1",
+                "tag": "v1.0",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -256,17 +260,28 @@
                     }
                 ],
                 "docs": null,
-                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/williangalvani/zerotierone"
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+            },
+            "latest": {
+                "permissions": null,
+                "requirements": null,
+                "tag": "latest",
+                "website": null,
+                "authors": [],
+                "docs": null,
+                "readme": "",
+                "company": null,
+                "support": null
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/company_logo.png"
     },
     {
         "identifier": "williangalvani.webrtc",
@@ -485,40 +500,29 @@
         "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/company_logo.png"
     },
     {
-        "identifier": "bluerobotics.waterlinkeddvl",
-        "name": "Water Linked DVL Integration",
-        "description": "BlueOS integration for Water Linked's DVLs",
-        "docker": "bluerobotics/blueos-water-linked-dvl",
+        "identifier": "bluerobotics.example1",
+        "name": "Example 1",
+        "description": "Hello World",
+        "docker": "williangalvani/blueos-example1",
         "versions": {
-            "v1.0.2": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.2",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.2\n - Improved style\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL A50 driver as a BlueOS Extension.\n\n## Install\n\nInstall it from [BlueOS extensions tab](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/).\n\nThe service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
-            },
             "v1.0.1": {
                 "permissions": {
-                    "NetworkMode": "host"
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
                 },
-                "requirements": "core >  1",
+                "requirements": "core >= 1.1",
                 "tag": "v1.0.1",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "website": null,
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -526,96 +530,20 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\n## Changelog\n\n### v1.0.1\n - Fixed an issue where the driver was sending Rangefinder messages with invalid data\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
+                "support": null
             },
             "v1.0.0": {
                 "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0.0",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
-            },
-            "v1.0": {
-                "permissions": {
-                    "NetworkMode": "host"
-                },
-                "requirements": "core >  1",
-                "tag": "v1.0",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "# BlueOS-Water-Linked-DVL\n\nThis is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal)) and run\n\n`sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest\n`\n\nThe service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL"
-            },
-            "latest": {
-                "permissions": null,
-                "requirements": null,
-                "tag": "latest",
-                "website": null,
-                "authors": [],
-                "docs": null,
-                "readme": "",
-                "company": null,
-                "support": null
-            }
-        },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/water-linked-dvl/company_logo.png"
-    },
-    {
-        "identifier": "bluerobotics.waterlinked-ugps",
-        "name": "Underwater GPS support)",
-        "description": "In development, not working yet.",
-        "docker": "williangalvani/blueos-ugps",
-        "versions": {
-            "v1.0.3": {
-                "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "MAVLINK_HOST=http://192.168.2.2:6040",
-                        "QGC_IP=192.168.2.1"
-                    ],
                     "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
                         "PortBindings": {
                             "80/tcp": [
                                 {
@@ -625,9 +553,9 @@
                         }
                     }
                 },
-                "requirements": "core >= 1",
-                "tag": "v1.0.3",
-                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "requirements": "core >  1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -635,29 +563,82 @@
                     }
                 ],
                 "docs": null,
-                "readme": "# BlueOS Extension for Water Linked Underwater GPS\n\n## State\n\nThis extension is currently in development. It currently **has no UI page** (so creates no listing in the sidebar of BlueOS).\n\n## Functionality\n\nAssuming the UGPS is detected and working this service\n* forwards MAVLink data from [Mavlink2Rest](https://github.com/patrickelectric/mavlink2rest) like depth to the UGPS Topside (to enable it to function)\n* forwards locator position from UGPS Topside to MAVLink (message `GPS_INPUT`)\n    * the autopilot should send corresponding `GPS_RAW_INT` messages to the topside computer (QGroundControl)\n    * the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside computer with its filtered position estimates\n* forwards topside position from UGPS Topside to UDP port `14401` with NMEA to be received by QGroundControl (implemented, but currently not tested)\n\nIf you do not have access to a UGPS system, you can use https://demo.waterlinked.com , which simulates a UGPS system with its API.\n\nHardware documentation can be found at https://waterlinked.github.io/underwater-gps/integration/bluerov-integration/\n\n## How to install\n\nThere are 2 options\n\n### Use the extensions manager in BlueOS 1.1\n\u26a0\ufe0f Latest version of this extension is not available in extensions manager yet. This documents the future.\n\n* Click Extensions > Extensions Manager\n* Install this extension\n\nConfiguration is usually not required, but can be done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs/Host addresses:\n```\n    \"UGPS_HOST=http://192.168.2.94\",\n    \"MAVLINK_HOST=http://192.168.2.2:6040\",\n    \"QGC_IP=192.168.2.1\"\n```\n\nUse the \"View Logs\" button to check the status.\n\n### Build docker image yourself and start it\n\nTo set this up, ssh into the Raspberry Pi (or access via `red-pill` in [BlueOS Terminal](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal))\n\ninstall git, clone this repository and run\n```\ndocker build -t ghcr.io/waterlinked/blueos-ugps-extension:latest .\n# see all images\ndocker images\n\n\n# either: run detached\n#   with standard command\ndocker run -d --net=host ghcr.io/waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ndocker run -d --net=host ghcr.io/waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n\n# or: in interactive shell to get debug output\ndocker run -it ghcr.io/waterlinked/blueos-ugps-extension:latest /bin/bash\n#   with standard command\ncd app && python main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n#   or with demo server\ncd app && python main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1\n# end interactive session\nexit\n\n# then stop/start/look at log with\ndocker stop [container-id]\ndocker start [container-id]\ndocker log [container-id] # if run detached\n```",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a basic static HTML page as an extension.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
-                    "name": "Blue Robotics/Water Linked",
+                    "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
-            },
+                "support": "https://github.com/Williangalvani/BlueOS-examples/"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example1/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.zerotier",
+        "name": "ZeroTier",
+        "description": "ZeroTier integration",
+        "docker": "williangalvani/zerotier",
+        "versions": {
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/williangalvani/zerotierone",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check [ZeroTier](https://www.zerotier.com/).",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/williangalvani/zerotierone"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/zerotier/company_logo.png"
+    },
+    {
+        "identifier": "bluerobotics.example4",
+        "name": "Example 4",
+        "description": "Static HTML plus MAVLink data",
+        "docker": "williangalvani/blueos-example4",
+        "versions": {
             "v1.0.1": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
                     },
-                    "Env": [
-                        "UGPS_IP=192.168.2.94",
-                        "TOPSIDE_IP=192.168.2.1"
-                    ],
                     "HostConfig": {
                         "Binds": [
                             "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
                         ],
                         "PortBindings": {
                             "80/tcp": [
@@ -668,9 +649,9 @@
                         }
                     }
                 },
-                "requirements": "core >= 1",
+                "requirements": "core >= 1.1",
                 "tag": "v1.0.1",
-                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "website": null,
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -678,15 +659,15 @@
                     }
                 ],
                 "docs": null,
-                "readme": "### UGPS Extension\n\n\u26a0\ufe0f This extension **has not been validated**, and currently **has no UI page** (so creates no listing in the sidebar).\n\n#### Usage\n\nConfiguration is done by editing the extension in the \"Installed\" tab of the Extensions Manager.\n\nEditing requires [Pirate Mode](https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode)\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs to relevant alternatives:\n```\n    \"UGPS_IP=192.168.2.94\",\n    \"TOPSIDE_IP=192.168.2.1\"\n```\n\nUse the \"View Logs\" button to check the status.\n\n#### Communication Details\n\nAssuming the UGPS is detected and working (which should be visible in the extension logs):\n- the extension sends depth and orientation information to the UGPS (to enable it to function)\n- the extension sends NMEA GPS messages of the master position to port `14401` on the topside\n- the extension sends`GPS_INPUT` MAVLink messages of the locator position to the autopilot\n    - the autopilot should send corresponding `GPS_RAW_INT` messages to the topside\n- the autopilot sends regular `GLOBAL_POSITION_INT` messages to the topside with its filtered position estimates\n",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+                "support": null
             },
-            "v0.0.1": {
+            "v1.0.0": {
                 "permissions": {
                     "ExposedPorts": {
                         "80/tcp": {}
@@ -694,9 +675,6 @@
                     "HostConfig": {
                         "Binds": [
                             "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
                         ],
                         "PortBindings": {
                             "80/tcp": [
@@ -708,8 +686,8 @@
                     }
                 },
                 "requirements": "core >= 1",
-                "tag": "v0.0.1",
-                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "authors": [
                     {
                         "name": "Willian Galvani",
@@ -717,55 +695,77 @@
                     }
                 ],
                 "docs": null,
-                "readme": "Experimental, not working\n",
+                "readme": "# Static Webpage extension\n\nThis uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.\n\nto build:\n\nEnable qemu static support with a docker\n\n```\ndocker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes\n```\n\nThen build it:\n\n`docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry\n`",
                 "company": {
                     "name": "Blue Robotics",
                     "about": "",
                     "email": "support@bluerobotics.com"
                 },
-                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
-            },
-            "v0.1": {
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                },
-                "requirements": "core >= 1",
-                "tag": "v0.1",
-                "website": "https://github.com/Williangalvani/blueos-ugps-extension/",
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "docs": null,
-                "readme": "Experimental, not working\n",
-                "company": {
-                    "name": "Blue Robotics",
-                    "about": "",
-                    "email": "support@bluerobotics.com"
-                },
-                "support": "https://github.com/Williangalvani/blueos-ugps-extension/"
+                "support": "https://github.com/Williangalvani/BlueOS-examples/"
             }
         },
-        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/extension_logo.png",
-        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/bluerobotics/waterlinked-ugps/company_logo.png"
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/company_logo.png"
+    },
+    {
+        "identifier": "williangalvani.virtualhere",
+        "name": "VirtualHere",
+        "description": "VirtualHere extension for exposing USB devices over IP",
+        "docker": "williangalvani/blueos-extension-virtualhere",
+        "versions": {
+            "v1.0.2": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.2",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software\n",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
+            },
+            "v1.0.0": {
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true
+                    }
+                },
+                "requirements": "core >= 1",
+                "tag": "v1.0.0",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "docs": null,
+                "readme": "# BlueOS VirtualHere extension\n\nThis exposes usb devices via IP, which can be used in another client device\n\nTo use, first install it in BlueOS:\n\n\n```\nred-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest\n```\n\n# Client\n\nDownload a client from https://www.virtualhere.com/usb_client_software",
+                "company": {
+                    "name": "Blue Robotics",
+                    "about": "",
+                    "email": "support@bluerobotics.com"
+                },
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues"
+            }
+        },
+        "extension_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/Williangalvani/BlueOS-Extensions-Repository/master/repos/williangalvani/virtualhere/company_logo.png"
     }
 ]
