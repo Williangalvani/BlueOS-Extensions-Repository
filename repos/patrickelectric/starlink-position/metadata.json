@@ -1,0 +1,6 @@
+{
+    "name": "Starlink Position",
+    "website": "https://github.com/patrickelectric/blueos-starlink-position",
+    "docker": "patrickelectric/blueos-starlink-position",
+    "description": "Vehicle position system using starlink antenna"
+}

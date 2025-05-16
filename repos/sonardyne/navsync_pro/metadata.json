@@ -1,0 +1,6 @@
+{
+    "name": "Sonardyne: NavSync Pro",
+    "website": "https://github.com/Sonardyne/blueos-sprint-nav-extension",
+    "docker": "sonardyne/blueos-sprint-nav-extension",
+    "description": "An extension that uses SPRINT-Nav HNav data to provide position updates to the BlueROV. This allows both vehicle tracking and position hold."
+}

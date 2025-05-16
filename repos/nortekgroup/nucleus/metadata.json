@@ -1,0 +1,6 @@
+{
+    "name": "Nortek Nucleus",
+    "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
+    "docker": "nortekgroup/blueos_nucleus",
+    "description": "Supports the Nucleus1000 DVL for ROV navigation"
+}

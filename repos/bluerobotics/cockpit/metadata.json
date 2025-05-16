@@ -1,0 +1,6 @@
+{
+    "name": "Cockpit",
+    "website": "https://github.com/bluerobotics/cockpit",
+    "docker": "bluerobotics/cockpit",
+    "description": "Blue Robotics' next generation control interface; under development"
+}

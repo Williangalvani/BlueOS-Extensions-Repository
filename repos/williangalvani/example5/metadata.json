@@ -1,0 +1,6 @@
+{
+    "name": "Example 5",
+    "website": "https://github.com/Williangalvani/BlueOS-examples/",
+    "docker": "williangalvani/blueos-example5",
+    "description": "GPIO PWM Control"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Yacht",
+    "website": "https://github.com/patrickelectric/blueos-yacht",
+    "docker": "patrickelectric/blueos-yacht",
+    "description": "Easy to use container management utility"
+}

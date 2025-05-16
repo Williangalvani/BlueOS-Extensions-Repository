@@ -1,0 +1,6 @@
+{
+    "name": "Example 4",
+    "website": "https://github.com/Williangalvani/BlueOS-examples/",
+    "docker": "williangalvani/blueos-example4",
+    "description": "Vuetify + Persistent backend"
+}

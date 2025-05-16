@@ -1,0 +1,6 @@
+{
+    "name": "USBIP",
+    "website": "https://github.com/Williangalvani/blueos-usbip",
+    "docker": "williangalvani/blueos-extension-usbip",
+    "description": "USBIP extension for extending USB over IP"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "BlueOS Proxy",
+    "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+    "docker": "williangalvani/blueos-extension-proxy",
+    "description": "BlueOS Proxy"
+}

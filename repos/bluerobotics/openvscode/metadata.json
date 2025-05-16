@@ -1,0 +1,6 @@
+{
+    "name": "OpenVSCoder",
+    "website": "https://github.com/patrickelectric/blueos-code-server",
+    "docker": "patrickelectric/blueos-openvscode",
+    "description": "Edit and run code directly in BlueOS"
+}

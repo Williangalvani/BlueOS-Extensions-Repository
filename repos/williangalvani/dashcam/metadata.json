@@ -1,0 +1,6 @@
+{
+    "name": "Dashcam",
+    "website": "https://github.com/Williangalvani/BlueOS-Dashcam/",
+    "docker": "williangalvani/blueos-dashcam",
+    "description": "Local video recording on the vehicle"
+}

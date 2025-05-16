@@ -1,0 +1,6 @@
+{
+    "name": "Water Linked UGPS",
+    "website": "https://github.com/waterlinked/blueos-ugps-extension",
+    "docker": "waterlinked/blueos-ugps-extension",
+    "description": "Provides location with GPS and SBL acoustic positioning"
+}

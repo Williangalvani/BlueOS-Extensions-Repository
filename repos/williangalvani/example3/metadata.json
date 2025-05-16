@@ -1,0 +1,6 @@
+{
+    "name": "Example 3",
+    "website": "https://github.com/Williangalvani/BlueOS-examples/",
+    "docker": "williangalvani/blueos-example3",
+    "description": "Basic Vuetify example"
+}

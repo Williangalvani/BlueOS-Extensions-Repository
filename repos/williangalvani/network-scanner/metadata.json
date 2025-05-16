@@ -1,0 +1,6 @@
+{
+    "name": "Network Scanner",
+    "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner",
+    "docker": "williangalvani/blueos-network-scanner",
+    "description": "Find other devices at your BlueOS network"
+}

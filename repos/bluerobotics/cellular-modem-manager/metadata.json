@@ -1,0 +1,6 @@
+{
+    "name": "Cellular Modem Manager",
+    "website": "https://github.com/bluerobotics/cellphone-modem-manager",
+    "docker": "bluerobotics/blueos-cellphone-modem-manager",
+    "description": "Blue Robotics cellular modem manager"
+}

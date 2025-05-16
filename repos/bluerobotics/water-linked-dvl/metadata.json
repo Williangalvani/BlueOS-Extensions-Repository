@@ -1,0 +1,6 @@
+{
+    "name": "Water Linked DVL",
+    "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
+    "docker": "bluerobotics/blueos-water-linked-dvl",
+    "description": "Enables ROV position holding and navigation"
+}

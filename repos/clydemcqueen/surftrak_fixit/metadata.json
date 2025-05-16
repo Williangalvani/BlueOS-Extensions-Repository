@@ -1,0 +1,6 @@
+{
+    "name": "Surftrak Fixit",
+    "website": "https://github.com/clydemcqueen/surftrak_fixit",
+    "docker": "clydemcqueen/surftrak_fixit",
+    "description": "Find and fix common Surftrak problems"
+}

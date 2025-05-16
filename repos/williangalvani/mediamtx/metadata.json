@@ -1,0 +1,6 @@
+{
+    "name": "MediaMTX",
+    "website": "https://github.com/Williangalvani/blueos-extension-MediaMTX",
+    "docker": "williangalvani/blueos-extension-mediamtx",
+    "description": "Wrapper for running MediaMTX on BlueOS"
+}

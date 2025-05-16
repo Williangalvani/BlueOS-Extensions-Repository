@@ -1,0 +1,6 @@
+{
+    "name": "JM Connect",
+    "website": "https://www.jmrobotics.no",
+    "docker": "maphstra/jm-connect-blueos",
+    "description": "JM Connect Extension for BlueOS"
+}

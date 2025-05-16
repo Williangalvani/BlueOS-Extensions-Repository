@@ -1,0 +1,6 @@
+{
+    "name": "BlueOs Foxglove",
+    "website": "https://github.com/patrickelectric/blueos-foxglove",
+    "docker": "patrickelectric/blueos-foxglove",
+    "description": "BlueOS extension that integrates zenoh data to foxglove studio"
+}

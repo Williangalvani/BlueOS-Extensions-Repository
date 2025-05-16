@@ -1,0 +1,6 @@
+{
+    "name": "PowerSwitch Calibration",
+    "website": "https://github.com/rjehangir/BlueOS-PS-Calibration/",
+    "docker": "rjehangir/blueos-ps-calibration",
+    "description": "Calibrate offset on BlueBoat for improved measurements"
+}

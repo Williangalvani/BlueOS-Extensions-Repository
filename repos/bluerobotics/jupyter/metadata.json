@@ -1,0 +1,6 @@
+{
+    "name": "Jupyter",
+    "website": "https://github.com/patrickelectric/blueos-jupyter",
+    "docker": "patrickelectric/blueos-jupyter",
+    "description": "Code in Python directly in BlueOS"
+}

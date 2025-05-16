@@ -1,0 +1,6 @@
+{
+    "name": "SonarView",
+    "website": "https://sonarview.io/",
+    "docker": "nicknothom/sonarview",
+    "description": "Cross platform sonar viewing application"
+}

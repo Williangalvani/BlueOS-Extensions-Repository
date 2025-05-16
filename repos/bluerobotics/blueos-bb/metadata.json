@@ -1,0 +1,6 @@
+{
+  "name": "BlueOS-bb",
+  "website": "https://github.com/patrickelectric/blueos-bb",
+  "docker": "patrickelectric/blueos-bb",
+  "description": "In progress extensions for Big Boss project"
+}

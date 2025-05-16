@@ -1,0 +1,6 @@
+{
+    "name": "BR Documentation",
+    "website": "https://github.com/bluerobotics/BlueRobotics-docs-Extension",
+    "docker": "bluerobotics/blueos-docs",
+    "description": "Blue Robotics software documentation"
+}

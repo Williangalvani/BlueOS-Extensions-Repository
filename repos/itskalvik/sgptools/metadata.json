@@ -1,0 +1,6 @@
+{
+    "name": "SGP-Tools",
+    "website": "https://www.itskalvik.com/sgp-tools/blueos.html",
+    "docker": "itskalvik/sgp-tools",
+    "description": "A BlueOS Extension for Autonomous Approximate Bathymetric Surveys"
+}

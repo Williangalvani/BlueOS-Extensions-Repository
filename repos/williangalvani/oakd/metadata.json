@@ -1,0 +1,6 @@
+{
+    "name": "Oak-D Video Streams",
+    "website": "https://github.com/Williangalvani/Oakd-extension",
+    "docker": "williangalvani/oakd-extension",
+    "description": "Exposes Oak-D streams into cockpit"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Water Linked 3D Sonar",
+    "website": "https://github.com/waterlinked/BlueOS-Sonar-Extension",
+    "docker": "waterlinked/blueos-sonar-extension",
+    "description": "Web interface for Water Linked 3D Sonar configuration and visualization with automatic IP discovery"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ZeroTier",
+    "website": "https://github.com/Williangalvani/ZeroTierOne",
+    "docker": "williangalvani/zerotier",
+    "description": "Join a virtual network to operate your vehicle from anywhere"
+}

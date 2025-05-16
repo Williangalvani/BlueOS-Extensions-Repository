@@ -1,0 +1,1640 @@
+{
+    "extensions": {
+        "bluerobotics.blueos-bb": [
+            {
+                "message": "Starting metadata processing for bluerobotics.blueos-bb",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.blueos-bb",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.blueos-bb, error: Invalid version naming: master",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.blueos-documentation": [
+            {
+                "message": "Starting metadata processing for bluerobotics.blueos-documentation",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.blueos-documentation",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.blueos-documentation, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2025.2.8 for extension bluerobotics.blueos-documentation, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.cellular-modem-manager": [
+            {
+                "message": "Starting metadata processing for bluerobotics.cellular-modem-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.cellular-modem-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.cellular-modem-manager, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.cellular-modem-manager, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name add-deploy-extension for extension bluerobotics.cellular-modem-manager, error: Invalid version naming: add-deploy-extension",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.3.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.3.1 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.3.2 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.cockpit": [
+            {
+                "message": "Starting metadata processing for bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.cockpit, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name v.1.13.0 for extension bluerobotics.cockpit, error: Invalid version naming: v.1.13.0",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.cockpit, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.15.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.4.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.4.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.15.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.13.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.7.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.10.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.14.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.5.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.8.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.11.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.12.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.12.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.15.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.7.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.9.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.3.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.10.1 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.12.2 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.6.0 for extension bluerobotics.cockpit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.jupyter": [
+            {
+                "message": "Starting metadata processing for bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.jupyter, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name main for extension bluerobotics.jupyter, error: Invalid version naming: main",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.0 for extension bluerobotics.jupyter, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.navigator-webassistant": [
+            {
+                "message": "Starting metadata processing for bluerobotics.navigator-webassistant",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.navigator-webassistant",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.navigator-webassistant, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.0 for extension bluerobotics.navigator-webassistant, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.node-red": [
+            {
+                "message": "Starting metadata processing for bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.node-red",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name update-node-red for extension bluerobotics.node-red, error: Invalid version naming: update-node-red",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.1 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.0 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.2 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.3 for extension bluerobotics.node-red, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.openvscode": [
+            {
+                "message": "Starting metadata processing for bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.openvscode, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.6 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.5 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.3 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.1 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.2 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.4 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.2 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.7 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.0 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.1 for extension bluerobotics.openvscode, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.ping-viewer-next": [
+            {
+                "message": "Starting metadata processing for bluerobotics.ping-viewer-next",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.ping-viewer-next",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.4 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.5 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.6 for extension bluerobotics.ping-viewer-next, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.power-switch-calibration": [
+            {
+                "message": "Starting metadata processing for bluerobotics.power-switch-calibration",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.power-switch-calibration",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.power-switch-calibration, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension bluerobotics.power-switch-calibration, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.radcam-manager": [
+            {
+                "message": "Starting metadata processing for bluerobotics.radcam-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.radcam-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.radcam-manager, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.radcam-manager, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.2 for extension bluerobotics.radcam-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.3 for extension bluerobotics.radcam-manager, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.ros": [
+            {
+                "message": "Starting metadata processing for bluerobotics.ros",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.ros",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test for extension bluerobotics.ros, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.ros, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.2 for extension bluerobotics.ros, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.1 for extension bluerobotics.ros, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.water-linked-dvl": [
+            {
+                "message": "Starting metadata processing for bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.water-linked-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension bluerobotics.water-linked-dvl, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name v1.0 for extension bluerobotics.water-linked-dvl, error: Invalid version naming: v1.0",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name latest for extension bluerobotics.water-linked-dvl, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.8 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.6 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension bluerobotics.water-linked-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "bluerobotics.yacht": [
+            {
+                "message": "Starting metadata processing for bluerobotics.yacht",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for bluerobotics.yacht",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension bluerobotics.yacht, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "ceruleansonar.cerulean-docs": [
+            {
+                "message": "Starting metadata processing for ceruleansonar.cerulean-docs",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for ceruleansonar.cerulean-docs, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for ceruleansonar.cerulean-docs",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension ceruleansonar.cerulean-docs, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension ceruleansonar.cerulean-docs, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.1.0 for extension ceruleansonar.cerulean-docs, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "ceruleansonar.cerulean-dvl": [
+            {
+                "message": "Starting metadata processing for ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for ceruleansonar.cerulean-dvl, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension ceruleansonar.cerulean-dvl, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.8 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.6 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension ceruleansonar.cerulean-dvl, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "ceruleansonar.sonarview": [
+            {
+                "message": "Starting metadata processing for ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for ceruleansonar.sonarview, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for ceruleansonar.sonarview",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name 1.10.0_dev.11 for extension ceruleansonar.sonarview, error: Invalid version naming: 1.10.0_dev.11",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.11.4 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.10 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.2-dev for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.5-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.10-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.11.6 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.15 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.5 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.1 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.1-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.11.1 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.11.3 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.9.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.11 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.4 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.10 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.14 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.2-beta.3 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.11 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.2-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.13.9-beta for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0-beta.12 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.10.0 for extension ceruleansonar.sonarview, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "clydemcqueen.surftrak_fixit": [
+            {
+                "message": "Starting metadata processing for clydemcqueen.surftrak_fixit",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for clydemcqueen.surftrak_fixit",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.0-beta.2 for extension clydemcqueen.surftrak_fixit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0-beta.1 for extension clydemcqueen.surftrak_fixit, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "clydemcqueen.wl_ugps_external": [
+            {
+                "message": "Starting metadata processing for clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for clydemcqueen.wl_ugps_external",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.1.0-beta.1 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "deepwaterexploration.dwe_os_2": [
+            {
+                "message": "Starting metadata processing for deepwaterexploration.dwe_os_2",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for deepwaterexploration.dwe_os_2",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension deepwaterexploration.dwe_os_2, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v0.4.3-blueos for extension deepwaterexploration.dwe_os_2, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v0.4.2-blueos for extension deepwaterexploration.dwe_os_2, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "itskalvik.ros2": [
+            {
+                "message": "Starting metadata processing for itskalvik.ros2",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for itskalvik.ros2",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version 0.0.1 for extension itskalvik.ros2, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.2 for extension itskalvik.ros2, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "itskalvik.sgptools": [
+            {
+                "message": "Starting metadata processing for itskalvik.sgptools",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for itskalvik.sgptools",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name simulator for extension itskalvik.sgptools, error: Invalid version naming: simulator",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.1 for extension itskalvik.sgptools, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "jmrobotics.jm-connect": [
+            {
+                "message": "Starting metadata processing for jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name jm-connect-blueos-extension for extension jmrobotics.jm-connect, error: Invalid version naming: jm-connect-blueos-extension",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.8 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.7 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.6 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.9 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.4 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.1 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.3 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.6 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.2 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.2 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.0 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.3 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.8 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.9 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.1 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.5 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.5 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.7 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.4 for extension jmrobotics.jm-connect, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "marinesitu.madrona": [
+            {
+                "message": "Starting metadata processing for marinesitu.madrona",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for marinesitu.madrona",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension marinesitu.madrona, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name b86e40a4 for extension marinesitu.madrona, error: Invalid version naming: b86e40a4",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name cache-arm64 for extension marinesitu.madrona, error: Invalid version naming: cache-arm64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name b86e40a4-arm64 for extension marinesitu.madrona, error: Invalid version naming: b86e40a4-arm64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name cache-armv7 for extension marinesitu.madrona, error: Invalid version naming: cache-armv7",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name b86e40a4-armv7 for extension marinesitu.madrona, error: Invalid version naming: b86e40a4-armv7",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name cache-amd64 for extension marinesitu.madrona, error: Invalid version naming: cache-amd64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name b86e40a4-amd64 for extension marinesitu.madrona, error: Invalid version naming: b86e40a4-amd64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name dev for extension marinesitu.madrona, error: Invalid version naming: dev",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name eca58c13 for extension marinesitu.madrona, error: Invalid version naming: eca58c13",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name eca58c13-arm64 for extension marinesitu.madrona, error: Invalid version naming: eca58c13-arm64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name eca58c13-armv7 for extension marinesitu.madrona, error: Invalid version naming: eca58c13-armv7",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name eca58c13-amd64 for extension marinesitu.madrona, error: Invalid version naming: eca58c13-amd64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name deade90b for extension marinesitu.madrona, error: Invalid version naming: deade90b",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name deade90b-arm64 for extension marinesitu.madrona, error: Invalid version naming: deade90b-arm64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name deade90b-armv7 for extension marinesitu.madrona, error: Invalid version naming: deade90b-armv7",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name deade90b-amd64 for extension marinesitu.madrona, error: Invalid version naming: deade90b-amd64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name 64389212 for extension marinesitu.madrona, error: Invalid version naming: 64389212",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name 64389212-arm64 for extension marinesitu.madrona, error: Invalid version naming: 64389212-arm64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name 64389212-amd64 for extension marinesitu.madrona, error: Invalid version naming: 64389212-amd64",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name 64389212-armv7 for extension marinesitu.madrona, error: Invalid version naming: 64389212-armv7",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.3.1 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.6.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.5.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.4.0 for extension marinesitu.madrona, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "nortekgroup.nucleus": [
+            {
+                "message": "Starting metadata processing for nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Extension logo not found for nortekgroup.nucleus, trying to use company logo as alternative",
+                "status": "WARNING"
+            },
+            {
+                "message": "Finished metadata processing for nortekgroup.nucleus",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension nortekgroup.nucleus, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.1 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.4 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.2 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.2.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.7 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.6 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.8 for extension nortekgroup.nucleus, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "patrickelectric.foxglove": [
+            {
+                "message": "Starting metadata processing for patrickelectric.foxglove",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for patrickelectric.foxglove",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test for extension patrickelectric.foxglove, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.0 for extension patrickelectric.foxglove, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "patrickelectric.starlink-position": [
+            {
+                "message": "Starting metadata processing for patrickelectric.starlink-position",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for patrickelectric.starlink-position",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension patrickelectric.starlink-position, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name master for extension patrickelectric.starlink-position, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.4 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.1 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.3 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.2 for extension patrickelectric.starlink-position, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "sonardyne.navsync_pro": [
+            {
+                "message": "Starting metadata processing for sonardyne.navsync_pro",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for sonardyne.navsync_pro",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension sonardyne.navsync_pro, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.8 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.6 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension sonardyne.navsync_pro, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "vshie.pingSurvey": [
+            {
+                "message": "Starting metadata processing for vshie.pingSurvey",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for vshie.pingSurvey",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name main for extension vshie.pingSurvey, error: Invalid version naming: main",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name autopilot-detection for extension vshie.pingSurvey, error: Invalid version naming: autopilot-detection",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.1.0 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension vshie.pingSurvey, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "waterlinked.sonar": [
+            {
+                "message": "Starting metadata processing for waterlinked.sonar",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for waterlinked.sonar",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension waterlinked.sonar, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension waterlinked.sonar, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "waterlinked.ugps": [
+            {
+                "message": "Starting metadata processing for waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for waterlinked.ugps",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name latest for extension waterlinked.ugps, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7-beta.2 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7-beta.5 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.6 for extension waterlinked.ugps, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.blueos-proxy": [
+            {
+                "message": "Starting metadata processing for williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension williangalvani.blueos-proxy, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name iframes for extension williangalvani.blueos-proxy, error: Invalid version naming: iframes",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name nocache for extension williangalvani.blueos-proxy, error: Invalid version naming: nocache",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name websockets for extension williangalvani.blueos-proxy, error: Invalid version naming: websockets",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v0.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.dashcam": [
+            {
+                "message": "Starting metadata processing for williangalvani.dashcam",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.dashcam",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test4 for extension williangalvani.dashcam, error: Invalid version naming: test4",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name test3 for extension williangalvani.dashcam, error: Invalid version naming: test3",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name test2 for extension williangalvani.dashcam, error: Invalid version naming: test2",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name test for extension williangalvani.dashcam, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v0.0.14 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.3 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.4 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v0.0.3 for extension williangalvani.dashcam, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.example1": [
+            {
+                "message": "Starting metadata processing for williangalvani.example1",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example1",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example1, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example1, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.example2": [
+            {
+                "message": "Starting metadata processing for williangalvani.example2",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example2",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example2, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example2, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.example3": [
+            {
+                "message": "Starting metadata processing for williangalvani.example3",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example3",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example3, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example3, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.example4": [
+            {
+                "message": "Starting metadata processing for williangalvani.example4",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example4",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example4, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example4, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.example5": [
+            {
+                "message": "Starting metadata processing for williangalvani.example5",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.example5",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example5, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example5, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.mediamtx": [
+            {
+                "message": "Starting metadata processing for williangalvani.mediamtx",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.mediamtx",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.11.2 for extension williangalvani.mediamtx, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.network-scanner": [
+            {
+                "message": "Starting metadata processing for williangalvani.network-scanner",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.network-scanner",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name master for extension williangalvani.network-scanner, error: Invalid version naming: master",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name latest for extension williangalvani.network-scanner, error: Invalid version naming: latest",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.3 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.2 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.network-scanner, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.oakd": [
+            {
+                "message": "Starting metadata processing for williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1-heta.1 for extension williangalvani.oakd, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.plc-diagnostics": [
+            {
+                "message": "Starting metadata processing for williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.plc-diagnostics",
+                "status": "INFO"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.5 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.1 for extension williangalvani.plc-diagnostics, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.usbip": [
+            {
+                "message": "Starting metadata processing for williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.usbip",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test for extension williangalvani.usbip, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension williangalvani.usbip, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.virtualhere": [
+            {
+                "message": "Starting metadata processing for williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name test for extension williangalvani.virtualhere, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension williangalvani.virtualhere, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ],
+        "williangalvani.zerotier": [
+            {
+                "message": "Starting metadata processing for williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Finished metadata processing for williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Invalid tag name conf-test for extension williangalvani.zerotier, error: Invalid version naming: conf-test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name test for extension williangalvani.zerotier, error: Invalid version naming: test",
+                "status": "ERROR"
+            },
+            {
+                "message": "Invalid tag name teste for extension williangalvani.zerotier, error: Invalid version naming: teste",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.14.2 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.14.0 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.12.3 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.12.1 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.14.3 for extension williangalvani.zerotier, error: Error on Docker Auth API with status 401",
+                "status": "ERROR"
+            }
+        ]
+    },
+    "final_docker_rate_limit": null,
+    "start_docker_rate_limit": null
+}

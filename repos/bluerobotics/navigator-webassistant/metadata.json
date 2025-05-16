@@ -1,0 +1,6 @@
+{
+    "name": "Navigator WebAssistant",
+    "website": "https://github.com/RaulTrombin/blueos-navigator-web-assistant",
+    "docker": "raulelektron/blueos_navigator_webassistant",
+    "description": "Use navigator board through webservices."
+}

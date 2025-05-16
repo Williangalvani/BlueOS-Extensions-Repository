@@ -1,0 +1,6 @@
+{
+  "name": "Simple Ping2 Survey",
+  "website": "https://github.com/vshie/pingSurvey",
+  "docker": "vshie/blueos-simplepingsurvey",
+  "description": "Simple Ping2 Survey"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "ROS",
+    "website": "https://github.com/patrickelectric/blueos-ros",
+    "docker": "patrickelectric/blueos-ros",
+    "description": "Robot Operating System (ROS) extension for BlueOS"
+}

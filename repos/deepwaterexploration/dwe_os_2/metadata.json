@@ -1,0 +1,6 @@
+{
+  "name": "DWE OS 2.0",
+  "website": "https://github.com/DeepwaterExploration/DWE_OS_2",
+  "docker": "deepwaterexploration/dwe_os_2",
+  "description": "Web-based driver and software interface for DWE.ai cameras"
+}

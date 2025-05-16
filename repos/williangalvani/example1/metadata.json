@@ -1,0 +1,6 @@
+{
+    "name": "Example 1",
+    "website": "https://github.com/Williangalvani/BlueOS-examples/",
+    "docker": "williangalvani/blueos-example1",
+    "description": "Hello World"
+}

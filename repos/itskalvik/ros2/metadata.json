@@ -1,0 +1,6 @@
+{
+    "name": "ROS2",
+    "website": "https://github.com/itskalvik/blueos-ros2",
+    "docker": "itskalvik/blueos-ros2",
+    "description": "Robot Operating System 2 (ROS2) extension for BlueOS"
+}

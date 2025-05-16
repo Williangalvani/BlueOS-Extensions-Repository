@@ -1,0 +1,6 @@
+{
+    "name": "Madrona",
+    "website": "https://gitlab.com/marinesitu-public/madrona/madrona",
+    "docker": "marinesitu/madrona",
+    "description": "Generic OAK-D camera management, configuration, and surveying software optimized for MarineSitu's underwater C3 camera line"
+}
