@@ -41,6 +41,10 @@ jobs:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
+      - name: Copy repos folder for getting the extension logos
+        run: |
+          cp -r repos build/
+
       - name: Build website
         run: |
           cd website
