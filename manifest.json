@@ -370,7 +370,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2095,
+            "downloads": 2130,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -665,7 +665,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23819,
+            "downloads": 23860,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -766,7 +766,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6626,
+            "downloads": 6635,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -2013,7 +2013,7 @@
             }
         },
         "repo_info": {
-            "downloads": 65206,
+            "downloads": 65359,
             "last_updated": "2025-07-31T21:42:47.983395Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -2259,7 +2259,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8323,
+            "downloads": 8342,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -2330,7 +2330,7 @@
             }
         },
         "repo_info": {
-            "downloads": 291,
+            "downloads": 293,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -2739,15 +2739,6 @@
                         "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
                     },
                     {
-                        "expanded_size": 75812211,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e6aad97e0a6cf384cbfd84fa8c4b13bdf14a46c832458d07070b851a5d855028"
-                    },
-                    {
                         "expanded_size": 77377333,
                         "platform": {
                             "architecture": "amd64",
@@ -2925,15 +2916,6 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 78944496,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:96cfe2f9ecd1cdece9cdc82f7ea24121c7a56beb4e02d502ecc6b71dca9a1cce"
-                    },
-                    {
                         "expanded_size": 72798434,
                         "platform": {
                             "architecture": "arm",
@@ -2971,15 +2953,6 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 78926907,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e3e67687861b5d8c4613e35fafe4f13498c9906e6553125b032f6f6ddf075944"
-                    },
-                    {
                         "expanded_size": 72784115,
                         "platform": {
                             "architecture": "arm",
@@ -3013,7 +2986,7 @@
             }
         },
         "repo_info": {
-            "downloads": 244714,
+            "downloads": 244774,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3439,7 +3412,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3007,
+            "downloads": 3025,
             "last_updated": "2025-05-13T17:50:18.067948Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -4095,7 +4068,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34116,
+            "downloads": 34179,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -5258,15 +5231,6 @@
                         "digest": "sha256:e236fdbb2b242f81f7fca3d2eedb895003d33fa55d1b9cc5009331c4d421b02a"
                     },
                     {
-                        "expanded_size": 22123246,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:cb6e1f675210145ab3a055be373a8de1aac2e6fc2a16cf5308f524cc0ed96003"
-                    },
-                    {
                         "expanded_size": 22165724,
                         "platform": {
                             "architecture": "amd64",
@@ -5508,15 +5472,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:9dff079efa5a8d3bb4833656a5bbe3118ea5e40962eeee6acd8414cfee53c7de"
-                    },
-                    {
-                        "expanded_size": 22017936,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f2bc958d8e017a013bf7959279ba753d07f9c561ef87598c99e05724f684da8"
                     }
                 ],
                 "authors": [
@@ -5580,15 +5535,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:634ef326c60f9639353110650ac0a896e9e3c1a6fb32d3c6c3fd7349608a2d90"
-                    },
-                    {
-                        "expanded_size": 21972722,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09114fa47b27f640aad6e295459b92385f5ab23798da46e9a9a3ae937672841b"
                     },
                     {
                         "expanded_size": 22015199,
@@ -5742,15 +5688,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:396590b1495fde8b1293e6f9fcd124790c92a1393969962a84202b87011a0dc1"
-                    },
-                    {
-                        "expanded_size": 21971067,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:72c70e7cb74a28d82b3e518dd92ac4363018c326c9953d83b35b2cc5342576e0"
                     },
                     {
                         "expanded_size": 22013783,
@@ -5974,7 +5911,7 @@
             }
         },
         "repo_info": {
-            "downloads": 92502,
+            "downloads": 92648,
             "last_updated": "2025-08-07T00:19:01.386265Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -6042,7 +5979,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1550,
+            "downloads": 1552,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -6358,7 +6295,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13412,
+            "downloads": 13441,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -6422,7 +6359,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1707,
+            "downloads": 1710,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -6795,15 +6732,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b1388680d347639080f0acadb98585dc9494820f2e853856eb08c5473a6866d5"
-                    },
-                    {
-                        "expanded_size": 68169943,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1eddb2da1fa5bc7a520455b4c872c4b97ed4d5e91bde15d90f7303c490d6763e"
                     }
                 ],
                 "authors": [
@@ -6842,7 +6770,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2340,
+            "downloads": 2362,
             "last_updated": "2025-07-17T14:00:28.64149Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -7017,7 +6945,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6189,
+            "downloads": 6209,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -7090,7 +7018,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2341,
+            "downloads": 2344,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -7209,7 +7137,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4852,
+            "downloads": 4861,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -7298,7 +7226,7 @@
             }
         },
         "repo_info": {
-            "downloads": 496,
+            "downloads": 498,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -7862,8 +7790,8 @@
             }
         },
         "repo_info": {
-            "downloads": 1718,
-            "last_updated": "2025-08-06T12:05:17.138354Z",
+            "downloads": 1762,
+            "last_updated": "2025-08-07T20:59:55.744227Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
     },
@@ -8046,8 +7974,8 @@
             }
         },
         "repo_info": {
-            "downloads": 6580,
-            "last_updated": "2025-08-07T00:37:55.745936Z",
+            "downloads": 6624,
+            "last_updated": "2025-08-07T19:40:20.142076Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
     },
@@ -9912,7 +9840,7 @@
             }
         },
         "repo_info": {
-            "downloads": 27201,
+            "downloads": 27292,
             "last_updated": "2025-08-01T09:39:03.825082Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -10143,7 +10071,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4980,
+            "downloads": 4998,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -10384,7 +10312,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1162,
+            "downloads": 1181,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -10530,7 +10458,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3014,
+            "downloads": 3023,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -10808,7 +10736,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8983,
+            "downloads": 9005,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -11127,7 +11055,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2012,
+            "downloads": 2033,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -11277,7 +11205,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2463,
+            "downloads": 2472,
             "last_updated": "2025-07-15T21:38:11.698574Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -12247,7 +12175,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31376,
+            "downloads": 31470,
             "last_updated": "2025-07-28T12:49:24.555051Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -12417,7 +12345,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44396,
+            "downloads": 44411,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -12456,7 +12384,7 @@
                 "extra_links": {},
                 "tag": "v1.0.4",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -12496,7 +12424,7 @@
                 "extra_links": {},
                 "tag": "1.0.3",
                 "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -12536,7 +12464,7 @@
                 "extra_links": {},
                 "tag": "1.0.2",
                 "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -12576,7 +12504,7 @@
                 "extra_links": {},
                 "tag": "v1.0.2",
                 "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -12616,7 +12544,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -12673,7 +12601,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8479,
+            "downloads": 8511,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -12999,7 +12927,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15662,
+            "downloads": 15702,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -13121,7 +13049,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5690,
+            "downloads": 5699,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -13233,7 +13161,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86878,
+            "downloads": 86887,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -13345,7 +13273,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82013,
+            "downloads": 82022,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -13457,7 +13385,7 @@
             }
         },
         "repo_info": {
-            "downloads": 89908,
+            "downloads": 89917,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -13516,7 +13444,7 @@
                 "extra_links": {},
                 "tag": "v1.0.5",
                 "docs": null,
-                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
+                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<p>To use, first install it in BlueOS:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest</code></p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13562,7 +13490,7 @@
                 "extra_links": {},
                 "tag": "v1.0.4",
                 "docs": null,
-                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
+                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<p>To use, first install it in BlueOS:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest</code></p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13608,7 +13536,7 @@
                 "extra_links": {},
                 "tag": "v1.0.3",
                 "docs": null,
-                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
+                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<p>To use, first install it in BlueOS:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest</code></p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13649,7 +13577,7 @@
                 "extra_links": {},
                 "tag": "v1.0.2",
                 "docs": null,
-                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
+                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<p>To use, first install it in BlueOS:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest</code></p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
                 "requirements": "core >= 1",
                 "company": {
@@ -13707,7 +13635,7 @@
             }
         },
         "repo_info": {
-            "downloads": 138845,
+            "downloads": 138873,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -13746,7 +13674,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<p>This extension exposes the Stereo Depth Disparity and RGB video from Oak-D cameras into RTSP streams that can be displayed in Cockpit.</p>",
                 "support": "https://github.com/Williangalvani/Oakd-extension/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13793,7 +13721,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1-heta.1",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<p>This extension exposes the Stereo Depth Disparity and RGB video from Oak-D cameras into RTSP streams that can be displayed in Cockpit.</p>",
                 "support": "https://github.com/Williangalvani/Oakd-extension/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13864,7 +13792,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4793,
+            "downloads": 4805,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -13914,7 +13842,7 @@
                 },
                 "tag": "v1.0.3",
                 "docs": null,
-                "readme": "<h1>PLC Diagnostics</h1>\n<p>Having thether issues? This extension will help you better understand your link's bandwidth and connection quality</p>",
+                "readme": "<h1>QuickStart-Python-Extension</h1>\n<p>A quick-start repository for building and uploading a Python-focused BlueOS Extension.</p>\n<h2>Intent</h2>\n<p>This is intended to showcase:\n1. How to make a basic Extension with a simple web interface, using Python and some HTML\n2. The difference between code running on the frontend vs the backend\n    - Backend code has access to vehicle hardware and other service APIs, as well as the filesystem (for things like persistent logging)\n    - Frontend code is in charge of the display, and runs in the browser interface (instead of on the vehicle's onboard computer)</p>\n<h2>Usage</h2>\n<p>Forking the repository will try to automatically package and upload your Extension variant to a Docker registry (Docker Hub), using the built in GitHub Action.\nThis process makes use of some <a href=\"https://github.com/BlueOS-community/Deploy-BlueOS-Extension#input-variables\">GitHub Variables</a> that you can configure for your fork.</p>\n<p>It is also possible to manually run the Action (via the Actions tab), or to build and deploy the extension manually on your local machine (although this requires installing the relevant build tools and cloning the repository onto your computer).</p>\n<blockquote>\n<p>\ud83d\udca1<strong>Note:</strong> If you are forking this repository as a starting point for creating your own <a href=\"https://blueos.cloud/docs/blueos/latest/development/extensions\">BlueOS Extension</a>, it is recommended to enable <code>Issues</code> in your fork (via the <code>Settings</code> tab at the top), so that users and co-developers of your Extension can raise problems and make suggestions.</p>\n</blockquote>",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -14025,49 +13953,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -14094,6 +13979,49 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -14147,7 +14075,7 @@
                 },
                 "tag": "0.0.5",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<h1>QuickStart-Python-Extension</h1>\n<p>A quick-start repository for building and uploading a Python-focused BlueOS Extension.</p>\n<h2>Intent</h2>\n<p>This is intended to showcase:\n1. How to make a basic Extension with a simple web interface, using Python and some HTML\n2. The difference between code running on the frontend vs the backend\n    - Backend code has access to vehicle hardware and other service APIs, as well as the filesystem (for things like persistent logging)\n    - Frontend code is in charge of the display, and runs in the browser interface (instead of on the vehicle's onboard computer)</p>\n<h2>Usage</h2>\n<p>Forking the repository will try to automatically package and upload your Extension variant to a Docker registry (Docker Hub), using the built in GitHub Action.\nThis process makes use of some <a href=\"https://github.com/BlueOS-community/Deploy-BlueOS-Extension#input-variables\">GitHub Variables</a> that you can configure for your fork.</p>\n<p>It is also possible to manually run the Action (via the Actions tab), or to build and deploy the extension manually on your local machine (although this requires installing the relevant build tools and cloning the repository onto your computer).</p>\n<blockquote>\n<p>\ud83d\udca1<strong>Note:</strong> If you are forking this repository as a starting point for creating your own <a href=\"https://blueos.cloud/docs/blueos/latest/development/extensions\">BlueOS Extension</a>, it is recommended to enable <code>Issues</code> in your fork (via the <code>Settings</code> tab at the top), so that users and co-developers of your Extension can raise problems and make suggestions.</p>\n</blockquote>",
                 "support": null,
                 "requirements": "core >= 1.1",
                 "company": {
@@ -14165,7 +14093,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11003,
+            "downloads": 11037,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -14283,7 +14211,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84616,
+            "downloads": 84625,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -14718,7 +14646,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51083,
+            "downloads": 51116,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -14732,81 +14660,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/dashcam/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
         "versions": {
-            "v0.0.21": {
-                "identifier": "6d45db1a-8207-5664-a31c-6518f8cc7a8f",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/BlueOS-Dashcam/",
-                "images": [
-                    {
-                        "expanded_size": 434016336,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:04d62986216c110b7f44c25968e9e49b918d8d14bf23b7d055bb2dee0f62ec42"
-                    },
-                    {
-                        "expanded_size": 488610857,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0a30453d19298d78efc66bb4191c2eb59cb93056c1192bf7dcf204d3f1a289d7"
-                    },
-                    {
-                        "expanded_size": 517007302,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3d684dfb9f93f74d1db94fd2627251c0a41e918840a98c385976743b864caba9"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "media"
-                ],
-                "extra_links": {},
-                "tag": "v0.0.21",
-                "docs": null,
-                "readme": "<h1>DashCam</h1>\n<p>This extension allows onboard video recording from rtsp sources, such as BlueOS' Mavlink Camera Manager and IP cameras.q</p>\n<h3>Changelog</h3>\n<p>0.0.14: Published on BlueOS extension repository</p>",
-                "support": "https://github.com/Williangalvani/BlueOS-Dashcam/issues",
-                "requirements": "core >= 1.4",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/extensions/dashcam/videos/:/home/blueos/videos/",
-                            "/root/.config/blueos/ardupilot-manager/firmware/logs/:/home/blueos/logs/",
-                            "/usr/blueos/extensions/dashcam/settings/:/home/blueos/settings/"
-                        ],
-                        "CpuQuota": 100000,
-                        "CpuPeriod": 100000,
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v0.0.20": {
                 "identifier": "9486192b-148c-50d2-8b66-036918507be8",
                 "type": "other",
@@ -14851,138 +14704,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v0.0.20",
-                "docs": null,
-                "readme": "<h1>DashCam</h1>\n<p>This extension allows onboard video recording from rtsp sources, such as BlueOS' Mavlink Camera Manager and IP cameras.q</p>\n<h3>Changelog</h3>\n<p>0.0.14: Published on BlueOS extension repository</p>",
-                "support": "https://github.com/Williangalvani/BlueOS-Dashcam/issues",
-                "requirements": "core >= 1.4",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/extensions/dashcam/videos/:/home/blueos/videos/",
-                            "/root/.config/blueos/ardupilot-manager/firmware/logs/:/home/blueos/logs/",
-                            "/usr/blueos/extensions/dashcam/settings/:/home/blueos/settings/"
-                        ],
-                        "CpuQuota": 100000,
-                        "CpuPeriod": 100000,
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v0.0.19": {
-                "identifier": "8914e67e-4468-5d5e-9841-b1f6b88392a9",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/BlueOS-Dashcam/",
-                "images": [
-                    {
-                        "expanded_size": 433705809,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:30c23226938e04dccb2f894cf1b896dd71a38aa17e2e55dd16e36c120315a268"
-                    },
-                    {
-                        "expanded_size": 488330971,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6f157bc4ea18cd18d039d3a771851d0fcaf1c1b06e12eaa9421e802d6cce345c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "media"
-                ],
-                "extra_links": {},
-                "tag": "v0.0.19",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://github.com/Williangalvani/BlueOS-Dashcam/issues",
-                "requirements": "core >= 1.4",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "Binds": [
-                            "/usr/blueos/extensions/dashcam/videos/:/home/blueos/videos/",
-                            "/root/.config/blueos/ardupilot-manager/firmware/logs/:/home/blueos/logs/",
-                            "/usr/blueos/extensions/dashcam/settings/:/home/blueos/settings/"
-                        ],
-                        "CpuQuota": 100000,
-                        "CpuPeriod": 100000,
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v0.0.15": {
-                "identifier": "ff8df0a4-81e6-58ae-98a9-9797135be5c6",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/BlueOS-Dashcam/",
-                "images": [
-                    {
-                        "expanded_size": 433705809,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:30c23226938e04dccb2f894cf1b896dd71a38aa17e2e55dd16e36c120315a268"
-                    },
-                    {
-                        "expanded_size": 488330971,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6f157bc4ea18cd18d039d3a771851d0fcaf1c1b06e12eaa9421e802d6cce345c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "media"
-                ],
-                "extra_links": {},
-                "tag": "v0.0.15",
                 "docs": null,
                 "readme": "<h1>DashCam</h1>\n<p>This extension allows onboard video recording from rtsp sources, such as BlueOS' Mavlink Camera Manager and IP cameras.q</p>\n<h3>Changelog</h3>\n<p>0.0.14: Published on BlueOS extension repository</p>",
                 "support": "https://github.com/Williangalvani/BlueOS-Dashcam/issues",
@@ -15099,7 +14820,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2581,
+            "downloads": 2611,
             "last_updated": "2025-07-10T20:47:42.384764Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -15201,40 +14922,6 @@
                     }
                 }
             },
-            "1.11.2": {
-                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 377758539,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "v1.11.2": {
                 "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
                 "type": "other",
@@ -15268,10 +14955,44 @@
                         ]
                     }
                 }
+            },
+            "1.11.2": {
+                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 377758539,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 1235,
+            "downloads": 1249,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -15570,7 +15291,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3143,
+            "downloads": 3157,
             "last_updated": "2025-08-01T18:41:50.74189Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -16128,7 +15849,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11791,
+            "downloads": 11842,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
