@@ -65,7 +65,7 @@
             }
         },
         "repo_info": {
-            "downloads": 316,
+            "downloads": 318,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -311,7 +311,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8551,
+            "downloads": 8569,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -878,7 +878,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12433,
+            "downloads": 12484,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -905,6 +905,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:19244603abc98ed2d65404c9495a7ea1b567ac964a283b67dd19b05f36692702"
+                    },
+                    {
+                        "expanded_size": 61285310,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b07316176f861e9c4b604bad193b23fafe73a97ff8d11d71fb7881a0708f248"
                     }
                 ],
                 "authors": [
@@ -953,6 +962,15 @@
                 "type": "tool",
                 "website": null,
                 "images": [
+                    {
+                        "expanded_size": 61827913,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ec7bc28eb0403cd3ccea022fc72219f0aa14e8449bdc118dc05cbe9beb3992dd"
+                    },
                     {
                         "expanded_size": 54415457,
                         "platform": {
@@ -1017,6 +1035,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f329aae26ef680843dd8b54ccb72f3e35ec80102b3d850a2c87ce4c522740a62"
+                    },
+                    {
+                        "expanded_size": 61728796,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9aafb8dbaf44f722cd2f10fd513666e8ea844745cb8142c353e73e33fb1c65e0"
                     }
                 ],
                 "authors": [
@@ -1062,7 +1089,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6933,
+            "downloads": 6959,
             "last_updated": "2025-08-09T06:01:52.676663Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -1221,7 +1248,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2764,
+            "downloads": 2770,
             "last_updated": "2025-08-17T22:31:15.093746Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -1540,7 +1567,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2249,
+            "downloads": 2268,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -2648,7 +2675,7 @@
             }
         },
         "repo_info": {
-            "downloads": 32616,
+            "downloads": 32721,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2662,6 +2689,86 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/radcam-manager/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
+            "0.2.0-beta.6": {
+                "identifier": "fafb9a08-74d2-585c-8914-a6c7f94c5ba7",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "images": [
+                    {
+                        "expanded_size": 58149928,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e644dd06a9e053730baabe8468dbe6a85b83d556ee82570bffed68a5f52ca77f"
+                    },
+                    {
+                        "expanded_size": 62505667,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3c3f705ceece469afde5ce2c45d238a1344e6f7940482100db3f6eab4596f701"
+                    },
+                    {
+                        "expanded_size": 63194519,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0a3a6b74bd8b6549b20778ff517a0a28bb6eb2d9b6a3a90584d47feee59733e4"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
+                        "email": "joao.maker@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "rov",
+                    "camera",
+                    "cam",
+                    "radcam",
+                    "control"
+                ],
+                "extra_links": {},
+                "tag": "0.2.0-beta.6",
+                "docs": null,
+                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "requirements": "[ \"core >= 1.4.3\", \"cockpit >= 1.7\" ]",
+                "company": {
+                    "about": "RadCam's official management interface",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/var/logs/blueos/extensions/radcam-manager:/logs",
+                            "/usr/blueos/extensions/radcam-manager:/app",
+                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.0-beta.5": {
                 "identifier": "51ac2c9b-7975-5004-9170-919dab6f2183",
                 "type": "device-integration",
@@ -3274,8 +3381,8 @@
             }
         },
         "repo_info": {
-            "downloads": 2280,
-            "last_updated": "2025-08-19T21:04:22.722968Z",
+            "downloads": 2324,
+            "last_updated": "2025-08-20T17:11:40.912038Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
     },
@@ -3449,7 +3556,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6395,
+            "downloads": 6411,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -3513,7 +3620,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1746,
+            "downloads": 1749,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -3584,7 +3691,7 @@
             }
         },
         "repo_info": {
-            "downloads": 523,
+            "downloads": 527,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -4231,7 +4338,7 @@
             }
         },
         "repo_info": {
-            "downloads": 245466,
+            "downloads": 245524,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -4887,7 +4994,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34902,
+            "downloads": 34965,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -5006,7 +5113,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4985,
+            "downloads": 4994,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -5322,7 +5429,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13755,
+            "downloads": 13786,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -5643,7 +5750,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2636,
+            "downloads": 2659,
             "last_updated": "2025-07-17T14:00:28.64149Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -5711,7 +5818,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1578,
+            "downloads": 1580,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -5784,7 +5891,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2378,
+            "downloads": 2381,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -6129,7 +6236,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3236,
+            "downloads": 3255,
             "last_updated": "2025-05-13T17:50:18.067948Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -6489,6 +6596,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:027857fc99c00409626cf0a44521724c28ec766f87fa7b9788d5239e7eb0495d"
+                    },
+                    {
+                        "expanded_size": 31223805,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b47e1efcdd8109329594fec009b92f123ab34f53ae1c06602619b6b45f2a6e31"
                     }
                 ],
                 "authors": [
@@ -6714,6 +6830,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:9c9ff160c6a2979a1448f6866862a3c43b6deb29d093c155b8b47e3122060e0a"
+                    },
+                    {
+                        "expanded_size": 27271614,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:690c1e81a73d95ad57486b7a4ca9f32e61ac51c3726ef2ad61f9d4ec435b53e0"
                     }
                 ],
                 "authors": [
@@ -6867,6 +6992,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:8ec98d9d819860e935b45551b828ad777eb816c2f2f1837f311cb5246c23d110"
+                    },
+                    {
+                        "expanded_size": 27262942,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e22ecf47f8a1df95074aefe1cfad80049f0519469702176d77b30d3c4112b105"
                     }
                 ],
                 "authors": [
@@ -6930,6 +7064,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:99a2a4a8dcdbca87d197cad4c62cdaa611af743506ac3dc6e2e59cd6d93f104c"
+                    },
+                    {
+                        "expanded_size": 27262639,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d837cee8703fdfc7fb3a16640c2ffe5abfce33e51bd4af98142f8600ec8dc400"
                     }
                 ],
                 "authors": [
@@ -6993,6 +7136,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e3cb5299b1de531c78bea9e53a9064cdecf3541f2ef832f2fd2adf7b75df3fdb"
+                    },
+                    {
+                        "expanded_size": 27253203,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ddbac3e3afa9a79b73ba5fb7d4a3943a4599d2ae5ea7eed15c18bbc89e2a4670"
                     }
                 ],
                 "authors": [
@@ -7218,6 +7370,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0313b64c0128a1ae1dcffe70943c8466a7e19688977f529612b00ed9ea128109"
+                    },
+                    {
+                        "expanded_size": 22174544,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:835807383b18b5f0ec446617fe6efca61aa0afd0f1a7d2e4d5805337bb72116d"
                     }
                 ],
                 "authors": [
@@ -7281,6 +7442,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0e2fd61acb34e76c125bb3b438c55a2395299b542db7e10019b94b8f42935375"
+                    },
+                    {
+                        "expanded_size": 22170672,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4c48425c231d88b66d6e20e22ee901e2f1b6ed96e2ca07c54df6c924f1a32c56"
                     }
                 ],
                 "authors": [
@@ -7416,6 +7586,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e236fdbb2b242f81f7fca3d2eedb895003d33fa55d1b9cc5009331c4d421b02a"
+                    },
+                    {
+                        "expanded_size": 22165724,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:234dea3f0b75ec61d0698c6148ca04636188778e09efe2926314f6305fb07b79"
                     }
                 ],
                 "authors": [
@@ -7488,6 +7667,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:ae694788cd8c4bbf15cabebd2916902093036ce88ae4e7bae2642145c1c2d492"
+                    },
+                    {
+                        "expanded_size": 22165189,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1d8e80871e1d5be7e16123c3e8514bbb3cdfd7455379de108f023a845b30164c"
                     }
                 ],
                 "authors": [
@@ -7551,6 +7739,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b95d36a88de7c065db1c417170571792c888e6e09068a272da06571f7a7f22ce"
+                    },
+                    {
+                        "expanded_size": 22163766,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bc63e4dcd76b1b2991fddc83af22336b6d46fc1e675029072ced4779bb98b048"
                     }
                 ],
                 "authors": [
@@ -7614,6 +7811,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:aa228c4416e1d9144e4d5eea254991150a244aec6c5818282b25e653aef10aaa"
+                    },
+                    {
+                        "expanded_size": 22017936,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f2bc958d8e017a013bf7959279ba753d07f9c561ef87598c99e05724f684da8"
                     }
                 ],
                 "authors": [
@@ -7677,6 +7883,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:634ef326c60f9639353110650ac0a896e9e3c1a6fb32d3c6c3fd7349608a2d90"
+                    },
+                    {
+                        "expanded_size": 22015199,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2916b5922ca9da4e9c4ac1f87e6ffe8cda0180b97ba8e4fb415f1bc91b7e35bd"
                     }
                 ],
                 "authors": [
@@ -7740,6 +7955,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f63a63352bd005e8cf074d677b8bf8acfababf1961ec8c854165c8bbcb9ebc5c"
+                    },
+                    {
+                        "expanded_size": 22017852,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8b86b5cda141a438604d8a092daeddbed866c1351bc6e8a1e59f057eb26afde4"
                     }
                 ],
                 "authors": [
@@ -7792,8 +8016,8 @@
             }
         },
         "repo_info": {
-            "downloads": 94575,
-            "last_updated": "2025-08-19T00:17:26.325566Z",
+            "downloads": 94874,
+            "last_updated": "2025-08-20T23:59:45.171437Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -7904,7 +8128,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82124,
+            "downloads": 82133,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -8061,7 +8285,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4973,
+            "downloads": 4988,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8487,7 +8711,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51504,
+            "downloads": 51539,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8599,7 +8823,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86989,
+            "downloads": 86998,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -8613,128 +8837,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/mediamtx/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
         "versions": {
-            "v1.11.4": {
-                "identifier": "6ebfd9cf-8512-506f-84cd-ef6d976326e0",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/blueos-extension-MediaMTX/",
-                "images": [
-                    {
-                        "expanded_size": 377756642,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:02559e26a434da9d4a550bb1ba196298116060b83ca4159b4f55fa1976ed73b2"
-                    },
-                    {
-                        "expanded_size": 400043896,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6450dcf8cfd03b53a3c5c61e10efba47a1ceda6b4b3fbc65c05b8f9a126240fc"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {},
-                "tag": "v1.11.4",
-                "docs": null,
-                "readme": "<h1>MediaMTX BlueOS Extension</h1>\n<p>A BlueOS extension that provides RTSP relay functionality using <a href=\"https://github.com/aler9/mediamtx\">MediaMTX</a>, enabling you to proxy, view, and redistribute RTSP video streams through various protocols including WebRTC.</p>\n<h2>Features</h2>\n<ul>\n<li><strong>RTSP Stream Relay</strong>: Proxy and redistribute RTSP streams from IP cameras or other sources</li>\n<li><strong>WebRTC Support</strong>: View streams directly in your browser with low latency</li>\n<li><strong>Web-based Configuration</strong>: Easy-to-use interface for editing MediaMTX configuration</li>\n<li><strong>Real-time Management</strong>: Start, stop, and restart the MediaMTX service through the web </li>\n</ul>",
-                "support": "https://github.com/Williangalvani/blueos-extension-MediaMTX//issues",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
-            "v1.11.3": {
-                "identifier": "532cf967-c2c4-5683-90fa-db9d4e2f283a",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 377758214,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:016b83ac163978454ce26651bb54aaab1f994a75399087b6b06dfb351bd1f8e6"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.11.3",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
-            "1.11.2": {
-                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 377758539,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "v1.11.2": {
                 "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
                 "type": "other",
@@ -8771,7 +8873,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1403,
+            "downloads": 1417,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -8941,7 +9043,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44586,
+            "downloads": 44601,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9248,36 +9350,10 @@
                         }
                     }
                 }
-            },
-            "v0.0.3": {
-                "identifier": "b09f67e5-d404-58cd-889d-4647fd2740e1",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 437631440,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ed9b0450f242a59977e4d70e072a5a86ab30fc48d57cfe84cb4aab7f3750bbab"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v0.0.3",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": null
             }
         },
         "repo_info": {
-            "downloads": 2952,
+            "downloads": 2983,
             "last_updated": "2025-07-10T20:47:42.384764Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -9389,7 +9465,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90019,
+            "downloads": 90028,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -9715,7 +9791,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16179,
+            "downloads": 16218,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -9903,58 +9979,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -9990,6 +10014,58 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -10070,7 +10146,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11421,
+            "downloads": 11454,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -10188,7 +10264,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84727,
+            "downloads": 84736,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -10438,265 +10514,9 @@
             }
         },
         "repo_info": {
-            "downloads": 139187,
+            "downloads": 139214,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
-        }
-    },
-    {
-        "identifier": "williangalvani.network-scanner",
-        "name": "Network Scanner",
-        "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner",
-        "docker": "williangalvani/blueos-network-scanner",
-        "description": "Find other devices at your BlueOS network",
-        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/network-scanner/extension_logo.png",
-        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
-        "versions": {
-            "v1.0.4": {
-                "identifier": "ba43e516-985f-5bfb-a55d-71619255ad2a",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 139074473,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b0c0ee03db1f8855174ca393296e5edad6088d5e662d9d03297227108586215e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.4",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "1.0.3": {
-                "identifier": "f2419dc7-3cbe-52e5-a1ea-4fc19741f7b8",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 134610455,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7b3398f704302768bbec38c4822994b24c5e6553e928ec23363d479d8e941228"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.0.3",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "1.0.2": {
-                "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135355878,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.1": {
-                "identifier": "13bfb792-567e-5440-90bc-47aecc0e6503",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 139164501,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5e82e94b39b55a9e2eee865259af83d311dbfbae1470fc304c77a9cc93a0efbe"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.0": {
-                "identifier": "9784d249-52a2-57f1-81be-488a862daec0",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 139162770,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:73768f50b93360ed53bfa76ca220d06e812af178b40f2bfd0ffe5a75dc2a351e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 8879,
-            "last_updated": "2025-05-14T20:51:07.385773Z",
-            "date_registered": "2024-05-05T23:27:05.667297Z"
         }
     },
     {
@@ -10816,7 +10636,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5801,
+            "downloads": 5810,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -10959,68 +10779,6 @@
                     ]
                 }
             },
-            "v1.0.2": {
-                "identifier": "feba0cfb-e968-5301-b11e-90b6071bd828",
-                "type": "device-integration",
-                "website": "https://github.com/clydemcqueen/wl_ugps_external_extension",
-                "images": [
-                    {
-                        "expanded_size": 45696653,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:54e2275c5e9ea7aef7df80d3ace428f9ef287e9cd249ca6a70c22108a0ebfe9f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Clyde McQueen",
-                        "email": "clyde@mcqueen.net"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "short-baseline"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>WL UGPS External</h1>\n<p>Send NMEA position information (GGA and HDT) to the <a href=\"https://waterlinked.com/underwater-gps-g2\">Water Linked UGPS</a> API.</p>\n<h2>Typical Configuration</h2>\n<p>Add a satellite compass to the topside vessel and connect it to the ROV Ethernet network.\n* It should have a static IP address on the 192.168.2.X subnet\n* It should send GGA and HDT messages via UDP to BlueOS at 192.168.2.2:6200</p>\n<p>Install this extension in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/\">BlueOS</a>:\n* Select <em>Extensions</em> in the sidebar\n* Click on <em>WL UGPS External</em>\n* Click <em>Install</em></p>\n<p>After a few moments you should see the <em>WL UGPS External</em> entry in the sidebar.\nClick on it to see a very simple UI.</p>\n<h2>Arguments</h2>\n<ul>\n<li><code>UGPS_HOST</code> is the IP address of the WL UGPS G2 box, the default is <code>http://192.168.2.94</code></li>\n<li><code>SEND_RATE</code> is the rate to send position information to the G2 box, the default is 2Hz</li>\n</ul>\n<h2>Caveats</h2>\n<ul>\n<li>The G2 box still needs a GPS fix to synchronize its clock.</li>\n</ul>\n<h2>Releases</h2>\n<h3>v1.0.2</h3>\n<ul>\n<li>Update requirements.txt, setup.py</li>\n<li>No user-visible changes</li>\n</ul>\n<h3>v1.0.1</h3>\n<ul>\n<li>Simplified README</li>\n</ul>\n<h3>v1.0.0</h3>\n<ul>\n<li>Initial release</li>\n</ul>\n<h2>Developer notes</h2>\n<p>See https://github.com/clydemcqueen/wl_ugps_external for testing tools.</p>",
-                "support": "https://github.com/clydemcqueen/wl_ugps_external_extension/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Discovery Bay Robotics",
-                    "email": "clyde@mcqueen.net"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {},
-                        "6200:6200/udp": {}
-                    },
-                    "HostConfig": {
-                        "PortBindings": {
-                            "6200/udp": [
-                                {
-                                    "HostPort": "6200"
-                                }
-                            ],
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    },
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "SEND_RATE=2.0"
-                    ]
-                }
-            },
             "v1.0.1": {
                 "identifier": "32a5efd4-9364-5021-a677-9c6371f90e29",
                 "type": "device-integration",
@@ -11085,7 +10843,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9245,
+            "downloads": 9266,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -11213,7 +10971,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3141,
+            "downloads": 3150,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -11255,141 +11013,6 @@
                 ],
                 "extra_links": {},
                 "tag": "0.0.4",
-                "docs": null,
-                "readme": "<h1>BlueOS-foxglove</h1>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Patrick Jos\u00e9 Pereira",
-                    "email": "patrickelectric@gmail.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "0.0.3": {
-                "identifier": "2c35721b-07d2-53df-bad1-78f239c9f55a",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 80536736,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e17775d0de8b6f06cc14357d7e66a952e3a95181989bdf7f9303ace06a3ab07d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "zenoh",
-                    "foxglove",
-                    "mavlink"
-                ],
-                "extra_links": {},
-                "tag": "0.0.3",
-                "docs": null,
-                "readme": "<h1>BlueOS-foxglove</h1>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Patrick Jos\u00e9 Pereira",
-                    "email": "patrickelectric@gmail.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "0.0.2": {
-                "identifier": "721a73ea-07ea-5cf0-a415-7ceeaf8dcdda",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 78831119,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4e55b7c994082aa0a5748e0ab0b8e643e22a1ec7df53831fccb8dbf35a22dac8"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "zenoh",
-                    "foxglove",
-                    "mavlink"
-                ],
-                "extra_links": {},
-                "tag": "0.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS-foxglove</h1>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Patrick Jos\u00e9 Pereira",
-                    "email": "patrickelectric@gmail.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "0.0.1": {
-                "identifier": "f366ae76-4849-53d9-9017-c08a19dd7700",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 78739648,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a282434f9bc77ba76ec462a398b252e215a622b48a1d3c64640ce5a596861565"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "zenoh",
-                    "foxglove",
-                    "mavlink"
-                ],
-                "extra_links": {},
-                "tag": "0.0.1",
                 "docs": null,
                 "readme": "<h1>BlueOS-foxglove</h1>",
                 "support": null,
@@ -11454,7 +11077,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1379,
+            "downloads": 1398,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -11685,7 +11308,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5210,
+            "downloads": 5228,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -12061,7 +11684,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2510,
+            "downloads": 2542,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -12080,6 +11703,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 109619325,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:40bdaa212803402e97dcd013000c5991ddc950ce4120a93bdd8e30b876e26324"
+                    },
                     {
                         "expanded_size": 100085882,
                         "platform": {
@@ -12123,6 +11755,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109619348,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:063633731be76427d7be0266216d618a1769287135f0c879a4488506f5feb553"
+                    },
+                    {
                         "expanded_size": 100085651,
                         "platform": {
                             "architecture": "arm",
@@ -12164,6 +11805,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 109617694,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2638f474a73f2eb41bb1a5f237cd72eac2078d55cc3501d04c503bfa82cbe854"
+                    },
                     {
                         "expanded_size": 100082275,
                         "platform": {
@@ -12207,6 +11857,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109559450,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:49315a9023689999db2e765c1c8478ebd8decfe2904ba287349268442aa969bd"
+                    },
+                    {
                         "expanded_size": 100029465,
                         "platform": {
                             "architecture": "arm",
@@ -12249,6 +11908,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109534449,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:43fac24a1199fe0c9bcf5b61df0278f56197b744285cf30d8316bf7d1065e983"
+                    },
+                    {
                         "expanded_size": 99947116,
                         "platform": {
                             "architecture": "arm",
@@ -12285,6 +11953,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 109912487,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c14841b20f85887b029071ae14592ac0235ed0764256743b1db398b294a727b"
+                    },
                     {
                         "expanded_size": 100174048,
                         "platform": {
@@ -12323,6 +12000,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109912491,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d5e8e487e02db3573da4b82b5c1bffcfd7dc56115aabc9e31d46b441205e8678"
+                    },
+                    {
                         "expanded_size": 100174019,
                         "platform": {
                             "architecture": "arm",
@@ -12356,7 +12042,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24304,
+            "downloads": 24351,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -12457,7 +12143,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6739,
+            "downloads": 6748,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -13208,6 +12894,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:dce8339f8b3f216e48324d4cb78fd86947995d5f066dd20a6c33223e239da82d"
+                    },
+                    {
+                        "expanded_size": 89701440,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2764cca79b2d66655d7df0e770e77bc611d4fa3262aaf897985e4c87d66b3fa0"
                     }
                 ],
                 "authors": [
@@ -13749,7 +13444,7 @@
             }
         },
         "repo_info": {
-            "downloads": 67115,
+            "downloads": 67265,
             "last_updated": "2025-08-19T23:36:43.645681Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -13861,80 +13556,6 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.2-linux-arm64",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.2.1": {
-                "identifier": "5155c614-f7f3-57ec-b73b-900f3cdcadf0",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 125206028,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6791a60687d5857771cdb26bd8c31d621a4b039663c9c044131b03a18dc61dc6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.2.1",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -14240,89 +13861,6 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.0-linux-arm-v7",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.9": {
-                "identifier": "70f8b6be-ca32-5fa2-ae42-ca914a319ae4",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 125463812,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ce56c79c16aff426c8c80ef3a17724547a7377ffacdef3d159d502c2ee89112a"
-                    },
-                    {
-                        "expanded_size": 135915224,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:17d9c43bc2868f914593a453a5d8c509ed576323e03727f06b5e5164f9d7226f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.9",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -15625,7 +15163,7 @@
             }
         },
         "repo_info": {
-            "downloads": 28349,
+            "downloads": 28438,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -15924,7 +15462,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3315,
+            "downloads": 3341,
             "last_updated": "2025-08-01T18:41:50.74189Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
