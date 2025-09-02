@@ -1870,7 +1870,7 @@
             }
         },
         "repo_info": {
-            "downloads": 29164,
+            "downloads": 29266,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2175,7 +2175,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9438,
+            "downloads": 9459,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2321,7 +2321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3224,
+            "downloads": 3235,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3546,7 +3546,7 @@
             }
         },
         "repo_info": {
-            "downloads": 33580,
+            "downloads": 33685,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -3776,7 +3776,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3000,
+            "downloads": 3010,
             "last_updated": "2025-08-24T22:09:29.31024Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -4095,7 +4095,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2422,
+            "downloads": 2442,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -5884,8 +5884,8 @@
             }
         },
         "repo_info": {
-            "downloads": 96166,
-            "last_updated": "2025-08-25T19:08:09.964044Z",
+            "downloads": 96397,
+            "last_updated": "2025-09-01T00:19:46.823073Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -6003,7 +6003,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5068,
+            "downloads": 5077,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -6393,7 +6393,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3413,
+            "downloads": 3433,
             "last_updated": "2025-05-13T17:50:18.067948Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -6461,7 +6461,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1596,
+            "downloads": 1598,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -6836,7 +6836,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2864,
+            "downloads": 2893,
             "last_updated": "2025-07-17T14:00:28.64149Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -6900,7 +6900,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1775,
+            "downloads": 1779,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -7075,7 +7075,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6541,
+            "downloads": 6556,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -7089,6 +7089,86 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/radcam-manager/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
+            "0.2.0-beta.7": {
+                "identifier": "3f463932-4416-5af5-bd1e-a9015c1aeea9",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "images": [
+                    {
+                        "expanded_size": 58147601,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:095290c2391a34f3654d086e3b442b2394aff62c1bdc2420ba235cdb9ac37c46"
+                    },
+                    {
+                        "expanded_size": 62498898,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f5ef5438e306b8fd8be2878ac19eacf6eb04f01f0c3e8e2a9faf94c301036865"
+                    },
+                    {
+                        "expanded_size": 63194434,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:c53a9a366e03244f9960e9c4d794d675577399157a3861e59071c46b01a0a76b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
+                        "email": "joao.maker@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "rov",
+                    "camera",
+                    "cam",
+                    "radcam",
+                    "control"
+                ],
+                "extra_links": {},
+                "tag": "0.2.0-beta.7",
+                "docs": null,
+                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "requirements": "[ \"core >= 1.4.3\", \"cockpit >= 1.7\" ]",
+                "company": {
+                    "about": "RadCam's official management interface",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/var/logs/blueos/extensions/radcam-manager:/logs",
+                            "/usr/blueos/extensions/radcam-manager:/app",
+                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.0-beta.6": {
                 "identifier": "fafb9a08-74d2-585c-8914-a6c7f94c5ba7",
                 "type": "device-integration",
@@ -7799,8 +7879,8 @@
             }
         },
         "repo_info": {
-            "downloads": 2619,
-            "last_updated": "2025-08-20T17:11:40.912038Z",
+            "downloads": 2713,
+            "last_updated": "2025-09-01T22:45:47.102631Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
     },
@@ -8115,7 +8195,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14004,
+            "downloads": 14032,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -8361,15 +8441,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
-                    },
-                    {
-                        "expanded_size": 75511816,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f928136f896cc5ba7753901e9031804fff748e4783cc4f1b01aa12a4be7f879f"
                     },
                     {
                         "expanded_size": 77083331,
@@ -8762,7 +8833,7 @@
             }
         },
         "repo_info": {
-            "downloads": 245988,
+            "downloads": 246049,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -8842,7 +8913,7 @@
             }
         },
         "repo_info": {
-            "downloads": 547,
+            "downloads": 551,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -8915,7 +8986,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2406,
+            "downloads": 2410,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -9571,7 +9642,7 @@
             }
         },
         "repo_info": {
-            "downloads": 35473,
+            "downloads": 35536,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -9852,7 +9923,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3527,
+            "downloads": 3545,
             "last_updated": "2025-08-01T18:41:50.74189Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -10242,7 +10313,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3246,
+            "downloads": 3278,
             "last_updated": "2025-07-10T20:47:42.384764Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -10292,7 +10363,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "<h1>Gpio Control Example</h1>\n<p>This uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>\n<p>Then pull it in blueos:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -10344,7 +10415,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0",
                 "docs": null,
-                "readme": "<h1>Gpio Control Example</h1>\n<p>This uses python to serve a static HTML page using Vue and Vuetify controlling a gpio using a python backend\nto build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>\n<p>Then pull it in blueos:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --name=blueos-example4 --restart=unless-stopped YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1",
                 "company": {
@@ -10373,7 +10444,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5883,
+            "downloads": 5892,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -10543,7 +10614,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44725,
+            "downloads": 44740,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -10700,7 +10771,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5111,
+            "downloads": 5125,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -10748,7 +10819,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -10808,7 +10879,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a static HTML page using Vue and Vuetify as an extension. The static page in this example talks to a simple python backend.</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1",
                 "company": {
@@ -10836,7 +10907,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84810,
+            "downloads": 84819,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -11191,7 +11262,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11724,
+            "downloads": 11759,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -11477,7 +11548,7 @@
             }
         },
         "repo_info": {
-            "downloads": 139453,
+            "downloads": 139482,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -11787,7 +11858,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9178,
+            "downloads": 9212,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -12176,7 +12247,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16540,
+            "downloads": 16580,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -12384,7 +12455,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1535,
+            "downloads": 1550,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -12432,7 +12503,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a static HTML page using Vue and Vuetify as an extension.</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -12489,7 +12560,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a static HTML page using Vue and Vuetify as an extension.</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1",
                 "company": {
@@ -12514,7 +12585,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90102,
+            "downloads": 90111,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -12967,7 +13038,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51824,
+            "downloads": 51861,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -13015,7 +13086,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a basic static HTML page as an extension.</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13072,7 +13143,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a basic static HTML page as an extension.</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >  1",
                 "company": {
@@ -13097,7 +13168,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82207,
+            "downloads": 82216,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -13145,7 +13216,7 @@
                 "extra_links": {},
                 "tag": "v1.0.1",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -13202,7 +13273,7 @@
                 "extra_links": {},
                 "tag": "v1.0.0",
                 "docs": null,
-                "readme": "<h1>Static Webpage extension</h1>\n<p>This uses python to serve a basic static HTML page as an extension. This example includes MAVLink2Rest communication via http</p>\n<p>to build:</p>\n<p>Enable qemu static support with a docker</p>\n<p><code>docker buildx create --name multiarch --driver docker-container --use\ndocker run --rm --privileged multiarch/qemu-user-static --reset -p yes</code></p>\n<p>Then build it:</p>\n<p><code>docker buildx build --platform linux/amd64,linux/arm/v7 . -t YOURDOCKERHUBUSER/YOURDOCKERHUBREPO:latest --output type=registry</code></p>",
+                "readme": "No README available",
                 "support": "https://github.com/Williangalvani/BlueOS-examples/",
                 "requirements": "core >= 1",
                 "company": {
@@ -13227,7 +13298,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87072,
+            "downloads": 87081,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -13438,7 +13509,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7082,
+            "downloads": 7100,
             "last_updated": "2025-08-09T06:01:52.676663Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -13679,7 +13750,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1542,
+            "downloads": 1562,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -13910,7 +13981,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5374,
+            "downloads": 5392,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -14549,7 +14620,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12902,
+            "downloads": 12953,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -14668,7 +14739,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6824,
+            "downloads": 6834,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -15026,7 +15097,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24663,
+            "downloads": 24702,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -15318,15 +15389,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:028d663b3145ffcb8858c9c02b3befd52eb9af316d0bdbe4d86e7e77413c07d6"
-                    },
-                    {
-                        "expanded_size": 103873708,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0d9580fb17d5151c251aaeb901111328fd05bc25dda57e59192a6feff9c9f083"
                     }
                 ],
                 "authors": [
@@ -15382,15 +15444,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:a290a3cdef6a8f6b08ce8c6dced6cd6ce2f3f2e4af7400353b172c8b0113651c"
-                    },
-                    {
-                        "expanded_size": 103875618,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7ef4481ae7e6e729efd05cd97f49a76d6942d5224f169115cb7d89abb5ed8273"
                     }
                 ],
                 "authors": [
@@ -16489,7 +16542,7 @@
             }
         },
         "repo_info": {
-            "downloads": 68522,
+            "downloads": 68672,
             "last_updated": "2025-08-24T20:23:21.233384Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -16865,7 +16918,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2793,
+            "downloads": 2837,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -16936,7 +16989,7 @@
             }
         },
         "repo_info": {
-            "downloads": 334,
+            "downloads": 336,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -17182,7 +17235,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8722,
+            "downloads": 8740,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
