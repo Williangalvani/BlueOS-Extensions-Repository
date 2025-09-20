@@ -1870,7 +1870,7 @@
             }
         },
         "repo_info": {
-            "downloads": 30845,
+            "downloads": 30935,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2175,7 +2175,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9824,
+            "downloads": 9845,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2321,7 +2321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3406,
+            "downloads": 3415,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3537,7 +3537,7 @@
             }
         },
         "repo_info": {
-            "downloads": 35520,
+            "downloads": 35625,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -3697,15 +3697,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bab53082c7bb4fb0eadd51ed365b49b09ce2cb3309252742daf3b14a35e20240"
-                    },
-                    {
-                        "expanded_size": 1661281637,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:57db6d238f6520a4a3738162ba8bfc4566e1f2ecbe78ee4b25c70fea279c9b0a"
                     }
                 ],
                 "authors": [
@@ -3758,7 +3749,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3186,
+            "downloads": 3196,
             "last_updated": "2025-08-24T22:09:29.31024Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -4077,7 +4068,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2776,
+            "downloads": 2794,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -5794,7 +5785,7 @@
             }
         },
         "repo_info": {
-            "downloads": 99529,
+            "downloads": 99672,
             "last_updated": "2025-09-19T00:16:59.711592Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -5913,7 +5904,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5245,
+            "downloads": 5254,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -6303,7 +6294,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3761,
+            "downloads": 3780,
             "last_updated": "2025-05-13T17:50:18.067948Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -6371,7 +6362,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1635,
+            "downloads": 1637,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -6746,7 +6737,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3302,
+            "downloads": 3324,
             "last_updated": "2025-07-17T14:00:28.64149Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -6810,7 +6801,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1838,
+            "downloads": 1842,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -6985,7 +6976,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6817,
+            "downloads": 6832,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -7869,7 +7860,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3551,
+            "downloads": 3594,
             "last_updated": "2025-09-05T03:46:03.575218Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
@@ -8185,7 +8176,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14505,
+            "downloads": 14536,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -8288,15 +8279,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5fc14875bc39ee7e24213fe23941fc47c09476f9563abc388e77a2f1f09d04b2"
-                    },
-                    {
-                        "expanded_size": 76603940,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0c329808451439ad814a8e70389e36d122916f3120b19ed149eafe7ea5c4b45c"
                     }
                 ],
                 "authors": [
@@ -8355,15 +8337,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b96869c28654831900781874f50eb75649b5b600a88abdfcbdfb30fc5fcd12e3"
-                    },
-                    {
-                        "expanded_size": 77097826,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:02b1b004172e7f53009bda575ce76f17b02d02352d195bc7d1caacd9a052ada8"
                     }
                 ],
                 "authors": [
@@ -8422,15 +8395,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
-                    },
-                    {
-                        "expanded_size": 77083331,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a1486d8026590c4143410fff474811be8d83bd5ae2c80c2f2509bd858b2b6823"
                     }
                 ],
                 "authors": [
@@ -8489,15 +8453,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924"
-                    },
-                    {
-                        "expanded_size": 77417461,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6a05bce7c3834c01e2014db273c45e29fa0de985ec5091553f3f4c59d305da62"
                     }
                 ],
                 "authors": [
@@ -8556,15 +8511,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
-                    },
-                    {
-                        "expanded_size": 77377333,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f366b363ae588f2e2d0d1b69d7b029c9a6974ff6bd8db0c818cc98c81ca8a7fe"
                     }
                 ],
                 "authors": [
@@ -8623,15 +8569,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
-                    },
-                    {
-                        "expanded_size": 77304661,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5c2dd5704cd10b3cf502f3a47d5f9f0283e846e66d3ebcfa7d8ffe5673eb269f"
                     }
                 ],
                 "authors": [
@@ -8680,15 +8617,6 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 78844216,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2f52eb554ba188b329ad06f5167927c54fa773cb33beb6f78a1d2bb3ab991395"
-                    },
-                    {
                         "expanded_size": 72588503,
                         "platform": {
                             "architecture": "arm",
@@ -8725,15 +8653,6 @@
                 "type": "other",
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
-                    {
-                        "expanded_size": 78944496,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:96cfe2f9ecd1cdece9cdc82f7ea24121c7a56beb4e02d502ecc6b71dca9a1cce"
-                    },
                     {
                         "expanded_size": 72798434,
                         "platform": {
@@ -8772,15 +8691,6 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 78926907,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e3e67687861b5d8c4613e35fafe4f13498c9906e6553125b032f6f6ddf075944"
-                    },
-                    {
                         "expanded_size": 72784115,
                         "platform": {
                             "architecture": "arm",
@@ -8814,7 +8724,7 @@
             }
         },
         "repo_info": {
-            "downloads": 247119,
+            "downloads": 247177,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -8894,7 +8804,7 @@
             }
         },
         "repo_info": {
-            "downloads": 592,
+            "downloads": 594,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -8967,7 +8877,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2464,
+            "downloads": 2467,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -9623,7 +9533,7 @@
             }
         },
         "repo_info": {
-            "downloads": 36635,
+            "downloads": 36701,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -9687,7 +9597,7 @@
                 "extra_links": {},
                 "tag": "1.7.5",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iOTQiIGhlaWdodD0iMjAiIHJ4PSIzIiBmaWxsPSIjZmZmIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSIzNyIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjM3IiB3aWR0aD0iNTciIGhlaWdodD0iMjAiIGZpbGw9IiNkZmIzMTciLz48cmVjdCB3aWR0aD0iOTQiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48dGV4dCBhcmlhLWhpZGRlbj0idHJ1ZSIgeD0iMTk1IiB5PSIxNTAiIGZpbGw9IiMwMTAxMDEiIGZpbGwtb3BhY2l0eT0iLjMiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PHRleHQgeD0iMTk1IiB5PSIxNDAiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiBmaWxsPSIjZmZmIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjY0NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0PjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxsaW5lYXJHcmFkaWVudCBpZD0icyIgeDI9IjAiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNiYmIiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iLjEiLz48L2xpbmVhckdyYWRpZW50PjxjbGlwUGF0aCBpZD0iciI+PHJlY3Qgd2lkdGg9IjgyIiBoZWlnaHQ9IjIwIiByeD0iMyIgZmlsbD0iI2ZmZiIvPjwvY2xpcFBhdGg+PGcgY2xpcC1wYXRoPSJ1cmwoI3IpIj48cmVjdCB3aWR0aD0iNTEiIGhlaWdodD0iMjAiIGZpbGw9IiM1NTUiLz48cmVjdCB4PSI1MSIgd2lkdGg9IjMxIiBoZWlnaHQ9IjIwIiBmaWxsPSIjOTdjYTAwIi8+PHJlY3Qgd2lkdGg9IjgyIiBoZWlnaHQ9IjIwIiBmaWxsPSJ1cmwoI3MpIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjExMCI+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjI2NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0Pjx0ZXh0IHg9IjI2NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0Pjx0ZXh0IGFyaWEtaGlkZGVuPSJ0cnVlIiB4PSI2NTUiIHk9IjE1MCIgZmlsbD0iIzAxMDEwMSIgZmlsbC1vcGFjaXR5PSIuMyIgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iMjEwIj5NSVQ8L3RleHQ+PC9nPjwvc3ZnPg==\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
                 "requirements": null,
                 "company": {
@@ -9760,7 +9670,7 @@
                 "extra_links": {},
                 "tag": "1.7.4",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iOTQiIGhlaWdodD0iMjAiIHJ4PSIzIiBmaWxsPSIjZmZmIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSIzNyIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjM3IiB3aWR0aD0iNTciIGhlaWdodD0iMjAiIGZpbGw9IiNkZmIzMTciLz48cmVjdCB3aWR0aD0iOTQiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48dGV4dCBhcmlhLWhpZGRlbj0idHJ1ZSIgeD0iMTk1IiB5PSIxNTAiIGZpbGw9IiMwMTAxMDEiIGZpbGwtb3BhY2l0eT0iLjMiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PHRleHQgeD0iMTk1IiB5PSIxNDAiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiBmaWxsPSIjZmZmIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjY0NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0PjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxsaW5lYXJHcmFkaWVudCBpZD0icyIgeDI9IjAiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNiYmIiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iLjEiLz48L2xpbmVhckdyYWRpZW50PjxjbGlwUGF0aCBpZD0iciI+PHJlY3Qgd2lkdGg9IjgyIiBoZWlnaHQ9IjIwIiByeD0iMyIgZmlsbD0iI2ZmZiIvPjwvY2xpcFBhdGg+PGcgY2xpcC1wYXRoPSJ1cmwoI3IpIj48cmVjdCB3aWR0aD0iNTEiIGhlaWdodD0iMjAiIGZpbGw9IiM1NTUiLz48cmVjdCB4PSI1MSIgd2lkdGg9IjMxIiBoZWlnaHQ9IjIwIiBmaWxsPSIjOTdjYTAwIi8+PHJlY3Qgd2lkdGg9IjgyIiBoZWlnaHQ9IjIwIiBmaWxsPSJ1cmwoI3MpIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjExMCI+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjI2NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0Pjx0ZXh0IHg9IjI2NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0Pjx0ZXh0IGFyaWEtaGlkZGVuPSJ0cnVlIiB4PSI2NTUiIHk9IjE1MCIgZmlsbD0iIzAxMDEwMSIgZmlsbC1vcGFjaXR5PSIuMyIgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iMjEwIj5NSVQ8L3RleHQ+PC9nPjwvc3ZnPg==\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
                 "requirements": null,
                 "company": {
@@ -9824,7 +9734,7 @@
                 "extra_links": {},
                 "tag": "1.7.3",
                 "docs": null,
-                "readme": "No README available",
+                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iOTQiIGhlaWdodD0iMjAiIHJ4PSIzIiBmaWxsPSIjZmZmIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSIzNyIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjM3IiB3aWR0aD0iNTciIGhlaWdodD0iMjAiIGZpbGw9IiNkZmIzMTciLz48cmVjdCB3aWR0aD0iOTQiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48dGV4dCBhcmlhLWhpZGRlbj0idHJ1ZSIgeD0iMTk1IiB5PSIxNTAiIGZpbGw9IiMwMTAxMDEiIGZpbGwtb3BhY2l0eT0iLjMiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PHRleHQgeD0iMTk1IiB5PSIxNDAiIHRyYW5zZm9ybT0ic2NhbGUoLjEpIiBmaWxsPSIjZmZmIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjY0NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0PjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxsaW5lYXJHcmFkaWVudCBpZD0icyIgeDI9IjAiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNiYmIiIHN0b3Atb3BhY2l0eT0iLjEiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3Atb3BhY2l0eT0iLjEiLz48L2xpbmVhckdyYWRpZW50PjxjbGlwUGF0aCBpZD0iciI+PHJlY3Qgd2lkdGg9IjgyIiBoZWlnaHQ9IjIwIiByeD0iMyIgZmlsbD0iI2ZmZiIvPjwvY2xpcFBhdGg+PGcgY2xpcC1wYXRoPSJ1cmwoI3IpIj48cmVjdCB3aWR0aD0iNTEiIGhlaWdodD0iMjAiIGZpbGw9IiM1NTUiLz48cmVjdCB4PSI1MSIgd2lkdGg9IjMxIiBoZWlnaHQ9IjIwIiBmaWxsPSIjOTdjYTAwIi8+PHJlY3Qgd2lkdGg9IjgyIiBoZWlnaHQ9IjIwIiBmaWxsPSJ1cmwoI3MpIi8+PC9nPjxnIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJWZXJkYW5hLEdlbmV2YSxEZWphVnUgU2FucyxzYW5zLXNlcmlmIiB0ZXh0LXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiBmb250LXNpemU9IjExMCI+PHRleHQgYXJpYS1oaWRkZW49InRydWUiIHg9IjI2NSIgeT0iMTUwIiBmaWxsPSIjMDEwMTAxIiBmaWxsLW9wYWNpdHk9Ii4zIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0Pjx0ZXh0IHg9IjI2NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0Pjx0ZXh0IGFyaWEtaGlkZGVuPSJ0cnVlIiB4PSI2NTUiIHk9IjE1MCIgZmlsbD0iIzAxMDEwMSIgZmlsbC1vcGFjaXR5PSIuMyIgdHJhbnNmb3JtPSJzY2FsZSguMSkiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTQwIiB0cmFuc2Zvcm09InNjYWxlKC4xKSIgZmlsbD0iI2ZmZiIgdGV4dExlbmd0aD0iMjEwIj5NSVQ8L3RleHQ+PC9nPjwvc3ZnPg==\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
                 "requirements": null,
                 "company": {
@@ -9913,7 +9823,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3896,
+            "downloads": 3910,
             "last_updated": "2025-09-11T02:01:39.706707Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -10303,7 +10213,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3814,
+            "downloads": 3845,
             "last_updated": "2025-07-10T20:47:42.384764Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -10434,7 +10344,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6050,
+            "downloads": 6059,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -10604,7 +10514,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45014,
+            "downloads": 45029,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -10761,7 +10671,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5371,
+            "downloads": 5386,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -10897,7 +10807,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84977,
+            "downloads": 84986,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -10933,15 +10843,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
-                    },
-                    {
-                        "expanded_size": 100039947,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
                     }
                 ],
                 "authors": [
@@ -10994,15 +10895,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
-                    },
-                    {
-                        "expanded_size": 100039947,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
                     }
                 ],
                 "authors": [
@@ -11046,15 +10938,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b189e8966331dbaacbd9d21c5583f0bb0c4faf00c9f8c3fd2d6fce2e6b330117"
-                    },
-                    {
-                        "expanded_size": 100027144,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1e451e2e07c76d97625aabaf4a8748e3e5a8aad58e45fa5b8bf773a25714e365"
                     }
                 ],
                 "authors": [
@@ -11098,15 +10981,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
                     }
                 ],
                 "authors": [
@@ -11150,15 +11024,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
                     }
                 ],
                 "authors": [
@@ -11211,15 +11076,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
-                    },
-                    {
-                        "expanded_size": 100039947,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
                     }
                 ],
                 "authors": [
@@ -11252,7 +11108,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12354,
+            "downloads": 12387,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -11538,7 +11394,7 @@
             }
         },
         "repo_info": {
-            "downloads": 140015,
+            "downloads": 140042,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -11848,7 +11704,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9793,
+            "downloads": 9825,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -12237,7 +12093,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17273,
+            "downloads": 17312,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -12357,49 +12213,6 @@
                     }
                 }
             },
-            "1.11.2": {
-                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 377758539,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
-                    },
-                    {
-                        "expanded_size": 406148810,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "v1.11.2": {
                 "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
                 "type": "other",
@@ -12442,10 +12255,53 @@
                         ]
                     }
                 }
+            },
+            "1.11.2": {
+                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 377758539,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
+                    },
+                    {
+                        "expanded_size": 406148810,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 1821,
+            "downloads": 1835,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -12575,7 +12431,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90267,
+            "downloads": 90276,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -13028,7 +12884,7 @@
             }
         },
         "repo_info": {
-            "downloads": 52475,
+            "downloads": 52507,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -13158,7 +13014,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82372,
+            "downloads": 82381,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -13288,7 +13144,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87237,
+            "downloads": 87246,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -13573,7 +13429,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7545,
+            "downloads": 7567,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -13814,7 +13670,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1882,
+            "downloads": 1900,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -14045,7 +13901,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5709,
+            "downloads": 5727,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -14684,7 +14540,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13843,
+            "downloads": 13895,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -14803,7 +14659,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6994,
+            "downloads": 7003,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -15161,7 +15017,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25389,
+            "downloads": 25429,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -15175,6 +15031,71 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "1.14.1": {
+                "identifier": "20e2f026-3996-56d2-af59-50e913f4a3ea",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 103868521,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b2c1f8977f814b04bf99c5447798bb7824e2e48515655e69f66c8e5c80424ced"
+                    },
+                    {
+                        "expanded_size": 102327335,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:18721e0a4bb4b1ac592543e9e122a297a3d1d964984bf79719b8f2cfaab265db"
+                    },
+                    {
+                        "expanded_size": 103886779,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1ffc006473bc7459c0917f1a61688c5ed15b998711180cb677049be72434de85"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.1",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
             "1.13.42-beta": {
                 "identifier": "c0619e41-5ffa-5ace-b640-b095849dd1bd",
                 "type": "device-integration",
@@ -15439,15 +15360,6 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 104348249,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f83e8ee5ed020776050e52704b9c46827b690b0c9632d18a6966cabfe59eaade"
-                    },
-                    {
                         "expanded_size": 102812669,
                         "platform": {
                             "architecture": "arm",
@@ -15503,15 +15415,6 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 104344868,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ca3e4ad98e7ae99d51a3348b091f919f60464ca2d4a645e193b4da73824f87a9"
-                    },
-                    {
                         "expanded_size": 102807989,
                         "platform": {
                             "architecture": "arm",
@@ -15519,15 +15422,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:77713b1331baf8b46a51ac668910b449b9342b9077b92e6a0a22ae68ba997576"
-                    },
-                    {
-                        "expanded_size": 104367408,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:309f8b49d6174bfd8a91da738ee1ce191e68843ae0d8fb95cb458692f35b48b7"
                     }
                 ],
                 "authors": [
@@ -15574,15 +15468,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:ce7d33317c5ce682c170531462e7c80c3675391b57e79d1c22ced6a07b2db0e4"
-                    },
-                    {
-                        "expanded_size": 104327191,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a607a1800ae76306c50f43c9178f22545e06fd415de7964db92df47befc6b2e2"
                     }
                 ],
                 "authors": [
@@ -16568,66 +16453,11 @@
                         ]
                     }
                 }
-            },
-            "1.13.2-dev": {
-                "identifier": "d38147b6-e086-50a6-aa0a-70d4421f4bc3",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 104080588,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a3f99011a6ac23840d2e7aab3c76550f25ee690406c63edc19576440b33708af"
-                    },
-                    {
-                        "expanded_size": 103711883,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:80b77184f9cb0cfd3e57037a7e436d090aee5823596305a1220f7d124a8951ac"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.2-dev",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 71325,
-            "last_updated": "2025-09-16T20:33:26.84221Z",
+            "downloads": 71489,
+            "last_updated": "2025-09-20T03:01:55.194167Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -17002,7 +16832,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3393,
+            "downloads": 3423,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -17073,7 +16903,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7533,
+            "downloads": 7535,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -17319,7 +17149,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9058,
+            "downloads": 9076,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
