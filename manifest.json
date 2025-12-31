@@ -310,7 +310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6269,
+            "downloads": 6296,
             "last_updated": "2025-11-22T00:26:48.350879Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -324,88 +324,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/cellular-modem-manager/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
-            "0.3.3": {
-                "identifier": "28e4dec8-c7a3-565b-ae29-0a16c23906a7",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "images": [
-                    {
-                        "expanded_size": 134736854,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bb67326df10a86a2d8097dabc9007fc888ebca10e92359748cdfedd269bf4401"
-                    },
-                    {
-                        "expanded_size": 140908402,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a2a6c6e3e022506192469762b548dcb31406897260448c70c28675757de92438"
-                    },
-                    {
-                        "expanded_size": 144572942,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:dbb1ab9a311474b23bd39ad86ce588d4b1988e8d08102b331772fe77cd571565"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o M\u00e1rio Lago",
-                        "email": "joaolago@bluerobotics.com"
-                    },
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick J. Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.3.3",
-                "docs": null,
-                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "requirements": "core >= 1.3",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "20038/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config",
-                            "/dev:/dev:rw"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "20038/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.3.2": {
                 "identifier": "e34bd18a-2b7d-5e51-bd6a-65f32872c70c",
                 "type": "device-integration",
@@ -469,266 +387,10 @@
                         }
                     }
                 }
-            },
-            "0.3.1": {
-                "identifier": "c0792ea7-2d4c-53f2-be8c-dc1f073e7635",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "images": [
-                    {
-                        "expanded_size": 98324590,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:31695cefd4807f1cf0ff29963ce9ba0ae21ec23f599687a2d0d3fbe4e9bfd34e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o M\u00e1rio Lago",
-                        "email": "joaolago@bluerobotics.com"
-                    },
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick J. Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.3.1",
-                "docs": null,
-                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "requirements": "core >= 1.3",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "20038/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config",
-                            "/dev:/dev:rw"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "20038/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.3.0": {
-                "identifier": "abbfaa33-1f3a-5fc2-a5f2-37873f7d304b",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "images": [
-                    {
-                        "expanded_size": 98147826,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1deed31f468d4899a9ad6b8b7d3327efb72e475427f9c12ee88effc2668ef91f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o M\u00e1rio Lago",
-                        "email": "joaolago@bluerobotics.com"
-                    },
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick J. Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.3.0",
-                "docs": null,
-                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "requirements": "core >= 1.3",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "20038/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config",
-                            "/dev:/dev:rw"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "20038/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.2.0": {
-                "identifier": "21bcd310-3940-5f4c-963d-7ca913469063",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "images": [
-                    {
-                        "expanded_size": 98006979,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2d9c19eea0c360eded692fb5e23d3a7d8bb7146f542e7aeb613f9ef8a245d88d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o M\u00e1rio Lago",
-                        "email": "joaolago@bluerobotics.com"
-                    },
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick J. Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.2.0",
-                "docs": null,
-                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "requirements": "core >= 1.3",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "20038/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config",
-                            "/dev:/dev:rw"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "20038/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.0": {
-                "identifier": "14aff5b7-66a0-58e0-9efa-4ae9bc0a1548",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "images": [
-                    {
-                        "expanded_size": 98006170,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fdbc09389ee7691c4c5b801c6f071f45d2d153afa375a3c872209870c20f3a2"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o M\u00e1rio Lago",
-                        "email": "joaolago@bluerobotics.com"
-                    },
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    },
-                    {
-                        "name": "Patrick J. Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.0",
-                "docs": null,
-                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
-                "requirements": "core >= 1.3",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "20038/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config:/root/.config",
-                            "/dev:/dev:rw"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "20038/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 6064,
+            "downloads": 6092,
             "last_updated": "2025-11-26T19:52:40.880543Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -848,66 +510,6 @@
                         "Privileged": true,
                         "Binds": [
                             "/usr/blueos/extensions/node-red:/data:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/dev:/dev:rw",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "1.0.2": {
-                "identifier": "0b938a2c-503c-532d-8e70-842f4f0b4321",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 157814612,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:20ce89d066804fc5c0207b71e7de85488abd1caccb011c21ee5a66d4df7f3130"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "node-red"
-                ],
-                "extra_links": {},
-                "tag": "1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS node-red</h1>\n<p>Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.</p>\n<p>It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.</p>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata/node-red:/data:rw",
                             "/etc/hostname:/etc/hostname:ro",
                             "/dev:/dev:rw",
                             "/:/home/workspace/host:rw"
@@ -1044,7 +646,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17424,
+            "downloads": 17451,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2671,8 +2273,8 @@
             }
         },
         "repo_info": {
-            "downloads": 119937,
-            "last_updated": "2025-12-25T00:19:24.431796Z",
+            "downloads": 120126,
+            "last_updated": "2025-12-31T00:20:33.289183Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -2846,7 +2448,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8582,
+            "downloads": 8598,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2919,7 +2521,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2787,
+            "downloads": 2790,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -3960,7 +3562,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9798,
+            "downloads": 9869,
             "last_updated": "2025-12-19T22:41:03.178164Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
@@ -4028,7 +3630,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1906,
+            "downloads": 1911,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -4634,7 +4236,7 @@
             }
         },
         "repo_info": {
-            "downloads": 253817,
+            "downloads": 253883,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -4705,7 +4307,7 @@
             }
         },
         "repo_info": {
-            "downloads": 836,
+            "downloads": 838,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -4824,7 +4426,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6406,
+            "downloads": 6417,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -4888,7 +4490,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2242,
+            "downloads": 2249,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -5544,7 +5146,7 @@
             }
         },
         "repo_info": {
-            "downloads": 43387,
+            "downloads": 43451,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -5779,15 +5381,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:ec60fc73d20a0675d80124b14b6cd96f10acab00359eae440b2ef062636ebcae"
-                    },
-                    {
-                        "expanded_size": 69218619,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:745ab26cc518cba1d701c0dcc6ca4b31750c6629e138e5579482cecfc9d5b62b"
                     }
                 ],
                 "authors": [
@@ -5924,7 +5517,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6101,
+            "downloads": 6129,
             "last_updated": "2025-10-07T18:16:38.284431Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -6164,7 +5757,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9834,
+            "downloads": 9855,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -6456,7 +6049,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4864,
+            "downloads": 4885,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -6668,7 +6261,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4668,
+            "downloads": 4678,
             "last_updated": "2025-12-28T02:00:59.50903Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -7359,7 +6952,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19539,
+            "downloads": 19598,
             "last_updated": "2025-11-20T18:47:33.791117Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -7595,80 +7188,6 @@
                     }
                 }
             },
-            "0.2.1-linux-arm64": {
-                "identifier": "07be3538-cf7e-599e-ac30-93df14808a98",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 125206028,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6791a60687d5857771cdb26bd8c31d621a4b039663c9c044131b03a18dc61dc6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.2.1-linux-arm64",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.2.0": {
                 "identifier": "d5fe8c03-c92c-5a23-a309-6fd6387360df",
                 "type": "other",
@@ -7702,80 +7221,6 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.2.0-linux-arm64": {
-                "identifier": "a8041ab8-30d7-5184-8101-ad296b44ec87",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 135664177,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9979d4391cd664d7e55eae1b726bc35d1da8c259b0594058c1698a68d49d9414"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.2.0-linux-arm64",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -7983,450 +7428,6 @@
                     }
                 }
             },
-            "0.1.9-linux-arm64": {
-                "identifier": "f76d5165-8089-5c64-93f4-e06ea50657ee",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 135915224,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:17d9c43bc2868f914593a453a5d8c509ed576323e03727f06b5e5164f9d7226f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.9-linux-arm64",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.9-linux-arm-v7": {
-                "identifier": "7750d014-2159-5613-b5f4-103cbedcdf60",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 125463812,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ce56c79c16aff426c8c80ef3a17724547a7377ffacdef3d159d502c2ee89112a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.9-linux-arm-v7",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.8": {
-                "identifier": "bacd090a-56a3-5ff5-80cc-9a1ecc66c2e6",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 139907444,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fddf3cd759e6b3578ceb7b386da9ef2d760dcb3f8ea9d9877268b29fd96a51e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.8",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.7": {
-                "identifier": "08ebdb20-d1ee-5013-8b14-aebd673adef5",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 138667765,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b5523947d1f8edbf6cb655969e2d53d78767007686d08dd60198acd4f1158219"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.7",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.6": {
-                "identifier": "a4b4f76c-05cc-5d2e-a10e-0f0c4f83ac56",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 138671180,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6bf09bdef42b75b4b336aa8477b79f1ee68f2b538b59553f26635f30e2d3d9e7"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.6",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.5": {
-                "identifier": "daf1d7e7-6dc5-5812-b6fe-67232ff1b411",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 136304617,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:002194270ed9fbbe8cac68fa8c7d66e65e96bf5f0ca882afc1c739c4bedba43c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.5",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.1.4": {
                 "identifier": "9e541814-e629-5f4a-8694-cbbc0cf59a34",
                 "type": "other",
@@ -8575,372 +7576,6 @@
                     }
                 }
             },
-            "0.1.2": {
-                "identifier": "2104939c-c7c6-52a3-82b0-0c7834424a34",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 136201023,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2249b4f0a6f10851cd51ce43b9323afe9cfe3c9ff759d9c035815a861d14aea0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.2",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config",
-                            "/var/run/docker.sock:/var/run/docker.sock"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.1": {
-                "identifier": "42117cfd-19c3-5487-8c86-0c64ac5904a8",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 97327764,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:93eae4b370102f9b40f1df916e30e29f62ece3a6bfd0d9f30a229f00c65f1fe3"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.1",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.1.0": {
-                "identifier": "eaeca9bf-4fdd-5338-b35c-df1cc1255a46",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 96709262,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:541ec3d6cdba151cdb6498ef8f1af4af800d9ecccc8563eedd96d539a1c29157"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.1.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.9": {
-                "identifier": "79a9df48-e803-535b-8859-5b0d7c4ac99b",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 96709149,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fe37249ef731d10570ae5364036104c7ec2ce3ae84acfed3f9e8ae8d4b2c0215"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.9",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.8": {
-                "identifier": "8ea1115d-e017-5e93-b643-31269c341f4d",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 97114085,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f4ca957ef8684090eb19561193c745a318565bac884edc9b7c936464867dcb3b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.8",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.0.7": {
                 "identifier": "e2484dd2-e2ba-5ac4-9d91-7d717f618332",
                 "type": "other",
@@ -9013,229 +7648,10 @@
                         }
                     }
                 }
-            },
-            "0.0.6": {
-                "identifier": "d859a0f3-6010-5e77-bf71-73b51788130e",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 94349911,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2d7302f32d74adfdebe98b99b9c2f9b596ab356be2deaa163185bae96d922002"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.6",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.5": {
-                "identifier": "5567cfc0-0947-559b-b69c-3a0eb7ebba12",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 94350096,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:df13934cdb1e4d0bd6b3dd5f1d94856866de13e5e1e246a817243510eab945b7"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.5",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.4": {
-                "identifier": "fbde77c2-558e-5654-9fba-00720ba5ca46",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 98481422,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a383b8e2f0888f718c52bc92f99d4180bce41e3d9d44ef6886b642e6ae2d1719"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.4",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "I2CBUS=6",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 40368,
+            "downloads": 40459,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -9580,7 +7996,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7173,
+            "downloads": 7204,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -9692,7 +8108,7 @@
             }
         },
         "repo_info": {
-            "downloads": 83319,
+            "downloads": 83328,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -9810,7 +8226,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85930,
+            "downloads": 85939,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -9922,7 +8338,7 @@
             }
         },
         "repo_info": {
-            "downloads": 91210,
+            "downloads": 91219,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -10053,7 +8469,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7002,
+            "downloads": 7011,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -10214,49 +8630,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -10283,6 +8656,49 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -10354,7 +8770,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16117,
+            "downloads": 16150,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -10619,7 +9035,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13401,
+            "downloads": 13439,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -10860,7 +9276,7 @@
             }
         },
         "repo_info": {
-            "downloads": 142923,
+            "downloads": 142952,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -11017,7 +9433,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6903,
+            "downloads": 6917,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -11187,7 +9603,7 @@
             }
         },
         "repo_info": {
-            "downloads": 46623,
+            "downloads": 46638,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -11504,7 +9920,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21391,
+            "downloads": 21430,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -11701,178 +10117,6 @@
                     }
                 }
             },
-            "v1.12.3": {
-                "identifier": "d8da95f8-29ff-5b64-a4ac-3e4425d890f4",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/zerotierone",
-                "images": [
-                    {
-                        "expanded_size": 260334935,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:714ca73d30b033b2eb4d3f70e77cf86fa5871a4cddf5314ed435dc4b4b860ff7"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {},
-                "tag": "v1.12.3",
-                "docs": null,
-                "readme": "<blockquote>\n<p><strong>NOTE:</strong> This is a <a href=\"https://blueos.cloud/docs/blueos/1.1/extensions/\">BlueOS Extension</a> for using the <a href=\"https://www.zerotier.com/\">ZeroTier</a> service on a BlueOS device. It sets up a VPN to access your device from anywhere with an internet connection.</p>\n</blockquote>\n<h2>Initial Setup</h2>\n<ol>\n<li>Install <a href=\"https://docs.bluerobotics.com/BlueOS-Extensions-Repository/#:~:text=ZeroTier,Maintainer\">the ZeroTier extension</a> on your vehicle</li>\n<li><a href=\"https://www.zerotier.com/download/\">Download ZeroTier</a> on the device(s) you want to connect with</li>\n<li><a href=\"https://my.zerotier.com/login\">Log In</a> to ZeroTier online<ul>\n<li>create an account if you haven't used ZeroTier before)</li>\n</ul>\n</li>\n<li>Create a new network and copy the generated network ID</li>\n<li>Join the network (using the ID) from the BlueOS ZeroTier Extension page, as well as through the ZeroTier interface on your device(s)</li>\n<li>If using a private network, return to the online ZeroTier interface, scroll down to the \"Members\" section, and allow each device access to the network by checking the \"Auth?\" checkbox beside its listing<ul>\n<li>For ease of future management, it may help to give meaningful names and/or descriptions to the devices in the table</li>\n</ul>\n</li>\n<li>You should now be able to access the BlueOS web interface through the ZeroTier connection<ul>\n<li>You can use the <strong>vehicle</strong>'s mDNS address (e.g. http://blueos.local, by default), or the <strong>vehicle</strong>'s \"Managed IP\" shown in ZeroTier's online interface (in the \"Members\" section)</li>\n<li>Connecting through ZeroTier requires both ends of the connection to be on the same ZeroTier network and connected to the internet</li>\n</ul>\n</li>\n<li>Configure the desired endpoints (for MAVLink telemetry, video streams, serial, etc) to point to the intended recipient<ul>\n<li>Setting up a video stream requires setting up a stream endpoint for it in the <a href=\"https://blueos.cloud/docs/blueos/1.1/advanced-usage/#video-streams\">Video Streams</a> page<ul>\n<li>Creating a new stream endpoint while connected to BlueOS through the ZeroTier connection will automatically use the connected <strong>device</strong>'s IP address</li>\n<li>You can also get the relevant <strong>device</strong> IP address(es) through the ZeroTier online interface (in the \"Managed IPs\" column)</li>\n<li>BlueOS video streams can provide multiple endpoints of the same type, to send to multiple devices<ul>\n<li>You can edit a stream to add more endpoints</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Vehicle telemetry+control through QGroundControl is generally handled via a UDP Client link set up in BlueOS's <a href=\"https://blueos.cloud/docs/blueos/1.1/advanced-usage/#mavlink-endpoints\">MAVLink Endpoints</a> page<ul>\n<li>Creating a new UDP Client endpoint while connected through the ZeroTier connection will automatically use the connected <strong>device</strong>'s IP address</li>\n<li>You can also get the relevant <strong>device</strong> IP address through the ZeroTier online interface (in the \"Managed IPs\" column)</li>\n</ul>\n</li>\n<li>It is technically also possible to set up a MAVLink connection using BlueOS's GCS Server Link, although it may be less robust<ul>\n<li>Doing this requires adding a \"Comm Link\" in QGroundControl's Application Settings (instead of creating a new endpoint in BlueOS)<ul>\n<li>you can add the server as the <strong>vehicle</strong>'s mDNS address (e.g. <code>blueos.local</code>) or the <strong>vehicle</strong>'s IP address, and leave the port as <code>14550</code></li>\n</ul>\n</li>\n<li>Make sure the GCS Server Link is enabled in BlueOS</li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>\n<h2>General Usage</h2>\n<p>Once the network and endpoints have been configured it should be possible to reconnect at will, whenever the vehicle and a device are both connected to the internet, and connected to a ZeroTier network they're both authorised on.</p>\n<p>If a device leaves a ZeroTier network (or is not connected to the internet) then it will not be accessible to the rest of the network. ZeroTier's online manager can be used to de-authorise devices and/or remove them from the network entirely.</p>\n<h2>Troubleshooting</h2>\n<ul>\n<li>If the ZeroTier Status is showing as <code>ACCESS_DENIED</code>, you're connected to a privately configured ZeroTier network and the network owner (likely yourself) needs to authorise your device through the \"Members\" section of ZeroTier's online interface for that network</li>\n<li>If the connection is not working it can help to check the \"Last Seen\" column of the \"Members\" section of ZeroTier's online interface, to determine whether one or multiple of your devices is not currently connected to the ZeroTier network (it may be having internet connectivity issues, or may just need to connect to the network through its ZeroTier interface)<ul>\n<li>If you can't find your device's ZeroTier interface, it may be an icon in your taskbar / menubar</li>\n</ul>\n</li>\n<li>Determining which device is which in ZeroTier's online interface requires knowing which order they attempted to join the network, or having access to the devices so you can identify them by disconnecting them from the network (or the internet) and seeing which one changes in the \"Last Seen\" column</li>\n<li>If the connection is working but some of the endpoints aren't, make sure the endpoints are configured to use the correct IP address<ul>\n<li>Something on the vehicle sending/connecting to a device (e.g. video, GCS MAVLink UDP client link for telemetry, etc) needs to be directed towards the <strong>device</strong>'s IP address</li>\n<li>Using a device to connect to the vehicle (e.g. to access the BlueOS web interface, or connect to a GCS server link for telemetry) needs to use the <strong>vehicle</strong>'s IP or mDNS address</li>\n</ul>\n</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/zerotierone/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/usr/blueos/extensions/zerotier:/var/lib/zerotier-one",
-                            "/var/lib/zerotier-one:/old-settings"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                }
-            },
-            "v1.12.1": {
-                "identifier": "2c16f342-5e57-580d-b91c-595299c4f765",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/zerotierone",
-                "images": [
-                    {
-                        "expanded_size": 246398941,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:473153de2deff0d6ebe51df9a6d86dd1b382eecf78ba8f5ecad052c12d3ad94d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {},
-                "tag": "v1.12.1",
-                "docs": null,
-                "readme": "<p>This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check <a href=\"https://www.zerotier.com/\">ZeroTier</a>.</p>",
-                "support": "https://github.com/Williangalvani/zerotierone/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                }
-            },
-            "v1.0.1": {
-                "identifier": "50fceca3-00cf-550d-a4b3-6fc682caefab",
-                "type": "other",
-                "website": "https://github.com/Williangalvani/zerotierone",
-                "images": [
-                    {
-                        "expanded_size": 169429191,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1172a08bfae4bc3fb54589d1b6abc7237a05b1a09c8a8e4bd87d2ba424e424be"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "<p>This is a ZeroTier extension. It sets up a VPN to access your device from anywhere with an internet connection.\nFor more information on ZeroTier, check <a href=\"https://www.zerotier.com/\">ZeroTier</a>.</p>",
-                "support": "https://github.com/Williangalvani/zerotierone/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "CapAdd": [
-                            "SYS_ADMIN",
-                            "NET_ADMIN"
-                        ],
-                        "Binds": [
-                            "/var/lib/zerotier-one:/var/lib/zerotier-one"
-                        ],
-                        "Devices": [
-                            {
-                                "PathOnHost": "/dev/net/tun",
-                                "PathInContainer": "/dev/net/tun",
-                                "CgroupPermissions": "rwm"
-                            }
-                        ]
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "a55f32d8-739a-50b3-b8eb-e6e648c55554",
                 "type": "other",
@@ -11930,7 +10174,7 @@
             }
         },
         "repo_info": {
-            "downloads": 56105,
+            "downloads": 56137,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -12032,40 +10276,6 @@
                     }
                 }
             },
-            "v1.11.2": {
-                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 448697728,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "1.11.2": {
                 "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
                 "type": "other",
@@ -12108,10 +10318,44 @@
                         ]
                     }
                 }
+            },
+            "v1.11.2": {
+                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 448697728,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 3423,
+            "downloads": 3443,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -12223,7 +10467,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88189,
+            "downloads": 88198,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -12333,7 +10577,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8047,
+            "downloads": 8065,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -12637,7 +10881,7 @@
             }
         },
         "repo_info": {
-            "downloads": 29612,
+            "downloads": 29663,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -13224,15 +11468,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:8371c71b8764cbaef471609a533fa5e2d788d1036a84dc1b9bf6ff5111eabfe8"
-                    },
-                    {
-                        "expanded_size": 103197147,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:89dbed57a828ed3ac9fb2ed3d11859c656d625112158aebac924dfafe293a90f"
                     }
                 ],
                 "authors": [
@@ -13916,7 +12151,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87366,
+            "downloads": 87518,
             "last_updated": "2025-12-23T22:27:56.040272Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -14157,7 +12392,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3800,
+            "downloads": 3819,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -14388,7 +12623,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7683,
+            "downloads": 7703,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -14657,7 +12892,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12004,
+            "downloads": 12025,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -14785,7 +13020,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4376,
+            "downloads": 4385,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -15130,7 +13365,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6275,
+            "downloads": 6293,
             "last_updated": "2025-12-22T18:35:05.493603Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -15201,7 +13436,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7789,
+            "downloads": 7793,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -15292,53 +13527,6 @@
                 "tag": "v1.0.7-beta.5",
                 "docs": null,
                 "readme": "No README available",
-                "support": "https://github.com/waterlinked/blueos-ugps-extension/issues",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Water Linked",
-                    "email": "support@waterlinked.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "Env": [
-                        "UGPS_HOST=http://192.168.2.94",
-                        "MAVLINK_HOST=http://192.168.2.2:6040",
-                        "QGC_IP=192.168.2.1",
-                        "EXTRA_ARGS="
-                    ]
-                }
-            },
-            "v1.0.7-beta.2": {
-                "identifier": "01960110-d3b4-5ec9-b831-fc6ed5504c76",
-                "type": "device-integration",
-                "website": "https://github.com/waterlinked/blueos-ugps-extension",
-                "images": [
-                    {
-                        "expanded_size": 42996077,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:827ca6180221c282ced1a2c58e02388c1cf1b4eb87cca1604355a90bf0b81293"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "short-baseline"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.7-beta.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Extension for Water Linked Underwater GPS</h1>\n<h2>State</h2>\n<p>This extension <strong>has no UI page</strong> (so it creates no listing in the sidebar of BlueOS).</p>\n<h2>Functionality</h2>\n<p>Assuming the UGPS is detected and working, this service\n* forwards MAVLink data from <a href=\"https://github.com/patrickelectric/mavlink2rest\">Mavlink2Rest</a> like depth to the UGPS Topside (to enable it to function)\n* forwards locator position from UGPS Topside to MAVLink (message <code>GPS_INPUT</code>)\n    * the autopilot should send corresponding <code>GPS_RAW_INT</code> messages to the topside computer (QGroundControl)\n    * the autopilot sends regular <code>GLOBAL_POSITION_INT</code> messages to the topside computer with its filtered position estimates\n* forwards topside position from UGPS Topside to UDP port <code>14401</code> with NMEA to be received by QGroundControl.\n    * This feature is <strong>experimental</strong> and does not work reliably with all version of QGroundControl.</p>\n<p>If you do not have access to a UGPS system, you can use UGPS_HOST=https://demo.waterlinked.com , which simulates a UGPS system with its API.</p>\n<p>Hardware documentation can be found at https://waterlinked.github.io/underwater-gps/integration/bluerov-integration/</p>\n<h2>How to install</h2>\n<p>There are 2 options</p>\n<h3>Preferred: Use the extensions manager in BlueOS &gt; 1.1.0</h3>\n<ul>\n<li>Click Extensions &gt; Extensions Manager</li>\n<li>Install this extension</li>\n</ul>\n<p>Configuration is usually not required, but can be done by editing the extension in the \"Installed\" tab of the Extensions Manager.</p>\n<p>Editing requires <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-latest/advanced-usage/#pirate-mode\">Pirate Mode</a>\nto be enabled, after which the \"Edit\" button can be used. Copy the Original Settings contents\ninto the Custom settings box, and (if necessary) change the IPs/Host addresses, e.g. to use the demo server:\n<code>{\n  \"NetworkMode\": \"host\",\n  \"Env\": [\n  \"UGPS_HOST=https://demo.waterlinked.com\",\n  \"MAVLINK_HOST=http://192.168.2.2:6040\",\n  \"QGC_IP=192.168.2.1\",\n  \"EXTRA_ARGS=\"\n  ]\n}</code></p>\n<p>Use the \"View Logs\" button to check the status.</p>\n<h3>For developers: Build docker image yourself and start it</h3>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>)</p>\n<p>install git, clone this repository and run\n```</p>\n<h1>build the docker image</h1>\n<p>docker build -t waterlinked/blueos-ugps-extension:latest .</p>\n<h1>see all images</h1>\n<p>docker images</p>\n<h1>running the plugin</h1>\n<h1>either: run detached</h1>\n<h1>with standard command</h1>\n<p>docker run -d --net=host waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1</p>\n<h1>or with demo server</h1>\n<p>docker run -d --net=host waterlinked/blueos-ugps-extension:latest python app/main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1</p>\n<h1>or: in interactive shell to get debug output</h1>\n<p>docker run -it waterlinked/blueos-ugps-extension:latest /bin/bash</p>\n<h1>with standard command</h1>\n<p>cd app &amp;&amp; python main.py --ugps_host http://192.168.2.94 --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1</p>\n<h1>or with demo server</h1>\n<p>cd app &amp;&amp; python main.py --ugps_host https://demo.waterlinked.com --mavlink_host http://192.168.2.2:6040 --qgc_ip 192.168.2.1</p>\n<h1>end interactive session</h1>\n<p>exit</p>\n<h1>then stop/start/look at log with</h1>\n<p>docker stop [container-id]\ndocker start [container-id]\ndocker log [container-id] # if run detached</p>\n<h1>if you are a developer, upload the docker image to registry with (replace \"latest\" with desired tag)</h1>\n<p>docker login -u waterlinked\ndocker push waterlinked/blueos-ugps-extension:latest\n```</p>",
                 "support": "https://github.com/waterlinked/blueos-ugps-extension/issues",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -15447,7 +13635,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10989,
+            "downloads": 11010,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -16528,7 +14716,7 @@
             }
         },
         "repo_info": {
-            "downloads": 46544,
+            "downloads": 46653,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
