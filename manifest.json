@@ -710,7 +710,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22569,
+            "downloads": 22648,
             "last_updated": "2026-02-11T11:25:19.836431Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -1046,7 +1046,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8727,
+            "downloads": 8757,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -1158,7 +1158,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88641,
+            "downloads": 88650,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -1270,7 +1270,7 @@
             }
         },
         "repo_info": {
-            "downloads": 83771,
+            "downloads": 83780,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -1571,7 +1571,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17812,
+            "downloads": 17845,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -1689,7 +1689,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86382,
+            "downloads": 86391,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -1801,7 +1801,7 @@
             }
         },
         "repo_info": {
-            "downloads": 91662,
+            "downloads": 91671,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -2236,7 +2236,7 @@
             }
         },
         "repo_info": {
-            "downloads": 57778,
+            "downloads": 57812,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -2623,7 +2623,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23467,
+            "downloads": 23513,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -2888,7 +2888,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15099,
+            "downloads": 15134,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -2990,49 +2990,6 @@
                     }
                 }
             },
-            "v1.11.2": {
-                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 448697728,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
-                    },
-                    {
-                        "expanded_size": 477581564,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4448fb1fc9d9a340142e1af9a93961dfd52f20180e8faa0a86724f8ac5b369a9"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "1.11.2": {
                 "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
                 "type": "other",
@@ -3075,10 +3032,53 @@
                         ]
                     }
                 }
+            },
+            "v1.11.2": {
+                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 448697728,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
+                    },
+                    {
+                        "expanded_size": 477581564,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4448fb1fc9d9a340142e1af9a93961dfd52f20180e8faa0a86724f8ac5b369a9"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 4242,
+            "downloads": 4258,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -3319,7 +3319,7 @@
             }
         },
         "repo_info": {
-            "downloads": 144328,
+            "downloads": 144355,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -3441,7 +3441,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7454,
+            "downloads": 7463,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -3598,7 +3598,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7609,
+            "downloads": 7624,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -3828,7 +3828,7 @@
             }
         },
         "repo_info": {
-            "downloads": 47526,
+            "downloads": 47547,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -3956,7 +3956,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4841,
+            "downloads": 4851,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4225,7 +4225,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13067,
+            "downloads": 13088,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4529,7 +4529,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31656,
+            "downloads": 31698,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -4549,31 +4549,31 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 98333539,
+                        "expanded_size": 98348843,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:ddc27de995c439e11a1889183c4e4fd730da5b169184b6ce363c213f7d1eeab0"
+                        "digest": "sha256:170e3fb5322684fbc0b53d4f4be019aa7135e17304f269afb19b8d395c251b56"
                     },
                     {
-                        "expanded_size": 97848593,
+                        "expanded_size": 97863892,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:5604c250b7407d897bb874022513bf93684f6c239e87f7334067fe3c527ea5fc"
+                        "digest": "sha256:cabdb595d63a27666c28f2ada2a9e2c08b6ec5c0b1b304e856514715f94d2275"
                     },
                     {
-                        "expanded_size": 95694863,
+                        "expanded_size": 95710165,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:e26ce9065f8744482fc4137937813552c8f9989667b8f78f586b7bf4e7944290"
+                        "digest": "sha256:26b3f6e2c2887e4358eefc49ff8b55823381e491bddaa88feec10ea0169c2928"
                     }
                 ],
                 "authors": [
@@ -5134,15 +5134,6 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 95072095,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:19d468b4388912dba20cb63d5c010fef01b631a903ab79ebc0e00851d92dbfbe"
-                    },
-                    {
                         "expanded_size": 92427827,
                         "platform": {
                             "architecture": "arm",
@@ -5150,15 +5141,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:2df15c5f5e0f4377222517577bba757c7c170061f0c1d665780d0faaaee1d94a"
-                    },
-                    {
-                        "expanded_size": 94595049,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7018e5209204743626073ec5572a0ca26d59c3c08d844947293702aa03054ba9"
                     }
                 ],
                 "authors": [
@@ -5386,15 +5368,6 @@
                 "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
-                    {
-                        "expanded_size": 92660557,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a7d8600b27cb9955867deaa69f93787a667578aca9f6e6a2610e8e134bd1113a"
-                    },
                     {
                         "expanded_size": 90005172,
                         "platform": {
@@ -5871,8 +5844,8 @@
             }
         },
         "repo_info": {
-            "downloads": 95827,
-            "last_updated": "2026-02-13T23:20:23.320061Z",
+            "downloads": 96028,
+            "last_updated": "2026-02-17T00:26:29.894813Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -5981,7 +5954,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8566,
+            "downloads": 8578,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6227,7 +6200,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11971,
+            "downloads": 11991,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6298,7 +6271,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7946,
+            "downloads": 7949,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -6590,7 +6563,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5853,
+            "downloads": 5872,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -6802,7 +6775,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6463,
+            "downloads": 6473,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -8678,7 +8651,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44932,
+            "downloads": 45023,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -8692,139 +8665,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/radcam-manager/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
-            "0.2.0-beta.14": {
-                "identifier": "08ff3960-c25c-5f0c-a9ea-b1bd9d184a4b",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "images": [
-                    {
-                        "expanded_size": 58315260,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8c393a71190595b8457f1e14178274c5292eb617ac18e1cf31fe3a6dd2122fd6"
-                    },
-                    {
-                        "expanded_size": 62719278,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5a39f4e038c5473ef6e443d67956cad523b9d880654f009d573eb497f8840600"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
-                        "email": "joao.maker@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "rov",
-                    "camera",
-                    "cam",
-                    "radcam",
-                    "control"
-                ],
-                "extra_links": {},
-                "tag": "0.2.0-beta.14",
-                "docs": null,
-                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "requirements": "[ \"core >= 1.4.3\", \"cockpit >= 1.7\" ]",
-                "company": {
-                    "about": "RadCam's official management interface",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/var/logs/blueos/extensions/radcam-manager:/logs",
-                            "/usr/blueos/extensions/radcam-manager:/app",
-                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.2.0-beta.13": {
-                "identifier": "03def0de-e8d2-5021-8bc2-48c65fc0ea86",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "images": [
-                    {
-                        "expanded_size": 58238707,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2c635a57fb6c729f31bd661cd097c1cd08ba106fe5240d7045a3aea557f29ccd"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
-                        "email": "joao.maker@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "rov",
-                    "camera",
-                    "cam",
-                    "radcam",
-                    "control"
-                ],
-                "extra_links": {},
-                "tag": "0.2.0-beta.13",
-                "docs": null,
-                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "requirements": "[ \"core >= 1.4.3\", \"cockpit >= 1.7\" ]",
-                "company": {
-                    "about": "RadCam's official management interface",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/var/logs/blueos/extensions/radcam-manager:/logs",
-                            "/usr/blueos/extensions/radcam-manager:/app",
-                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.2.0-beta.12": {
                 "identifier": "2aaff342-110f-58fe-91d7-f705aa897dc4",
                 "type": "device-integration",
@@ -9569,75 +9409,6 @@
                     }
                 }
             },
-            "0.1.4": {
-                "identifier": "7c7e9fa1-3333-5330-8c6a-bfcf74ba1d6e",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "images": [
-                    {
-                        "expanded_size": 49590303,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8352d393769c271d5a16189d66fd5248bf169a3ef9834b6969168d16201b3b32"
-                    },
-                    {
-                        "expanded_size": 54394154,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:827546a0a9ea22ea6eac6a5e04674619fc5409ab16661e6812b535a670aa3f54"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
-                        "email": "joao.maker@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "rov",
-                    "camera",
-                    "cam",
-                    "radcam",
-                    "control"
-                ],
-                "extra_links": {},
-                "tag": "0.1.4",
-                "docs": null,
-                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "requirements": "[ \"core >= 1.4\", \"cockpit >= 1.7\" ]",
-                "company": {
-                    "about": "RadCam's official management interface",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Binds": [
-                            "/var/logs/blueos/extensions/radcam-manager:/logs"
-                        ],
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "0.1.3": {
                 "identifier": "27983019-45c5-5847-83f4-3399fe56b267",
                 "type": "device-integration",
@@ -9694,67 +9465,10 @@
                         }
                     }
                 }
-            },
-            "0.1.2": {
-                "identifier": "ba3214c2-03e3-533a-84ec-41aba5cc8ccd",
-                "type": "device-integration",
-                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "images": [
-                    {
-                        "expanded_size": 54336039,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:91239451d73a67476b3a348a29c008e45def18801aff6bef2d574d5837725bff"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
-                        "email": "joao.maker@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "rov",
-                    "camera",
-                    "cam",
-                    "radcam",
-                    "control"
-                ],
-                "extra_links": {},
-                "tag": "0.1.2",
-                "docs": null,
-                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
-                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
-                "requirements": "[ \"core >= 1.4\", \"cockpit >= 1.7\" ]",
-                "company": {
-                    "about": "RadCam's official management interface",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "8080/tcp": {}
-                    },
-                    "HostConfig": {
-                        "ExtraHosts": [
-                            "blueos.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "8080/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 13376,
+            "downloads": 13446,
             "last_updated": "2026-01-08T22:01:31.407166Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
@@ -10114,15 +9828,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:3afe7d6d1ecb2f2908b5bbc9454d12c5a8c9bb1a939eda13e42d7d2afe593740"
-                    },
-                    {
-                        "expanded_size": 45010932,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7ac08a2b2901e12d5a2710a0356dd51ca1cc9606e8ec0568c1227b1e1a3d0682"
                     }
                 ],
                 "authors": [
@@ -11381,7 +11086,7 @@
             }
         },
         "repo_info": {
-            "downloads": 129824,
+            "downloads": 129981,
             "last_updated": "2026-02-13T20:42:34.733658Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -11565,7 +11270,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9401,
+            "downloads": 9417,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -11638,7 +11343,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2945,
+            "downloads": 2948,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -12244,7 +11949,7 @@
             }
         },
         "repo_info": {
-            "downloads": 257265,
+            "downloads": 257333,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -12324,7 +12029,7 @@
             }
         },
         "repo_info": {
-            "downloads": 962,
+            "downloads": 964,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -12392,7 +12097,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2050,
+            "downloads": 2054,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -12819,7 +12524,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7352,
+            "downloads": 7440,
             "last_updated": "2025-11-26T19:52:40.880543Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -12938,7 +12643,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6929,
+            "downloads": 6938,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -13386,7 +13091,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7516,
+            "downloads": 7548,
             "last_updated": "2026-02-12T17:03:00.473542Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -13702,7 +13407,7 @@
             }
         },
         "repo_info": {
-            "downloads": 18804,
+            "downloads": 18831,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -14358,7 +14063,7 @@
             }
         },
         "repo_info": {
-            "downloads": 46613,
+            "downloads": 46677,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -14422,7 +14127,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2455,
+            "downloads": 2458,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -15503,7 +15208,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51893,
+            "downloads": 52005,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -15879,7 +15584,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7740,
+            "downloads": 7769,
             "last_updated": "2026-01-30T23:08:57.02872Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -16120,7 +15825,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4732,
+            "downloads": 4751,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -16351,7 +16056,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8672,
+            "downloads": 8691,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -16591,8 +16296,8 @@
             }
         },
         "repo_info": {
-            "downloads": 10907,
-            "last_updated": "2025-09-05T17:43:37.326839Z",
+            "downloads": 10975,
+            "last_updated": "2026-02-17T08:08:45.838164Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
     },
@@ -16972,7 +16677,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7717,
+            "downloads": 7738,
             "last_updated": "2026-02-05T20:04:31.590433Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
