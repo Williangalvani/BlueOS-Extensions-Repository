@@ -653,6 +653,24 @@
                             "os": "linux"
                         },
                         "digest": "sha256:41d260710ff0cdbb41f2ff5469518b8870823a069578601b9a9b0bbec475721b"
+                    },
+                    {
+                        "expanded_size": 557323967,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0840f1d861197945db98b0ca17c2211dca2b039494b18ec259f6866400a5be68"
+                    },
+                    {
+                        "expanded_size": 573055046,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:76d2a668ec8d8fdbbc82e0807a3b54b1002bed73f6a2a65f8d0d46dadce21987"
                     }
                 ],
                 "authors": [
@@ -818,7 +836,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25161,
+            "downloads": 25226,
             "last_updated": "2026-02-11T11:25:19.836431Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -1253,7 +1271,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10084,
+            "downloads": 10114,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -1383,7 +1401,7 @@
             }
         },
         "repo_info": {
-            "downloads": 89019,
+            "downloads": 89028,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -1513,7 +1531,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84151,
+            "downloads": 84161,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -1710,49 +1728,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -1779,6 +1754,49 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -1859,7 +1877,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19182,
+            "downloads": 19217,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -1995,7 +2013,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86760,
+            "downloads": 86769,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -2125,7 +2143,7 @@
             }
         },
         "repo_info": {
-            "downloads": 92036,
+            "downloads": 92046,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -2578,7 +2596,7 @@
             }
         },
         "repo_info": {
-            "downloads": 59165,
+            "downloads": 59208,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -2992,7 +3010,7 @@
             }
         },
         "repo_info": {
-            "downloads": 25351,
+            "downloads": 25396,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -3122,64 +3140,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    },
-                    {
-                        "expanded_size": 157816879,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -3222,6 +3182,64 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 157816879,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -3356,7 +3374,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16468,
+            "downloads": 16502,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -3485,58 +3503,6 @@
                     }
                 }
             },
-            "v1.11.2": {
-                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 448697728,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
-                    },
-                    {
-                        "expanded_size": 474079974,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:cd152b36da020bd7f737ec6bcd694027b3eca1b5c5c967540abfcce26cc17e6a"
-                    },
-                    {
-                        "expanded_size": 477581564,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4448fb1fc9d9a340142e1af9a93961dfd52f20180e8faa0a86724f8ac5b369a9"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "1.11.2": {
                 "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
                 "type": "other",
@@ -3588,10 +3554,62 @@
                         ]
                     }
                 }
+            },
+            "v1.11.2": {
+                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 448697728,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
+                    },
+                    {
+                        "expanded_size": 474079974,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cd152b36da020bd7f737ec6bcd694027b3eca1b5c5c967540abfcce26cc17e6a"
+                    },
+                    {
+                        "expanded_size": 477581564,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4448fb1fc9d9a340142e1af9a93961dfd52f20180e8faa0a86724f8ac5b369a9"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 4907,
+            "downloads": 4921,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -3877,7 +3895,7 @@
             }
         },
         "repo_info": {
-            "downloads": 145480,
+            "downloads": 145508,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -4008,7 +4026,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7829,
+            "downloads": 7838,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4174,7 +4192,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8214,
+            "downloads": 8229,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -4404,7 +4422,7 @@
             }
         },
         "repo_info": {
-            "downloads": 48421,
+            "downloads": 48444,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -4541,7 +4559,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5241,
+            "downloads": 5250,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4828,7 +4846,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13934,
+            "downloads": 13955,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -5132,7 +5150,7 @@
             }
         },
         "repo_info": {
-            "downloads": 33263,
+            "downloads": 33304,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -6708,7 +6726,7 @@
             }
         },
         "repo_info": {
-            "downloads": 102236,
+            "downloads": 102383,
             "last_updated": "2026-03-11T15:32:42.754573Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -6818,7 +6836,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8970,
+            "downloads": 8979,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -7064,7 +7082,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12741,
+            "downloads": 12759,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -7135,7 +7153,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8061,
+            "downloads": 8063,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -7445,7 +7463,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6648,
+            "downloads": 6666,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -7666,7 +7684,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6914,
+            "downloads": 6924,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -9542,7 +9560,7 @@
             }
         },
         "repo_info": {
-            "downloads": 48557,
+            "downloads": 48648,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -9556,6 +9574,86 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/radcam-manager/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
+            "0.2.0": {
+                "identifier": "b5535e61-6f8b-526f-a667-8a74819da4ae",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "images": [
+                    {
+                        "expanded_size": 58393909,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d4c95e42c86fa185abfa78076e09ad0a9a881bd82f4e16e1877d6a9177d50953"
+                    },
+                    {
+                        "expanded_size": 62806897,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6610387066e0ed8b4940e5a2a574d8e8b0d30cf7482da45c2605a5f5e3ae385c"
+                    },
+                    {
+                        "expanded_size": 63450264,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6cf7ab3bcfa17c6514e457887936eafe38b857ef7a0cd5e3363882efd9eaea19"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o Ant\u00f4nio Cardoso",
+                        "email": "joao.maker@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "rov",
+                    "camera",
+                    "cam",
+                    "radcam",
+                    "control"
+                ],
+                "extra_links": {},
+                "tag": "0.2.0",
+                "docs": null,
+                "readme": "<h1>RadCam Manager</h1>\n<p>This is the official RadCam management interface application.</p>\n<p>For the technical read, click <a href=\"README_DEVS.md\">here</a></p>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/radcam-manager/",
+                "requirements": "[ \"core >= 1.4.3\", \"cockpit >= 1.7\" ]",
+                "company": {
+                    "about": "RadCam's official management interface",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/var/logs/blueos/extensions/radcam-manager:/logs",
+                            "/usr/blueos/extensions/radcam-manager:/app",
+                            "/root/.config/blueos/ardupilot-manager/firmware/scripts:/scripts"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.0-beta.17": {
                 "identifier": "bb7ddba4-5e83-508e-8cee-2dd03541ce10",
                 "type": "device-integration",
@@ -11128,8 +11226,8 @@
             }
         },
         "repo_info": {
-            "downloads": 16673,
-            "last_updated": "2026-03-19T16:52:28.55356Z",
+            "downloads": 16776,
+            "last_updated": "2026-03-25T17:07:27.426154Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
     },
@@ -13088,7 +13186,7 @@
             }
         },
         "repo_info": {
-            "downloads": 139433,
+            "downloads": 139724,
             "last_updated": "2026-03-25T00:26:50.755195Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -13272,7 +13370,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10093,
+            "downloads": 10108,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -13345,7 +13443,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3083,
+            "downloads": 3086,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -13844,6 +13942,15 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
+                        "expanded_size": 78844216,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2f52eb554ba188b329ad06f5167927c54fa773cb33beb6f78a1d2bb3ab991395"
+                    },
+                    {
                         "expanded_size": 72588503,
                         "platform": {
                             "architecture": "arm",
@@ -13960,7 +14067,7 @@
             }
         },
         "repo_info": {
-            "downloads": 259994,
+            "downloads": 260067,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -14040,7 +14147,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1071,
+            "downloads": 1073,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -14108,7 +14215,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2157,
+            "downloads": 2159,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -14526,7 +14633,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8487,
+            "downloads": 8510,
             "last_updated": "2025-11-26T19:52:40.880543Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -14645,7 +14752,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7336,
+            "downloads": 7345,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -15468,15 +15575,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:cb538b36b713081458cf25a42e8a55a67154f1471685a63f7380a1e9890cc69f"
-                    },
-                    {
-                        "expanded_size": 68242111,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:03216b2a92bb1000c56f3133065c5d874cbbab6d9e7ad2a229f660b41295c3fa"
                     }
                 ],
                 "authors": [
@@ -15564,7 +15662,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9746,
+            "downloads": 9806,
             "last_updated": "2026-03-16T23:21:06.030866Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -15880,7 +15978,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19939,
+            "downloads": 19967,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -16536,7 +16634,7 @@
             }
         },
         "repo_info": {
-            "downloads": 49209,
+            "downloads": 49272,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -16600,7 +16698,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2614,
+            "downloads": 2617,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -17681,7 +17779,7 @@
             }
         },
         "repo_info": {
-            "downloads": 56152,
+            "downloads": 56258,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -18057,7 +18155,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9040,
+            "downloads": 9071,
             "last_updated": "2026-01-30T23:08:57.02872Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -18298,7 +18396,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5512,
+            "downloads": 5530,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -18529,7 +18627,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9455,
+            "downloads": 9473,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -18778,7 +18876,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11927,
+            "downloads": 11950,
             "last_updated": "2026-02-26T22:30:07.570846Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -19087,7 +19185,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8537,
+            "downloads": 8555,
             "last_updated": "2026-02-05T20:04:31.590433Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
