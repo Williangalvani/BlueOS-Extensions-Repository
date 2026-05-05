@@ -140,7 +140,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5691,
+            "downloads": 5704,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -445,7 +445,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14945,
+            "downloads": 14973,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2321,7 +2321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 52844,
+            "downloads": 52964,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2392,7 +2392,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8212,
+            "downloads": 8215,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -2638,7 +2638,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13694,
+            "downloads": 13718,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -3007,7 +3007,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13123,
+            "downloads": 13169,
             "last_updated": "2026-04-29T18:55:15.405134Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -3096,7 +3096,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1209,
+            "downloads": 1214,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -3280,7 +3280,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10928,
+            "downloads": 10948,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -3399,7 +3399,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7818,
+            "downloads": 7830,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -4055,7 +4055,7 @@
             }
         },
         "repo_info": {
-            "downloads": 52220,
+            "downloads": 52304,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -4371,7 +4371,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21242,
+            "downloads": 21278,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -4704,6 +4704,15 @@
                         "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
                     },
                     {
+                        "expanded_size": 75511816,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f928136f896cc5ba7753901e9031804fff748e4783cc4f1b01aa12a4be7f879f"
+                    },
+                    {
                         "expanded_size": 77083331,
                         "platform": {
                             "architecture": "amd64",
@@ -4769,6 +4778,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924"
+                    },
+                    {
+                        "expanded_size": 75850736,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8d1f4ea8c26a0fc7614c51f890e4cfd8c10cb66254b5c83b03278985b310b5bf"
                     },
                     {
                         "expanded_size": 77417461,
@@ -4838,6 +4856,15 @@
                         "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
                     },
                     {
+                        "expanded_size": 75812211,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e6aad97e0a6cf384cbfd84fa8c4b13bdf14a46c832458d07070b851a5d855028"
+                    },
+                    {
                         "expanded_size": 77377333,
                         "platform": {
                             "architecture": "amd64",
@@ -4903,6 +4930,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
+                    },
+                    {
+                        "expanded_size": 75733848,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c11db66e0051d03248c40a8fa06c48737942bc8fe5c3ec0107152cdda8dd479"
                     },
                     {
                         "expanded_size": 77304661,
@@ -5094,7 +5130,7 @@
             }
         },
         "repo_info": {
-            "downloads": 263137,
+            "downloads": 263224,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -5162,7 +5198,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2305,
+            "downloads": 2307,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -5431,6 +5467,15 @@
                         "digest": "sha256:188cb01146a7a0cd5d62dab5702d31b43036f4ea5f0a5e65f8b7fd112d3d8f63"
                     },
                     {
+                        "expanded_size": 62808815,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4b91f42fc076952cee5e63397528b2d624c6260562763a5557fbfcec431fde2f"
+                    },
+                    {
                         "expanded_size": 63450668,
                         "platform": {
                             "architecture": "amd64",
@@ -5500,6 +5545,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:8c393a71190595b8457f1e14178274c5292eb617ac18e1cf31fe3a6dd2122fd6"
+                    },
+                    {
+                        "expanded_size": 62719278,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5a39f4e038c5473ef6e443d67956cad523b9d880654f009d573eb497f8840600"
                     },
                     {
                         "expanded_size": 63368556,
@@ -5573,6 +5627,15 @@
                         "digest": "sha256:2c635a57fb6c729f31bd661cd097c1cd08ba106fe5240d7045a3aea557f29ccd"
                     },
                     {
+                        "expanded_size": 62645588,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:706c571c93e65d178c2e8cacfbdeadeaff4d16d643cb38efc24df5987d81ae5e"
+                    },
+                    {
                         "expanded_size": 63294182,
                         "platform": {
                             "architecture": "amd64",
@@ -5644,6 +5707,15 @@
                         "digest": "sha256:bc74d75d1c3775ea1b77af930b2158a909d842202d00532ab21b1077a21899f6"
                     },
                     {
+                        "expanded_size": 62851262,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fc4cb599431f69ddd9655b59554d220948d44eacb6aca4bc81ed1aab56204fd1"
+                    },
+                    {
                         "expanded_size": 63515635,
                         "platform": {
                             "architecture": "amd64",
@@ -5713,6 +5785,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b34236c2998375e02a0b47336f179a3cdfb6c7b5de376dd7be0ca160901ddb01"
+                    },
+                    {
+                        "expanded_size": 62847850,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ca05894f0f330389b2069570ed9367748cb222ba40a22a75b77e4887eed205dd"
                     },
                     {
                         "expanded_size": 63513217,
@@ -6684,7 +6765,7 @@
             }
         },
         "repo_info": {
-            "downloads": 20850,
+            "downloads": 20975,
             "last_updated": "2026-03-25T17:07:27.426154Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
@@ -8378,15 +8459,6 @@
                         "digest": "sha256:eaa38c2f840f51be07e86388561a246422b02a4e590dc2e894d35d42ad9462eb"
                     },
                     {
-                        "expanded_size": 33665256,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:68f03e6ca7eded1564cdd03009254568483747a8dafc33850050a85a3e097398"
-                    },
-                    {
                         "expanded_size": 33708795,
                         "platform": {
                             "architecture": "amd64",
@@ -8608,7 +8680,7 @@
             }
         },
         "repo_info": {
-            "downloads": 149093,
+            "downloads": 149316,
             "last_updated": "2026-05-01T00:40:39.182811Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -8883,6 +8955,15 @@
                         "digest": "sha256:31695cefd4807f1cf0ff29963ce9ba0ae21ec23f599687a2d0d3fbe4e9bfd34e"
                     },
                     {
+                        "expanded_size": 104658385,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:80149d8aacb0dd070a711779b194cbdfaa2c1145e4e4a5fa3d7cee08d91db12f"
+                    },
+                    {
                         "expanded_size": 107364608,
                         "platform": {
                             "architecture": "amd64",
@@ -8954,6 +9035,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:1deed31f468d4899a9ad6b8b7d3327efb72e475427f9c12ee88effc2668ef91f"
+                    },
+                    {
+                        "expanded_size": 104466780,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0fb9591587c22e5f5d554bca1f471b912eaa3df779428767af71b4881aed32f5"
                     },
                     {
                         "expanded_size": 107173013,
@@ -9029,6 +9119,15 @@
                         "digest": "sha256:2d9c19eea0c360eded692fb5e23d3a7d8bb7146f542e7aeb613f9ef8a245d88d"
                     },
                     {
+                        "expanded_size": 104323629,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9531b33148500a5a60e71aece48921e09de7ac2117165b517b675754c91de492"
+                    },
+                    {
                         "expanded_size": 107030530,
                         "platform": {
                             "architecture": "amd64",
@@ -9102,6 +9201,15 @@
                         "digest": "sha256:5fdbc09389ee7691c4c5b801c6f071f45d2d153afa375a3c872209870c20f3a2"
                     },
                     {
+                        "expanded_size": 104329318,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ed79d45d4be2cbc542e540d2ed3bde09530ba8ea7c7b245d005468f8be77eb4a"
+                    },
+                    {
                         "expanded_size": 107037533,
                         "platform": {
                             "architecture": "amd64",
@@ -9162,7 +9270,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9822,
+            "downloads": 9861,
             "last_updated": "2026-04-13T19:24:51.71125Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -9226,7 +9334,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2796,
+            "downloads": 2800,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -9299,7 +9407,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3252,
+            "downloads": 3256,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -9359,7 +9467,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.21",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9427,7 +9535,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.20",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9495,7 +9603,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.19",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9563,7 +9671,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.18",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9631,7 +9739,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.17",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9699,7 +9807,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.16",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9767,7 +9875,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.15",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9826,7 +9934,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.14",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9894,7 +10002,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.13",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -9962,7 +10070,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.12",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10021,7 +10129,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.11",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10089,7 +10197,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.10",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10157,7 +10265,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.9",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10216,7 +10324,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.8",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10275,7 +10383,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.7",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10342,7 +10450,7 @@
                 "extra_links": {},
                 "tag": "1.0.0-beta.6",
                 "docs": null,
-                "readme": "<h1>BlueOS's Ping Viewer Next Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer Next</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
+                "readme": "<h1>BlueOS's Ping Viewer Extension</h1>\n<h2>Instructions</h2>\n<h3>Manual Instalation</h3>\n<p>Access the extensions manager and install with the following parameters:</p>\n<p>Extensions Manager:</p>\n<p><code>shell\nblueos.local/tools/extensions-manager</code></p>\n<p>Parameters:</p>\n<p>```shell\nbluerobotics.ping-viewer-next</p>\n<p>Ping Viewer</p>\n<p>1.0.0-beta.6</p>\n<p>{\n  \"ExposedPorts\": {\n    \"6060/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"Privileged\": true,\n    \"PortBindings\": {\n      \"6060/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    },\n    \"NetworkMode\": \"host\"\n  }\n}\n```</p>\n<h3>Cockpit Widgets</h3>\n<p>For each connected ping device, provides a widget accessible through Cockpit as an\n<a href=\"https://blueos.cloud/cockpit/docs/latest/usage/advanced/#automatic-external-iframes\">Automatic External Iframe</a>.</p>\n<p>Requires BlueOS &gt;= 1.4.</p>",
                 "support": null,
                 "requirements": null,
                 "company": {
@@ -10490,7 +10598,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12881,
+            "downloads": 12997,
             "last_updated": "2026-04-29T18:13:03.533843Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -10720,7 +10828,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7474,
+            "downloads": 7489,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -11039,7 +11147,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7584,
+            "downloads": 7611,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -12005,7 +12113,7 @@
             }
         },
         "repo_info": {
-            "downloads": 28221,
+            "downloads": 28322,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -12124,7 +12232,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9417,
+            "downloads": 9432,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -12482,7 +12590,7 @@
             }
         },
         "repo_info": {
-            "downloads": 35079,
+            "downloads": 35139,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -12496,6 +12604,71 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "1.14.59-beta": {
+                "identifier": "224c871c-37f1-5e8d-8870-6f5c6809e22b",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 79433113,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:c06b0d7903b864acbc5d06ccc90bed20ef6579f3dc7aba3b31956e27df4ab794"
+                    },
+                    {
+                        "expanded_size": 78950268,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bd65c847f895d09d4532c9dedc5879d30830cd9fc69a80f333aaa03dea4d9de9"
+                    },
+                    {
+                        "expanded_size": 76798342,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9ea95041f02a1428615cd9a75deec650ef914fb6d31de96a319569fadb20f686"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.59-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
             "1.14.58-beta": {
                 "identifier": "86b5adb6-a62f-5709-a854-a590a018899e",
                 "type": "device-integration",
@@ -13972,67 +14145,11 @@
                         ]
                     }
                 }
-            },
-            "1.14.25-beta": {
-                "identifier": "7d06f4b0-f57c-506f-810f-b9b12460dd54",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 114717168,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:894087cf1355567b118b3769e4ea5e6b5cb53bf3c053446a17d502f11de2dc6e"
-                    },
-                    {
-                        "expanded_size": 111511586,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8f4005cb5741933671b859f97dc7c25eeed59dab9679ac4490e335a2f605c789"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.25-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 109740,
-            "last_updated": "2026-05-03T19:33:57.486871Z",
+            "downloads": 109990,
+            "last_updated": "2026-05-04T20:03:55.348103Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -14412,7 +14529,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9973,
+            "downloads": 10010,
             "last_updated": "2026-04-28T14:08:59.458745Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -15715,7 +15832,7 @@
             }
         },
         "repo_info": {
-            "downloads": 61041,
+            "downloads": 61192,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -15845,7 +15962,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84591,
+            "downloads": 84603,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -16331,7 +16448,7 @@
             }
         },
         "repo_info": {
-            "downloads": 27493,
+            "downloads": 27555,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -16617,7 +16734,7 @@
             }
         },
         "repo_info": {
-            "downloads": 146796,
+            "downloads": 146833,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -16747,64 +16864,6 @@
                     }
                 }
             },
-            "1.0.2": {
-                "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135355878,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
-                    },
-                    {
-                        "expanded_size": 157816485,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0d3228f9d5ade13c571c0573bf22aaebdb7791fb32010a3ce64a32649dccae2c"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.2": {
                 "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
                 "type": "tool",
@@ -16847,6 +16906,64 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "v1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.2": {
+                "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135355878,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
+                    },
+                    {
+                        "expanded_size": 157816485,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0d3228f9d5ade13c571c0573bf22aaebdb7791fb32010a3ce64a32649dccae2c"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -16981,7 +17098,7 @@
             }
         },
         "repo_info": {
-            "downloads": 18036,
+            "downloads": 18080,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -17452,7 +17569,7 @@
             }
         },
         "repo_info": {
-            "downloads": 60937,
+            "downloads": 60983,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -17618,7 +17735,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8951,
+            "downloads": 8974,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -17748,7 +17865,7 @@
             }
         },
         "repo_info": {
-            "downloads": 89450,
+            "downloads": 89462,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -17877,58 +17994,6 @@
                     }
                 }
             },
-            "1.11.2": {
-                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 377758539,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
-                    },
-                    {
-                        "expanded_size": 400044021,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09e3adf3d735b5939a558f4dc0cd0b983b42132aeda85bb775bc6de7b2b5766e"
-                    },
-                    {
-                        "expanded_size": 406148810,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "v1.11.2": {
                 "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
                 "type": "other",
@@ -17980,10 +18045,62 @@
                         ]
                     }
                 }
+            },
+            "1.11.2": {
+                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 377758539,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
+                    },
+                    {
+                        "expanded_size": 400044021,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09e3adf3d735b5939a558f4dc0cd0b983b42132aeda85bb775bc6de7b2b5766e"
+                    },
+                    {
+                        "expanded_size": 406148810,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 5702,
+            "downloads": 5724,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -18113,7 +18230,7 @@
             }
         },
         "repo_info": {
-            "downloads": 92467,
+            "downloads": 92479,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -18244,7 +18361,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8262,
+            "downloads": 8274,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -18432,58 +18549,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -18519,6 +18584,58 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -18599,7 +18716,7 @@
             }
         },
         "repo_info": {
-            "downloads": 20739,
+            "downloads": 20783,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -18735,7 +18852,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87189,
+            "downloads": 87201,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -18965,7 +19082,7 @@
             }
         },
         "repo_info": {
-            "downloads": 49404,
+            "downloads": 49433,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -19400,7 +19517,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11632,
+            "downloads": 11677,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -19776,7 +19893,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10667,
+            "downloads": 10726,
             "last_updated": "2026-04-17T20:19:04.66803Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -20017,7 +20134,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6415,
+            "downloads": 6442,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -20248,7 +20365,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10354,
+            "downloads": 10379,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
