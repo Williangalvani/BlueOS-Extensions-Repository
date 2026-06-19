@@ -1297,7 +1297,7 @@
             }
         },
         "repo_info": {
-            "downloads": 66368,
+            "downloads": 66480,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -1538,7 +1538,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7300,
+            "downloads": 7318,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -1769,7 +1769,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11242,
+            "downloads": 11260,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -2088,7 +2088,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8526,
+            "downloads": 8547,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -2318,7 +2318,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7965,
+            "downloads": 7975,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -2789,7 +2789,7 @@
             }
         },
         "repo_info": {
-            "downloads": 62574,
+            "downloads": 62611,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -2918,58 +2918,6 @@
                     }
                 }
             },
-            "v1.11.2": {
-                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 448697728,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
-                    },
-                    {
-                        "expanded_size": 474079974,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:cd152b36da020bd7f737ec6bcd694027b3eca1b5c5c967540abfcce26cc17e6a"
-                    },
-                    {
-                        "expanded_size": 477581564,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4448fb1fc9d9a340142e1af9a93961dfd52f20180e8faa0a86724f8ac5b369a9"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "1.11.2": {
                 "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
                 "type": "other",
@@ -3021,10 +2969,62 @@
                         ]
                     }
                 }
+            },
+            "v1.11.2": {
+                "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 448697728,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:343934b5d699e847526667ec1434c80c9d851fceee11b06ddc373322a7a2c9df"
+                    },
+                    {
+                        "expanded_size": 474079974,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cd152b36da020bd7f737ec6bcd694027b3eca1b5c5c967540abfcce26cc17e6a"
+                    },
+                    {
+                        "expanded_size": 477581564,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4448fb1fc9d9a340142e1af9a93961dfd52f20180e8faa0a86724f8ac5b369a9"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 6506,
+            "downloads": 6525,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -3310,7 +3310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 148107,
+            "downloads": 148138,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -3796,7 +3796,7 @@
             }
         },
         "repo_info": {
-            "downloads": 29642,
+            "downloads": 29687,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -3926,64 +3926,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    },
-                    {
-                        "expanded_size": 157816879,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -4026,6 +3968,64 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 157816879,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -4160,7 +4160,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19600,
+            "downloads": 19632,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -4390,7 +4390,7 @@
             }
         },
         "repo_info": {
-            "downloads": 50402,
+            "downloads": 50423,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -4521,7 +4521,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8705,
+            "downloads": 8714,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4956,7 +4956,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13124,
+            "downloads": 13154,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -5122,7 +5122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9658,
+            "downloads": 9672,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -5252,7 +5252,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85037,
+            "downloads": 85046,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -5449,67 +5449,6 @@
                     }
                 }
             },
-            "1.0.0": {
-                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
                 "type": "example",
@@ -5554,6 +5493,67 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -5634,7 +5634,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22324,
+            "downloads": 22358,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -5764,7 +5764,7 @@
             }
         },
         "repo_info": {
-            "downloads": 92909,
+            "downloads": 92918,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -5900,7 +5900,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87633,
+            "downloads": 87642,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -6030,7 +6030,7 @@
             }
         },
         "repo_info": {
-            "downloads": 89893,
+            "downloads": 89902,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -6101,7 +6101,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8323,
+            "downloads": 8325,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -6347,7 +6347,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14588,
+            "downloads": 14607,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -6361,37 +6361,102 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "1.14.73-beta": {
+                "identifier": "5ee73912-c3be-5234-a827-3205855ed60c",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 77956918,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:27b81f46281db66945ada6a3baf9059563d75872d8637be4a969e27870a72827"
+                    },
+                    {
+                        "expanded_size": 77476978,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:294a5ca11ab6d21fd41bf2802ff9854f31cb857a91b7c343356024be9ed0ec94"
+                    },
+                    {
+                        "expanded_size": 75324443,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ce8a9f1fbd0ca2041ba9bfdc41f6bc9a07088e24ec978500a046f285266b5e9f"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.73-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
             "1.14.72-beta": {
                 "identifier": "d757673f-5856-597e-af30-761dc22b0829",
                 "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 75886957,
+                        "expanded_size": 77039822,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:3e990663c84f9097b23f510a93c27f7575a7ac16ebc44676f25ba15e1f322d5f"
+                        "digest": "sha256:a31c2d3721b15de09867a5b110e6744ef7db742f357bc942d8a656a1f6a8a2a1"
                     },
                     {
-                        "expanded_size": 75405355,
+                        "expanded_size": 76558428,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:a3de8e558f3454db03ad10be3724bd55bec9a00e40b4a930cb8e2453ff804499"
+                        "digest": "sha256:89f0044d3d00be42c5a78648c7e87ea6b80d23964639f6f7c6d6a81886305c86"
                     },
                     {
-                        "expanded_size": 73249915,
+                        "expanded_size": 74405671,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:4ec7053c8ca66208efc7f7da99056d4446be941cee9538aa0b66562ef78e8e61"
+                        "digest": "sha256:0b9d767577d98cb2ac766d31876b07fac8f5396472f70593106bfb50b39a74de"
                     }
                 ],
                 "authors": [
@@ -6432,31 +6497,31 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 75882482,
+                        "expanded_size": 77034764,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:8a0b12e1653f275057e9c2b57ffc1c201fdd5e5ca26f97653c8c573432f01f39"
+                        "digest": "sha256:87d9967d907d7e0ba1e74737ee131ade6b3dccdc7068e2a000d18cae4d59ebae"
                     },
                     {
-                        "expanded_size": 75402010,
+                        "expanded_size": 76552092,
                         "platform": {
                             "architecture": "arm64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:b4fca7d2cd2e36e7eae7db65f6fd5dfcb05c3250b49e9f79af4db0206925797f"
+                        "digest": "sha256:88fc412a3874fcd36d923ffb598a1c0dedcaf08397b34adc13e948e3e5977db3"
                     },
                     {
-                        "expanded_size": 73246962,
+                        "expanded_size": 74397109,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:72f51c39bd70c92974c7f8b838268cb544494a01c7947fea2579d0aebc203b77"
+                        "digest": "sha256:aacd4f84f525eb751bb1ffd072ffd56d3197f8483986b5559697e07a53d48a06"
                     }
                 ],
                 "authors": [
@@ -7855,76 +7920,11 @@
                         ]
                     }
                 }
-            },
-            "1.14.34-beta": {
-                "identifier": "15ae708b-42fd-519c-9a3c-3ff20f77e2b8",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 97772011,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4b93bdaa85e41e185377eb62121e4ec6242966a41e90b2aed32ce800052c1489"
-                    },
-                    {
-                        "expanded_size": 97286524,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:73c3fb10b7c06b7ad7da798f7ffd581dac9edaa4bfdb5fab799676c152d624ff"
-                    },
-                    {
-                        "expanded_size": 95132950,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6492e7ac17e8ba75dc20f30bea1f39f8789b1dfd66dbb7db735de1712a47a581"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.34-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 117709,
-            "last_updated": "2026-06-11T16:53:18.481586Z",
+            "downloads": 118005,
+            "last_updated": "2026-06-18T19:17:24.585463Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -8281,7 +8281,7 @@
             }
         },
         "repo_info": {
-            "downloads": 36939,
+            "downloads": 36979,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -8400,7 +8400,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9866,
+            "downloads": 9875,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -8464,7 +8464,7 @@
                 "extra_links": {},
                 "tag": "1.15.0",
                 "docs": null,
-                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABsCAYAAABHCr0bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAACE3AAAhNwEzWJ96AAAAB3RJTUUH6QkKEw02+0aUAgAAHIZJREFUeNrtnXeclcX1/9+fuXcXWKlSdFERFFGwolixG6wpCibRKBEEFASxIgYLipGAGAwqGhtWYlS+aDRBjb2gWKhSBFEEFUQpCyuy7d7z+2OeVUTY+zx377O7xt9nX8Puss89c+Z8nmlnzsyInwAadT4NIAFsB+wFdAH2AdoD2wONgXrB4+VAMfAV8AnwAfA+MBv4AqgAKJ75ZKVcgCSwA7BvIHtvYBegFdAIyAueKwXWA18Ci4E5gey5wEogVTzzydo2V0aothXYGhrtd1qlfi2BroiTgEOBnYGGEXX/FvgMeBd4FuM1PHHbI44CTgIOAnYCCiLINeAbYCnwNsazwFTga8CKZ9XNF6DOkd6o86mVeu0C/B74LdAJyM9RFhXAQmAGsD+wO76m5wJlwHzgCeAxfEtjxTOfqhHbhUWdIb3h/qchDEOtMXoB5+KJrzM6RoDhCZ+AeEDYckN8M6Nu1Pw6YdBG+3dHkG9wCtgw4IC6ols1YcB00EjBfwzKimdMrm2datewjTt39xoYrQyGAv3wA6f/NRQD9whGI77CYP3M2iO/1khvvP9pYAJZJ2AscHxt6lMDMOC/wKWY5iNjfS0197Vi5MYH9ADSgA7BuBPYr1ZKXzuYhRgANg0c66f/X40rkKjpDBvv3yNo0nUYcB9+TvxzwvZAV3AzEZ/VK+xE6YoFNapAjdb0Rl16IAPzTpCH+fkRvik+AHoKZpug+P2aq/E1RnqTzqdizgHsCDwCHJVb9a0GSpHz/F4DzgY+VzrNuhqaz+fKKZEZiSSCBmDDqT7habybdVGQPgOlgPPxXrVc4zPgLnx3uBPQAdQB76Z11ZB7FDAcNJiE2xiD3ltEjZDepEtlP25/AHpWo4H5BngTmBx8X4a5b1HKkPpjtIqpCK0QqzH7O5YQShcAbYDDge7B94bZibaeYNOQ7mvSpQfraqCZj795P+i3NDYD2AP4F9AhCyXLgZeAW4HXMTYgSEvIy94XeApoG2NJPgVOBWabhDM/OEFsAxwJDAaOs+8XZ6JgEfAb4MP1Erz7RIzFqF7TFApNDJyUFAwUdBD+TYuQvgSuMDgDeBbYsO79Sax7bxLOQFK+4GJB2yxkR0ltBRdLyncG696bxLr3JwFsAJ4N9LtC8GUWsjsIBjop2aQGhiax1vSmB5+Or4gcCjwNtIio2jzgojS87MDWbVIDmh50euVQ6hfAJKBJBNmGXyJt7D1EobEOOB14UUDRu5O++0OTg35LGuTgWGAcsGfEwd4q4NfA2xIUvTMpymcjIdaabiaQSwj1FmohonwxR9ALeCmxGeEeArl6Qv2EmkSU/Yqw0/33SF9NhPohV2/z+rLu3SdIeJZfEvTy+kf6aiHUG7mERXoP6xjpEgjriDglWnunpUgDgfclUbQZ4U0POc1zjnVBdIsoezbShaAXkS70v0f5PN2CfL0em6Do3SeQBPA+0kBfjkiyTxHWUTGPtGIjvdnBv6uk/peg1hFK/i0wXOJNJIreefxHsmV5pEgB6g5qFkH2amAoYn7wRs4Hhvr/Dy2jGah7ihSyH4/Zit55HCQk3sRPx76NILu1t9em9vsJke6N6hpJnCQFv4ZLj8sHIGyR8ErZCSULJY6PKPsuwQsKZAemfkHirohyjk8oWchWqmSl3oLHJB6PKPsk5BoRY3WPjfRgCLO7ob0NETItB92KVFKVal629je0WwTZc0F3I6XXTvOkrJ32OEhp0N2G5kaQtZvPP4NppRLQrYaWR5C9t7dbfIiF9G0P/X3lW3ugRLMIb/mTZunZCNZO++cWZTc79Pe+PxdHSNSLIPshXNDHbgoBTkslHoogq57EESjQZwtYO+2fIDBLz5Z4MoLsZoHd2HYrsusk6UjIOSF1idCuFSNNUiKRJi+vCtHCSQURZS9Dehpg7duP/ZCcyt+lp4Pnwsrs4qQCVdUM5+WhRCKNNCkoX2jZgf1+OqQbYGYN8UGHYTFPMEvA2tcfqVq2j5DdNYLsqYKPt2bCoG//GB/JGha7GrSsqhle+/ojlbJn4X0OYbG7mTWMq4mPhXRJSGoqqXXwc5j0DlJRprc7eHZHSS0iyH4DqWKrsn3tqpD0RgSZLSTtoEy10csukvROBNmtA/v9dEgPXu9tEU0izFE/COUf9M+2RhSElPtNpew1Ux/dosg1Ux/dVIdvQsotQOwQQecPItiiSWC/WBBPTf/ee1U/pDeqVGiZ0FaJ2Ux2KyEXUvZaoS+UwYLBs18Ez4f5coEeVcpdM/XRyueXBeUM81W/0ssYB+JZWvW6FkSQXwoURZDdNII26/DRqGHkFgfPh12TD+fv97KLgnLWC/GJJNF22kRCTklvfuTZSGB5eVJZWTPCtyQp/PJpRgT9XBjDVaKMYP9aCLnlQEkE2fUj6FwelDMMHNDM8vPV4qizzQxWVzG4jYpqk97iqDMxSyBZAVhH4EiVlx2G3whYc5E5/1tIAiNVXtYdeEvi9RZHnbXATN9KKVa99mi1hWeFlkf1hBQCCiU72dDpwIHAtgAxdUfE5p6Mc5UjO9ltg3Q6sAZ4z4lJkJzS8vCeK0hgX7/2cFbqRCa9xdFnIwnDChFn4pc/OwGJGM1WTfvVntwcyd7W4ASDX4DNJ8kDiEdbHtNzhZmx6tVoTX+k0XvLY3ri5BoAZwg9IzRGaG9JCUVcVdhqCmPBOGTXVZ2DFMzfE0J7B3Z/BjjDyTVoeUzPSKSHquktj/4jcoaZdjG4GnQG0CC2JrxqC/7E5OZYthfl8Js8Jxj8E/TnVsf2/MTS4utXH8ooImNNb3XsH0kmTKDjJCZJ9JZokKuKnWWlSf/MKvrWUoOAj0mg45IJU6tj/1g90rc77hzkXCKNOwvpIaTOcZYgggVTP7fmPUPqjPRQGneWnEtsd9w52ZHe6he9MKeEQV+TbkNqXQPKx2vA/13SQWpt0m0Gfc0p0eoXvaKRvn23XiQSSHCOxGiJpjWj9//nvJqpqcRowTmJBNq+25aJ/xHp23XrDYJ0Wr8CjQI1IcJKQVXpRzGpW0wZTViNVBtytyw7nC2ySk1Ao9Jp/QoFfG6GH4zeC7udG0SBa1/JbsKvW1cX5cBaYDXet12O3xNWT96/3BjvKk2HERamZmWDuORuIjuNj7UvCb5/i/fFp4A8+RM4mgPNyG6XzKZoCdwEbqnE7MJu57LihQnf/fEHpJsDUDOwG0BRAiA2Ryl+K+5LwFv4M9dWBQVO41/JJN6H3hBP/JIoFsw54md9CX7f23r8nrxS/JqA4Vvc+vjNIO2Bw4Dj8Fu5o6wzbIrdgRtA55hs7aZ/+I70whP7UF5RTl4yrw/o5CwzKgVeBu4FXoPEGkjbiufuzaH94iEnLrkAXz4/AXwrN6OKx9YDXxWe2Hc+uGcgtS1+V2tf/K6ZbMg/GehTXlFxc+GJfVjx3H1A0Ke3PqkfSOTn5e+LuBCRyKI7WQj0x5/9NhlYveK5u3NKOETWqW506RGw4rl7WfHc3YbvDicH9uyPWJiFbgnEhZ5XeZ4JarrJACUNuwDUJiIHhjEFGGqOeTJY/myOif5Bhj/B5j0LVNbK1if1LTbxgIz38KdTnWzRXrU2BheABhpWAeAKT+6L9+vSRVL3iPuvDPSISX0Q80QiXsIhmnY/GiHXvNzqYvmz9yISIOaZ1Af0iJBF0lDqHvBL4cl9cc45JDmhs0SkYEMkTZJ0qZNWNqhfwPIpd8VqACCKbj9KtSE3J8RPuYsG9Qtw0kpJlwZ2D6+j3xx5liTnnPtunt6OyJsMeRcxFLEKBx9PvjX2wnt2qpFqQ26O8PHkW/0ITKwK7P5uRD1PAdoBuGBJ9FhJbSO8PWslDUdaIokvnrm7ZkrOz7OmV+KLZ+4m4GuJpOEBD2H1bBvwjJNTvqTjKzv2kGmiwYuS+PyZ+Jv0zdjJPtWG3Bzj82fuwgex8CLSxAh6StLxcspPGmqD2D+C6svB7pVUkZ+rw7gj4Kc4T8816tWDsjJVAPeCugOtw3zOYH+DNkmJfYHCCHk+Z8ZcIT5+4s5QH2hz6gDwPUt+kAzvjSqnceMU69ez7KlwsmLrQ2uA8za/6Q95eVBRkcC7WpNBzmVBsjB2+PiJv7PTbwZg2FyJ5/DHpIcpYiGwbxLpAKBByA+VAU9LSoWpGTuddgENGjRg48aN7YHfAV3xgZMpYCOwhuLiL5AW73TaBQuAj4CVkspLS0tZ+Z8tTP9+IvP0Fif2pqCgADPLw19D0t6gI6lUe6QdAjsU4Nch1uLd1Y+1OLH34gYNGthnT95RpXyXcJhZCn+Wz9kW7hKEBsABSUl7RSjLMgJX4tLJ46t8sE33gZRVlKOSklMkjQE6ZpC9EX/Hykzgxfr16r3SpvvAJUDFsk3yquvNe5vuA8EHibYzOFpSN/wNEq2pegPDScDZBQUFV2xTr8EzbboPtGVV2Hjp5PGVec0Alsn77MNgryRS2whlWgi2MnPBByFBfl7+QcB4/L0rmdAAr3h7oIfB58DzwMQ2PS58B6yECmJs3rMXvGO3gbjGAlQP7CDgLIMT8TtlogSf7g7cvqGsZJWkt9r0GMSy/7u9Cp0BWAlaSHjS2yalSMuni8GVZToqy+8yIw9sMOEI3xwOfyJjP3y3MEXodvJ4t9KVmGtUp6Inm7gEcKDBIOAUom272hw7ARcJTccvYFWhswCVgS2OIL9lUlKU4y1XAJmPXhMYtAEdmYOK2cTgTINuwASksbLcn/6bbfNuopUZF+NXw1rmwi1rcLj5yrKoSp1RUNu1IoL4hkmkKBOvDQCfPlG19y0w4HZU7napJgIztgCG4K/rWlsdeVtROptPdRFMQhxODjse+ZaikAykfzrpNtr+bjAEvIREflJSXLUmjt5X+BlAXanpJ8ZYzrj0NodUFsGrU4BEuzMuzqyy+BJpTUwRgFG8h3F65LLTI3Na6+1Xtcrtzrj4B7yETGVJiWLC35C0vYV4DSVhxjKJV4DM0fd1AHXMIfeqmZaEeU8DPraPILs4ifQVId14wK7yToCyTNpIlAO34K+z3KOWjBcedYf1j4CxEmVhWqeAjyiHLn3lFKyUhUx7SGqVqR/55B+3BKtBzJLUR9Krksqqs5KVi1S1/WpXN0nlkl6XD0iZLolPJo4No3OrgJew+SxJIs0DTgv5luwMdAY+b3fWJSyZeMtWH/x44lh27XkpSustk/XA336wL6ghsA1+dN82SNtSA2fPZ7BgTeRSGfu2FH9pwEpgA1gxPnr4DZlW4+Djh6smvN1Zl1Tq3JlovpB5SUkz8C7QMP73esCvJU2RvzOlSmyi+Bq8j/jp9uf+CVu7FjVsmMCPJXYyOETwS+AIfNx3jSPmVbYi4A2Dfwum4d3Z39i6dRVq3pzF94+KLDCRSCCUMLNfEz5SdiMwI4mYA1pO+H7hZBN7YZrdtucQPn14TCRlF0/4S+WPKaCofd/Li1TKB4iH8dtv+wHdQTV7/WYspFsx/pqRe4D3ZJSQhMX331wtqW17DvHSxV5EC1dfDjYnifSZvNM+LOmtEefJ6aI8q75LdPG93xmgZLdzhkwFew80CRiOP7emRhAD5zNAI8CeA5W6po6F40bnRHBeAiQlzew8wg/CAWYY+sw5pzI5vSAnkxOhkvQH4AQkOvQemjMrffTgGCRXhvi3pNMl/UNOqdB6ZUhVIVd5yCkt6TFJpyP+JbnSjx4ckzPCO/QeWvmGniDpDxH0Mjm94JzKXDBhfwV/m0LYCX5TpBskdUBit95X5Iz4RQ/chFw+SEvN347wd7Ldjx6/c2bzlEa6x6QBSEvkkix64Kac2Wa33lcE02F1QLoh4CGsbksDnnHBAsEnkqZEnGJ0ljRWorVzjj3OzV2NXzThRhbdPxonFQldJemhn8iUbaLQlU5au+j+0Sz6fvxSbexx7lB8uDqtvd3VOaJuU4BPhHDIIbk0aCLS6ohv9ilIdyC1xTk69LkyZ4UEWDhhFEjrQFeDXqvTNR1NBQ1DKkK5vbe4Q58rwTnwEa13BHaPot9q0ETJpZHDLbxvZKAz70l6Kou3+zeSHkHqmnAJt0e/YTktsARyWi4xXNLXdbSmr5YYLqfPJVh43405K/8e/YaRcAmH1FXSI4G9o+r3lOcXFt43MnCISMi5csR4SZ9nIbSrpCcQV0oq3H3A1XQ676qcFPrDeyubSL1R3WY+RtIfQXr1h/pWD53Ou4rdB1yNpMLArk8Edo6q2+eI8Z5fbwMH8OE9vrbfcueNMxHj8QOSqE1cIX5wMcWludycOnbsf3W9Tv2voUP/q6tH/D0jUUJpxP1In9Wx5n05YoKcUh/eM7Ja5ezQ/2o69b+Gjv2vrmdOHV2ay5GmBHYtzEK3NGL8LXfeOFPydoRN9qcvuOtGLvMP3i04HHRKFno7sP1A+wKXIKYD7ybRgj0HXPMlfrG/DFhlsFqQmnfnDaEES8KMBRLPgfpVy7pbkZ8d7L9mmhfl43sOuAbzwZPN8cEh+cA25lfLOgodhHEAotCHKWWt27OG7r5s4DUsuOv7LueHhwc64Yw1/oBA2hPtOo5K81X+0zpIvwJS5k+hKANVIL4CXjG4p9Og6z8gnbL5d4yoWmxCKE0a+A9wDuFCfiOqHRnloH9L4U537nTBteASsnRqb6CfwTH+JmhLBuWpjw+J3kSfrL1GC0FXO1izeXTbDxY55t9xQ2X/PkvS5XJamSOHRUJO28ipmRwtJfaUGCTxlCx9akH7htpz4PAqSzB//A2VfdQsOX1eR5wzyyXNlMT8DC3WngOHU9C+oWTpUyWeCsq/pxwtvV20TWCnXNh7pefPzULyvG6NdIB5d4xAgEun/yM0RNKaGJcT20mMK/nk24Ml2GvQdVUT4z+zUtLHdWQg94mcvswke69B1yFBUM5xvtyx2XSN0BDPn+dzc2xxOXPu+OuxZNJMTES6DGlVNQY6mdJOiAvkXF7GlswJJVwJ0qd1ZCC3NJ22jbhMsiEo3wW+vLHZchXSZSYmWjJpc8dfv2Uzbk3Pubdfh3MuDTwk6XxJn8b4dnYFCsPUxuD7qjpS01clkgkLqXdhllOusOlTSecDDznn0nNvv27rdacqZT+4dTjOuXQqyWRJZ8rpjRwuTGyamgSJTPoEz5fE2KeHX3gK9Pjg1uFhZH9XxhjSG5LOTCWZ7JxLZ9InY7TKnHHXkkwnwDENdAbS35DW57hZKkHamKkJ3ueSGyqfz48gO41kIZv3NNEWd/KRvF6ZZW8MyplLu61H+hvoDBzTkukEc8Zdm4nScOe9z/mbd67se+mflwNXAC8Al+NDoKp7uiHAh1TunqnSdqqM/mweQfZGwl/cUxE8HxbN02nDZWpFvOwVQTl3yIG9yoE3gZuBFxDls8deE/rDkeLSZo+9GpwrB6Yg9UA6D3+7Ycl3/Wb0VIr0oKQNmWqjnHD+5Iw2EeSvpTK2v2pmQCoPng8lW9JOiYSrn9Gx45/dgPRgUN5INtrEtiWBvc9D6gFMwbny2WOjeTwj3+Ey+2a/oLLfkBvXWkoPyNlTwJH4ExGOFOxI+NpfBtwGNsnLzuCv98ZtgQ/FDosVksrNMmy6FEiqMGN5BHPsgt8A+lmVNvvrVex3+Y0IJoH2AQYT3rlUjt/B+7qwycDrllaREsasMdm5t7O+rWnWGE/Qodf8taikpOxpYAq+6ToAOATYB2iLaI7fl52Hb1kMKMH4ELgbmAjaOHPMnzLmGdSoPRFRDjj8GMh8jpycn1rJPx8SOwJ7kYF0gFk3X0XnIX/ZiA8DWwSch9gD74UT/szccuBbjNX4aNk5+EDK6cAXoIr69fN5+4bLsqHs+7JW69NbQOehN2FIslQ9/Ea85vgQ50Z8f/TI18DCtLk1TmmbeVPmdfj9rxxFujyNS7ox5scTYVAG9AD+PXN05jw6Dx0FcALwL0JGmArGFX2w4uKm+xQyY1SIPK4YRdqcnNLb4t3cLb0YyvDnx67FH55cZEqUCrOZo3MXmQQxXJYXKOhrM3wZpOpDwuUndsb4ZYQ39Sv84ClkFgJfC78kfCz5yU33bT2OkKdYBy94Zfz7WzmxTUTU7gaDkDhgmI8zk/Q7Oe0eYf76gYL4gDAIBkvL5TQnQh67STrD7Hs96zrqPOkHXjkaSTjnOsmPWhVh5PuyXDA3DgMJ51SK9HLE0XW/RMLtLYkDh+QuLi4u1HnSLS8Bzm2D9Cek9hHckl9JehGJ6SOHhMpr+sghlSS+JPmFlFDuXakd0jCcGln9XLgt4kWdJv3Aa8finEtKXCin30dyTUqvIRZEDY7wJPKhpFciukJPl3SRcy554LVjI+VZ06izpB80fCxyJIG+SMOQ8iI0uRtxmijnSlHEIko+XtBpItK3EfJMIg0F+suRPGh43SU+t7G6OcJB190CcgXAYPymisYRV5xeErpJqOy9EZdEynv5a8+z49EnIrRc0gGSOkTINx/pCFAKuZk7HH1C+RevPl/b5vwR6tT95gePGIdhCO0KNgzTWUS/u+QbYDz+hI2sEKzIbcCfgXck/mKhsGgEXO8dL+7GLiNu+SiB451rL6pZY1ZVvtpWAOCQEbfSaF0jFTctbgX0ABtkmU+Y3Brux2wAqLQ6hj54xDjA8pFuA87LRoZ8nNrtwKS8sryV5XnlNu3awXGbM4xeNY89+lxP03bNwHCIxkAH4Hj8FVZ7k30L9GEgYwHmmHbNoKx1PGLURMorVoPRATEZ2DNLUSlgLv4Snv8CCzHWIdKfTV3KF8/+NRYbV4XYST905O3gxw5t8f74Fnx3B5m1w+iIj7xtWs2sioHzgUcB3r7qwurrfuNtlT/+Fn/tWJRmfktYByxGLAAtwbujS/DeuTl4r17q7WHZv6xhEBvpXf88HvPDxBbARWA98QsUcQweU8BfMBsBKn8rh0Y7bOTtgCWRrsKHhscxDkrhF1Qm4g9n+loVxtRqtFRVIbYpm+UJnJohjUNchbQzUiLHkSOV6UHQGORySjjAW8MGgVwFaCzSBCqjcHKbEkhtEH9Cug2n5pYf32w6lpre9aY7wQyky4CbiNMfYPZPg8GCr6cOvSC2bLqOvgOD5oK/IZ1FfK2kAcMsnR4l55h6xYCcZxDLlC1wTbYA+wPxEZ4CHgFdIfjaRfS8RUVeIkFFOr0auAQoRfQinq5KwBlKJCbgVwlzjphIB2Bn0C5xyAc2GNyGMQqx7s0h/WPK5nu8evn5ABw+5u+rgEsRXwouwl8QnGu0ww98YyE9nlroHDhXH+fygp9zl6RPkC4ADZdTjRC+Kd4c0h85rQeNQOqPtDjnZfR2K8DFRE8cQgOX5GpJ63MYzL9R8Jik0xIlJQ87p7I3Ljs/VoK3hjcuOx/nVJbaZpuJkk4T/EPSxhyWtVjBAQxxICbSQWKppPdyYIBySW9K9JJ0rqQ5rqDAXr80KydZzvD6pefRqLQUSXMl9ZX4o/wxn7k4DnW6RMYDgbNFPL53v7K1Ee8D70q0OHUPoxh4G3gYmIKxhoR4bXCfeCyRBZ6/yOty1K33bSRtk5Bewl/A0xM4LPA2RsUajNtB38ald2xD3qNvnYCZOTn1Av5M5rvf0vigwEXAqxjPAjMM2+CU4JULe8Wlas5wzG33k7Y0QtsA+yFOAo7Gn4LdlMyj/ZXANZa2CZJSrw4Odd1aZMQ6zznm9vsJCnokfqR7JKIpkMLYiD8z9XNgIf7UyunAAudckZnZywN7xalerDh2/APISelUuime9APwV3XtgQ8Vb4ZoACQwivA7VsYBrwKpVwb1jk23/wegbQoNW1G6GgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wOS0xMFQxOToxMjo1MyswMDowMLgZNzYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjUtMDktMTBUMTk6MTE6NDcrMDA6MDAalhAEAAAAAElFTkSuQmCC\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
+                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"https://img.shields.io/badge/Docs-Madrona-yellow\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABsCAYAAABHCr0bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAACE3AAAhNwEzWJ96AAAAB3RJTUUH6QkKEw02+0aUAgAAHIZJREFUeNrtnXeclcX1/9+fuXcXWKlSdFERFFGwolixG6wpCibRKBEEFASxIgYLipGAGAwqGhtWYlS+aDRBjb2gWKhSBFEEFUQpCyuy7d7z+2OeVUTY+zx377O7xt9nX8Puss89c+Z8nmlnzsyInwAadT4NIAFsB+wFdAH2AdoD2wONgXrB4+VAMfAV8AnwAfA+MBv4AqgAKJ75ZKVcgCSwA7BvIHtvYBegFdAIyAueKwXWA18Ci4E5gey5wEogVTzzydo2V0aothXYGhrtd1qlfi2BroiTgEOBnYGGEXX/FvgMeBd4FuM1PHHbI44CTgIOAnYCCiLINeAbYCnwNsazwFTga8CKZ9XNF6DOkd6o86mVeu0C/B74LdAJyM9RFhXAQmAGsD+wO76m5wJlwHzgCeAxfEtjxTOfqhHbhUWdIb3h/qchDEOtMXoB5+KJrzM6RoDhCZ+AeEDYckN8M6Nu1Pw6YdBG+3dHkG9wCtgw4IC6ols1YcB00EjBfwzKimdMrm2datewjTt39xoYrQyGAv3wA6f/NRQD9whGI77CYP3M2iO/1khvvP9pYAJZJ2AscHxt6lMDMOC/wKWY5iNjfS0197Vi5MYH9ADSgA7BuBPYr1ZKXzuYhRgANg0c66f/X40rkKjpDBvv3yNo0nUYcB9+TvxzwvZAV3AzEZ/VK+xE6YoFNapAjdb0Rl16IAPzTpCH+fkRvik+AHoKZpug+P2aq/E1RnqTzqdizgHsCDwCHJVb9a0GSpHz/F4DzgY+VzrNuhqaz+fKKZEZiSSCBmDDqT7habybdVGQPgOlgPPxXrVc4zPgLnx3uBPQAdQB76Z11ZB7FDAcNJiE2xiD3ltEjZDepEtlP25/AHpWo4H5BngTmBx8X4a5b1HKkPpjtIqpCK0QqzH7O5YQShcAbYDDge7B94bZibaeYNOQ7mvSpQfraqCZj795P+i3NDYD2AP4F9AhCyXLgZeAW4HXMTYgSEvIy94XeApoG2NJPgVOBWabhDM/OEFsAxwJDAaOs+8XZ6JgEfAb4MP1Erz7RIzFqF7TFApNDJyUFAwUdBD+TYuQvgSuMDgDeBbYsO79Sax7bxLOQFK+4GJB2yxkR0ltBRdLyncG696bxLr3JwFsAJ4N9LtC8GUWsjsIBjop2aQGhiax1vSmB5+Or4gcCjwNtIio2jzgojS87MDWbVIDmh50euVQ6hfAJKBJBNmGXyJt7D1EobEOOB14UUDRu5O++0OTg35LGuTgWGAcsGfEwd4q4NfA2xIUvTMpymcjIdaabiaQSwj1FmohonwxR9ALeCmxGeEeArl6Qv2EmkSU/Yqw0/33SF9NhPohV2/z+rLu3SdIeJZfEvTy+kf6aiHUG7mERXoP6xjpEgjriDglWnunpUgDgfclUbQZ4U0POc1zjnVBdIsoezbShaAXkS70v0f5PN2CfL0em6Do3SeQBPA+0kBfjkiyTxHWUTGPtGIjvdnBv6uk/peg1hFK/i0wXOJNJIreefxHsmV5pEgB6g5qFkH2amAoYn7wRs4Hhvr/Dy2jGah7ihSyH4/Zit55HCQk3sRPx76NILu1t9em9vsJke6N6hpJnCQFv4ZLj8sHIGyR8ErZCSULJY6PKPsuwQsKZAemfkHirohyjk8oWchWqmSl3oLHJB6PKPsk5BoRY3WPjfRgCLO7ob0NETItB92KVFKVal629je0WwTZc0F3I6XXTvOkrJ32OEhp0N2G5kaQtZvPP4NppRLQrYaWR5C9t7dbfIiF9G0P/X3lW3ugRLMIb/mTZunZCNZO++cWZTc79Pe+PxdHSNSLIPshXNDHbgoBTkslHoogq57EESjQZwtYO+2fIDBLz5Z4MoLsZoHd2HYrsusk6UjIOSF1idCuFSNNUiKRJi+vCtHCSQURZS9Dehpg7duP/ZCcyt+lp4Pnwsrs4qQCVdUM5+WhRCKNNCkoX2jZgf1+OqQbYGYN8UGHYTFPMEvA2tcfqVq2j5DdNYLsqYKPt2bCoG//GB/JGha7GrSsqhle+/ojlbJn4X0OYbG7mTWMq4mPhXRJSGoqqXXwc5j0DlJRprc7eHZHSS0iyH4DqWKrsn3tqpD0RgSZLSTtoEy10csukvROBNmtA/v9dEgPXu9tEU0izFE/COUf9M+2RhSElPtNpew1Ux/dosg1Ux/dVIdvQsotQOwQQecPItiiSWC/WBBPTf/ee1U/pDeqVGiZ0FaJ2Ux2KyEXUvZaoS+UwYLBs18Ez4f5coEeVcpdM/XRyueXBeUM81W/0ssYB+JZWvW6FkSQXwoURZDdNII26/DRqGHkFgfPh12TD+fv97KLgnLWC/GJJNF22kRCTklvfuTZSGB5eVJZWTPCtyQp/PJpRgT9XBjDVaKMYP9aCLnlQEkE2fUj6FwelDMMHNDM8vPV4qizzQxWVzG4jYpqk97iqDMxSyBZAVhH4EiVlx2G3whYc5E5/1tIAiNVXtYdeEvi9RZHnbXATN9KKVa99mi1hWeFlkf1hBQCCiU72dDpwIHAtgAxdUfE5p6Mc5UjO9ltg3Q6sAZ4z4lJkJzS8vCeK0hgX7/2cFbqRCa9xdFnIwnDChFn4pc/OwGJGM1WTfvVntwcyd7W4ASDX4DNJ8kDiEdbHtNzhZmx6tVoTX+k0XvLY3ri5BoAZwg9IzRGaG9JCUVcVdhqCmPBOGTXVZ2DFMzfE0J7B3Z/BjjDyTVoeUzPSKSHquktj/4jcoaZdjG4GnQG0CC2JrxqC/7E5OZYthfl8Js8Jxj8E/TnVsf2/MTS4utXH8ooImNNb3XsH0kmTKDjJCZJ9JZokKuKnWWlSf/MKvrWUoOAj0mg45IJU6tj/1g90rc77hzkXCKNOwvpIaTOcZYgggVTP7fmPUPqjPRQGneWnEtsd9w52ZHe6he9MKeEQV+TbkNqXQPKx2vA/13SQWpt0m0Gfc0p0eoXvaKRvn23XiQSSHCOxGiJpjWj9//nvJqpqcRowTmJBNq+25aJ/xHp23XrDYJ0Wr8CjQI1IcJKQVXpRzGpW0wZTViNVBtytyw7nC2ySk1Ao9Jp/QoFfG6GH4zeC7udG0SBa1/JbsKvW1cX5cBaYDXet12O3xNWT96/3BjvKk2HERamZmWDuORuIjuNj7UvCb5/i/fFp4A8+RM4mgPNyG6XzKZoCdwEbqnE7MJu57LihQnf/fEHpJsDUDOwG0BRAiA2Ryl+K+5LwFv4M9dWBQVO41/JJN6H3hBP/JIoFsw54md9CX7f23r8nrxS/JqA4Vvc+vjNIO2Bw4Dj8Fu5o6wzbIrdgRtA55hs7aZ/+I70whP7UF5RTl4yrw/o5CwzKgVeBu4FXoPEGkjbiufuzaH94iEnLrkAXz4/AXwrN6OKx9YDXxWe2Hc+uGcgtS1+V2tf/K6ZbMg/GehTXlFxc+GJfVjx3H1A0Ke3PqkfSOTn5e+LuBCRyKI7WQj0x5/9NhlYveK5u3NKOETWqW506RGw4rl7WfHc3YbvDicH9uyPWJiFbgnEhZ5XeZ4JarrJACUNuwDUJiIHhjEFGGqOeTJY/myOif5Bhj/B5j0LVNbK1if1LTbxgIz38KdTnWzRXrU2BheABhpWAeAKT+6L9+vSRVL3iPuvDPSISX0Q80QiXsIhmnY/GiHXvNzqYvmz9yISIOaZ1Af0iJBF0lDqHvBL4cl9cc45JDmhs0SkYEMkTZJ0qZNWNqhfwPIpd8VqACCKbj9KtSE3J8RPuYsG9Qtw0kpJlwZ2D6+j3xx5liTnnPtunt6OyJsMeRcxFLEKBx9PvjX2wnt2qpFqQ26O8PHkW/0ITKwK7P5uRD1PAdoBuGBJ9FhJbSO8PWslDUdaIokvnrm7ZkrOz7OmV+KLZ+4m4GuJpOEBD2H1bBvwjJNTvqTjKzv2kGmiwYuS+PyZ+Jv0zdjJPtWG3Bzj82fuwgex8CLSxAh6StLxcspPGmqD2D+C6svB7pVUkZ+rw7gj4Kc4T8816tWDsjJVAPeCugOtw3zOYH+DNkmJfYHCCHk+Z8ZcIT5+4s5QH2hz6gDwPUt+kAzvjSqnceMU69ez7KlwsmLrQ2uA8za/6Q95eVBRkcC7WpNBzmVBsjB2+PiJv7PTbwZg2FyJ5/DHpIcpYiGwbxLpAKBByA+VAU9LSoWpGTuddgENGjRg48aN7YHfAV3xgZMpYCOwhuLiL5AW73TaBQuAj4CVkspLS0tZ+Z8tTP9+IvP0Fif2pqCgADPLw19D0t6gI6lUe6QdAjsU4Nch1uLd1Y+1OLH34gYNGthnT95RpXyXcJhZCn+Wz9kW7hKEBsABSUl7RSjLMgJX4tLJ46t8sE33gZRVlKOSklMkjQE6ZpC9EX/Hykzgxfr16r3SpvvAJUDFsk3yquvNe5vuA8EHibYzOFpSN/wNEq2pegPDScDZBQUFV2xTr8EzbboPtGVV2Hjp5PGVec0Alsn77MNgryRS2whlWgi2MnPBByFBfl7+QcB4/L0rmdAAr3h7oIfB58DzwMQ2PS58B6yECmJs3rMXvGO3gbjGAlQP7CDgLIMT8TtlogSf7g7cvqGsZJWkt9r0GMSy/7u9Cp0BWAlaSHjS2yalSMuni8GVZToqy+8yIw9sMOEI3xwOfyJjP3y3MEXodvJ4t9KVmGtUp6Inm7gEcKDBIOAUom272hw7ARcJTccvYFWhswCVgS2OIL9lUlKU4y1XAJmPXhMYtAEdmYOK2cTgTINuwASksbLcn/6bbfNuopUZF+NXw1rmwi1rcLj5yrKoSp1RUNu1IoL4hkmkKBOvDQCfPlG19y0w4HZU7napJgIztgCG4K/rWlsdeVtROptPdRFMQhxODjse+ZaikAykfzrpNtr+bjAEvIREflJSXLUmjt5X+BlAXanpJ8ZYzrj0NodUFsGrU4BEuzMuzqyy+BJpTUwRgFG8h3F65LLTI3Na6+1Xtcrtzrj4B7yETGVJiWLC35C0vYV4DSVhxjKJV4DM0fd1AHXMIfeqmZaEeU8DPraPILs4ifQVId14wK7yToCyTNpIlAO34K+z3KOWjBcedYf1j4CxEmVhWqeAjyiHLn3lFKyUhUx7SGqVqR/55B+3BKtBzJLUR9Krksqqs5KVi1S1/WpXN0nlkl6XD0iZLolPJo4No3OrgJew+SxJIs0DTgv5luwMdAY+b3fWJSyZeMtWH/x44lh27XkpSustk/XA336wL6ghsA1+dN82SNtSA2fPZ7BgTeRSGfu2FH9pwEpgA1gxPnr4DZlW4+Djh6smvN1Zl1Tq3JlovpB5SUkz8C7QMP73esCvJU2RvzOlSmyi+Bq8j/jp9uf+CVu7FjVsmMCPJXYyOETwS+AIfNx3jSPmVbYi4A2Dfwum4d3Z39i6dRVq3pzF94+KLDCRSCCUMLNfEz5SdiMwI4mYA1pO+H7hZBN7YZrdtucQPn14TCRlF0/4S+WPKaCofd/Li1TKB4iH8dtv+wHdQTV7/WYspFsx/pqRe4D3ZJSQhMX331wtqW17DvHSxV5EC1dfDjYnifSZvNM+LOmtEefJ6aI8q75LdPG93xmgZLdzhkwFew80CRiOP7emRhAD5zNAI8CeA5W6po6F40bnRHBeAiQlzew8wg/CAWYY+sw5pzI5vSAnkxOhkvQH4AQkOvQemjMrffTgGCRXhvi3pNMl/UNOqdB6ZUhVIVd5yCkt6TFJpyP+JbnSjx4ckzPCO/QeWvmGniDpDxH0Mjm94JzKXDBhfwV/m0LYCX5TpBskdUBit95X5Iz4RQ/chFw+SEvN347wd7Ldjx6/c2bzlEa6x6QBSEvkkix64Kac2Wa33lcE02F1QLoh4CGsbksDnnHBAsEnkqZEnGJ0ljRWorVzjj3OzV2NXzThRhbdPxonFQldJemhn8iUbaLQlU5au+j+0Sz6fvxSbexx7lB8uDqtvd3VOaJuU4BPhHDIIbk0aCLS6ohv9ilIdyC1xTk69LkyZ4UEWDhhFEjrQFeDXqvTNR1NBQ1DKkK5vbe4Q58rwTnwEa13BHaPot9q0ETJpZHDLbxvZKAz70l6Kou3+zeSHkHqmnAJt0e/YTktsARyWi4xXNLXdbSmr5YYLqfPJVh43405K/8e/YaRcAmH1FXSI4G9o+r3lOcXFt43MnCISMi5csR4SZ9nIbSrpCcQV0oq3H3A1XQ676qcFPrDeyubSL1R3WY+RtIfQXr1h/pWD53Ou4rdB1yNpMLArk8Edo6q2+eI8Z5fbwMH8OE9vrbfcueNMxHj8QOSqE1cIX5wMcWludycOnbsf3W9Tv2voUP/q6tH/D0jUUJpxP1In9Wx5n05YoKcUh/eM7Ja5ezQ/2o69b+Gjv2vrmdOHV2ay5GmBHYtzEK3NGL8LXfeOFPydoRN9qcvuOtGLvMP3i04HHRKFno7sP1A+wKXIKYD7ybRgj0HXPMlfrG/DFhlsFqQmnfnDaEES8KMBRLPgfpVy7pbkZ8d7L9mmhfl43sOuAbzwZPN8cEh+cA25lfLOgodhHEAotCHKWWt27OG7r5s4DUsuOv7LueHhwc64Yw1/oBA2hPtOo5K81X+0zpIvwJS5k+hKANVIL4CXjG4p9Og6z8gnbL5d4yoWmxCKE0a+A9wDuFCfiOqHRnloH9L4U537nTBteASsnRqb6CfwTH+JmhLBuWpjw+J3kSfrL1GC0FXO1izeXTbDxY55t9xQ2X/PkvS5XJamSOHRUJO28ipmRwtJfaUGCTxlCx9akH7htpz4PAqSzB//A2VfdQsOX1eR5wzyyXNlMT8DC3WngOHU9C+oWTpUyWeCsq/pxwtvV20TWCnXNh7pefPzULyvG6NdIB5d4xAgEun/yM0RNKaGJcT20mMK/nk24Ml2GvQdVUT4z+zUtLHdWQg94mcvswke69B1yFBUM5xvtyx2XSN0BDPn+dzc2xxOXPu+OuxZNJMTES6DGlVNQY6mdJOiAvkXF7GlswJJVwJ0qd1ZCC3NJ22jbhMsiEo3wW+vLHZchXSZSYmWjJpc8dfv2Uzbk3Pubdfh3MuDTwk6XxJn8b4dnYFCsPUxuD7qjpS01clkgkLqXdhllOusOlTSecDDznn0nNvv27rdacqZT+4dTjOuXQqyWRJZ8rpjRwuTGyamgSJTPoEz5fE2KeHX3gK9Pjg1uFhZH9XxhjSG5LOTCWZ7JxLZ9InY7TKnHHXkkwnwDENdAbS35DW57hZKkHamKkJ3ueSGyqfz48gO41kIZv3NNEWd/KRvF6ZZW8MyplLu61H+hvoDBzTkukEc8Zdm4nScOe9z/mbd67se+mflwNXAC8Al+NDoKp7uiHAh1TunqnSdqqM/mweQfZGwl/cUxE8HxbN02nDZWpFvOwVQTl3yIG9yoE3gZuBFxDls8deE/rDkeLSZo+9GpwrB6Yg9UA6D3+7Ycl3/Wb0VIr0oKQNmWqjnHD+5Iw2EeSvpTK2v2pmQCoPng8lW9JOiYSrn9Gx45/dgPRgUN5INtrEtiWBvc9D6gFMwbny2WOjeTwj3+Ey+2a/oLLfkBvXWkoPyNlTwJH4ExGOFOxI+NpfBtwGNsnLzuCv98ZtgQ/FDosVksrNMmy6FEiqMGN5BHPsgt8A+lmVNvvrVex3+Y0IJoH2AQYT3rlUjt/B+7qwycDrllaREsasMdm5t7O+rWnWGE/Qodf8taikpOxpYAq+6ToAOATYB2iLaI7fl52Hb1kMKMH4ELgbmAjaOHPMnzLmGdSoPRFRDjj8GMh8jpycn1rJPx8SOwJ7kYF0gFk3X0XnIX/ZiA8DWwSch9gD74UT/szccuBbjNX4aNk5+EDK6cAXoIr69fN5+4bLsqHs+7JW69NbQOehN2FIslQ9/Ea85vgQ50Z8f/TI18DCtLk1TmmbeVPmdfj9rxxFujyNS7ox5scTYVAG9AD+PXN05jw6Dx0FcALwL0JGmArGFX2w4uKm+xQyY1SIPK4YRdqcnNLb4t3cLb0YyvDnx67FH55cZEqUCrOZo3MXmQQxXJYXKOhrM3wZpOpDwuUndsb4ZYQ39Sv84ClkFgJfC78kfCz5yU33bT2OkKdYBy94Zfz7WzmxTUTU7gaDkDhgmI8zk/Q7Oe0eYf76gYL4gDAIBkvL5TQnQh67STrD7Hs96zrqPOkHXjkaSTjnOsmPWhVh5PuyXDA3DgMJ51SK9HLE0XW/RMLtLYkDh+QuLi4u1HnSLS8Bzm2D9Cek9hHckl9JehGJ6SOHhMpr+sghlSS+JPmFlFDuXakd0jCcGln9XLgt4kWdJv3Aa8finEtKXCin30dyTUqvIRZEDY7wJPKhpFciukJPl3SRcy554LVjI+VZ06izpB80fCxyJIG+SMOQ8iI0uRtxmijnSlHEIko+XtBpItK3EfJMIg0F+suRPGh43SU+t7G6OcJB190CcgXAYPymisYRV5xeErpJqOy9EZdEynv5a8+z49EnIrRc0gGSOkTINx/pCFAKuZk7HH1C+RevPl/b5vwR6tT95gePGIdhCO0KNgzTWUS/u+QbYDz+hI2sEKzIbcCfgXck/mKhsGgEXO8dL+7GLiNu+SiB451rL6pZY1ZVvtpWAOCQEbfSaF0jFTctbgX0ABtkmU+Y3Brux2wAqLQ6hj54xDjA8pFuA87LRoZ8nNrtwKS8sryV5XnlNu3awXGbM4xeNY89+lxP03bNwHCIxkAH4Hj8FVZ7k30L9GEgYwHmmHbNoKx1PGLURMorVoPRATEZ2DNLUSlgLv4Snv8CCzHWIdKfTV3KF8/+NRYbV4XYST905O3gxw5t8f74Fnx3B5m1w+iIj7xtWs2sioHzgUcB3r7qwurrfuNtlT/+Fn/tWJRmfktYByxGLAAtwbujS/DeuTl4r17q7WHZv6xhEBvpXf88HvPDxBbARWA98QsUcQweU8BfMBsBKn8rh0Y7bOTtgCWRrsKHhscxDkrhF1Qm4g9n+loVxtRqtFRVIbYpm+UJnJohjUNchbQzUiLHkSOV6UHQGORySjjAW8MGgVwFaCzSBCqjcHKbEkhtEH9Cug2n5pYf32w6lpre9aY7wQyky4CbiNMfYPZPg8GCr6cOvSC2bLqOvgOD5oK/IZ1FfK2kAcMsnR4l55h6xYCcZxDLlC1wTbYA+wPxEZ4CHgFdIfjaRfS8RUVeIkFFOr0auAQoRfQinq5KwBlKJCbgVwlzjphIB2Bn0C5xyAc2GNyGMQqx7s0h/WPK5nu8evn5ABw+5u+rgEsRXwouwl8QnGu0ww98YyE9nlroHDhXH+fygp9zl6RPkC4ADZdTjRC+Kd4c0h85rQeNQOqPtDjnZfR2K8DFRE8cQgOX5GpJ63MYzL9R8Jik0xIlJQ87p7I3Ljs/VoK3hjcuOx/nVJbaZpuJkk4T/EPSxhyWtVjBAQxxICbSQWKppPdyYIBySW9K9JJ0rqQ5rqDAXr80KydZzvD6pefRqLQUSXMl9ZX4o/wxn7k4DnW6RMYDgbNFPL53v7K1Ee8D70q0OHUPoxh4G3gYmIKxhoR4bXCfeCyRBZ6/yOty1K33bSRtk5Bewl/A0xM4LPA2RsUajNtB38ald2xD3qNvnYCZOTn1Av5M5rvf0vigwEXAqxjPAjMM2+CU4JULe8Wlas5wzG33k7Y0QtsA+yFOAo7Gn4LdlMyj/ZXANZa2CZJSrw4Odd1aZMQ6zznm9vsJCnokfqR7JKIpkMLYiD8z9XNgIf7UyunAAudckZnZywN7xalerDh2/APISelUuime9APwV3XtgQ8Vb4ZoACQwivA7VsYBrwKpVwb1jk23/wegbQoNW1G6GgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wOS0xMFQxOToxMjo1MyswMDowMLgZNzYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjUtMDktMTBUMTk6MTE6NDcrMDA6MDAalhAEAAAAAElFTkSuQmCC\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
                 "requirements": null,
                 "company": {
@@ -8519,7 +8519,7 @@
                 "extra_links": {},
                 "tag": "1.14.0",
                 "docs": null,
-                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
+                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"https://img.shields.io/badge/Docs-Madrona-yellow\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
                 "requirements": null,
                 "company": {
@@ -8574,7 +8574,7 @@
                 "extra_links": {},
                 "tag": "1.13.2",
                 "docs": null,
-                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
+                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"https://img.shields.io/badge/Docs-Madrona-yellow\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
                 "requirements": null,
                 "company": {
@@ -8709,7 +8709,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11207,
+            "downloads": 11225,
             "last_updated": "2026-05-29T18:35:56.02999Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -9014,7 +9014,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15981,
+            "downloads": 16003,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -9160,7 +9160,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6146,
+            "downloads": 6155,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -9547,7 +9547,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14477,
+            "downloads": 14504,
             "last_updated": "2026-04-29T18:55:15.405134Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -10486,7 +10486,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31411,
+            "downloads": 31478,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -12362,7 +12362,7 @@
             }
         },
         "repo_info": {
-            "downloads": 57304,
+            "downloads": 57404,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -14079,8 +14079,8 @@
             }
         },
         "repo_info": {
-            "downloads": 159668,
-            "last_updated": "2026-06-17T17:11:31.550352Z",
+            "downloads": 159863,
+            "last_updated": "2026-06-19T00:56:22.586807Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -14669,7 +14669,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11179,
+            "downloads": 11205,
             "last_updated": "2026-04-13T19:24:51.71125Z",
             "date_registered": "2024-12-10T16:34:37.516719Z"
         }
@@ -14737,7 +14737,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2411,
+            "downloads": 2413,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -14810,7 +14810,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3416,
+            "downloads": 3419,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -16250,7 +16250,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16746,
+            "downloads": 16828,
             "last_updated": "2026-06-09T15:46:54.797931Z",
             "date_registered": "2025-01-27T19:05:48.437826Z"
         }
@@ -16434,7 +16434,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11699,
+            "downloads": 11714,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -16498,7 +16498,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2956,
+            "downloads": 2960,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -17257,7 +17257,7 @@
             }
         },
         "repo_info": {
-            "downloads": 266282,
+            "downloads": 266348,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -17346,7 +17346,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1322,
+            "downloads": 1324,
             "last_updated": "2025-02-07T19:07:24.353007Z",
             "date_registered": "2025-02-06T15:30:31.14782Z"
         }
@@ -17465,7 +17465,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8278,
+            "downloads": 8287,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -19149,7 +19149,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24939,
+            "downloads": 25021,
             "last_updated": "2026-03-25T17:07:27.426154Z",
             "date_registered": "2025-01-12T19:20:27.899002Z"
         }
@@ -19465,7 +19465,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22585,
+            "downloads": 22612,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -20121,7 +20121,7 @@
             }
         },
         "repo_info": {
-            "downloads": 55252,
+            "downloads": 55315,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -20197,7 +20197,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12689,
+            "downloads": 12693,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
