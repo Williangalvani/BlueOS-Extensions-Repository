@@ -1297,7 +1297,7 @@
             }
         },
         "repo_info": {
-            "downloads": 68405,
+            "downloads": 68516,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -1538,7 +1538,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7634,
+            "downloads": 7652,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -1769,7 +1769,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11573,
+            "downloads": 11591,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -2088,7 +2088,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8873,
+            "downloads": 8891,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -2318,7 +2318,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8156,
+            "downloads": 8171,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -2789,7 +2789,7 @@
             }
         },
         "repo_info": {
-            "downloads": 63208,
+            "downloads": 63243,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -3024,7 +3024,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6811,
+            "downloads": 6825,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -3310,7 +3310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 148637,
+            "downloads": 148665,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -3796,7 +3796,7 @@
             }
         },
         "repo_info": {
-            "downloads": 30536,
+            "downloads": 30583,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -3926,6 +3926,64 @@
                     }
                 }
             },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 157816879,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -3983,10 +4041,126 @@
                         "NetworkMode": "host"
                     }
                 }
+            },
+            "v1.0.1": {
+                "identifier": "13bfb792-567e-5440-90bc-47aecc0e6503",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 139164501,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5e82e94b39b55a9e2eee865259af83d311dbfbae1470fc304c77a9cc93a0efbe"
+                    },
+                    {
+                        "expanded_size": 161690019,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bb52f8f92b786a3576e22519059196a401dfdfcb705c989f8d4696ee165d1995"
+                    },
+                    {
+                        "expanded_size": 167205891,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:05abfefd25d3fa05d6ddce099d68ee7df4f2a48cc364eb972e409c164c31bc01"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "9784d249-52a2-57f1-81be-488a862daec0",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 167206981,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0daea257fead5fe6622ac888910e082b8e9ac4b1263907d128db8d8926753f5d"
+                    },
+                    {
+                        "expanded_size": 139162770,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:73768f50b93360ed53bfa76ca220d06e812af178b40f2bfd0ffe5a75dc2a351e"
+                    },
+                    {
+                        "expanded_size": 139162731,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:730538912fce663c577e2af81fda7b9f706228445bd73c7930d8b07f57b77d3c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 20278,
+            "downloads": 20309,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -4216,7 +4390,7 @@
             }
         },
         "repo_info": {
-            "downloads": 50792,
+            "downloads": 50813,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -4347,7 +4521,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8870,
+            "downloads": 8879,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -4782,7 +4956,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13728,
+            "downloads": 13759,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -4948,7 +5122,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9919,
+            "downloads": 9934,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -5078,7 +5252,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85207,
+            "downloads": 85216,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -5275,67 +5449,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -5380,6 +5493,67 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -5460,7 +5634,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22967,
+            "downloads": 23002,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -5590,7 +5764,7 @@
             }
         },
         "repo_info": {
-            "downloads": 93077,
+            "downloads": 93086,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -5726,7 +5900,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87803,
+            "downloads": 87812,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -5856,7 +6030,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90063,
+            "downloads": 90072,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -5927,7 +6101,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8362,
+            "downloads": 8364,
             "last_updated": "2025-04-10T13:01:02.286385Z",
             "date_registered": "2025-03-27T14:05:41.061437Z"
         }
@@ -6173,42 +6347,51 @@
             }
         },
         "repo_info": {
-            "downloads": 14927,
+            "downloads": 14945,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
     },
     {
-        "identifier": "ceruleansonar.cerulean-dvl",
-        "name": "Cerulean DVL",
-        "website": "https://github.com/ceruleansonar/BlueOS-Cerulean-DVL/",
-        "docker": "nicknothom/blueos-cerulean-dvl",
-        "description": "BlueOS extension for Cerulean DVL",
+        "identifier": "ceruleansonar.sonarview",
+        "name": "SonarView",
+        "website": "https://sonarview.io/",
+        "docker": "nicknothom/sonarview",
+        "description": "Cross platform sonar viewing application",
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "versions": {
-            "v1.0.8": {
-                "identifier": "aa686520-e5f6-5cfb-ac69-b414de3e694a",
-                "type": "other",
+            "1.14.77-beta": {
+                "identifier": "07a15119-5d93-5a15-9670-17b4460b3220",
+                "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 109619325,
+                        "expanded_size": 77953990,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:40bdaa212803402e97dcd013000c5991ddc950ce4120a93bdd8e30b876e26324"
+                        "digest": "sha256:78f8ed7b02737a01a086137e8ce899f995b95823f924182b620bcd0ce74e12fe"
                     },
                     {
-                        "expanded_size": 100085882,
+                        "expanded_size": 77471951,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:56f01bdb5e2755292e12aa76fdedd85e5e9a889dfb5e9a4f0ef25db23adff63b"
+                    },
+                    {
+                        "expanded_size": 75310773,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:e208ec461095ed3491a3c38ab7913afe855d9850b4f29f13e620c4f71715bc8c"
+                        "digest": "sha256:fd8d08431feea28915090c38d799f55697986f2392a004507af4ead44adc80e7"
                     }
                 ],
                 "authors": [
@@ -6219,13 +6402,13 @@
                 ],
                 "filter_tags": [],
                 "extra_links": {},
-                "tag": "v1.0.8",
+                "tag": "1.14.77-beta",
                 "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
                 "requirements": null,
                 "company": {
-                    "about": "",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
                     "name": "Cerulean Sonar",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
@@ -6233,33 +6416,47 @@
                     "HostConfig": {
                         "NetworkMode": "host",
                         "Binds": [
-                            "/root/.config/cerulean:/root/.config"
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
                         ]
                     }
                 }
             },
-            "v1.0.7": {
-                "identifier": "8f856745-ea5b-56a3-87fe-c893f0bf2a9a",
-                "type": "other",
+            "1.14.72-beta": {
+                "identifier": "d757673f-5856-597e-af30-761dc22b0829",
+                "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 109619348,
+                        "expanded_size": 77039822,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:063633731be76427d7be0266216d618a1769287135f0c879a4488506f5feb553"
+                        "digest": "sha256:a31c2d3721b15de09867a5b110e6744ef7db742f357bc942d8a656a1f6a8a2a1"
                     },
                     {
-                        "expanded_size": 100085651,
+                        "expanded_size": 76558428,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:89f0044d3d00be42c5a78648c7e87ea6b80d23964639f6f7c6d6a81886305c86"
+                    },
+                    {
+                        "expanded_size": 74405671,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:cdc856ea07548d4cd6e2993ebd81baad2a018034b24085a13f71e6021ad969c5"
+                        "digest": "sha256:0b9d767577d98cb2ac766d31876b07fac8f5396472f70593106bfb50b39a74de"
                     }
                 ],
                 "authors": [
@@ -6270,13 +6467,13 @@
                 ],
                 "filter_tags": [],
                 "extra_links": {},
-                "tag": "v1.0.7",
+                "tag": "1.14.72-beta",
                 "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
                 "requirements": null,
                 "company": {
-                    "about": "",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
                     "name": "Cerulean Sonar",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
@@ -6284,33 +6481,47 @@
                     "HostConfig": {
                         "NetworkMode": "host",
                         "Binds": [
-                            "/root/.config/cerulean:/root/.config"
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
                         ]
                     }
                 }
             },
-            "v1.0.6": {
-                "identifier": "b52186e9-c76e-5768-bf31-d34231668d0e",
-                "type": "other",
+            "1.14.64-beta": {
+                "identifier": "04aa24c7-8c63-5d5f-ae73-ed752aef9f89",
+                "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 109617694,
+                        "expanded_size": 82880634,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:2638f474a73f2eb41bb1a5f237cd72eac2078d55cc3501d04c503bfa82cbe854"
+                        "digest": "sha256:98ece61345f794ae7a093595bf30512a513bf87130979ebf1f581771b8a59e7f"
                     },
                     {
-                        "expanded_size": 100082275,
+                        "expanded_size": 82396097,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bf5e91ebd36bd1ddf5bd025550da5539b85d5cd321af1f3f25769d0deca6e602"
+                    },
+                    {
+                        "expanded_size": 80243427,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:452ef69b3fff8ccf2e2ecd47d431b1ae5c4244802c8df2e7ed59259ae3e084f6"
+                        "digest": "sha256:074f26e2188f16f3c4f523ce106294c840a66a5f51a3c1dcfab98df45d1c15ab"
                     }
                 ],
                 "authors": [
@@ -6321,47 +6532,61 @@
                 ],
                 "filter_tags": [],
                 "extra_links": {},
-                "tag": "v1.0.6",
+                "tag": "1.14.64-beta",
                 "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
                 "requirements": null,
                 "company": {
-                    "about": "",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
                     "name": "Cerulean Sonar",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
                 "permissions": {
-                    "NetworkMode": "host",
                     "HostConfig": {
+                        "NetworkMode": "host",
                         "Binds": [
-                            "/root/.config/cerulean:/root/.config"
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
                         ]
                     }
                 }
             },
-            "v1.0.4": {
-                "identifier": "2056eda3-d739-511c-a708-054d2ef830c2",
-                "type": "other",
+            "1.14.54-dev": {
+                "identifier": "2a230242-4c58-5101-a2b7-147f1c82918c",
+                "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 109534449,
+                        "expanded_size": 79376198,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:43fac24a1199fe0c9bcf5b61df0278f56197b744285cf30d8316bf7d1065e983"
+                        "digest": "sha256:ebd213c69ae1d0ce98a1231c128322be84a37241cbc26bd467f2272ec54bd37e"
                     },
                     {
-                        "expanded_size": 99947116,
+                        "expanded_size": 78893770,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ec3c9e5115a065a7740b0ed1536705dc5407714d3cabc15b7e54d9bdae5452e1"
+                    },
+                    {
+                        "expanded_size": 76742106,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:8c3edb7d465c05b9b735cc55291fa323deb95f3f11c086ecd47729f0d78a5249"
+                        "digest": "sha256:677caaebd824a3378d1ad2e48bf0f6e54437ceec890902f874e90c544b901b61"
                     }
                 ],
                 "authors": [
@@ -6372,42 +6597,61 @@
                 ],
                 "filter_tags": [],
                 "extra_links": {},
-                "tag": "v1.0.4",
+                "tag": "1.14.54-dev",
                 "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
                 "requirements": null,
                 "company": {
-                    "about": "",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
                     "name": "Cerulean Sonar",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
                 "permissions": {
-                    "NetworkMode": "host"
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
                 }
             },
-            "v1.0.2": {
-                "identifier": "57d15a76-04cd-515d-a297-58a4bb60088e",
-                "type": "other",
+            "1.14.47-dev": {
+                "identifier": "bc324e29-e93d-5258-9674-abe1326d1039",
+                "type": "device-integration",
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
-                        "expanded_size": 109912487,
+                        "expanded_size": 81017673,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:9c14841b20f85887b029071ae14592ac0235ed0764256743b1db398b294a727b"
+                        "digest": "sha256:73442fbeffa1243e5df050fd372d409d32fb51d91db35fdf9458145d989acccd"
                     },
                     {
-                        "expanded_size": 100174048,
+                        "expanded_size": 80532393,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:47483d6860914647d9a9503cac2be27c45aa478d602b3c5e3b15c126f8a67229"
+                    },
+                    {
+                        "expanded_size": 78378427,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:19f8215cae9fa37e89c9e8596ec2010d520430d46bf3fb93d58ed7f6e7745fac"
+                        "digest": "sha256:195e73f6d863cdfc02f435f136228bac380e2b92f0f224099c353ede0d140765"
                     }
                 ],
                 "authors": [
@@ -6418,71 +6662,35 @@
                 ],
                 "filter_tags": [],
                 "extra_links": {},
-                "tag": "v1.0.2",
+                "tag": "1.14.47-dev",
                 "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
                 "requirements": null,
                 "company": {
-                    "about": "",
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
                     "name": "Cerulean Sonar",
                     "email": "dennys.bisogno@ceruleansonar.com"
                 },
                 "permissions": {
-                    "NetworkMode": "host"
-                }
-            },
-            "v1.0.1": {
-                "identifier": "5fda492f-72b4-54c0-bd0f-fca4761a0bfd",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109912491,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:d5e8e487e02db3573da4b82b5c1bffcfd7dc56115aabc9e31d46b441205e8678"
-                    },
-                    {
-                        "expanded_size": 100174019,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:11543c36b10be611293248778bc7b924eea38b7bfa47f39701c1b72d3b9a288f"
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
                     }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
                 }
             }
         },
         "repo_info": {
-            "downloads": 37638,
-            "last_updated": "2023-05-17T18:58:43.418901Z",
-            "date_registered": "2023-01-17T21:41:45.289578Z"
+            "downloads": 120742,
+            "last_updated": "2026-06-25T20:09:22.739182Z",
+            "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
     {
@@ -6599,7 +6807,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10031,
+            "downloads": 10040,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6662,225 +6870,6 @@
                 ],
                 "extra_links": {},
                 "tag": "1.15.0",
-                "docs": null,
-                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABsCAYAAABHCr0bAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAACE3AAAhNwEzWJ96AAAAB3RJTUUH6QkKEw02+0aUAgAAHIZJREFUeNrtnXeclcX1/9+fuXcXWKlSdFERFFGwolixG6wpCibRKBEEFASxIgYLipGAGAwqGhtWYlS+aDRBjb2gWKhSBFEEFUQpCyuy7d7z+2OeVUTY+zx377O7xt9nX8Puss89c+Z8nmlnzsyInwAadT4NIAFsB+wFdAH2AdoD2wONgXrB4+VAMfAV8AnwAfA+MBv4AqgAKJ75ZKVcgCSwA7BvIHtvYBegFdAIyAueKwXWA18Ci4E5gey5wEogVTzzydo2V0aothXYGhrtd1qlfi2BroiTgEOBnYGGEXX/FvgMeBd4FuM1PHHbI44CTgIOAnYCCiLINeAbYCnwNsazwFTga8CKZ9XNF6DOkd6o86mVeu0C/B74LdAJyM9RFhXAQmAGsD+wO76m5wJlwHzgCeAxfEtjxTOfqhHbhUWdIb3h/qchDEOtMXoB5+KJrzM6RoDhCZ+AeEDYckN8M6Nu1Pw6YdBG+3dHkG9wCtgw4IC6ols1YcB00EjBfwzKimdMrm2datewjTt39xoYrQyGAv3wA6f/NRQD9whGI77CYP3M2iO/1khvvP9pYAJZJ2AscHxt6lMDMOC/wKWY5iNjfS0197Vi5MYH9ADSgA7BuBPYr1ZKXzuYhRgANg0c66f/X40rkKjpDBvv3yNo0nUYcB9+TvxzwvZAV3AzEZ/VK+xE6YoFNapAjdb0Rl16IAPzTpCH+fkRvik+AHoKZpug+P2aq/E1RnqTzqdizgHsCDwCHJVb9a0GSpHz/F4DzgY+VzrNuhqaz+fKKZEZiSSCBmDDqT7habybdVGQPgOlgPPxXrVc4zPgLnx3uBPQAdQB76Z11ZB7FDAcNJiE2xiD3ltEjZDepEtlP25/AHpWo4H5BngTmBx8X4a5b1HKkPpjtIqpCK0QqzH7O5YQShcAbYDDge7B94bZibaeYNOQ7mvSpQfraqCZj795P+i3NDYD2AP4F9AhCyXLgZeAW4HXMTYgSEvIy94XeApoG2NJPgVOBWabhDM/OEFsAxwJDAaOs+8XZ6JgEfAb4MP1Erz7RIzFqF7TFApNDJyUFAwUdBD+TYuQvgSuMDgDeBbYsO79Sax7bxLOQFK+4GJB2yxkR0ltBRdLyncG696bxLr3JwFsAJ4N9LtC8GUWsjsIBjop2aQGhiax1vSmB5+Or4gcCjwNtIio2jzgojS87MDWbVIDmh50euVQ6hfAJKBJBNmGXyJt7D1EobEOOB14UUDRu5O++0OTg35LGuTgWGAcsGfEwd4q4NfA2xIUvTMpymcjIdaabiaQSwj1FmohonwxR9ALeCmxGeEeArl6Qv2EmkSU/Yqw0/33SF9NhPohV2/z+rLu3SdIeJZfEvTy+kf6aiHUG7mERXoP6xjpEgjriDglWnunpUgDgfclUbQZ4U0POc1zjnVBdIsoezbShaAXkS70v0f5PN2CfL0em6Do3SeQBPA+0kBfjkiyTxHWUTGPtGIjvdnBv6uk/peg1hFK/i0wXOJNJIreefxHsmV5pEgB6g5qFkH2amAoYn7wRs4Hhvr/Dy2jGah7ihSyH4/Zit55HCQk3sRPx76NILu1t9em9vsJke6N6hpJnCQFv4ZLj8sHIGyR8ErZCSULJY6PKPsuwQsKZAemfkHirohyjk8oWchWqmSl3oLHJB6PKPsk5BoRY3WPjfRgCLO7ob0NETItB92KVFKVal629je0WwTZc0F3I6XXTvOkrJ32OEhp0N2G5kaQtZvPP4NppRLQrYaWR5C9t7dbfIiF9G0P/X3lW3ugRLMIb/mTZunZCNZO++cWZTc79Pe+PxdHSNSLIPshXNDHbgoBTkslHoogq57EESjQZwtYO+2fIDBLz5Z4MoLsZoHd2HYrsusk6UjIOSF1idCuFSNNUiKRJi+vCtHCSQURZS9Dehpg7duP/ZCcyt+lp4Pnwsrs4qQCVdUM5+WhRCKNNCkoX2jZgf1+OqQbYGYN8UGHYTFPMEvA2tcfqVq2j5DdNYLsqYKPt2bCoG//GB/JGha7GrSsqhle+/ojlbJn4X0OYbG7mTWMq4mPhXRJSGoqqXXwc5j0DlJRprc7eHZHSS0iyH4DqWKrsn3tqpD0RgSZLSTtoEy10csukvROBNmtA/v9dEgPXu9tEU0izFE/COUf9M+2RhSElPtNpew1Ux/dosg1Ux/dVIdvQsotQOwQQecPItiiSWC/WBBPTf/ee1U/pDeqVGiZ0FaJ2Ux2KyEXUvZaoS+UwYLBs18Ez4f5coEeVcpdM/XRyueXBeUM81W/0ssYB+JZWvW6FkSQXwoURZDdNII26/DRqGHkFgfPh12TD+fv97KLgnLWC/GJJNF22kRCTklvfuTZSGB5eVJZWTPCtyQp/PJpRgT9XBjDVaKMYP9aCLnlQEkE2fUj6FwelDMMHNDM8vPV4qizzQxWVzG4jYpqk97iqDMxSyBZAVhH4EiVlx2G3whYc5E5/1tIAiNVXtYdeEvi9RZHnbXATN9KKVa99mi1hWeFlkf1hBQCCiU72dDpwIHAtgAxdUfE5p6Mc5UjO9ltg3Q6sAZ4z4lJkJzS8vCeK0hgX7/2cFbqRCa9xdFnIwnDChFn4pc/OwGJGM1WTfvVntwcyd7W4ASDX4DNJ8kDiEdbHtNzhZmx6tVoTX+k0XvLY3ri5BoAZwg9IzRGaG9JCUVcVdhqCmPBOGTXVZ2DFMzfE0J7B3Z/BjjDyTVoeUzPSKSHquktj/4jcoaZdjG4GnQG0CC2JrxqC/7E5OZYthfl8Js8Jxj8E/TnVsf2/MTS4utXH8ooImNNb3XsH0kmTKDjJCZJ9JZokKuKnWWlSf/MKvrWUoOAj0mg45IJU6tj/1g90rc77hzkXCKNOwvpIaTOcZYgggVTP7fmPUPqjPRQGneWnEtsd9w52ZHe6he9MKeEQV+TbkNqXQPKx2vA/13SQWpt0m0Gfc0p0eoXvaKRvn23XiQSSHCOxGiJpjWj9//nvJqpqcRowTmJBNq+25aJ/xHp23XrDYJ0Wr8CjQI1IcJKQVXpRzGpW0wZTViNVBtytyw7nC2ySk1Ao9Jp/QoFfG6GH4zeC7udG0SBa1/JbsKvW1cX5cBaYDXet12O3xNWT96/3BjvKk2HERamZmWDuORuIjuNj7UvCb5/i/fFp4A8+RM4mgPNyG6XzKZoCdwEbqnE7MJu57LihQnf/fEHpJsDUDOwG0BRAiA2Ryl+K+5LwFv4M9dWBQVO41/JJN6H3hBP/JIoFsw54md9CX7f23r8nrxS/JqA4Vvc+vjNIO2Bw4Dj8Fu5o6wzbIrdgRtA55hs7aZ/+I70whP7UF5RTl4yrw/o5CwzKgVeBu4FXoPEGkjbiufuzaH94iEnLrkAXz4/AXwrN6OKx9YDXxWe2Hc+uGcgtS1+V2tf/K6ZbMg/GehTXlFxc+GJfVjx3H1A0Ke3PqkfSOTn5e+LuBCRyKI7WQj0x5/9NhlYveK5u3NKOETWqW506RGw4rl7WfHc3YbvDicH9uyPWJiFbgnEhZ5XeZ4JarrJACUNuwDUJiIHhjEFGGqOeTJY/myOif5Bhj/B5j0LVNbK1if1LTbxgIz38KdTnWzRXrU2BheABhpWAeAKT+6L9+vSRVL3iPuvDPSISX0Q80QiXsIhmnY/GiHXvNzqYvmz9yISIOaZ1Af0iJBF0lDqHvBL4cl9cc45JDmhs0SkYEMkTZJ0qZNWNqhfwPIpd8VqACCKbj9KtSE3J8RPuYsG9Qtw0kpJlwZ2D6+j3xx5liTnnPtunt6OyJsMeRcxFLEKBx9PvjX2wnt2qpFqQ26O8PHkW/0ITKwK7P5uRD1PAdoBuGBJ9FhJbSO8PWslDUdaIokvnrm7ZkrOz7OmV+KLZ+4m4GuJpOEBD2H1bBvwjJNTvqTjKzv2kGmiwYuS+PyZ+Jv0zdjJPtWG3Bzj82fuwgex8CLSxAh6StLxcspPGmqD2D+C6svB7pVUkZ+rw7gj4Kc4T8816tWDsjJVAPeCugOtw3zOYH+DNkmJfYHCCHk+Z8ZcIT5+4s5QH2hz6gDwPUt+kAzvjSqnceMU69ez7KlwsmLrQ2uA8za/6Q95eVBRkcC7WpNBzmVBsjB2+PiJv7PTbwZg2FyJ5/DHpIcpYiGwbxLpAKBByA+VAU9LSoWpGTuddgENGjRg48aN7YHfAV3xgZMpYCOwhuLiL5AW73TaBQuAj4CVkspLS0tZ+Z8tTP9+IvP0Fif2pqCgADPLw19D0t6gI6lUe6QdAjsU4Nch1uLd1Y+1OLH34gYNGthnT95RpXyXcJhZCn+Wz9kW7hKEBsABSUl7RSjLMgJX4tLJ46t8sE33gZRVlKOSklMkjQE6ZpC9EX/Hykzgxfr16r3SpvvAJUDFsk3yquvNe5vuA8EHibYzOFpSN/wNEq2pegPDScDZBQUFV2xTr8EzbboPtGVV2Hjp5PGVec0Alsn77MNgryRS2whlWgi2MnPBByFBfl7+QcB4/L0rmdAAr3h7oIfB58DzwMQ2PS58B6yECmJs3rMXvGO3gbjGAlQP7CDgLIMT8TtlogSf7g7cvqGsZJWkt9r0GMSy/7u9Cp0BWAlaSHjS2yalSMuni8GVZToqy+8yIw9sMOEI3xwOfyJjP3y3MEXodvJ4t9KVmGtUp6Inm7gEcKDBIOAUom272hw7ARcJTccvYFWhswCVgS2OIL9lUlKU4y1XAJmPXhMYtAEdmYOK2cTgTINuwASksbLcn/6bbfNuopUZF+NXw1rmwi1rcLj5yrKoSp1RUNu1IoL4hkmkKBOvDQCfPlG19y0w4HZU7napJgIztgCG4K/rWlsdeVtROptPdRFMQhxODjse+ZaikAykfzrpNtr+bjAEvIREflJSXLUmjt5X+BlAXanpJ8ZYzrj0NodUFsGrU4BEuzMuzqyy+BJpTUwRgFG8h3F65LLTI3Na6+1Xtcrtzrj4B7yETGVJiWLC35C0vYV4DSVhxjKJV4DM0fd1AHXMIfeqmZaEeU8DPraPILs4ifQVId14wK7yToCyTNpIlAO34K+z3KOWjBcedYf1j4CxEmVhWqeAjyiHLn3lFKyUhUx7SGqVqR/55B+3BKtBzJLUR9Krksqqs5KVi1S1/WpXN0nlkl6XD0iZLolPJo4No3OrgJew+SxJIs0DTgv5luwMdAY+b3fWJSyZeMtWH/x44lh27XkpSustk/XA336wL6ghsA1+dN82SNtSA2fPZ7BgTeRSGfu2FH9pwEpgA1gxPnr4DZlW4+Djh6smvN1Zl1Tq3JlovpB5SUkz8C7QMP73esCvJU2RvzOlSmyi+Bq8j/jp9uf+CVu7FjVsmMCPJXYyOETwS+AIfNx3jSPmVbYi4A2Dfwum4d3Z39i6dRVq3pzF94+KLDCRSCCUMLNfEz5SdiMwI4mYA1pO+H7hZBN7YZrdtucQPn14TCRlF0/4S+WPKaCofd/Li1TKB4iH8dtv+wHdQTV7/WYspFsx/pqRe4D3ZJSQhMX331wtqW17DvHSxV5EC1dfDjYnifSZvNM+LOmtEefJ6aI8q75LdPG93xmgZLdzhkwFew80CRiOP7emRhAD5zNAI8CeA5W6po6F40bnRHBeAiQlzew8wg/CAWYY+sw5pzI5vSAnkxOhkvQH4AQkOvQemjMrffTgGCRXhvi3pNMl/UNOqdB6ZUhVIVd5yCkt6TFJpyP+JbnSjx4ckzPCO/QeWvmGniDpDxH0Mjm94JzKXDBhfwV/m0LYCX5TpBskdUBit95X5Iz4RQ/chFw+SEvN347wd7Ldjx6/c2bzlEa6x6QBSEvkkix64Kac2Wa33lcE02F1QLoh4CGsbksDnnHBAsEnkqZEnGJ0ljRWorVzjj3OzV2NXzThRhbdPxonFQldJemhn8iUbaLQlU5au+j+0Sz6fvxSbexx7lB8uDqtvd3VOaJuU4BPhHDIIbk0aCLS6ohv9ilIdyC1xTk69LkyZ4UEWDhhFEjrQFeDXqvTNR1NBQ1DKkK5vbe4Q58rwTnwEa13BHaPot9q0ETJpZHDLbxvZKAz70l6Kou3+zeSHkHqmnAJt0e/YTktsARyWi4xXNLXdbSmr5YYLqfPJVh43405K/8e/YaRcAmH1FXSI4G9o+r3lOcXFt43MnCISMi5csR4SZ9nIbSrpCcQV0oq3H3A1XQ676qcFPrDeyubSL1R3WY+RtIfQXr1h/pWD53Ou4rdB1yNpMLArk8Edo6q2+eI8Z5fbwMH8OE9vrbfcueNMxHj8QOSqE1cIX5wMcWludycOnbsf3W9Tv2voUP/q6tH/D0jUUJpxP1In9Wx5n05YoKcUh/eM7Ja5ezQ/2o69b+Gjv2vrmdOHV2ay5GmBHYtzEK3NGL8LXfeOFPydoRN9qcvuOtGLvMP3i04HHRKFno7sP1A+wKXIKYD7ybRgj0HXPMlfrG/DFhlsFqQmnfnDaEES8KMBRLPgfpVy7pbkZ8d7L9mmhfl43sOuAbzwZPN8cEh+cA25lfLOgodhHEAotCHKWWt27OG7r5s4DUsuOv7LueHhwc64Yw1/oBA2hPtOo5K81X+0zpIvwJS5k+hKANVIL4CXjG4p9Og6z8gnbL5d4yoWmxCKE0a+A9wDuFCfiOqHRnloH9L4U537nTBteASsnRqb6CfwTH+JmhLBuWpjw+J3kSfrL1GC0FXO1izeXTbDxY55t9xQ2X/PkvS5XJamSOHRUJO28ipmRwtJfaUGCTxlCx9akH7htpz4PAqSzB//A2VfdQsOX1eR5wzyyXNlMT8DC3WngOHU9C+oWTpUyWeCsq/pxwtvV20TWCnXNh7pefPzULyvG6NdIB5d4xAgEun/yM0RNKaGJcT20mMK/nk24Ml2GvQdVUT4z+zUtLHdWQg94mcvswke69B1yFBUM5xvtyx2XSN0BDPn+dzc2xxOXPu+OuxZNJMTES6DGlVNQY6mdJOiAvkXF7GlswJJVwJ0qd1ZCC3NJ22jbhMsiEo3wW+vLHZchXSZSYmWjJpc8dfv2Uzbk3Pubdfh3MuDTwk6XxJn8b4dnYFCsPUxuD7qjpS01clkgkLqXdhllOusOlTSecDDznn0nNvv27rdacqZT+4dTjOuXQqyWRJZ8rpjRwuTGyamgSJTPoEz5fE2KeHX3gK9Pjg1uFhZH9XxhjSG5LOTCWZ7JxLZ9InY7TKnHHXkkwnwDENdAbS35DW57hZKkHamKkJ3ueSGyqfz48gO41kIZv3NNEWd/KRvF6ZZW8MyplLu61H+hvoDBzTkukEc8Zdm4nScOe9z/mbd67se+mflwNXAC8Al+NDoKp7uiHAh1TunqnSdqqM/mweQfZGwl/cUxE8HxbN02nDZWpFvOwVQTl3yIG9yoE3gZuBFxDls8deE/rDkeLSZo+9GpwrB6Yg9UA6D3+7Ycl3/Wb0VIr0oKQNmWqjnHD+5Iw2EeSvpTK2v2pmQCoPng8lW9JOiYSrn9Gx45/dgPRgUN5INtrEtiWBvc9D6gFMwbny2WOjeTwj3+Ey+2a/oLLfkBvXWkoPyNlTwJH4ExGOFOxI+NpfBtwGNsnLzuCv98ZtgQ/FDosVksrNMmy6FEiqMGN5BHPsgt8A+lmVNvvrVex3+Y0IJoH2AQYT3rlUjt/B+7qwycDrllaREsasMdm5t7O+rWnWGE/Qodf8taikpOxpYAq+6ToAOATYB2iLaI7fl52Hb1kMKMH4ELgbmAjaOHPMnzLmGdSoPRFRDjj8GMh8jpycn1rJPx8SOwJ7kYF0gFk3X0XnIX/ZiA8DWwSch9gD74UT/szccuBbjNX4aNk5+EDK6cAXoIr69fN5+4bLsqHs+7JW69NbQOehN2FIslQ9/Ea85vgQ50Z8f/TI18DCtLk1TmmbeVPmdfj9rxxFujyNS7ox5scTYVAG9AD+PXN05jw6Dx0FcALwL0JGmArGFX2w4uKm+xQyY1SIPK4YRdqcnNLb4t3cLb0YyvDnx67FH55cZEqUCrOZo3MXmQQxXJYXKOhrM3wZpOpDwuUndsb4ZYQ39Sv84ClkFgJfC78kfCz5yU33bT2OkKdYBy94Zfz7WzmxTUTU7gaDkDhgmI8zk/Q7Oe0eYf76gYL4gDAIBkvL5TQnQh67STrD7Hs96zrqPOkHXjkaSTjnOsmPWhVh5PuyXDA3DgMJ51SK9HLE0XW/RMLtLYkDh+QuLi4u1HnSLS8Bzm2D9Cek9hHckl9JehGJ6SOHhMpr+sghlSS+JPmFlFDuXakd0jCcGln9XLgt4kWdJv3Aa8finEtKXCin30dyTUqvIRZEDY7wJPKhpFciukJPl3SRcy554LVjI+VZ06izpB80fCxyJIG+SMOQ8iI0uRtxmijnSlHEIko+XtBpItK3EfJMIg0F+suRPGh43SU+t7G6OcJB190CcgXAYPymisYRV5xeErpJqOy9EZdEynv5a8+z49EnIrRc0gGSOkTINx/pCFAKuZk7HH1C+RevPl/b5vwR6tT95gePGIdhCO0KNgzTWUS/u+QbYDz+hI2sEKzIbcCfgXck/mKhsGgEXO8dL+7GLiNu+SiB451rL6pZY1ZVvtpWAOCQEbfSaF0jFTctbgX0ABtkmU+Y3Brux2wAqLQ6hj54xDjA8pFuA87LRoZ8nNrtwKS8sryV5XnlNu3awXGbM4xeNY89+lxP03bNwHCIxkAH4Hj8FVZ7k30L9GEgYwHmmHbNoKx1PGLURMorVoPRATEZ2DNLUSlgLv4Snv8CCzHWIdKfTV3KF8/+NRYbV4XYST905O3gxw5t8f74Fnx3B5m1w+iIj7xtWs2sioHzgUcB3r7qwurrfuNtlT/+Fn/tWJRmfktYByxGLAAtwbujS/DeuTl4r17q7WHZv6xhEBvpXf88HvPDxBbARWA98QsUcQweU8BfMBsBKn8rh0Y7bOTtgCWRrsKHhscxDkrhF1Qm4g9n+loVxtRqtFRVIbYpm+UJnJohjUNchbQzUiLHkSOV6UHQGORySjjAW8MGgVwFaCzSBCqjcHKbEkhtEH9Cug2n5pYf32w6lpre9aY7wQyky4CbiNMfYPZPg8GCr6cOvSC2bLqOvgOD5oK/IZ1FfK2kAcMsnR4l55h6xYCcZxDLlC1wTbYA+wPxEZ4CHgFdIfjaRfS8RUVeIkFFOr0auAQoRfQinq5KwBlKJCbgVwlzjphIB2Bn0C5xyAc2GNyGMQqx7s0h/WPK5nu8evn5ABw+5u+rgEsRXwouwl8QnGu0ww98YyE9nlroHDhXH+fygp9zl6RPkC4ADZdTjRC+Kd4c0h85rQeNQOqPtDjnZfR2K8DFRE8cQgOX5GpJ63MYzL9R8Jik0xIlJQ87p7I3Ljs/VoK3hjcuOx/nVJbaZpuJkk4T/EPSxhyWtVjBAQxxICbSQWKppPdyYIBySW9K9JJ0rqQ5rqDAXr80KydZzvD6pefRqLQUSXMl9ZX4o/wxn7k4DnW6RMYDgbNFPL53v7K1Ee8D70q0OHUPoxh4G3gYmIKxhoR4bXCfeCyRBZ6/yOty1K33bSRtk5Bewl/A0xM4LPA2RsUajNtB38ald2xD3qNvnYCZOTn1Av5M5rvf0vigwEXAqxjPAjMM2+CU4JULe8Wlas5wzG33k7Y0QtsA+yFOAo7Gn4LdlMyj/ZXANZa2CZJSrw4Odd1aZMQ6zznm9vsJCnokfqR7JKIpkMLYiD8z9XNgIf7UyunAAudckZnZywN7xalerDh2/APISelUuime9APwV3XtgQ8Vb4ZoACQwivA7VsYBrwKpVwb1jk23/wegbQoNW1G6GgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0wOS0xMFQxOToxMjo1MyswMDowMLgZNzYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjUtMDktMTBUMTk6MTE6NDcrMDA6MDAalhAEAAAAAElFTkSuQmCC\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
-                "support": "contact@marinesitu.com",
-                "requirements": null,
-                "company": {
-                    "about": "Leaders in Ocean Intelligence",
-                    "name": "MarineSitu Inc.",
-                    "email": "contact@marinesitu.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev/bus/usb:/dev/bus/usb",
-                            "/usr/blueos/extensions/madrona:/data/madrona"
-                        ],
-                        "DeviceCgroupRules": [
-                            "c 189:* rmw"
-                        ]
-                    }
-                }
-            },
-            "1.14.0": {
-                "identifier": "3d8b6156-5a7b-527f-bd71-70a25ea354b5",
-                "type": "device-integration",
-                "website": "https://marinesitu.com",
-                "images": [
-                    {
-                        "expanded_size": 1353523947,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:81c6d4241cc942d08f33fe31b6152fc383605bd7991c7862a8d837b625534e8b"
-                    },
-                    {
-                        "expanded_size": 1315659852,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0048585e428da68737f5a11a9d2972c4e94f2e0a02a579687d474b1c05421977"
-                    },
-                    {
-                        "expanded_size": 1112708904,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3ecc992c7be630d1ab57143f8945002441f4735ac1a06842a69ddd923a0bdca6"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jack Mead",
-                        "email": "jack@marinesitu.com"
-                    }
-                ],
-                "filter_tags": [
-                    "luxonis",
-                    "oak-d",
-                    "stereo",
-                    "depth",
-                    "camera",
-                    "data-collection"
-                ],
-                "extra_links": {},
-                "tag": "1.14.0",
-                "docs": null,
-                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
-                "support": "contact@marinesitu.com",
-                "requirements": null,
-                "company": {
-                    "about": "Leaders in Ocean Intelligence",
-                    "name": "MarineSitu Inc.",
-                    "email": "contact@marinesitu.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev/bus/usb:/dev/bus/usb",
-                            "/usr/blueos/extensions/madrona:/data/madrona"
-                        ],
-                        "DeviceCgroupRules": [
-                            "c 189:* rmw"
-                        ]
-                    }
-                }
-            },
-            "1.13.2": {
-                "identifier": "3377d739-80b5-5041-b640-0c8ee8120a6f",
-                "type": "device-integration",
-                "website": "https://marinesitu.com",
-                "images": [
-                    {
-                        "expanded_size": 1353521957,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:87fd62a428df67d878b22421a38bbccc3c6639dd1f86c980cb00195df237cace"
-                    },
-                    {
-                        "expanded_size": 1315657868,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:75396c20f7dec6d319640df51000907c1a3bbb9fe722f147ea56e1b2e27b5a8e"
-                    },
-                    {
-                        "expanded_size": 1112706913,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fa72dca5bfbe5f462b543864f8aa7852e13e5e135012f0a438faea27d9a625a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jack Mead",
-                        "email": "jack@marinesitu.com"
-                    }
-                ],
-                "filter_tags": [
-                    "luxonis",
-                    "oak-d",
-                    "stereo",
-                    "depth",
-                    "camera",
-                    "data-collection"
-                ],
-                "extra_links": {},
-                "tag": "1.13.2",
-                "docs": null,
-                "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
-                "support": "contact@marinesitu.com",
-                "requirements": null,
-                "company": {
-                    "about": "Leaders in Ocean Intelligence",
-                    "name": "MarineSitu Inc.",
-                    "email": "contact@marinesitu.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev/bus/usb:/dev/bus/usb",
-                            "/usr/blueos/extensions/madrona:/data/madrona"
-                        ],
-                        "DeviceCgroupRules": [
-                            "c 189:* rmw"
-                        ]
-                    }
-                }
-            },
-            "1.13.1": {
-                "identifier": "13a485eb-bff8-57a3-8a85-eb85becbed8c",
-                "type": "device-integration",
-                "website": "https://marinesitu.com",
-                "images": [
-                    {
-                        "expanded_size": 1353521945,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ae21ec4a87bcaea3319d1959dbf4cfe480d1f58a5fa31854f358e89973e9232c"
-                    },
-                    {
-                        "expanded_size": 1315657864,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f991e57219df4907128d63d9bd18bde202cb1e2c30a7a97e54023c6a02e8db90"
-                    },
-                    {
-                        "expanded_size": 1112706903,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:dd7d3263b970d8b395710c184be790bae43b1ecdc7a9235a519a0d479109ff3d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Jack Mead",
-                        "email": "jack@marinesitu.com"
-                    }
-                ],
-                "filter_tags": [
-                    "luxonis",
-                    "oak-d",
-                    "stereo",
-                    "depth",
-                    "camera",
-                    "data-collection"
-                ],
-                "extra_links": {},
-                "tag": "1.13.1",
                 "docs": null,
                 "readme": "<h1>Madrona</h1>\n<p><a href=\"https://madrona.marinesitu.io\"><img alt=\"Docs\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJEb2NzOiBNYWRyb25hIj48dGl0bGU+RG9jczogTWFkcm9uYTwvdGl0bGU+PGZpbHRlciBpZD0iYmx1ciI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMTYiLz48L2ZpbHRlcj48bGluZWFyR3JhZGllbnQgaWQ9InMiIHgyPSIwIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjYmJiIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLW9wYWNpdHk9Ii4xIi8+PC9saW5lYXJHcmFkaWVudD48Y2xpcFBhdGggaWQ9InIiPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgcng9IjMiLz48L2NsaXBQYXRoPjxnIGNsaXAtcGF0aD0idXJsKCNyKSI+PHJlY3Qgd2lkdGg9IjM3IiBoZWlnaHQ9IjIwIiBmaWxsPSIjNTU1Ii8+PHJlY3QgeD0iMzciIHdpZHRoPSI1NyIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Q4YjgwMCIvPjxyZWN0IHdpZHRoPSI5NCIgaGVpZ2h0PSIyMCIgZmlsbD0idXJsKCNzKSIvPjwvZz48ZyBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iVmVyZGFuYSxHZW5ldmEsRGVqYVZ1IFNhbnMsc2Fucy1zZXJpZiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgZm9udC1zaXplPSIxMTAiPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iMTk1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iMjcwIj5Eb2NzPC90ZXh0Pjx0ZXh0IHg9IjE5NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjx0ZXh0IHg9IjE5NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSIyNzAiPkRvY3M8L3RleHQ+PC9nPjxnIHRyYW5zZm9ybT0ic2NhbGUoLjEpIj48ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZmlsbD0iIzAxMDEwMSI+PHRleHQgeD0iNjQ1IiB5PSIxNTAiIGZpbGwtb3BhY2l0eT0iLjgiIGZpbHRlcj0idXJsKCNibHVyKSIgdGV4dExlbmd0aD0iNDcwIj5NYWRyb25hPC90ZXh0Pjx0ZXh0IHg9IjY0NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjx0ZXh0IHg9IjY0NSIgeT0iMTQwIiB0ZXh0TGVuZ3RoPSI0NzAiPk1hZHJvbmE8L3RleHQ+PC9nPjwvZz48L3N2Zz4=\"/></a>\n<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"License: MIT\" src=\"data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MiIgaGVpZ2h0PSIyMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJMaWNlbnNlOiBNSVQiPjx0aXRsZT5MaWNlbnNlOiBNSVQ8L3RpdGxlPjxmaWx0ZXIgaWQ9ImJsdXIiPjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjE2Ii8+PC9maWx0ZXI+PGxpbmVhckdyYWRpZW50IGlkPSJzIiB4Mj0iMCIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2JiYiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1vcGFjaXR5PSIuMSIvPjwvbGluZWFyR3JhZGllbnQ+PGNsaXBQYXRoIGlkPSJyIj48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIHJ4PSIzIi8+PC9jbGlwUGF0aD48ZyBjbGlwLXBhdGg9InVybCgjcikiPjxyZWN0IHdpZHRoPSI1MSIgaGVpZ2h0PSIyMCIgZmlsbD0iIzU1NSIvPjxyZWN0IHg9IjUxIiB3aWR0aD0iMzEiIGhlaWdodD0iMjAiIGZpbGw9IiM2N2FjMDkiLz48cmVjdCB3aWR0aD0iODIiIGhlaWdodD0iMjAiIGZpbGw9InVybCgjcykiLz48L2c+PGcgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IlZlcmRhbmEsR2VuZXZhLERlamFWdSBTYW5zLHNhbnMtc2VyaWYiIHRleHQtcmVuZGVyaW5nPSJnZW9tZXRyaWNQcmVjaXNpb24iIGZvbnQtc2l6ZT0iMTEwIj48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjI2NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjQxMCI+TGljZW5zZTwvdGV4dD48dGV4dCB4PSIyNjUiIHk9IjE1MCIgZmlsbC1vcGFjaXR5PSIuMyIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48dGV4dCB4PSIyNjUiIHk9IjE0MCIgdGV4dExlbmd0aD0iNDEwIj5MaWNlbnNlPC90ZXh0PjwvZz48ZyB0cmFuc2Zvcm09InNjYWxlKC4xKSI+PGcgYXJpYS1oaWRkZW49InRydWUiIGZpbGw9IiMwMTAxMDEiPjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii44IiBmaWx0ZXI9InVybCgjYmx1cikiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0Pjx0ZXh0IHg9IjY1NSIgeT0iMTUwIiBmaWxsLW9wYWNpdHk9Ii4zIiB0ZXh0TGVuZ3RoPSIyMTAiPk1JVDwvdGV4dD48L2c+PHRleHQgeD0iNjU1IiB5PSIxNDAiIHRleHRMZW5ndGg9IjIxMCI+TUlUPC90ZXh0PjwvZz48L2c+PC9zdmc+\"/></a>\n<a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/commits/main\"><img alt=\"pipeline status\" src=\"https://gitlab.com/marinesitu-public/madrona/madrona/badges/main/pipeline.svg\"/></a></p>\n<p><img alt=\"Madrona\" src=\"data:image/png;base64,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\"/></p>\n<p><strong>Camera management, configuration, and surveying software optimized for MarineSitu\u2019s underwater C3 camera line</strong></p>\n<p>Madrona is a web-based tool for managing MarineSitu's C3 cameras. It allows users to configure, control, and stream video from the cameras in a variety of ways. Designed to be used with the BlueOS Cockpit for BlueROV or as a standalone application.</p>\n<p>For more information on hardware specifications, see the <a href=\"https://www.marinesitu.com/cameras\">MarineSitu Website</a>.</p>\n<p>For usage, see the official documentation at: <a href=\"https://madrona.marinesitu.io\">Madrona Documenation</a>.</p>\n<p>For installation and developing, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/INSTALLATION.md?ref_type=heads\">Installation Guide</a>.</p>\n<p>For building, versioning, and CI/CD release details see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/VERSIONING.md?ref_type=heads\">Versioning</a>.</p>\n<p>For releases details on new features and changes, see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CHANGELOG.md?ref_type=heads\">ChangeLog</a>.</p>\n<p>If you would like to contribute to the project by coding, requesting features, or submitting bug reports, please see the <a href=\"https://gitlab.com/marinesitu-public/madrona/madrona/-/blob/main/CONTRIBUTING.md?ref_type=heads\">Contributing Guide</a>.</p>",
                 "support": "contact@marinesitu.com",
@@ -6980,9 +6969,155 @@
             }
         },
         "repo_info": {
-            "downloads": 11539,
+            "downloads": 11561,
             "last_updated": "2026-05-29T18:35:56.02999Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
+        }
+    },
+    {
+        "identifier": "clydemcqueen.surftrak_fixit",
+        "name": "Surftrak Fixit",
+        "website": "https://github.com/clydemcqueen/surftrak_fixit",
+        "docker": "clydemcqueen/surftrak_fixit",
+        "description": "Find and fix common Surftrak problems",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/clydemcqueen/surftrak_fixit/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/clydemcqueen/company_logo.png",
+        "versions": {
+            "v1.0.0-beta.2": {
+                "identifier": "4ecee07e-b90d-5881-b8a1-2e8c8cb188ce",
+                "type": "tool",
+                "website": "https://github.com/clydemcqueen/surftrak_fixit",
+                "images": [
+                    {
+                        "expanded_size": 365331591,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:98fbd29fe82059d0314a82aade3c29192f7d612594ab40887823b400b7867f7c"
+                    },
+                    {
+                        "expanded_size": 331368598,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7974dbabcfbe92c237617c431b666fc24732cf9fd3c5423f069ec752c20aa827"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "surftrak"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.2",
+                "docs": null,
+                "readme": "<h1>Surftrak Fixit</h1>\n<p><em>Surftrak</em> is a new flight mode in <a href=\"https://www.ardusub.com/\">ArduSub 4.5</a>.</p>\n<p><em>Surftrak Fixit</em> is a <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/\">BlueOS</a> extension that can diagnose and fix Surftrak problems.</p>\n<h2>Install</h2>\n<ul>\n<li>Select <em>Extensions</em> in the sidebar</li>\n<li>Click on <em>Surftrak Fixit</em></li>\n<li>Click <em>Install</em></li>\n</ul>\n<h2>Releases</h2>\n<h3>v1.0.0-beta.2</h3>\n<ul>\n<li>Display DISTANCE_SENSOR messages from well-known sources</li>\n<li>Check for bad RNGFND1_TYPE</li>\n<li>Add FIX IT buttons for some problems</li>\n<li>UI improvements, works in dark mode</li>\n</ul>\n<h3>v1.0.0-beta.1</h3>\n<ul>\n<li>First version</li>\n</ul>\n<h2>Developer Notes</h2>\n<h3>Install a custom version</h3>\n<ul>\n<li>Select <em>Extensions</em> in the sidebar, then the <em>Installed</em> tab</li>\n<li>Click on the + icon in the lower right</li>\n<li>Enter the following information, modifying as necessary</li>\n<li>Click <em>Create</em></li>\n</ul>\n<p><em>Extension Identifier</em>\n~~~\nclydemcqueen.surftrak_fixit\n~~~</p>\n<p><em>Extension Name</em>\n~~~\nsurftrak_fixit\n~~~</p>\n<p><em>Docker image</em>\n~~~\nclydemcqueen/surftrak_fixit\n~~~</p>\n<p><em>Docker tag</em>\n~~~\nv1.0.0-beta.2\n~~~</p>\n<p><em>Custom settings</em>\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~</p>\n<h3>Testing with ArduSub SITL</h3>\n<p><em>Surftrak Fixit</em> looks only at MAVLink messages, so it can be tested against ArduSub SITL and\n<a href=\"https://github.com/mavlink/mavlink2rest/\">mavlink2rest</a>.</p>\n<p>See <a href=\"https://ardupilot.org/dev/docs/building-the-code.html\">these instructions</a> to set up ArduSub SITL.</p>\n<p>Terminal 1: run SITL\n~~~\ncd $ARDUPILOT_HOME\nmkdir run_sim\ncd run_sim\nnice ../Tools/autotest/sim_vehicle.py -G -D -l 47.6302,-122.3982391,-0.1,270 -v Sub -f vectored --out \"127.0.0.1:14551\"\n~~~</p>\n<p>Terminal 2: run mavlink2rest in a docker container\n~~~\ndocker build --build-arg TARGET_ARCH=x86_64-unknown-linux-musl -t mavlink/mavlink2rest .\ndocker run --rm --init -p 8088:8088 -p 14550:14550/udp --name mavlink2rest mavlink/mavlink2rest\n~~~</p>\n<p>Terminal 3: run <em>Surftrak Fixit</em>\n~~~\n./main.py --mavlink2rest_url http://localhost:8088/v1\n~~~</p>\n<p>Terminal 4: emulate a MAVLink rangefinder\n~~~\n./fake_rf.py --ping\n~~~</p>\n<p>You can see the extension UI at http://localhost:8080/</p>",
+                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
+                    ]
+                }
+            },
+            "v1.0.0-beta.1": {
+                "identifier": "284c6155-4ffc-50aa-98dd-c7eae198eac5",
+                "type": "tool",
+                "website": "https://github.com/clydemcqueen/surftrak_fixit",
+                "images": [
+                    {
+                        "expanded_size": 354149671,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:92de85e3559f394ef9f96f4def2c6856099ba7d637a6864b9b1f505216230b6a"
+                    },
+                    {
+                        "expanded_size": 313220600,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9cf0c02c92ef84c1964878116dd349fb923c0e220abb7a0a86583e6672213b73"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "surftrak"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.1",
+                "docs": null,
+                "readme": "<h1>Surftrak Fixit</h1>\n<p><em>Surftrak</em> is a new flight mode in <a href=\"https://www.ardusub.com/\">ArduSub 4.5</a>.</p>\n<p><em>Surftrak Fixit</em> is a <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/\">BlueOS</a>\nextension that can diagnose and suggest fixes for some common Surftrak problems.</p>\n<h2>Install</h2>\n<p>To install this extension in BlueOS:\n* Select <em>Extensions</em> in the sidebar, then the <em>Installed</em> tab\n* Click on the + icon in the lower right\n* Enter the following information, then click <em>Create</em></p>\n<p><em>Extension Identifier</em>\n~~~\nclydemcqueen.surftrak_fixit\n~~~</p>\n<p><em>Extension Name</em>\n~~~\nsurftrak_fixit\n~~~</p>\n<p><em>Docker image</em>\n~~~\nclydemcqueen/surftrak_fixit\n~~~</p>\n<p><em>Docker tag</em>\n~~~\nv1.0.0-beta.1\n~~~</p>\n<p><em>Custom settings</em>\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~</p>",
+                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
+                    ]
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 6318,
+            "last_updated": "2024-06-23T16:01:49.148109Z",
+            "date_registered": "2024-06-08T17:31:16.936347Z"
         }
     },
     {
@@ -6994,489 +7129,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/sonardyne/navsync_pro/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/sonardyne/company_logo.png",
         "versions": {
-            "v1.0.11": {
-                "identifier": "51e7e9b5-845e-5988-b064-78f9026daa47",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 322871560,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2ff964e0626df98f575f32d4abede55c0439e5b8681ca3e257a763638c62097e"
-                    },
-                    {
-                        "expanded_size": 322869179,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6d8f2766f4f8d8adcfe1047db8ef4e164c0e21e8395f4f8790e0c64c62e2f52b"
-                    },
-                    {
-                        "expanded_size": 355634142,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2299c2823fb654d96287c9cd7eebd75c8ed2380da2283b40cf7cb3eeefe713d6"
-                    },
-                    {
-                        "expanded_size": 344500878,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2bbc13bca2eaaa4650797c9a605c940b88f48202d1e5ce98d382f80b95168c77"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.11",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.10": {
-                "identifier": "ca834222-ab59-58c9-a1ec-6a8ba75feeed",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 326153248,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:98454a27945e1515788576cf14782bf6550761b78400fe1e761480c9daed4cf1"
-                    },
-                    {
-                        "expanded_size": 326156296,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77dc04bf8a94b6094daca84d1e89581efaa6b654533531ec722723e0fd7aeaa4"
-                    },
-                    {
-                        "expanded_size": 359823688,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5cec900d5a78a0b66b424305f05288dc9f0f847f5d9d9a399dd4c60e19ff8bf4"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.10",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.8": {
-                "identifier": "5b6cf889-1de8-56a9-a624-4353959f380f",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 550240488,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c4f7b5de29b423fdc57713525bf15968716de88d80dae000949947b4adef5ea2"
-                    },
-                    {
-                        "expanded_size": 564014391,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f094c40df5262fa2632cfbe64f12b3d74e7bcb4529ba0cb733e47d4628aee5ae"
-                    },
-                    {
-                        "expanded_size": 579809042,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e56302ce656c6e4f09f560f2aea5d2ea340be69ec97a0b17e39b03e993c1ccab"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.8",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.5": {
-                "identifier": "26d37fab-0109-500f-8e05-94c18f55246f",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543876880,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f19c446693d4f581c9c4f419572a90cdaa3ab53efd62c31e44c3227ca2168d12"
-                    },
-                    {
-                        "expanded_size": 557304774,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1d20c095a811e48724e50c70003e729cfa710d113bdc30659f77a8ebf588d81f"
-                    },
-                    {
-                        "expanded_size": 573014975,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4316ddf7c214e90636d2b84e3350ff1395dfaba20fc5920c904a6fb7c2fd1cf5"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.5",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.3": {
-                "identifier": "511895ee-ff95-5882-8098-b19fd1934774",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543867774,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:78beaabd0a70d25ef5bc85157e1122421ef9f8c421f9869096e9b73e8e57eedd"
-                    },
-                    {
-                        "expanded_size": 557268813,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:12670a0f7b0ed6e9c17ad44049e1f64837f95b0e410f59e3b6fb5007982384b1"
-                    },
-                    {
-                        "expanded_size": 573010895,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:64ac8ba3d889896bec419d2bf09d52af507d43b4c0ac77452f861e7a8b37fd8d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.3",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.1": {
-                "identifier": "783baccc-23cf-51ed-b6eb-d682fa3b85ab",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543877988,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c363af047b2c531181ed31c09b9d5b5a971b1e16400a5bac1691de08d265064b"
-                    },
-                    {
-                        "expanded_size": 557310517,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:dee41c5e5aa8ab7cab546fe9ec34113afc0ba430a05a10be8d45e513ad7372d5"
-                    },
-                    {
-                        "expanded_size": 573060500,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:aa8af326413f95815ed47cd54d3d994c156c9a3526a932dcd25cd609c061498f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.0": {
                 "identifier": "ccd83cc9-03fe-5b6e-986c-aa768c4e3224",
                 "type": "device-integration",
@@ -7551,7 +7203,7 @@
             }
         },
         "repo_info": {
-            "downloads": 32653,
+            "downloads": 32716,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -7565,6 +7217,80 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/jmrobotics/jm-connect/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/jmrobotics/company_logo.png",
         "versions": {
+            "0.2.2": {
+                "identifier": "e1875128-8230-5138-b12a-ccff882ebcf8",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 124964433,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fb0c59a1c46c52bad2998864734b79ae2939a1f76ddddbd504ebe1463406801b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.2",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.2-linux-arm64": {
                 "identifier": "2fb4fa3d-3a58-5380-bcc7-071584b64c27",
                 "type": "other",
@@ -7639,6 +7365,80 @@
                     }
                 }
             },
+            "0.2.1": {
+                "identifier": "5155c614-f7f3-57ec-b73b-900f3cdcadf0",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125206028,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6791a60687d5857771cdb26bd8c31d621a4b039663c9c044131b03a18dc61dc6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.1-linux-arm64": {
                 "identifier": "07be3538-cf7e-599e-ac30-93df14808a98",
                 "type": "other",
@@ -7663,6 +7463,89 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.1-linux-arm64",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.2.0": {
+                "identifier": "d5fe8c03-c92c-5a23-a309-6fd6387360df",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125197240,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e302422bd7b32bfebf5da4434a37aa13588c3683e74924dcd196e90ee330c69e"
+                    },
+                    {
+                        "expanded_size": 135664177,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9979d4391cd664d7e55eae1b726bc35d1da8c259b0594058c1698a68d49d9414"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -7811,6 +7694,89 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.0-linux-arm-v7",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.1.9": {
+                "identifier": "70f8b6be-ca32-5fa2-ae42-ca914a319ae4",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125463812,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ce56c79c16aff426c8c80ef3a17724547a7377ffacdef3d159d502c2ee89112a"
+                    },
+                    {
+                        "expanded_size": 135915224,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:17d9c43bc2868f914593a453a5d8c509ed576323e03727f06b5e5164f9d7226f"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.1.9",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -9113,9 +9079,107 @@
             }
         },
         "repo_info": {
-            "downloads": 58963,
+            "downloads": 59050,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
+        }
+    },
+    {
+        "identifier": "bluerobotics.cellular-modem-manager",
+        "name": "Cellular Modem Manager",
+        "website": "https://github.com/bluerobotics/cellphone-modem-manager",
+        "docker": "bluerobotics/blueos-cellphone-modem-manager",
+        "description": "Blue Robotics cellular modem manager",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/cellular-modem-manager/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
+        "versions": {
+            "0.3.4": {
+                "identifier": "3970a051-7ea9-5339-b0d5-f50fe5513922",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "images": [
+                    {
+                        "expanded_size": 136718317,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a67bfafc08db34ba1db518f7b9d5d5705a4d903bdb029eec53400b0fbafd023b"
+                    },
+                    {
+                        "expanded_size": 141306134,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ed5835af21bf2bd6f41f029d7edb377b4587f55c9e78384354d18406610ae757"
+                    },
+                    {
+                        "expanded_size": 144980656,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a50c411501acb103ddb1fdaf6e3994f6212e1aa23b04a377e41a0088339f943"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o M\u00e1rio Lago",
+                        "email": "joaolago@bluerobotics.com"
+                    },
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick J. Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.3.4",
+                "docs": null,
+                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "requirements": "core >= 1.3",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "20038/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config",
+                            "/dev:/dev:rw"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "20038/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 11662,
+            "last_updated": "2026-04-13T19:24:51.71125Z",
+            "date_registered": "2024-12-10T16:34:37.516719Z"
         }
     },
     {
@@ -9181,7 +9245,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2457,
+            "downloads": 2459,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -9250,7 +9314,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11976,
+            "downloads": 11990,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -9314,7 +9378,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3018,
+            "downloads": 3021,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -9377,7 +9441,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8448,
+            "downloads": 8457,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -9453,7 +9517,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23068,
+            "downloads": 23092,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9529,7 +9593,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12763,
+            "downloads": 12766,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
