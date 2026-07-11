@@ -32,8 +32,8 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 2025.2.8 for extension bluerobotics.blueos-documentation, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-docs/manifests/sha256:28fe2371a69dea5b5ab5908a76fa0741065d072429b9822b7f500edd36a8b825: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 2025.2.8 for extension bluerobotics.blueos-documentation",
+                "status": "INFO"
             }
         ],
         "bluerobotics.cellular-modem-manager": [
@@ -86,31 +86,31 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 0.2.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-cellphone-modem-manager/manifests/sha256:2d9c19eea0c360eded692fb5e23d3a7d8bb7146f542e7aeb613f9ef8a245d88d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 0.3.4 for extension bluerobotics.cellular-modem-manager",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 0.3.1 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-cellphone-modem-manager/manifests/sha256:31695cefd4807f1cf0ff29963ce9ba0ae21ec23f599687a2d0d3fbe4e9bfd34e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 0.3.0 for extension bluerobotics.cellular-modem-manager",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 0.3.4 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-cellphone-modem-manager/manifests/sha256:a67bfafc08db34ba1db518f7b9d5d5705a4d903bdb029eec53400b0fbafd023b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-cellphone-modem-manager/manifests/sha256:5fdbc09389ee7691c4c5b801c6f071f45d2d153afa375a3c872209870c20f3a2: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.3.0 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-cellphone-modem-manager/manifests/sha256:1deed31f468d4899a9ad6b8b7d3327efb72e475427f9c12ee88effc2668ef91f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.3.3 for extension bluerobotics.cellular-modem-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-cellphone-modem-manager/manifests/sha256:bb67326df10a86a2d8097dabc9007fc888ebca10e92359748cdfedd269bf4401: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 0.3.1 for extension bluerobotics.cellular-modem-manager",
+                "status": "INFO"
             },
             {
                 "message": "Generated version entry 0.3.2 for extension bluerobotics.cellular-modem-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.2.0 for extension bluerobotics.cellular-modem-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.1.0 for extension bluerobotics.cellular-modem-manager",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.3.3 for extension bluerobotics.cellular-modem-manager",
                 "status": "INFO"
             }
         ],
@@ -224,39 +224,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version v1.18.0-beta.13 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:8c2df72857ff0b7b563ac21cbb027535e3e9f6f609d3eb07c57042e38d84040a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.0-beta.9 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:c43f5e498ff8efe641e0d2eafee4c6a808ade66a75a396f47fa10a7cb1befe9e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.0-beta.14 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:7d9e7c8f066e794a4afaf9feca5eece5a31afc9dfd139a5db2ece97659c79dcc: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.0-beta.11 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:bf69191bba6a9676773d64306d5b04b922feaee574d31a5f4803d2291ed10a8b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.19.0-beta.2 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:a99a47817d66ec7e02f835f5c41f48045ad791eb9db1cf514595f78b00523c82: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.19.0-beta.3 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:5838e8bd209f495b341432454418eba619fb03b377f1d8e4d84f09dcbca38552: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.19.0-beta.6 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:4141e41b20e91c2a8d0eb962d92a27dcf05c0be1ab3ca4f38d37ad4c3a224d1e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.0-beta.10 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:6d381d6cdd2a9ec0e5b2c78039dcd4c8568567bce783a04b8a3c1676bd6faedf: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.0-beta.8 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:bc774876807077f1b2858dc9ddff8106cf94d893837d5a83a0a3f23b9f058300: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.18 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:52ad83b75ec6f4245e897fd1bfb035125479cc0f6bad47c70ca5e7c9996b86b4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -264,23 +232,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.18.0-beta.16 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:15b7e9be5e8c2649944c51f6e91a782960a4b8d12b7cdaf5bdc277dbb17d8139: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.19 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:dd87b7c3e71a804775b2fcaf7467da64d005531a745ad2fbcb3775d2c4ad4f90: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.19.0-beta.4 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:0b876603c2b393cdfd70e163797acae287a5d5119ca33a8d1febc9126e03db96: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.11 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:bf69191bba6a9676773d64306d5b04b922feaee574d31a5f4803d2291ed10a8b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.18.0 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:99d9b67bdde9c0727db7ad04e4f2054baaef7ab9696ca3c0bd5693d76169bdf1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.0-beta.15 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:c9ae20616310568854906445cee86f0eae110f38cadd42f38586d591316382f5: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.18.2 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:d6eacee7bcd7206701a9f3c55e0bc1062bc30ea6f253ca195add3b62b5b59c95: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.19.0-beta.6 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:4141e41b20e91c2a8d0eb962d92a27dcf05c0be1ab3ca4f38d37ad4c3a224d1e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -288,11 +248,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.18.0-beta.18 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:52ad83b75ec6f4245e897fd1bfb035125479cc0f6bad47c70ca5e7c9996b86b4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.16 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:15b7e9be5e8c2649944c51f6e91a782960a4b8d12b7cdaf5bdc277dbb17d8139: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.18.0-beta.17 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:6e2b45530b3ad667973a4d9c6953dd0fbfff96cf33f122ba0da6130944a6b570: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.8 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:bc774876807077f1b2858dc9ddff8106cf94d893837d5a83a0a3f23b9f058300: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -300,12 +260,52 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.18.0-beta.19 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:dd87b7c3e71a804775b2fcaf7467da64d005531a745ad2fbcb3775d2c4ad4f90: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.14 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:7d9e7c8f066e794a4afaf9feca5eece5a31afc9dfd139a5db2ece97659c79dcc: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.18.1 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:d6b3d9de69d78a51cd94934c7def82c169697770fa63f9b0b3015a7ef801d0f7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.18.0-beta.9 for extension bluerobotics.cockpit, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/cockpit/manifests/sha256:c43f5e498ff8efe641e0d2eafee4c6a808ade66a75a396f47fa10a7cb1befe9e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.19.0-beta.3 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.19.0-beta.2 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.2 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.19.0-beta.4 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.0 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.0-beta.15 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.0-beta.13 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.1 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.0-beta.10 for extension bluerobotics.cockpit",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.18.0-beta.17 for extension bluerobotics.cockpit",
+                "status": "INFO"
             }
         ],
         "bluerobotics.jupyter": [
@@ -330,15 +330,15 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 0.0.0 for extension bluerobotics.jupyter, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-jupyter/manifests/sha256:80fbf5feb15c6e9f08544727addaabdd28968cec1ea44ef70553026ed49b09d1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0 for extension bluerobotics.jupyter, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-jupyter/manifests/sha256:f578a510f7a7dfaa8acf4cb331b9db23640e57ad6a1e4df15fc8da4db7d54d25: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Generated version entry 0.1.0 for extension bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.2.0 for extension bluerobotics.jupyter",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.0 for extension bluerobotics.jupyter",
                 "status": "INFO"
             }
         ],
@@ -374,19 +374,19 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.0 for extension bluerobotics.node-red, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-node-red/manifests/sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.0.2 for extension bluerobotics.node-red, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-node-red/manifests/sha256:20ce89d066804fc5c0207b71e7de85488abd1caccb011c21ee5a66d4df7f3130: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.3 for extension bluerobotics.node-red, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-node-red/manifests/sha256:40af90b41e49214ab3cd2551871caae204e2d2bb484cf647c4b8b5db15936e1c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 1.0.0 for extension bluerobotics.node-red, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-node-red/manifests/sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
                 "message": "Failed to generate version 1.0.1 for extension bluerobotics.node-red, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-node-red/manifests/sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.3 for extension bluerobotics.node-red, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-node-red/manifests/sha256:40af90b41e49214ab3cd2551871caae204e2d2bb484cf647c4b8b5db15936e1c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -408,48 +408,48 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.5 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:fca3d0af07145c5a4b15ed014f9e7db84d2f358b4d22716cf0fda8d31cbc479b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.0.0 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:fafa0fa8ef1e93fc13f8db0da55157fc95303a4b5c2bccd00cf670aaae8b5d3e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.0.3 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:5647c270f0f05c688748e58912aa139e1d82b8801ccf23b4997631e13f89abe9: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.4 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.1.0 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:c4bfff1256818710af76d7b9ca2cfff8d98f2edcacf745c2b460a5166d822ece: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.1.1 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.0.1 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:dee5ee2a9c888be36172b674b9284a9434147874af39ca6680c017de0dfa8610: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.1 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.0.4 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:de3c0417bb5f8ff88cefc38e78d8706116d8ae9726c2ab4262af5a7580e7567c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.3 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.0.7 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:b145ec2696af559d0df0ef81cd3428627332bcc3bab0f6a531b668a4fac63be7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.7 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.1.2 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:6c4f9d55d5a55b557d473ad47b08493e56be4801d44744a151598505a80f2d38: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.1.0 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.1.1 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:36249d2e485389d1a2cc2470160a2452236bba9684a1050f9a1a83bda032579e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.2 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.0.2 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:933474f7fb3e1223b29b1fd6c1b382d8ca40635e2513d322fed6d052f2c2a8f1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.6 for extension bluerobotics.openvscode",
+                "status": "INFO"
             },
             {
-                "message": "Failed to generate version 1.0.6 for extension bluerobotics.openvscode, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-openvscode/manifests/sha256:a917f9dc8ea4b6c8c55d2d740d28e034ee0e83e46422a8bb6a40e9fe8b8b5af6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry 1.0.5 for extension bluerobotics.openvscode",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.1.2 for extension bluerobotics.openvscode",
+                "status": "INFO"
             }
         ],
         "bluerobotics.ping-viewer-next": [
@@ -546,79 +546,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 1.0.0-beta.22 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:6ef9968b081e2a647b64bff75ca6ed8afd9bc788c9a0e04ab89909410cb9ea08: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.21 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:42c7a802278ecbcc806f5dc36279009b0f0fd83b45751a5fe50e2460de9a6a18: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.5 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:cb538b36b713081458cf25a42e8a55a67154f1471685a63f7380a1e9890cc69f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.16 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:7834f95430d16473fc3ad3c281e5402cb0e3c51e3caad9e3846259eb639fbb7c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.0.0-beta.24 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:d340584e0334340e44d97ff3a15f8850ccdd17f58d60d12f4fd69a92685058a2: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.7 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:5151c04f3120594eb31350b8604eac8434c0ec51359c2db6b0c743b724913010: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.6 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:ec60fc73d20a0675d80124b14b6cd96f10acab00359eae440b2ef062636ebcae: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.9 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:8c2e45c46491962d27858a6972dfcf4d98f19dd2fe94b477959e4764a726751c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.10 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:624c27016cf1bc8c45b4726d4e2a4a1ae77c78316c86dce2ac795ae307feecde: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.23 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:3dd1310e000b0ada1f6dc3841036c2e05e065dc0f717ab949d1342a695af9547: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.15 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:44aa87b94305f5d34b431d0ddd48c14e1bbe2124b674b5d4484beaefdce783e2: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.13 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:852a6de44e0510b605d4ba7f1ef876e7127e3da5b82361a3ef498a3bb45409a1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.20 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:92d1b048faf5747c8cc02af2c1e411b68b1a3e5a9555baed5c1bf48bc794338d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.4 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:53abba4e8472e41fc2f150a64ce6df8a3afeb8347c085b59fd24d3a0186f7a5b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.19 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:2a2d6a87bb23756b3281a3e8823b93b35f3d943233d1a495c10566c92ea78040: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.17 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:da642104898fa0ea89848a2c049dc8395899a96fddae25b24b01303dc84cba40: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.12 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:0eebf7eeae2da523bdef37e18c5a7767168505fa99b4488d20ab619b70c4cca7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.14 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:aff0919572c441a57cb51d610a1c58cbde8c6eb5b19109f33a6a5494a3ec49f4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.0.0-beta.8 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:fdd42befee90ceddf9309f6ff0d542c65e0a54ba360d337e8ff53e37d0e4d90b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -626,7 +554,79 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 1.0.0-beta.12 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:0eebf7eeae2da523bdef37e18c5a7767168505fa99b4488d20ab619b70c4cca7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.5 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:cb538b36b713081458cf25a42e8a55a67154f1471685a63f7380a1e9890cc69f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.21 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:42c7a802278ecbcc806f5dc36279009b0f0fd83b45751a5fe50e2460de9a6a18: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 1.0.0-beta.18 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:af03a4699c709ffb05c2cbf159480f9018cb5764705cae54af8ddfdc4b0e0251: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.7 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:5151c04f3120594eb31350b8604eac8434c0ec51359c2db6b0c743b724913010: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.9 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:8c2e45c46491962d27858a6972dfcf4d98f19dd2fe94b477959e4764a726751c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.15 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:44aa87b94305f5d34b431d0ddd48c14e1bbe2124b674b5d4484beaefdce783e2: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.19 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:2a2d6a87bb23756b3281a3e8823b93b35f3d943233d1a495c10566c92ea78040: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.20 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:92d1b048faf5747c8cc02af2c1e411b68b1a3e5a9555baed5c1bf48bc794338d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.22 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:6ef9968b081e2a647b64bff75ca6ed8afd9bc788c9a0e04ab89909410cb9ea08: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.8 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:fdd42befee90ceddf9309f6ff0d542c65e0a54ba360d337e8ff53e37d0e4d90b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.13 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:852a6de44e0510b605d4ba7f1ef876e7127e3da5b82361a3ef498a3bb45409a1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.4 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:53abba4e8472e41fc2f150a64ce6df8a3afeb8347c085b59fd24d3a0186f7a5b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.10 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:624c27016cf1bc8c45b4726d4e2a4a1ae77c78316c86dce2ac795ae307feecde: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.14 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:aff0919572c441a57cb51d610a1c58cbde8c6eb5b19109f33a6a5494a3ec49f4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.23 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:3dd1310e000b0ada1f6dc3841036c2e05e065dc0f717ab949d1342a695af9547: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.16 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:7834f95430d16473fc3ad3c281e5402cb0e3c51e3caad9e3846259eb639fbb7c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.6 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:ec60fc73d20a0675d80124b14b6cd96f10acab00359eae440b2ef062636ebcae: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0-beta.17 for extension bluerobotics.ping-viewer-next, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-ping-viewer-next/manifests/sha256:da642104898fa0ea89848a2c049dc8395899a96fddae25b24b01303dc84cba40: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             }
         ],
@@ -754,39 +754,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 0.2.0 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:d4c95e42c86fa185abfa78076e09ad0a9a881bd82f4e16e1877d6a9177d50953: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.10 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:c80d93f88710becd5cce9a8f77df3a00ddf0f0c0aa3519865e3e8cf95135d16a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.13 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:2c635a57fb6c729f31bd661cd097c1cd08ba106fe5240d7045a3aea557f29ccd: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.1 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:888343648bc45e3d3eeedebab31d335acdc0dce10128037cdda8d6ab28c222f4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.4 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:8352d393769c271d5a16189d66fd5248bf169a3ef9834b6969168d16201b3b32: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.16 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:d32e5f62bdf3ea2abdb63b9cf466cf8d354f3e3c0b7f02290d064e1b75f64a52: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.17 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:70dc19a3ea47973f00af6dffeda135f704ad38e01c84a077fec855051904afb0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.2 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:91239451d73a67476b3a348a29c008e45def18801aff6bef2d574d5837725bff: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.12 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:bc74d75d1c3775ea1b77af930b2158a909d842202d00532ab21b1077a21899f6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 0.2.0-beta.14 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:8c393a71190595b8457f1e14178274c5292eb617ac18e1cf31fe3a6dd2122fd6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -794,39 +762,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.2.0-beta.1 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:0eb16a1d777143809456c3b9864cb24da97ccc83237d832d0fef3a9adc2616db: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.9 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:afa53b6b6ee02cb58f117da3f7aacfe2a4607038302208713f89dff3c9e8dc36: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.1.3 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:01dbfc23dfc8b30041c9ce35a1a02a098a64e4dfeb22202479dd7268c58bd2c7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.6 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:e644dd06a9e053730baabe8468dbe6a85b83d556ee82570bffed68a5f52ca77f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.3 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:e1fe257130ab711c180d5fcca916615537dc868a3ee8580b8a58495c52a4bc5c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.5 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:77b5574c5550a33d420311228de09b4ba42383d3de3f39ef2b3cb48f94e41ffc: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.2 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:97075d346074e33aba191817ff7f9b109766f811f00bc30044b3772a73b278bb: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.8 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:6d75af14f393e98b740d739de413ed3805c3767ae9566503a169403b5e0363ea: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.2.0-beta.14 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:8c393a71190595b8457f1e14178274c5292eb617ac18e1cf31fe3a6dd2122fd6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 0.2.0-beta.15 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:188cb01146a7a0cd5d62dab5702d31b43036f4ea5f0a5e65f8b7fd112d3d8f63: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -834,11 +770,75 @@
                 "status": "ERROR"
             },
             {
+                "message": "Failed to generate version 0.1.2 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:91239451d73a67476b3a348a29c008e45def18801aff6bef2d574d5837725bff: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.3 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:e1fe257130ab711c180d5fcca916615537dc868a3ee8580b8a58495c52a4bc5c: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.13 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:2c635a57fb6c729f31bd661cd097c1cd08ba106fe5240d7045a3aea557f29ccd: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:d4c95e42c86fa185abfa78076e09ad0a9a881bd82f4e16e1877d6a9177d50953: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.2 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:97075d346074e33aba191817ff7f9b109766f811f00bc30044b3772a73b278bb: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version 0.2.0-beta.4 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:143f895b9266fa2bbaabc43b0ec26750780e6b45451bca8ee17ba3302ca6ca96: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.2.0-beta.15 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:188cb01146a7a0cd5d62dab5702d31b43036f4ea5f0a5e65f8b7fd112d3d8f63: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 0.2.0-beta.16 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:d32e5f62bdf3ea2abdb63b9cf466cf8d354f3e3c0b7f02290d064e1b75f64a52: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.12 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:bc74d75d1c3775ea1b77af930b2158a909d842202d00532ab21b1077a21899f6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.1 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:888343648bc45e3d3eeedebab31d335acdc0dce10128037cdda8d6ab28c222f4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.17 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:70dc19a3ea47973f00af6dffeda135f704ad38e01c84a077fec855051904afb0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.3 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:01dbfc23dfc8b30041c9ce35a1a02a098a64e4dfeb22202479dd7268c58bd2c7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.9 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:afa53b6b6ee02cb58f117da3f7aacfe2a4607038302208713f89dff3c9e8dc36: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.8 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:6d75af14f393e98b740d739de413ed3805c3767ae9566503a169403b5e0363ea: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.1 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:0eb16a1d777143809456c3b9864cb24da97ccc83237d832d0fef3a9adc2616db: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.10 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:c80d93f88710becd5cce9a8f77df3a00ddf0f0c0aa3519865e3e8cf95135d16a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.6 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:e644dd06a9e053730baabe8468dbe6a85b83d556ee82570bffed68a5f52ca77f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.1.4 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:8352d393769c271d5a16189d66fd5248bf169a3ef9834b6969168d16201b3b32: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.2.0-beta.5 for extension bluerobotics.radcam-manager, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-radcam-manager/manifests/sha256:77b5574c5550a33d420311228de09b4ba42383d3de3f39ef2b3cb48f94e41ffc: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             }
         ],
@@ -864,11 +864,11 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.0.1 for extension bluerobotics.ros",
-                "status": "INFO"
+                "message": "Failed to generate version 0.0.2 for extension bluerobotics.ros, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/patrickelectric/blueos-ros/manifests/sha256:75a2bf8947eba791595c30713506e8f94231a656c48f99119c53d17eb09ec72e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 0.0.2 for extension bluerobotics.ros",
+                "message": "Generated version entry 0.0.1 for extension bluerobotics.ros",
                 "status": "INFO"
             }
         ],
@@ -926,6 +926,10 @@
                 "status": "WARNING"
             },
             {
+                "message": "Failed to generate version v1.0.0 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:daae2a13f71622da16ae0b2a766c3b17b314cf15d538d00112f4036677dad0de: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
                 "message": "Failed to generate version v1.0.4 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
@@ -938,10 +942,6 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.7 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:b96869c28654831900781874f50eb75649b5b600a88abdfcbdfb30fc5fcd12e3: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v1.0.1 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:65115990f649c932a39466fc846aaf671608b441c1e8e8448b8cd4496204d88d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
@@ -950,15 +950,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.5 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.2 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:1e8607b8ea94b70337ada4b84941aa38fcccb06b0c630122d07c2dc66e64630d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:daae2a13f71622da16ae0b2a766c3b17b314cf15d538d00112f4036677dad0de: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.3 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.7 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:b96869c28654831900781874f50eb75649b5b600a88abdfcbdfb30fc5fcd12e3: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -966,7 +962,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.2 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:1e8607b8ea94b70337ada4b84941aa38fcccb06b0c630122d07c2dc66e64630d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.3 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension bluerobotics.water-linked-dvl, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/bluerobotics/blueos-water-linked-dvl/manifests/sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             }
         ],
@@ -1002,12 +1002,12 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.1.0 for extension ceruleansonar.cerulean-docs",
-                "status": "INFO"
+                "message": "Failed to generate version v1.0.0 for extension ceruleansonar.cerulean-docs, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/blueos-cerulean-docs/manifests/sha256:a4dc00ddc3a2398ff400d2533b4f9eea53d19cce0a8df24b0f9595fa1c09fc4f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.0.0 for extension ceruleansonar.cerulean-docs",
-                "status": "INFO"
+                "message": "Failed to generate version v1.1.0 for extension ceruleansonar.cerulean-docs, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/blueos-cerulean-docs/manifests/sha256:bb85774c6ced6dae9b9b75cc66a3c0f2aeb20c61b5cb5ad37e393f688c93e843: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "ceruleansonar.cerulean-dvl": [
@@ -1032,7 +1032,19 @@
                 "status": "INFO"
             },
             {
+                "message": "Generated version entry v1.0.7 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
                 "message": "Generated version entry v1.0.5 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.8 for extension ceruleansonar.cerulean-dvl",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.4 for extension ceruleansonar.cerulean-dvl",
                 "status": "INFO"
             },
             {
@@ -1041,18 +1053,6 @@
             },
             {
                 "message": "Generated version entry v1.0.1 for extension ceruleansonar.cerulean-dvl",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.4 for extension ceruleansonar.cerulean-dvl",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.8 for extension ceruleansonar.cerulean-dvl",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.7 for extension ceruleansonar.cerulean-dvl",
                 "status": "INFO"
             }
         ],
@@ -1170,63 +1170,11 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 1.14.73-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:294a5ca11ab6d21fd41bf2802ff9854f31cb857a91b7c343356024be9ed0ec94: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 1.14.74-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:9a621c9d31d4e0044bf46fec16c56723b23d4c2ca5408fa2e5c5ee2da3fb9d26: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.14.50-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:f31ac915ebf5d0e1aee0cf44e1c216661fa1d9e3add33caf97b3e14ab3dc0461: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.66-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:c24b7f19f5e84f15f03c2422e1de022904bbbe8cb77dd0fe6913982294fd32de: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.52-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:3ebe036a4bd7e7927817cb51f5908da3dea9da45641ebc8a9841ed64c8ad2e7a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.46-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:0cf3d01ffb0bb432d1031bf18ec7931179b679d867bd1ffd23803c6c15be46e6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.70 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:88fc412a3874fcd36d923ffb598a1c0dedcaf08397b34adc13e948e3e5977db3: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.54-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:ec3c9e5115a065a7740b0ed1536705dc5407714d3cabc15b7e54d9bdae5452e1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.64-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:bf5e91ebd36bd1ddf5bd025550da5539b85d5cd321af1f3f25769d0deca6e602: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.48-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:2283c7710423d24478e5b72b791f660f8610b6a9b5e02d56a04ca6dd8b597997: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.62-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:0179238526423b6b5e3e94e28711b3f3f32e97b321edfc45e64e2fdaa6684b55: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.39 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:a70337c40b5bf93fa01a63a56a1cfad0418e889b3606510ade35184cc66294c0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.40 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:a605b9e878ebd22ad0e6a7c4197eb5df9049d9a1249bf7c779d470938ee1834d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.58-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:4901e5f3252b6b5f0bc1c385a317d8532b5dc106956f2c19fdf487700d94e86b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.75-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:d30d80f59093a5ef8c5d5779109d323e67ae35fca43077a03bb378a2d93bab75: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.72-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:89f0044d3d00be42c5a78648c7e87ea6b80d23964639f6f7c6d6a81886305c86: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 1.14.53-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:f4427abbb9f1176cc22d9714e89ef8e50a76043b45e7a51d80650fe51840104e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -1234,7 +1182,19 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 1.14.77-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:56f01bdb5e2755292e12aa76fdedd85e5e9a889dfb5e9a4f0ef25db23adff63b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version 1.14.68 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:fd5272bddf4d90cfc8e3171e5c8af957ab9bd97f40ac0a6f875ab11057f8a187: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.40 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:a605b9e878ebd22ad0e6a7c4197eb5df9049d9a1249bf7c779d470938ee1834d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.70 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:88fc412a3874fcd36d923ffb598a1c0dedcaf08397b34adc13e948e3e5977db3: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.46-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:0cf3d01ffb0bb432d1031bf18ec7931179b679d867bd1ffd23803c6c15be46e6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -1242,28 +1202,68 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.14.74-beta for extension ceruleansonar.sonarview",
-                "status": "INFO"
+                "message": "Failed to generate version 1.14.72-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:89f0044d3d00be42c5a78648c7e87ea6b80d23964639f6f7c6d6a81886305c86: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.14.59-beta for extension ceruleansonar.sonarview",
-                "status": "INFO"
+                "message": "Failed to generate version 1.14.73-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:294a5ca11ab6d21fd41bf2802ff9854f31cb857a91b7c343356024be9ed0ec94: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.14.53-dev for extension ceruleansonar.sonarview",
-                "status": "INFO"
+                "message": "Failed to generate version 1.14.58-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:4901e5f3252b6b5f0bc1c385a317d8532b5dc106956f2c19fdf487700d94e86b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.14.38 for extension ceruleansonar.sonarview",
-                "status": "INFO"
+                "message": "Failed to generate version 1.14.77-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:56f01bdb5e2755292e12aa76fdedd85e5e9a889dfb5e9a4f0ef25db23adff63b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.14.47-dev for extension ceruleansonar.sonarview",
-                "status": "INFO"
+                "message": "Failed to generate version 1.14.64-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:bf5e91ebd36bd1ddf5bd025550da5539b85d5cd321af1f3f25769d0deca6e602: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.14.68 for extension ceruleansonar.sonarview",
-                "status": "INFO"
+                "message": "Failed to generate version 1.14.75-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:d30d80f59093a5ef8c5d5779109d323e67ae35fca43077a03bb378a2d93bab75: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.38 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:f88b191cb9f52e379baf60f07546552787e03d3b5979a0b87a8ec804c685a79e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.66-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:c24b7f19f5e84f15f03c2422e1de022904bbbe8cb77dd0fe6913982294fd32de: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.47-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:47483d6860914647d9a9503cac2be27c45aa478d602b3c5e3b15c126f8a67229: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.50-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:f31ac915ebf5d0e1aee0cf44e1c216661fa1d9e3add33caf97b3e14ab3dc0461: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.48-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:2283c7710423d24478e5b72b791f660f8610b6a9b5e02d56a04ca6dd8b597997: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.59-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:bd65c847f895d09d4532c9dedc5879d30830cd9fc69a80f333aaa03dea4d9de9: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.62-beta for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:0179238526423b6b5e3e94e28711b3f3f32e97b321edfc45e64e2fdaa6684b55: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.54-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:ec3c9e5115a065a7740b0ed1536705dc5407714d3cabc15b7e54d9bdae5452e1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.39 for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:a70337c40b5bf93fa01a63a56a1cfad0418e889b3606510ade35184cc66294c0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.14.52-dev for extension ceruleansonar.sonarview, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nicknothom/sonarview/manifests/sha256:3ebe036a4bd7e7927817cb51f5908da3dea9da45641ebc8a9841ed64c8ad2e7a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "clydemcqueen.surftrak_fixit": [
@@ -1276,11 +1276,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.0-beta.2 for extension clydemcqueen.surftrak_fixit",
+                "message": "Generated version entry v1.0.0-beta.1 for extension clydemcqueen.surftrak_fixit",
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.0-beta.1 for extension clydemcqueen.surftrak_fixit",
+                "message": "Generated version entry v1.0.0-beta.2 for extension clydemcqueen.surftrak_fixit",
                 "status": "INFO"
             }
         ],
@@ -1294,20 +1294,20 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.3 for extension clydemcqueen.wl_ugps_external",
-                "status": "INFO"
+                "message": "Failed to generate version v1.0.1 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/clydemcqueen/wl_ugps_external_extension/manifests/sha256:e0fab510697080cd9c972e1eeb987371fc49f11d64384574a1c80fd72da5c3a6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.1.0-beta.1 for extension clydemcqueen.wl_ugps_external",
-                "status": "INFO"
+                "message": "Failed to generate version v1.0.2 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/clydemcqueen/wl_ugps_external_extension/manifests/sha256:54e2275c5e9ea7aef7df80d3ace428f9ef287e9cd249ca6a70c22108a0ebfe9f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.0.1 for extension clydemcqueen.wl_ugps_external",
-                "status": "INFO"
+                "message": "Failed to generate version v1.0.3 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/clydemcqueen/wl_ugps_external_extension/manifests/sha256:2adff8e939478262b0cc0b35ee93d79f6a6d876902a10350e3ce93d7c7403dfe: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.0.2 for extension clydemcqueen.wl_ugps_external",
-                "status": "INFO"
+                "message": "Failed to generate version v1.1.0-beta.1 for extension clydemcqueen.wl_ugps_external, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/clydemcqueen/wl_ugps_external_extension/manifests/sha256:cd6803b56aeea2f0db28c744b3ca92a5325c7f27d367d3d348ec585926bfd3f1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "deepwaterexploration.dwe_os_2": [
@@ -1338,23 +1338,23 @@
                 "status": "INFO"
             },
             {
-                "message": "Failed to generate version 0.0.1 for extension itskalvik.ros2, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/itskalvik/blueos-ros2/manifests/sha256:98851140b60814f9a02ff80ce4f269f69a19f76dcc08e64eb5445d2ad06e2af7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.3 for extension itskalvik.ros2, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/itskalvik/blueos-ros2/manifests/sha256:38a1a03a2ba5828904cc9031ad30b6b9952904d83d858e7d9f4866996a2bd33f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 0.0.2 for extension itskalvik.ros2, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/itskalvik/blueos-ros2/manifests/sha256:f879efe8ee0fedb720b377bb15be170a3211e56c917330db20cb85aac5fcbb92: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Generated version entry 0.0.4 for extension itskalvik.ros2",
                 "status": "INFO"
             },
             {
+                "message": "Generated version entry 0.0.2 for extension itskalvik.ros2",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.3 for extension itskalvik.ros2",
+                "status": "INFO"
+            },
+            {
                 "message": "Generated version entry 0.1.0 for extension itskalvik.ros2",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.1 for extension itskalvik.ros2",
                 "status": "INFO"
             }
         ],
@@ -1376,15 +1376,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.3 for extension itskalvik.sgptools, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/itskalvik/sgp-tools/manifests/sha256:d511687b4c0e7c3d36b5a8c7133ef6891b3e347613c3c28681c2f9d79fbd7d56: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Generated version entry 0.0.2 for extension itskalvik.sgptools",
+                "message": "Generated version entry 0.0.3 for extension itskalvik.sgptools",
                 "status": "INFO"
             },
             {
                 "message": "Generated version entry 0.0.1 for extension itskalvik.sgptools",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.2 for extension itskalvik.sgptools",
                 "status": "INFO"
             }
         ],
@@ -1410,14 +1410,6 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.1.0 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
                 "message": "Generated version entry 0.1.4 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
@@ -1426,47 +1418,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.1.8 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.2.1-linux-arm64 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.2.0-linux-arm64 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.0.9 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.1.2 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.1.1 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.0.8 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1482,7 +1434,31 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.2.2-linux-arm64 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.1.0 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.1.2 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.2.0-linux-arm64 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.1.1 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1498,7 +1474,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.1.6 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.1.8 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1507,6 +1483,38 @@
             },
             {
                 "message": "Generated version entry 0.1.5 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.1.6 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.2.1-linux-arm64 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.2.2-linux-arm64 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.1.7 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1530,7 +1538,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.1.7 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.0.9 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1538,7 +1546,15 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.0.8 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.2.0 for extension jmrobotics.jm-connect",
+                "status": "INFO"
+            },
+            {
+                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.1.9 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1558,19 +1574,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
+                "message": "Could not get readme, expected type to be text/plain but got text/html",
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.1.9 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got application/octet-stream",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.2.0 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.0.5 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1578,7 +1586,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 0.0.5 for extension jmrobotics.jm-connect",
+                "message": "Generated version entry 0.0.4 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             },
             {
@@ -1595,14 +1603,6 @@
             },
             {
                 "message": "Generated version entry 0.0.6 for extension jmrobotics.jm-connect",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got text/html",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry 0.0.4 for extension jmrobotics.jm-connect",
                 "status": "INFO"
             }
         ],
@@ -1716,20 +1716,20 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 1.3.1 for extension marinesitu.madrona, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/marinesitu/madrona/manifests/sha256:f991e57219df4907128d63d9bd18bde202cb1e2c30a7a97e54023c6a02e8db90: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.14.0 for extension marinesitu.madrona, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/marinesitu/madrona/manifests/sha256:0048585e428da68737f5a11a9d2972c4e94f2e0a02a579687d474b1c05421977: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version 1.13.1 for extension marinesitu.madrona, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/marinesitu/madrona/manifests/sha256:f991e57219df4907128d63d9bd18bde202cb1e2c30a7a97e54023c6a02e8db90: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version 1.13.2 for extension marinesitu.madrona, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/marinesitu/madrona/manifests/sha256:75396c20f7dec6d319640df51000907c1a3bbb9fe722f147ea56e1b2e27b5a8e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry 1.3.1 for extension marinesitu.madrona",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.14.0 for extension marinesitu.madrona",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.13.1 for extension marinesitu.madrona",
+                "status": "INFO"
             },
             {
                 "message": "Generated version entry 1.15.0 for extension marinesitu.madrona",
@@ -1758,39 +1758,71 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 2.0.7 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 1.0.1 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:6ca7ff490e0537ea5b733e17f2cde35ab9df44ce623873e7524424d83f8c3bbc: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 2.0.8 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 2.0.3 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:d2d21d245e269cb8e04699f20a345d28c4801dbbaff5e958f5840cf39106eb9a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 2.0.6 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 2.0.2 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:128d407349eadbeca5620ec5df7148bfe42791e0d72886e1f77e461867226a3e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.2.0 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 2.0.6 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:0f6faf49e08296a95a0e57c36709c4d1f99b31657281703587e259eed660298d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 2.0.0 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 2.0.7 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:20ae7fb1236223cd0b80da7f0accb5bf9c33c9dbf3f20cf9d5b62a9eed96f1a4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 2.0.4 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 0.0.8 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:f435a931ca002a48fac05f49210a5fde5f4149230f0cc28eaa6620d07c783d02: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry 2.0.9 for extension nortekgroup.nucleus",
-                "status": "INFO"
+                "message": "Failed to generate version 2.0.9 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:0e89a44e33983e705ec8074f3bd32ff9cccb033c59686f17b1fff9028b94685f: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.2 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:8d96a946443c05c829d07953772cd0c53ee88120455449768796ee133c38f679: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.1.0 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:e0dedf493f9749aa953b59d4941e1fdf254c4a6949ecee933079e1d203e71773: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.0 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:3fff9afe64f9f53e771883705266b4d6234458e1a580d98a15c607a1b91c27bb: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.2.0 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:630017a74190da84b89edee200f473baf0140a80d8e7e843bab8a9178091268d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.1 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:f73d00ea183697ffa304176b15b58ab65ccc4bc35adc7ad8d66841102a0fa0d6: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 1.0.0 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:27ce7b6d54144a21ffc977980db8cab5449ea187d7a547730435ff33e81410ee: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 2.0.8 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:61327727f08256e9caabbcb348fa69e44dc0f2d79954436d0b6d01426d3f48e4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.6 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:ea7125f465fbb327c4b7d20debe40491de00e448c9750b31497388bac2c776b4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version 0.0.7 for extension nortekgroup.nucleus, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/nortekgroup/blueos_nucleus/manifests/sha256:3c2863d40a1fb24a52bee3a121066c066ce4dea188bcf34f57d703604b4ef67d: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
                 "message": "Generated version entry 2.0.5 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 1.0.0 for extension nortekgroup.nucleus",
                 "status": "INFO"
             },
             {
@@ -1798,39 +1830,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry 2.0.3 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 0.0.6 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 2.0.2 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 0.0.8 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 0.0.7 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 1.0.2 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 1.1.0 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 2.0.1 for extension nortekgroup.nucleus",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 1.0.1 for extension nortekgroup.nucleus",
+                "message": "Generated version entry 2.0.4 for extension nortekgroup.nucleus",
                 "status": "INFO"
             }
         ],
@@ -1848,15 +1848,11 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry 0.0.1 for extension patrickelectric.foxglove",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 0.0.4 for extension patrickelectric.foxglove",
-                "status": "INFO"
-            },
-            {
                 "message": "Generated version entry 0.0.2 for extension patrickelectric.foxglove",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.1 for extension patrickelectric.foxglove",
                 "status": "INFO"
             },
             {
@@ -1865,6 +1861,10 @@
             },
             {
                 "message": "Generated version entry 0.0.3 for extension patrickelectric.foxglove",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 0.0.4 for extension patrickelectric.foxglove",
                 "status": "INFO"
             }
         ],
@@ -1886,15 +1886,15 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry 1.0.4 for extension patrickelectric.starlink-position",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry 1.0.3 for extension patrickelectric.starlink-position",
+                "message": "Generated version entry 1.0.1 for extension patrickelectric.starlink-position",
                 "status": "INFO"
             },
             {
                 "message": "Generated version entry 1.0.2 for extension patrickelectric.starlink-position",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry 1.0.4 for extension patrickelectric.starlink-position",
                 "status": "INFO"
             },
             {
@@ -1906,7 +1906,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry 1.0.1 for extension patrickelectric.starlink-position",
+                "message": "Generated version entry 1.0.3 for extension patrickelectric.starlink-position",
                 "status": "INFO"
             }
         ],
@@ -1922,34 +1922,6 @@
             {
                 "message": "Invalid tag name latest for extension sonardyne.navsync_pro, error: Invalid version naming: latest",
                 "status": "ERROR"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
-            },
-            {
-                "message": "Expected one valid manifest for target embedded arch but found: 2",
-                "status": "WARNING"
             },
             {
                 "message": "Expected one valid manifest for target embedded arch but found: 2",
@@ -1972,64 +1944,80 @@
                 "status": "WARNING"
             },
             {
-                "message": "Could not get readme https://sonardyne.github.io/son-idl/integration/#blueos: status: 404: <!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        margin: 0;\n        font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n      }\n\n      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }\n\n      a { color: #4183c4; text-decoration: none; }\n      a:hover { text-decoration: underline; }\n\n      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }\n      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }\n\n      ul { list-style: none; margin: 25px 0; padding: 0; }\n      li { display: table-cell; font-weight: bold; width: 1%; }\n\n      .logo { display: inline-block; margin-top: 35px; }\n      .logo-img-2x { display: none; }\n      @media\n      only screen and (-webkit-min-device-pixel-ratio: 2),\n      only screen and (   min--moz-device-pixel-ratio: 2),\n      only screen and (     -o-min-device-pixel-ratio: 2/1),\n      only screen and (        min-device-pixel-ratio: 2),\n      only screen and (                min-resolution: 192dpi),\n      only screen and (                min-resolution: 2dppx) {\n        .logo-img-1x { display: none; }\n        .logo-img-2x { display: inline-block; }\n      }\n\n      #suggestions {\n        margin-top: 35px;\n        color: #ccc;\n      }\n      #suggestions a {\n        color: #666666;\n        font-weight: 200;\n        font-size: 14px;\n        margin: 0 10px;\n      }\n\n    </style>\n  </head>\n  <body>\n\n    <div class=\"container\">\n\n      <h1>404</h1>\n      <p><strong>File not found</strong></p>\n\n      <p>\n        The site configured at this address does not\n        contain the requested file.\n      </p>\n\n      <p>\n        If this is your site, make sure that the filename case matches the URL\n        as well as any file permissions.<br>\n        For root URLs (like <code>http://example.com/</code>) you must provide an\n        <code>index.html</code> file.\n      </p>\n\n      <p>\n        <a href=\"https://help.github.com/pages/\">Read the full documentation</a>\n        for more information about using <strong>GitHub Pages</strong>.\n      </p>\n\n      <div id=\"suggestions\">\n        <a href=\"https://githubstatus.com\">GitHub Status</a> &mdash;\n        <a href=\"https://twitter.com/githubstatus\">@githubstatus</a>\n      </div>\n\n      <a href=\"/\" class=\"logo logo-img-1x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=\">\n      </a>\n\n      <a href=\"/\" class=\"logo logo-img-2x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mME2UYbodtt+2222u35QheoCCYGBQligIJgkZJNPzgigoaTEj8AdFEMfADfyABkgWiiWcieK4S+QOiHAYUj2hMNKgYlEujpNttu9vttbvdw+chU1K6M535pt3ubHCSyezR+b73eb73+t7vrfXsufOW4bz6+vom9/b23ovnNNw34b5xYGAgODg46Mbt4mesVmsWd1qSpHhdXd2fuP/Afcput5/A88xwymcdBgLqenp6FuRyuWV4zu/v759QyWBjxoz5t76+/gun09mK5xFyakoCAPSaTCazNpvNPoYVbh6O1YKGRF0u13sNDQ27QMzfpiAAKj0lnU6/gBVfAZW2WWpwwVzy0IgP3G73FpjI6REhAGA9qVRqA1b9mVoBVyIC2tDi8Xg24+dUzQiAbS/s7Ox8G2o/3mKCC+Zw0efzPQEfcVjYrARX3dbV1bUtHo8fMgt42f+Mp0yUTVQbdWsAHVsikdiHkHaPxcQXQufXgUBgMRxme9U0AAxfH4vFvjM7eF6UkbJS5qoQwEQGA57Ac5JllFyUVZZ5ckUEgMVxsK2jlSYzI+QXJsiyjzNEAJyJAzb/KQa41jJKL8pODMQiTEAymXw5n8/P0IjD3bh7Rgog59aanxiIRTVvV/oj0tnHca/WMrVwODwB3raTGxzkBg/gnZVapFV62Wy2n5AO70HM/5wbJ0QnXyQSaVPDIuNZzY0V3ntHMwxiwHA0Gj2Np7ecIBDgaDAYXKCQJM1DhrgJ3nhulcPbl8j4NmHe46X/g60fwbz3aewjkqFQaAqebWU1AOqyQwt8Id6qEHMc97zu7u7FGGsn7HAiVuosVw7P35C1nccdgSCxop1dHeZswmfHMnxBo6ZTk+jN8dl/vF7vWofDsa+MLN9oEUBMxOb3+1eoEsBVw6Zmua49r8YmhAKDiEPcMwBsxMiqQ+ixzPFxZyqRpXARG/YOr1ObFJ0gUskXBbamcR1OKmMUvDxHRAu8/LmY3jFLMUpFqz9HxG65smYJdyKyECOxDiEAe/p1gjF2oonivZAsxVgl2daa4EQWCW6J55qFAFFZiJWYLxNQy2qOSUzGRsyXCUDIeliwAHEO4WSlWQBRFoZakXcKmCXmyXAKs0Ve9vl8q42WoIYpJU4hV3hKcNs8m9gl7p/xQ73eF5kB4j5mNrWmTJRNwAzqiV1CxjVTZCIkEq+Z1bZFZSN2CenmVAFVy4Plz8xKAGWjjAKFk6lCBMDR/MJjLLMSQNm43xAiQKTaA+9/wewhDjL+JVI1kkTSSOTcKbMTwPqESAot6dn6Fr1gHwVJju6IRuyiByPuUUBAg5DGkAgBmxlvdgIEK9gDkohdY/BJo4CAG0R8miRSsGABkgVQs4KXu098IgUXSSRsFAoKZiVAVDY2WUiiPTjYRi41KwGisrGsLtlsth8Fiwnz2fBkQvWfRtlE3iF2yW63/yCacXZ1dW02GwGyTFaRd4idJnCKHRaCxYRHoG5LTKT6SyiToP1fJHbmAYPYRR0UnZQtMnA6s0zg+GZBlt0Gdo7EPHgpE3Q6nZ8YyLhc8Xj8MJh/aKTAY+5FPAKHLE7RdwuYJZmNwzyCMkBCYyKROJBMJl9B/PXXCjjmCmDOVzH3fiPpObEWGqoKe4EBl8v1hlqsdLvd23mkxHM9pc9kMpmno9HoeTii7ewbHEZPPx1ztLS1tV3AnGuMjiNjvbQFuHw6zDo5By7dTPAQNBgMLrRarTkSls1mnwT7uwp9virx9QzbW/HuV/j5d/b+6jniKlllP8lkeONJDk+dq9GsQTnC4fB1heO0K47Hwe7WdDr9nAKgXwOBwHI+C45Htj1d6sd429TUNEcmUdc+PRaLHcvn87dXW4ugzdsaGxufL94NFv9zi1J7GVbhlvb2dnaJ3SVrxfc+n2+NTsZ7/H7/Mr3g5XdSIHyJSH1PZ+7fToyl2+ErqilgZ4NaLYB9goVGaHjR93Hv1ZrU4XDsFT20kH3PObzbWk0CgG1jacVIUnAQb9F+VexyLMzkpcLv0IJV7AHQIOCAUYHx7v5qgScmYHtTqSAyZLEJTK22Bie4iq3xsqpm4SAf9Hq9a2DnJ4uLK3SEULcdRvp3i3zHySqpficxEdsQc1NrlYXXvR+O7qASSezXB+h1SuUomgg9LL8BUoV4749EIolKh+EiqWmqVEZlDgHks2pxHw7xTqUQw9J5NcAXOK10AGIoZ6Zli6JY6Z1Q461KoZ4NiKLHarW+KDsxlDUPHZ5zPQZqUVDPJsTqb5n9malbpAh8C2XXDLl62+WZIDFRUlNVOiwencnNU3aQEkL+cDMSoLvZo2fQB7AJssNAuFuvorlDVVkkg2I87+jo2K2QAVphDrfyViK5VqtO34OkaxXCp+7drdDBCAdubm6eidX+2WwqT5komwh4YQLk+H4aE93h8Xg2gvHekQZOGSgLZTLyDTLJ4Lx9/KZWKBSainT4Iy3FqQBfnUZR42PKQFksBr9QKVXCPusD3OiA/RkQ5kP8qV/Jl1WywAp/6+dcmPM2zL1UrUahe4JqfnWWKXIul3uUbfP8njAFLW1OFr3gdFtZ72cNH+PtQT7/brW+NXqJAHh0y9V8/U/A1U7AfwIMAD7mS3pCbuWJAAAAAElFTkSuQmCC\">\n      </a>\n    </div>\n  </body>\n</html>\n",
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry v1.0.1 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme https://sonardyne.github.io/son-idl/integration/#blueos: status: 404: <!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\n    <meta http-equiv=\"Content-Security-Policy\" content=\"default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'\">\n    <title>Page not found &middot; GitHub Pages</title>\n    <style type=\"text/css\" media=\"screen\">\n      body {\n        background-color: #f1f1f1;\n        margin: 0;\n        font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n      }\n\n      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }\n\n      a { color: #4183c4; text-decoration: none; }\n      a:hover { text-decoration: underline; }\n\n      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }\n      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }\n\n      ul { list-style: none; margin: 25px 0; padding: 0; }\n      li { display: table-cell; font-weight: bold; width: 1%; }\n\n      .logo { display: inline-block; margin-top: 35px; }\n      .logo-img-2x { display: none; }\n      @media\n      only screen and (-webkit-min-device-pixel-ratio: 2),\n      only screen and (   min--moz-device-pixel-ratio: 2),\n      only screen and (     -o-min-device-pixel-ratio: 2/1),\n      only screen and (        min-device-pixel-ratio: 2),\n      only screen and (                min-resolution: 192dpi),\n      only screen and (                min-resolution: 2dppx) {\n        .logo-img-1x { display: none; }\n        .logo-img-2x { display: inline-block; }\n      }\n\n      #suggestions {\n        margin-top: 35px;\n        color: #ccc;\n      }\n      #suggestions a {\n        color: #666666;\n        font-weight: 200;\n        font-size: 14px;\n        margin: 0 10px;\n      }\n\n    </style>\n  </head>\n  <body>\n\n    <div class=\"container\">\n\n      <h1>404</h1>\n      <p><strong>File not found</strong></p>\n\n      <p>\n        The site configured at this address does not\n        contain the requested file.\n      </p>\n\n      <p>\n        If this is your site, make sure that the filename case matches the URL\n        as well as any file permissions.<br>\n        For root URLs (like <code>http://example.com/</code>) you must provide an\n        <code>index.html</code> file.\n      </p>\n\n      <p>\n        <a href=\"https://help.github.com/pages/\">Read the full documentation</a>\n        for more information about using <strong>GitHub Pages</strong>.\n      </p>\n\n      <div id=\"suggestions\">\n        <a href=\"https://githubstatus.com\">GitHub Status</a> &mdash;\n        <a href=\"https://twitter.com/githubstatus\">@githubstatus</a>\n      </div>\n\n      <a href=\"/\" class=\"logo logo-img-1x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=\">\n      </a>\n\n      <a href=\"/\" class=\"logo logo-img-2x\">\n        <img width=\"32\" height=\"32\" title=\"\" alt=\"\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mME2UYbodtt+2222u35QheoCCYGBQligIJgkZJNPzgigoaTEj8AdFEMfADfyABkgWiiWcieK4S+QOiHAYUj2hMNKgYlEujpNttu9vttbvdw+chU1K6M535pt3ubHCSyezR+b73eb73+t7vrfXsufOW4bz6+vom9/b23ovnNNw34b5xYGAgODg46Mbt4mesVmsWd1qSpHhdXd2fuP/Afcput5/A88xwymcdBgLqenp6FuRyuWV4zu/v759QyWBjxoz5t76+/gun09mK5xFyakoCAPSaTCazNpvNPoYVbh6O1YKGRF0u13sNDQ27QMzfpiAAKj0lnU6/gBVfAZW2WWpwwVzy0IgP3G73FpjI6REhAGA9qVRqA1b9mVoBVyIC2tDi8Xg24+dUzQiAbS/s7Ox8G2o/3mKCC+Zw0efzPQEfcVjYrARX3dbV1bUtHo8fMgt42f+Mp0yUTVQbdWsAHVsikdiHkHaPxcQXQufXgUBgMRxme9U0AAxfH4vFvjM7eF6UkbJS5qoQwEQGA57Ac5JllFyUVZZ5ckUEgMVxsK2jlSYzI+QXJsiyjzNEAJyJAzb/KQa41jJKL8pODMQiTEAymXw5n8/P0IjD3bh7Rgog59aanxiIRTVvV/oj0tnHca/WMrVwODwB3raTGxzkBg/gnZVapFV62Wy2n5AO70HM/5wbJ0QnXyQSaVPDIuNZzY0V3ntHMwxiwHA0Gj2Np7ecIBDgaDAYXKCQJM1DhrgJ3nhulcPbl8j4NmHe46X/g60fwbz3aewjkqFQaAqebWU1AOqyQwt8Id6qEHMc97zu7u7FGGsn7HAiVuosVw7P35C1nccdgSCxop1dHeZswmfHMnxBo6ZTk+jN8dl/vF7vWofDsa+MLN9oEUBMxOb3+1eoEsBVw6Zmua49r8YmhAKDiEPcMwBsxMiqQ+ixzPFxZyqRpXARG/YOr1ObFJ0gUskXBbamcR1OKmMUvDxHRAu8/LmY3jFLMUpFqz9HxG65smYJdyKyECOxDiEAe/p1gjF2oonivZAsxVgl2daa4EQWCW6J55qFAFFZiJWYLxNQy2qOSUzGRsyXCUDIeliwAHEO4WSlWQBRFoZakXcKmCXmyXAKs0Ve9vl8q42WoIYpJU4hV3hKcNs8m9gl7p/xQ73eF5kB4j5mNrWmTJRNwAzqiV1CxjVTZCIkEq+Z1bZFZSN2CenmVAFVy4Plz8xKAGWjjAKFk6lCBMDR/MJjLLMSQNm43xAiQKTaA+9/wewhDjL+JVI1kkTSSOTcKbMTwPqESAot6dn6Fr1gHwVJju6IRuyiByPuUUBAg5DGkAgBmxlvdgIEK9gDkohdY/BJo4CAG0R8miRSsGABkgVQs4KXu098IgUXSSRsFAoKZiVAVDY2WUiiPTjYRi41KwGisrGsLtlsth8Fiwnz2fBkQvWfRtlE3iF2yW63/yCacXZ1dW02GwGyTFaRd4idJnCKHRaCxYRHoG5LTKT6SyiToP1fJHbmAYPYRR0UnZQtMnA6s0zg+GZBlt0Gdo7EPHgpE3Q6nZ8YyLhc8Xj8MJh/aKTAY+5FPAKHLE7RdwuYJZmNwzyCMkBCYyKROJBMJl9B/PXXCjjmCmDOVzH3fiPpObEWGqoKe4EBl8v1hlqsdLvd23mkxHM9pc9kMpmno9HoeTii7ewbHEZPPx1ztLS1tV3AnGuMjiNjvbQFuHw6zDo5By7dTPAQNBgMLrRarTkSls1mnwT7uwp9virx9QzbW/HuV/j5d/b+6jniKlllP8lkeONJDk+dq9GsQTnC4fB1heO0K47Hwe7WdDr9nAKgXwOBwHI+C45Htj1d6sd429TUNEcmUdc+PRaLHcvn87dXW4ugzdsaGxufL94NFv9zi1J7GVbhlvb2dnaJ3SVrxfc+n2+NTsZ7/H7/Mr3g5XdSIHyJSH1PZ+7fToyl2+ErqilgZ4NaLYB9goVGaHjR93Hv1ZrU4XDsFT20kH3PObzbWk0CgG1jacVIUnAQb9F+VexyLMzkpcLv0IJV7AHQIOCAUYHx7v5qgScmYHtTqSAyZLEJTK22Bie4iq3xsqpm4SAf9Hq9a2DnJ4uLK3SEULcdRvp3i3zHySqpficxEdsQc1NrlYXXvR+O7qASSezXB+h1SuUomgg9LL8BUoV4749EIolKh+EiqWmqVEZlDgHks2pxHw7xTqUQw9J5NcAXOK10AGIoZ6Zli6JY6Z1Q461KoZ4NiKLHarW+KDsxlDUPHZ5zPQZqUVDPJsTqb5n9malbpAh8C2XXDLl62+WZIDFRUlNVOiwencnNU3aQEkL+cDMSoLvZo2fQB7AJssNAuFuvorlDVVkkg2I87+jo2K2QAVphDrfyViK5VqtO34OkaxXCp+7drdDBCAdubm6eidX+2WwqT5komwh4YQLk+H4aE93h8Xg2gvHekQZOGSgLZTLyDTLJ4Lx9/KZWKBSainT4Iy3FqQBfnUZR42PKQFksBr9QKVXCPusD3OiA/RkQ5kP8qV/Jl1WywAp/6+dcmPM2zL1UrUahe4JqfnWWKXIul3uUbfP8njAFLW1OFr3gdFtZ72cNH+PtQT7/brW+NXqJAHh0y9V8/U/A1U7AfwIMAD7mS3pCbuWJAAAAAElFTkSuQmCC\">\n      </a>\n    </div>\n  </body>\n</html>\n",
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry v1.0.0 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.5 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.11 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.7 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.10 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.3 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.8 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.6 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.4 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.9 for extension sonardyne.navsync_pro",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme, expected type to be text/plain but got text/html",
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry v1.0.2 for extension sonardyne.navsync_pro",
-                "status": "INFO"
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Failed to generate version v1.0.5 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:f19c446693d4f581c9c4f419572a90cdaa3ab53efd62c31e44c3227ca2168d12: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.11 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:2ff964e0626df98f575f32d4abede55c0439e5b8681ca3e257a763638c62097e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.7 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:8a8f30f7b9c8c2640fcfd3ef1626c10fa3f0d3a3b6d9d0275ee9c860dd9c7ed5: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.3 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:78beaabd0a70d25ef5bc85157e1122421ef9f8c421f9869096e9b73e8e57eedd: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.4 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:208e65a722024e93143a194a3002af2e488b0e3b74a5d2051a2db832ac7e1cb3: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.1 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:c363af047b2c531181ed31c09b9d5b5a971b1e16400a5bac1691de08d265064b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.9 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:f2983ab3732954ec5dcab7b8ff36297f4bf8b88b0659606222a1f7cf2bbe7600: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.2 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:41d260710ff0cdbb41f2ff5469518b8870823a069578601b9a9b0bbec475721b: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.10 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:98454a27945e1515788576cf14782bf6550761b78400fe1e761480c9daed4cf1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.0 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:4eca4dbd894c55822394eebc93cf01070157dc57d1e5b754cd01562eb42efb4a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.8 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:c4f7b5de29b423fdc57713525bf15968716de88d80dae000949947b4adef5ea2: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v1.0.6 for extension sonardyne.navsync_pro, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/sonardyne/blueos-sprint-nav-extension/manifests/sha256:09406e970a2bc715b3e383b396fd4b03dd6b083247168fe666b3a48b8a9ea472: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "vshie.pingSurvey": [
@@ -2082,23 +2070,43 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.2.1 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/v1.2.1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Expected one valid manifest for target embedded arch but found: 2",
+                "status": "WARNING"
+            },
+            {
+                "message": "Failed to generate version v1.1.0 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/sha256:19244603abc98ed2d65404c9495a7ea1b567ac964a283b67dd19b05f36692702: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/v1.0.1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.0 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/sha256:f329aae26ef680843dd8b54ccb72f3e35ec80102b3d850a2c87ce4c522740a62: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.2.0 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/v1.2.0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.1 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/sha256:2917a429dfc66a447295883b8de1ca551ff3e64109bd6bdcf8d943d535811ac7: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/v1.0.0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.2.0 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/sha256:672bee7b87fd70b416ba65609830213417e6fcd75675d2fa49800359832b4701: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.1.0 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/v1.1.0: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.2.1 for extension vshie.pingSurvey, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/vshie/blueos-simplepingsurvey/manifests/sha256:cdc66f77a9af241c00238baf249f1de6084e3237b4bd7cc974d963acc2d6d442: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             }
         ],
@@ -2138,7 +2146,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.0.7-beta.2 for extension waterlinked.ugps",
+                "message": "Generated version entry v1.0.4 for extension waterlinked.ugps",
                 "status": "INFO"
             },
             {
@@ -2154,7 +2162,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.4 for extension waterlinked.ugps",
+                "message": "Generated version entry v1.0.7-beta.2 for extension waterlinked.ugps",
                 "status": "INFO"
             },
             {
@@ -2212,27 +2220,19 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version v1.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-extension-proxy/manifests/sha256:403797eeef9396e67001caa71d638c64e10a8e27aad5f16838208de4c7ae5c47: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.2 for extension williangalvani.blueos-proxy, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-extension-proxy/manifests/sha256:558d5fd76d64ebf386f9d3b999e735f06d5c5e5083185bb8eee43da06fb21160: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.4 for extension williangalvani.blueos-proxy, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-extension-proxy/manifests/sha256:fd1b9813bd070ed908eedd1893a4384bb326c4810822fa90559cf4cb9c27742e: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.blueos-proxy, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-extension-proxy/manifests/sha256:aedd59836db2027ddf1ef1bf107e2ca80bf94cafa0c7a2263040b6299398ec41: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
-                "message": "Failed to generate version v0.0.1 for extension williangalvani.blueos-proxy, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-extension-proxy/manifests/sha256:89ef4fcfe2880c061112831114679d61eb12639002da11203fecfb03312fa844: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry v1.0.1 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
             },
             {
                 "message": "Generated version entry v1.0.5 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.6 for extension williangalvani.blueos-proxy",
                 "status": "INFO"
             },
             {
@@ -2240,7 +2240,19 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.6 for extension williangalvani.blueos-proxy",
+                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/v0.0.1/example4-vue-backend/Readme.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry v0.0.1 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.4 for extension williangalvani.blueos-proxy",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.2 for extension williangalvani.blueos-proxy",
                 "status": "INFO"
             }
         ],
@@ -2314,7 +2326,7 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version v0.0.19 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:30c23226938e04dccb2f894cf1b896dd71a38aa17e2e55dd16e36c120315a268: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v0.0.3 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:ed9b0450f242a59977e4d70e072a5a86ab30fc48d57cfe84cb4aab7f3750bbab: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -2322,7 +2334,7 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.0.3 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:ed9b0450f242a59977e4d70e072a5a86ab30fc48d57cfe84cb4aab7f3750bbab: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v0.0.14 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:91753e42ba9dbad79328c1a16b27b595094da0e13d481949370aa0bd146dc30a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
@@ -2330,20 +2342,20 @@
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v0.0.20 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:9dcd19df8204b2726abfbdd5523eb387b6675a5183eabcf16b3b105677e9f779: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
-            },
-            {
                 "message": "Failed to generate version v0.0.21 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:04d62986216c110b7f44c25968e9e49b918d8d14bf23b7d055bb2dee0f62ec42: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version 0.0.4 for extension williangalvani.dashcam, error: Failure calling constructor method of class `BlobConfig`. Missing values for required dataclass fields.\n  have fields: ['Env']\n  missing fields: ['Labels']\n  input JSON object: {\"ExposedPorts\": {\"8080/tcp\": {}}, \"Env\": [\"PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\", \"LANG=C.UTF-8\", \"GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D\", \"PYTHON_VERSION=3.11.11\", \"PYTHON_SHA256=2a9920c7a0cd236de33644ed980a13cbbc21058bfdc528febb6081575ed73be3\", \"LOG_FOLDER=/home/blueos/logs\", \"VIDEO_FOLDER=/home/blueos/videos\", \"SETTINGS_FOLDER=/home/blueos/settings\", \"MAVLINK_URL=ws://blueos.internal/mavlink2rest/ws/mavlink?filter=HEARTBEAT\", \"PYTHONUNBUFFERED=1\"], \"Cmd\": [\"sh\", \"-c\", \"python video_recorder.py --log-folder $LOG_FOLDER --video-folder $VIDEO_FOLDER --mavlink-url $MAVLINK_URL\"], \"WorkingDir\": \"/app\", \"ArgsEscaped\": true}\n  error: BlobConfig.__init__() missing 1 required positional argument: 'Labels'",
+                "message": "Failed to generate version v0.0.19 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:30c23226938e04dccb2f894cf1b896dd71a38aa17e2e55dd16e36c120315a268: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Generated version entry v0.0.14 for extension williangalvani.dashcam",
-                "status": "INFO"
+                "message": "Failed to generate version 0.0.4 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:89cf3cfbf62b0346706c371e5d220d8827a4a61c092c3d6b42f3af7b679c9211: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
+            },
+            {
+                "message": "Failed to generate version v0.0.20 for extension williangalvani.dashcam, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-dashcam/manifests/sha256:9dcd19df8204b2726abfbdd5523eb387b6675a5183eabcf16b3b105677e9f779: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "williangalvani.example1": [
@@ -2382,20 +2394,12 @@
                 "status": "INFO"
             },
             {
-                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/v1.0.1/example2-statichtml-mavlink/Readme.md: status: 404: 404: Not Found",
-                "status": "WARNING"
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example2, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-example2/manifests/sha256:0b5b5c4341d46ae89398405d5eef61fed9ed6f86923451ff0135c855f53a247a: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.0.1 for extension williangalvani.example2",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/v1.0.0/example2-statichtml-mavlink/Readme.md: status: 404: 404: Not Found",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry v1.0.0 for extension williangalvani.example2",
-                "status": "INFO"
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example2, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-example2/manifests/sha256:213f70bf5f5252d251419b90fa83845496cb18068c7c6d20399292614d5b0061: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "williangalvani.example3": [
@@ -2408,20 +2412,12 @@
                 "status": "INFO"
             },
             {
-                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/v1.0.1/example3-vuetify/Readme.md: status: 404: 404: Not Found",
-                "status": "WARNING"
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.example3, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-example3/manifests/sha256:abed773725bdd4e3facaf6884dde2bad1a25f479d3b3697af3480a2549da3cd1: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             },
             {
-                "message": "Generated version entry v1.0.1 for extension williangalvani.example3",
-                "status": "INFO"
-            },
-            {
-                "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/BlueOS-examples/v1.0.0/example3-vuetify/Readme.md: status: 404: 404: Not Found",
-                "status": "WARNING"
-            },
-            {
-                "message": "Generated version entry v1.0.0 for extension williangalvani.example3",
-                "status": "INFO"
+                "message": "Failed to generate version v1.0.1 for extension williangalvani.example3, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-example3/manifests/sha256:2ea73258ad7653091c56983f2b3484d3239ac1a13009cb5f8f337ba509162b29: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "status": "ERROR"
             }
         ],
         "williangalvani.example4": [
@@ -2510,11 +2506,11 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry 1.11.2 for extension williangalvani.mediamtx",
+                "message": "Generated version entry v1.11.2 for extension williangalvani.mediamtx",
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.11.2 for extension williangalvani.mediamtx",
+                "message": "Generated version entry 1.11.2 for extension williangalvani.mediamtx",
                 "status": "INFO"
             },
             {
@@ -2572,11 +2568,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.2 for extension williangalvani.network-scanner",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.1 for extension williangalvani.network-scanner",
+                "message": "Generated version entry 1.0.2 for extension williangalvani.network-scanner",
                 "status": "INFO"
             },
             {
@@ -2588,11 +2580,15 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry 1.0.2 for extension williangalvani.network-scanner",
+                "message": "Generated version entry v1.0.2 for extension williangalvani.network-scanner",
                 "status": "INFO"
             },
             {
                 "message": "Generated version entry v1.0.0 for extension williangalvani.network-scanner",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.1 for extension williangalvani.network-scanner",
                 "status": "INFO"
             }
         ],
@@ -2610,15 +2606,15 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry v1.0.0 for extension williangalvani.oakd",
-                "status": "INFO"
-            },
-            {
                 "message": "Could not get readme https://raw.githubusercontent.com/Williangalvani/Oakd-extension/v1.0.1-heta.1/Readme.md: status: 404: 404: Not Found",
                 "status": "WARNING"
             },
             {
                 "message": "Generated version entry v1.0.1-heta.1 for extension williangalvani.oakd",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.0.0 for extension williangalvani.oakd",
                 "status": "INFO"
             },
             {
@@ -2672,12 +2668,16 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version 0.0.5 for extension williangalvani.plc-diagnostics, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-plc/manifests/sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.0 for extension williangalvani.plc-diagnostics, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-plc/manifests/sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
             },
             {
-                "message": "Failed to generate version v1.0.0 for extension williangalvani.plc-diagnostics, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-plc/manifests/sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
+                "message": "Failed to generate version v1.0.2 for extension williangalvani.plc-diagnostics, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-plc/manifests/sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
                 "status": "ERROR"
+            },
+            {
+                "message": "Generated version entry v1.0.3 for extension williangalvani.plc-diagnostics",
+                "status": "INFO"
             },
             {
                 "message": "Could not get readme https://raw.githubusercontent.com/$OWNER/$REPO/1.0.0/README.md: status: 404: 404: Not Found",
@@ -2685,10 +2685,6 @@
             },
             {
                 "message": "Generated version entry 1.0.0 for extension williangalvani.plc-diagnostics",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.3 for extension williangalvani.plc-diagnostics",
                 "status": "INFO"
             },
             {
@@ -2700,7 +2696,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.2 for extension williangalvani.plc-diagnostics",
+                "message": "Could not get readme https://raw.githubusercontent.com/williangalvani/plc-extension/0.0.5/README.md: status: 404: 404: Not Found",
+                "status": "WARNING"
+            },
+            {
+                "message": "Generated version entry 0.0.5 for extension williangalvani.plc-diagnostics",
                 "status": "INFO"
             }
         ],
@@ -2722,8 +2722,8 @@
                 "status": "WARNING"
             },
             {
-                "message": "Failed to generate version v1.0.4 for extension williangalvani.usbip, error: Error on Docker Registry API with status 429 on call to https://registry-1.docker.io/v2/williangalvani/blueos-extension-usbip/manifests/sha256:81b18bba6d769a73106932cbc5fbf37452b18c5dc9673e0cb68a937160eab4c4: TOOMANYREQUESTS - You have reached your unauthenticated pull rate limit. https://www.docker.com/increase-rate-limit",
-                "status": "ERROR"
+                "message": "Generated version entry v1.0.1 for extension williangalvani.usbip",
+                "status": "INFO"
             },
             {
                 "message": "Generated version entry v1.0.3 for extension williangalvani.usbip",
@@ -2734,11 +2734,11 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.1 for extension williangalvani.usbip",
+                "message": "Generated version entry v1.0.0 for extension williangalvani.usbip",
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.0.0 for extension williangalvani.usbip",
+                "message": "Generated version entry v1.0.4 for extension williangalvani.usbip",
                 "status": "INFO"
             }
         ],
@@ -2760,6 +2760,10 @@
                 "status": "WARNING"
             },
             {
+                "message": "Generated version entry v1.0.2 for extension williangalvani.virtualhere",
+                "status": "INFO"
+            },
+            {
                 "message": "Generated version entry v1.0.3 for extension williangalvani.virtualhere",
                 "status": "INFO"
             },
@@ -2769,10 +2773,6 @@
             },
             {
                 "message": "Generated version entry v1.0.5 for extension williangalvani.virtualhere",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.0.2 for extension williangalvani.virtualhere",
                 "status": "INFO"
             },
             {
@@ -2826,10 +2826,6 @@
                 "status": "WARNING"
             },
             {
-                "message": "Generated version entry v1.12.3 for extension williangalvani.zerotier",
-                "status": "INFO"
-            },
-            {
                 "message": "Generated version entry v1.0.1 for extension williangalvani.zerotier",
                 "status": "INFO"
             },
@@ -2838,15 +2834,7 @@
                 "status": "INFO"
             },
             {
-                "message": "Generated version entry v1.12.1 for extension williangalvani.zerotier",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.14.0 for extension williangalvani.zerotier",
-                "status": "INFO"
-            },
-            {
-                "message": "Generated version entry v1.14.2 for extension williangalvani.zerotier",
+                "message": "Generated version entry v1.12.3 for extension williangalvani.zerotier",
                 "status": "INFO"
             },
             {
@@ -2855,6 +2843,18 @@
             },
             {
                 "message": "Generated version entry v1.14.3 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.14.2 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.14.0 for extension williangalvani.zerotier",
+                "status": "INFO"
+            },
+            {
+                "message": "Generated version entry v1.12.1 for extension williangalvani.zerotier",
                 "status": "INFO"
             }
         ]
