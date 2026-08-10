@@ -224,7 +224,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51641,
+            "downloads": 51660,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -659,7 +659,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14783,
+            "downloads": 14828,
             "last_updated": "2025-12-18T15:25:02.403031Z",
             "date_registered": "2025-03-27T12:48:44.862676Z"
         }
@@ -825,7 +825,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10493,
+            "downloads": 10511,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -954,58 +954,6 @@
                     }
                 }
             },
-            "1.11.2": {
-                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 406148810,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
-                    },
-                    {
-                        "expanded_size": 400044021,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09e3adf3d735b5939a558f4dc0cd0b983b42132aeda85bb775bc6de7b2b5766e"
-                    },
-                    {
-                        "expanded_size": 377758539,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
-                    }
-                ],
-                "authors": [],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.2",
-                "docs": null,
-                "readme": null,
-                "support": null,
-                "requirements": null,
-                "company": null,
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
-                        ]
-                    }
-                }
-            },
             "v1.11.2": {
                 "identifier": "7f803853-64e6-5e69-9143-2c29945266bf",
                 "type": "other",
@@ -1057,10 +1005,62 @@
                         ]
                     }
                 }
+            },
+            "1.11.2": {
+                "identifier": "4712e580-6d4e-5970-8cc5-ec61b47c9e55",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 406148810,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:88c929c2632255edf3584e78099a0d0f169506d1c2674785679020c3902630ac"
+                    },
+                    {
+                        "expanded_size": 400044021,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09e3adf3d735b5939a558f4dc0cd0b983b42132aeda85bb775bc6de7b2b5766e"
+                    },
+                    {
+                        "expanded_size": 377758539,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1ba75f01ddae51b87321c459bbe019ad8c27cdb6b276d3167d74a74dbf86a16f"
+                    }
+                ],
+                "authors": [],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.11.2",
+                "docs": null,
+                "readme": null,
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/extensions/mediamtx:/usr/blueos/extensions/mediamtx"
+                        ]
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 8165,
+            "downloads": 8190,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -1196,7 +1196,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88168,
+            "downloads": 88177,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -1667,7 +1667,7 @@
             }
         },
         "repo_info": {
-            "downloads": 64580,
+            "downloads": 64622,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -1953,7 +1953,7 @@
             }
         },
         "repo_info": {
-            "downloads": 149749,
+            "downloads": 149780,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -2084,7 +2084,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9236,
+            "downloads": 9246,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -2214,7 +2214,7 @@
             }
         },
         "repo_info": {
-            "downloads": 93447,
+            "downloads": 93459,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -2700,7 +2700,7 @@
             }
         },
         "repo_info": {
-            "downloads": 32320,
+            "downloads": 32365,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -2830,7 +2830,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90422,
+            "downloads": 90431,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -2960,7 +2960,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85603,
+            "downloads": 85613,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -3090,64 +3090,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    },
-                    {
-                        "expanded_size": 157816879,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
-                    },
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -3190,6 +3132,64 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    },
+                    {
+                        "expanded_size": 157816879,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
+                    },
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -3324,7 +3324,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22199,
+            "downloads": 22236,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -3706,7 +3706,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24189,
+            "downloads": 24228,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -3978,7 +3978,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12988,
+            "downloads": 13009,
             "last_updated": "2026-07-24T16:54:58.515822Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -4124,7 +4124,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6635,
+            "downloads": 6648,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -4429,7 +4429,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17172,
+            "downloads": 17197,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -4505,7 +4505,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13632,
+            "downloads": 13636,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -4735,7 +4735,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8564,
+            "downloads": 8579,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -5054,285 +5054,9 @@
             }
         },
         "repo_info": {
-            "downloads": 9532,
+            "downloads": 9563,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
-        }
-    },
-    {
-        "identifier": "ceruleansonar.sonarview",
-        "name": "SonarView",
-        "website": "https://sonarview.io/",
-        "docker": "nicknothom/sonarview",
-        "description": "Cross platform sonar viewing application",
-        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
-        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
-        "versions": {
-            "1.14.83": {
-                "identifier": "07a82d8a-8be4-5b3a-a235-95a0a0ecab67",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 90692777,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0b5a633cc8d02db7d7de90d9430172b88239679e4f51d63e4adae6ad75847e25"
-                    },
-                    {
-                        "expanded_size": 90208673,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4a0b553c6760fa924627fb48ad11991913230720769f8dadd152f9fdbf9a48e3"
-                    },
-                    {
-                        "expanded_size": 88048198,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:cdcc4af4fa3d3b68bdafcb8d3c5d8f1a61b401e6d398b052efda07c29454c22c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.83",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.73-beta": {
-                "identifier": "5ee73912-c3be-5234-a827-3205855ed60c",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 77956918,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:27b81f46281db66945ada6a3baf9059563d75872d8637be4a969e27870a72827"
-                    },
-                    {
-                        "expanded_size": 77476978,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:294a5ca11ab6d21fd41bf2802ff9854f31cb857a91b7c343356024be9ed0ec94"
-                    },
-                    {
-                        "expanded_size": 75324443,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ce8a9f1fbd0ca2041ba9bfdc41f6bc9a07088e24ec978500a046f285266b5e9f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.73-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.66-beta": {
-                "identifier": "68b68089-526e-5f44-b5d3-f4cbdd9805d5",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 82885285,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0ec928dbc729807d9167a5f5478a3c86f720690b4bfc91e869730821ec79ad28"
-                    },
-                    {
-                        "expanded_size": 82399231,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c24b7f19f5e84f15f03c2422e1de022904bbbe8cb77dd0fe6913982294fd32de"
-                    },
-                    {
-                        "expanded_size": 80246725,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bc65c3f248419599dd02fcc8605b3cdd394a3aab137d9b27517db7e8de26720e"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.66-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.50-dev": {
-                "identifier": "104256d4-304a-5c75-81b0-8218fb47d971",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 81291545,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4241d2cf100e0badc8aa24c2a2c3cd0bb5a2a928fdff1913f823fd71dd10a262"
-                    },
-                    {
-                        "expanded_size": 80800229,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f31ac915ebf5d0e1aee0cf44e1c216661fa1d9e3add33caf97b3e14ab3dc0461"
-                    },
-                    {
-                        "expanded_size": 78646074,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:52c4ccc68a0f150a9a9d6cf3d9037bf778d90d2d4f9383f3b020ddbda4cff834"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.50-dev",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            }
-        },
-        "repo_info": {
-            "downloads": 126698,
-            "last_updated": "2026-08-07T16:57:09.436144Z",
-            "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
     {
@@ -5497,57 +5221,6 @@
                     }
                 }
             },
-            "v1.0.5": {
-                "identifier": "eb83e2bc-7f5a-5eb5-b5ab-95ca97364c27",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109559450,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:49315a9023689999db2e765c1c8478ebd8decfe2904ba287349268442aa969bd"
-                    },
-                    {
-                        "expanded_size": 100029465,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b31f7996252e37ad56b7a84df851ced94adaf815b688abffeaa79c1f2bcfaa1f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.5",
-                "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config/blueos:/root/.config"
-                        ]
-                    }
-                }
-            },
             "v1.0.4": {
                 "identifier": "2056eda3-d739-511c-a708-054d2ef830c2",
                 "type": "other",
@@ -5639,56 +5312,10 @@
                 "permissions": {
                     "NetworkMode": "host"
                 }
-            },
-            "v1.0.1": {
-                "identifier": "5fda492f-72b4-54c0-bd0f-fca4761a0bfd",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109912491,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:d5e8e487e02db3573da4b82b5c1bffcfd7dc56115aabc9e31d46b441205e8678"
-                    },
-                    {
-                        "expanded_size": 100174019,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:11543c36b10be611293248778bc7b924eea38b7bfa47f39701c1b72d3b9a288f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
-                }
             }
         },
         "repo_info": {
-            "downloads": 40587,
+            "downloads": 40626,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -5807,7 +5434,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11173,
+            "downloads": 11183,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -5821,234 +5448,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/sonardyne/navsync_pro/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/sonardyne/company_logo.png",
         "versions": {
-            "v1.0.11": {
-                "identifier": "51e7e9b5-845e-5988-b064-78f9026daa47",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 322871560,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2ff964e0626df98f575f32d4abede55c0439e5b8681ca3e257a763638c62097e"
-                    },
-                    {
-                        "expanded_size": 322869179,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6d8f2766f4f8d8adcfe1047db8ef4e164c0e21e8395f4f8790e0c64c62e2f52b"
-                    },
-                    {
-                        "expanded_size": 355634142,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2299c2823fb654d96287c9cd7eebd75c8ed2380da2283b40cf7cb3eeefe713d6"
-                    },
-                    {
-                        "expanded_size": 344500878,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2bbc13bca2eaaa4650797c9a605c940b88f48202d1e5ce98d382f80b95168c77"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.11",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.10": {
-                "identifier": "ca834222-ab59-58c9-a1ec-6a8ba75feeed",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 326153248,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:98454a27945e1515788576cf14782bf6550761b78400fe1e761480c9daed4cf1"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.10",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.9": {
-                "identifier": "2532abcd-7f2f-51dc-806c-a3b63dce9a57",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 687453125,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f2983ab3732954ec5dcab7b8ff36297f4bf8b88b0659606222a1f7cf2bbe7600"
-                    },
-                    {
-                        "expanded_size": 687450722,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e38a76e1c7cb366151a42ccf2148c9dbdcd21c67b343fb95f4fd9ecde56132c9"
-                    },
-                    {
-                        "expanded_size": 734876911,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:93107377ac320ccdd1c11106025e7d1d3fa8dc164fec6b5c1b6c25c1549ccf5c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.9",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.8": {
                 "identifier": "5b6cf889-1de8-56a9-a624-4353959f380f",
                 "type": "device-integration",
@@ -6128,128 +5527,6 @@
                     }
                 }
             },
-            "v1.0.7": {
-                "identifier": "175c6cca-c4c6-5a27-a878-96f8458d701d",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 550721782,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8a8f30f7b9c8c2640fcfd3ef1626c10fa3f0d3a3b6d9d0275ee9c860dd9c7ed5"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.7",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.6": {
-                "identifier": "99679a4d-e956-5010-af0c-ee08127e7c27",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543935068,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09406e970a2bc715b3e383b396fd4b03dd6b083247168fe666b3a48b8a9ea472"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.6",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
             "v1.0.5": {
                 "identifier": "26d37fab-0109-500f-8e05-94c18f55246f",
                 "type": "device-integration",
@@ -6280,85 +5557,6 @@
                 ],
                 "extra_links": {},
                 "tag": "v1.0.5",
-                "docs": null,
-                "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.4": {
-                "identifier": "27832fd3-fbf3-5858-a829-02e11b852d90",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543868925,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:208e65a722024e93143a194a3002af2e488b0e3b74a5d2051a2db832ac7e1cb3"
-                    },
-                    {
-                        "expanded_size": 557287579,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9ed2221422a828912ce848048821cb6d6d9e8d4dbae465dffe3fe24009447039"
-                    },
-                    {
-                        "expanded_size": 573029012,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:19c7ba226a9fed80cc401aef0483e85346664430b17ecbcd4e36cf8d5bd63a27"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.4",
                 "docs": null,
                 "readme": "<p><a href=\"https://sonardyne.github.io/son-idl/1.0.3/integration/#blueos\">BlueOS Extension Information</a> </p>",
                 "support": "https://www.sonardyne.com/support-centre/",
@@ -6529,143 +5727,10 @@
                         }
                     }
                 }
-            },
-            "v1.0.1": {
-                "identifier": "783baccc-23cf-51ed-b6eb-d682fa3b85ab",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543877988,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c363af047b2c531181ed31c09b9d5b5a971b1e16400a5bac1691de08d265064b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.1",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ],
-                        "PortBindings": {
-                            "9091/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "v1.0.0": {
-                "identifier": "ccd83cc9-03fe-5b6e-986c-aa768c4e3224",
-                "type": "device-integration",
-                "website": "https://www.sonardyne.com/",
-                "images": [
-                    {
-                        "expanded_size": 543897122,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4eca4dbd894c55822394eebc93cf01070157dc57d1e5b754cd01562eb42efb4a"
-                    },
-                    {
-                        "expanded_size": 557289517,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a57c264ea0ae503e12c83db1cc3e599454600d5800e8513aad9aff54210a2ba8"
-                    },
-                    {
-                        "expanded_size": 573012492,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:de68358f2fa038a061a4bee76cf40350a9792c4b67407bbe3227932cb656a3c9"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Sonardyne International Limited",
-                        "email": "support@sonardyne.com"
-                    }
-                ],
-                "filter_tags": [
-                    "positioning",
-                    "navigation",
-                    "dvl",
-                    "ins",
-                    "position-hold"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.sonardyne.com/support-centre/",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Sonardyne International Limited",
-                    "email": "support@sonardyne.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "ExposedPorts": {
-                        "9091/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/dev:/dev",
-                            "/usr/blueos/extensions/data-logger:/webui/logs"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 35598,
+            "downloads": 35675,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -6906,7 +5971,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8278,
+            "downloads": 8306,
             "last_updated": "2025-07-02T21:21:55.372997Z",
             "date_registered": "2025-05-15T18:03:05.507931Z"
         }
@@ -7137,7 +6202,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13027,
+            "downloads": 13046,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -7225,6 +6290,80 @@
                     }
                 }
             },
+            "0.2.1": {
+                "identifier": "5155c614-f7f3-57ec-b73b-900f3cdcadf0",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125206028,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6791a60687d5857771cdb26bd8c31d621a4b039663c9c044131b03a18dc61dc6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.1-linux-arm64": {
                 "identifier": "07be3538-cf7e-599e-ac30-93df14808a98",
                 "type": "other",
@@ -7249,6 +6388,89 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.1-linux-arm64",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.2.0": {
+                "identifier": "d5fe8c03-c92c-5a23-a309-6fd6387360df",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125197240,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e302422bd7b32bfebf5da4434a37aa13588c3683e74924dcd196e90ee330c69e"
+                    },
+                    {
+                        "expanded_size": 135664177,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9979d4391cd664d7e55eae1b726bc35d1da8c259b0594058c1698a68d49d9414"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -8699,9 +7921,80 @@
             }
         },
         "repo_info": {
-            "downloads": 62636,
+            "downloads": 62732,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
+        }
+    },
+    {
+        "identifier": "waterlinked.sonar",
+        "name": "Water Linked 3D Sonar",
+        "website": "https://github.com/waterlinked/BlueOS-Sonar-Extension",
+        "docker": "waterlinked/blueos-sonar-extension",
+        "description": "Web interface for Water Linked 3D Sonar configuration and visualization with automatic IP discovery",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/waterlinked/sonar/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/waterlinked/company_logo.png",
+        "versions": {
+            "v1.0.0": {
+                "identifier": "f1f592d1-d5e5-5a59-9479-a079003654e7",
+                "type": "device-integration",
+                "website": "https://github.com/waterlinked/BlueOS-Sonar-Extention",
+                "images": [
+                    {
+                        "expanded_size": 70303568,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b9ce6d7dfb850fef0105c5f2c2fae5af34f56f0db95f000e6fbce3c57d254cf6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Water Linked",
+                        "email": "support@waterlinked.com"
+                    }
+                ],
+                "filter_tags": [
+                    "3dsonar",
+                    "point-cloud",
+                    "waterlinked"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/waterlinked/BlueOS-Sonar-Extention/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Water Linked",
+                    "email": "support@waterlinked.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 9141,
+            "last_updated": "2025-04-10T13:01:02.286385Z",
+            "date_registered": "2025-03-27T14:05:41.061437Z"
         }
     },
     {
@@ -8945,9 +8238,819 @@
             }
         },
         "repo_info": {
-            "downloads": 17026,
+            "downloads": 17044,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
+        }
+    },
+    {
+        "identifier": "bluerobotics.openvscode",
+        "name": "OpenVSCoder",
+        "website": "https://github.com/patrickelectric/blueos-code-server",
+        "docker": "patrickelectric/blueos-openvscode",
+        "description": "Edit and run code directly in BlueOS",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/openvscode/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
+        "versions": {
+            "1.1.2": {
+                "identifier": "a74a07d6-9148-5a4e-9bb9-0d65cf1ee13e",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 717989843,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6c4f9d55d5a55b557d473ad47b08493e56be4801d44744a151598505a80f2d38"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.1.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata/openvscode/.cache:/home/workspace/.cache:rw",
+                            "/usr/blueos/userdata/openvscode/.local:/home/workspace/.local:rw",
+                            "/usr/blueos/userdata:/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/var/run/docker.sock:/var/run/docker.sock:rw",
+                            "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.1.1": {
+                "identifier": "9ea3a4bf-5af7-5628-bf18-a0112499a59d",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 690118664,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:36249d2e485389d1a2cc2470160a2452236bba9684a1050f9a1a83bda032579e"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.1.1",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/var/run/docker.sock:/var/run/docker.sock:rw",
+                            "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.1.0": {
+                "identifier": "f1e0dcf6-8ee1-5746-bd9b-5a8189bf4716",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 800907473,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:c4bfff1256818710af76d7b9ca2cfff8d98f2edcacf745c2b460a5166d822ece"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.1.0",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/var/run/docker.sock:/var/run/docker.sock:rw",
+                            "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/dev:/dev:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.7": {
+                "identifier": "f069f86e-9bc5-573f-9c49-020604e09720",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306628412,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b145ec2696af559d0df0ef81cd3428627332bcc3bab0f6a531b668a4fac63be7"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.7",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/var/run/docker.sock:/var/run/docker.sock:rw",
+                            "/usr/bin/docker:/usr/bin/docker:ro",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.6": {
+                "identifier": "1aa4f634-c664-5a19-814a-e2f54b1437f3",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306628413,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a917f9dc8ea4b6c8c55d2d740d28e034ee0e83e46422a8bb6a40e9fe8b8b5af6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.6",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.5": {
+                "identifier": "5a744a04-250a-5e44-a418-c833bc445a98",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306628410,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fca3d0af07145c5a4b15ed014f9e7db84d2f358b4d22716cf0fda8d31cbc479b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.5",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/etc/hostname:/etc/hostname:ro",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.4": {
+                "identifier": "15f94a81-695d-530f-bafc-5dcef4bbf61b",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 306514789,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:de3c0417bb5f8ff88cefc38e78d8706116d8ae9726c2ab4262af5a7580e7567c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.4",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.3": {
+                "identifier": "c1d55fdb-fa51-5c81-931b-02931f7c3461",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 211619864,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5647c270f0f05c688748e58912aa139e1d82b8801ccf23b4997631e13f89abe9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.3",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.2": {
+                "identifier": "acff44bd-868a-5073-8dd0-9de682c36b45",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 211619835,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:933474f7fb3e1223b29b1fd6c1b382d8ca40635e2513d322fed6d052f2c2a8f1"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "code",
+                    "development",
+                    "ide",
+                    "vscode",
+                    "python",
+                    "rust"
+                ],
+                "extra_links": {},
+                "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Code Server</h1>\n<p>BlueOS extension for OpenVSCode Server.</p>\n<p>OpenVSCode server is a project where it provides a version of VS Code that runs a server on a remote machine and allows access through a modern web browser. It's based on the very same architecture used by Gitpod or GitHub Codespaces at scale.</p>",
+                "support": null,
+                "requirements": null,
+                "company": null,
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/usr/blueos/userdata:/home/workspace/userdata:rw",
+                            "/usr/blueos/openvscode:/openvscode:rw",
+                            "/:/home/workspace/host:rw"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 59603,
+            "last_updated": "2023-09-06T01:24:53.238154Z",
+            "date_registered": "2023-07-06T13:38:30.979513Z"
+        }
+    },
+    {
+        "identifier": "bluerobotics.cellular-modem-manager",
+        "name": "Cellular Modem Manager",
+        "website": "https://github.com/bluerobotics/cellphone-modem-manager",
+        "docker": "bluerobotics/blueos-cellphone-modem-manager",
+        "description": "Blue Robotics cellular modem manager",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/cellular-modem-manager/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
+        "versions": {
+            "0.3.4": {
+                "identifier": "3970a051-7ea9-5339-b0d5-f50fe5513922",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "images": [
+                    {
+                        "expanded_size": 144980656,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a50c411501acb103ddb1fdaf6e3994f6212e1aa23b04a377e41a0088339f943"
+                    },
+                    {
+                        "expanded_size": 141306134,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ed5835af21bf2bd6f41f029d7edb377b4587f55c9e78384354d18406610ae757"
+                    },
+                    {
+                        "expanded_size": 136718317,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a67bfafc08db34ba1db518f7b9d5d5705a4d903bdb029eec53400b0fbafd023b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o M\u00e1rio Lago",
+                        "email": "joaolago@bluerobotics.com"
+                    },
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick J. Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.3.4",
+                "docs": null,
+                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "requirements": "core >= 1.3",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "20038/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config",
+                            "/dev:/dev:rw"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "20038/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.3.3": {
+                "identifier": "28e4dec8-c7a3-565b-ae29-0a16c23906a7",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "images": [
+                    {
+                        "expanded_size": 144572942,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:dbb1ab9a311474b23bd39ad86ce588d4b1988e8d08102b331772fe77cd571565"
+                    },
+                    {
+                        "expanded_size": 140908402,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a2a6c6e3e022506192469762b548dcb31406897260448c70c28675757de92438"
+                    },
+                    {
+                        "expanded_size": 134736854,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bb67326df10a86a2d8097dabc9007fc888ebca10e92359748cdfedd269bf4401"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o M\u00e1rio Lago",
+                        "email": "joaolago@bluerobotics.com"
+                    },
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick J. Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.3.3",
+                "docs": null,
+                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "requirements": "core >= 1.3",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "20038/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config",
+                            "/dev:/dev:rw"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "20038/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.3.0": {
+                "identifier": "abbfaa33-1f3a-5fc2-a5f2-37873f7d304b",
+                "type": "device-integration",
+                "website": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "images": [
+                    {
+                        "expanded_size": 107173013,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35dd5ccf9f26b879d70f616b5749eaeb4a5243f67d381aac2e91101737f91980"
+                    },
+                    {
+                        "expanded_size": 98147826,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1deed31f468d4899a9ad6b8b7d3327efb72e475427f9c12ee88effc2668ef91f"
+                    },
+                    {
+                        "expanded_size": 104466780,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0fb9591587c22e5f5d554bca1f471b912eaa3df779428767af71b4881aed32f5"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Jo\u00e3o M\u00e1rio Lago",
+                        "email": "joaolago@bluerobotics.com"
+                    },
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    },
+                    {
+                        "name": "Patrick J. Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.3.0",
+                "docs": null,
+                "readme": "<h1>Basic extension to manage cellphone modems</h1>",
+                "support": "https://raw.githubusercontent.com/bluerobotics/cellphone-modem-manager/",
+                "requirements": "core >= 1.3",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "20038/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config:/root/.config",
+                            "/dev:/dev:rw"
+                        ],
+                        "ExtraHosts": [
+                            "blueos.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "20038/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 13217,
+            "last_updated": "2026-04-13T19:24:51.71125Z",
+            "date_registered": "2024-12-10T16:34:37.516719Z"
         }
     },
     {
@@ -9014,9 +9117,82 @@
             }
         },
         "repo_info": {
-            "downloads": 13351,
+            "downloads": 13370,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
+        }
+    },
+    {
+        "identifier": "bluerobotics.yacht",
+        "name": "Yacht",
+        "website": "https://github.com/patrickelectric/blueos-yacht",
+        "docker": "patrickelectric/blueos-yacht",
+        "description": "Easy to use container management utility",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/yacht/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
+        "versions": {
+            "1.0.0": {
+                "identifier": "b8ab51f5-90f5-5552-b9fb-43485f0c944d",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 75237108,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3cbb5d3ccef873e9d2c2f2887d1e833ab1cf74a37dbce0127eecdd93332d33cd"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "docker",
+                    "container",
+                    "dashboard",
+                    "manager"
+                ],
+                "extra_links": {},
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "<h1>BlueOS yacht</h1>\n<p>Yacht is a container management UI with a focus on templates and 1-click deployments.</p>",
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/var/run/docker.sock:/var/run/docker.sock:rw"
+                        ],
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 3610,
+            "last_updated": "2023-09-01T21:07:26.318216Z",
+            "date_registered": "2023-09-01T20:11:40.559943Z"
         }
     },
     {
@@ -9082,7 +9258,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2643,
+            "downloads": 2644,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -9145,7 +9321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9563,
+            "downloads": 9575,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -9218,130 +9394,10 @@
                         }
                     }
                 }
-            },
-            "1.0.3": {
-                "identifier": "f56aceb6-80df-59c4-8b04-ec4fb55ce680",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 161203610,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:40af90b41e49214ab3cd2551871caae204e2d2bb484cf647c4b8b5db15936e1c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "node-red"
-                ],
-                "extra_links": {},
-                "tag": "1.0.3",
-                "docs": null,
-                "readme": "<h1>BlueOS node-red</h1>\n<p>Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.</p>\n<p>It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.</p>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/extensions/node-red:/data:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/dev:/dev:rw",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "1.0.0": {
-                "identifier": "10ae5964-f59f-53a9-8828-664dc3406aab",
-                "type": "other",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 161234072,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7e898a24b188429bad6bb6d1229ae906a1447b732afbc69fe29b22a5b839af89"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Patrick Jos\u00e9 Pereira",
-                        "email": "patrickelectric@gmail.com"
-                    }
-                ],
-                "filter_tags": [
-                    "code",
-                    "development",
-                    "ide",
-                    "node-red"
-                ],
-                "extra_links": {},
-                "tag": "1.0.0",
-                "docs": null,
-                "readme": "<h1>BlueOS node-red</h1>\n<p>Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.</p>\n<p>It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.</p>",
-                "support": null,
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "ExposedPorts": {
-                        "80/tcp": {}
-                    },
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/usr/blueos/userdata/node-red:/data:rw",
-                            "/etc/hostname:/etc/hostname:ro",
-                            "/dev:/dev:rw",
-                            "/:/home/workspace/host:rw"
-                        ],
-                        "PortBindings": {
-                            "80/tcp": [
-                                {
-                                    "HostPort": ""
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 24119,
+            "downloads": 24149,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9405,7 +9461,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3919,
+            "downloads": 3924,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
