@@ -295,7 +295,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10687,
+            "downloads": 10705,
             "last_updated": "2025-08-04T20:31:51.594462Z",
             "date_registered": "2024-11-10T22:07:32.150637Z"
         }
@@ -525,7 +525,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9063,
+            "downloads": 9073,
             "last_updated": "2026-01-12T19:56:58.274732Z",
             "date_registered": "2024-07-10T16:09:03.945501Z"
         }
@@ -1491,7 +1491,7 @@
             }
         },
         "repo_info": {
-            "downloads": 37814,
+            "downloads": 37861,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -2794,7 +2794,7 @@
             }
         },
         "repo_info": {
-            "downloads": 100961,
+            "downloads": 101035,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2870,7 +2870,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13804,
+            "downloads": 13809,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -3178,7 +3178,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13781,
+            "downloads": 13795,
             "last_updated": "2026-07-24T16:54:58.515822Z",
             "date_registered": "2025-03-27T21:00:19.768813Z"
         }
@@ -3567,7 +3567,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24804,
+            "downloads": 24827,
             "last_updated": "2026-07-24T11:12:02.444273Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -3686,7 +3686,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13468,
+            "downloads": 13474,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -4044,7 +4044,7 @@
             }
         },
         "repo_info": {
-            "downloads": 50493,
+            "downloads": 50520,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -4058,981 +4058,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/ceruleansonar/company_logo.png",
         "versions": {
-            "1.14.84-beta": {
-                "identifier": "2406010b-4fe4-57fb-b859-b7a815ae377d",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 91497131,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8173d3b5c581c77f0155fb9593f62c3b100df4b0a369a7a3e38dd4dc4fbe94f6"
-                    },
-                    {
-                        "expanded_size": 91014855,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a6c4d03ca8890ccf8da837c405da8833732532c46e2d561b7204cc8fe6242b09"
-                    },
-                    {
-                        "expanded_size": 88854212,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4b71ffaf86ded814916e296a3d622eab618c79e40af8c06965d6b7b4ae239f56"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.84-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.83": {
-                "identifier": "07a82d8a-8be4-5b3a-a235-95a0a0ecab67",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 90692777,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0b5a633cc8d02db7d7de90d9430172b88239679e4f51d63e4adae6ad75847e25"
-                    },
-                    {
-                        "expanded_size": 90208673,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4a0b553c6760fa924627fb48ad11991913230720769f8dadd152f9fdbf9a48e3"
-                    },
-                    {
-                        "expanded_size": 88048198,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:cdcc4af4fa3d3b68bdafcb8d3c5d8f1a61b401e6d398b052efda07c29454c22c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.83",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.82": {
-                "identifier": "d4cccdae-50f1-5641-99b4-91b7946c6c36",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 90670250,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1aab9a6b53ee21d34f98639a95f2397007531afa37e18d5d86f449d3cacb9864"
-                    },
-                    {
-                        "expanded_size": 90187057,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7e3ab2846da85721128adf093f8deb8035d1a6abdb56e3e6335aa70f7488e130"
-                    },
-                    {
-                        "expanded_size": 88026036,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1acde8f3f008260d3f076a352244db1c510b81bdfeb9669a6bf763c150561f13"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.82",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.79-beta": {
-                "identifier": "09631adb-15eb-511f-9db7-3083fc428b6b",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 85815630,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ab9378f6203d896b245239624ce6242c34dfc155e509ca246bac0d070387609e"
-                    },
-                    {
-                        "expanded_size": 85334416,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:844885ad8324963e2a4c6243dfcd8568a0a89197aa27d49d484ab04fc2ba1abe"
-                    },
-                    {
-                        "expanded_size": 83173504,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a3083053c2de2fc7b6713c9e7a67245a8f58255a24e1a71e272910b70b124926"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.79-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.78-beta": {
-                "identifier": "3d9b4a2f-805a-5f8e-86bb-770ed8cc3ebe",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 85815447,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:37506f4d247f63cb85983bb7902bc43401c2e854e3eb2d2f9031f0f46bce2939"
-                    },
-                    {
-                        "expanded_size": 85333512,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b2e3a74728ec3a7b44a6c3d4ad79f35eac3468bc5267181eb38574519012ab79"
-                    },
-                    {
-                        "expanded_size": 83172418,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:28ef5512dd0f26193ffe6da2fdacd661d9a957d27070b0c0d86af1df20d29086"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.78-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.77-beta": {
-                "identifier": "07a15119-5d93-5a15-9670-17b4460b3220",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 77953990,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:78f8ed7b02737a01a086137e8ce899f995b95823f924182b620bcd0ce74e12fe"
-                    },
-                    {
-                        "expanded_size": 77471951,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:56f01bdb5e2755292e12aa76fdedd85e5e9a889dfb5e9a4f0ef25db23adff63b"
-                    },
-                    {
-                        "expanded_size": 75310773,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fd8d08431feea28915090c38d799f55697986f2392a004507af4ead44adc80e7"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.77-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.75-beta": {
-                "identifier": "3b9e6c1c-5032-57c4-9c0b-e4c397f5ed3c",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 77935091,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:aa98dce38af624d09a5f1dc227b81cd6539db34d55d66f44ed5929473d81b2a8"
-                    },
-                    {
-                        "expanded_size": 77453478,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:d30d80f59093a5ef8c5d5779109d323e67ae35fca43077a03bb378a2d93bab75"
-                    },
-                    {
-                        "expanded_size": 75292452,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:12b6ef7afd3010e07d100dc0fda34105d3e73345dd67ae30c80000decf2e7e40"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.75-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.73-beta": {
-                "identifier": "5ee73912-c3be-5234-a827-3205855ed60c",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 77956918,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:27b81f46281db66945ada6a3baf9059563d75872d8637be4a969e27870a72827"
-                    },
-                    {
-                        "expanded_size": 77476978,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:294a5ca11ab6d21fd41bf2802ff9854f31cb857a91b7c343356024be9ed0ec94"
-                    },
-                    {
-                        "expanded_size": 75324443,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ce8a9f1fbd0ca2041ba9bfdc41f6bc9a07088e24ec978500a046f285266b5e9f"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.73-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.70": {
-                "identifier": "34fe5dfd-0fd4-556a-bea1-f5553dc5adcb",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 77034764,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:87d9967d907d7e0ba1e74737ee131ade6b3dccdc7068e2a000d18cae4d59ebae"
-                    },
-                    {
-                        "expanded_size": 76552092,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:88fc412a3874fcd36d923ffb598a1c0dedcaf08397b34adc13e948e3e5977db3"
-                    },
-                    {
-                        "expanded_size": 74397109,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:aacd4f84f525eb751bb1ffd072ffd56d3197f8483986b5559697e07a53d48a06"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.70",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.68": {
-                "identifier": "71ddd81e-3c12-5b97-a6eb-581998b60e55",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 75884811,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c6b37bfaf3e724a73ced1db24d6be44e68b520719a8cb9ea86125ff6befea7c9"
-                    },
-                    {
-                        "expanded_size": 75399672,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:fd5272bddf4d90cfc8e3171e5c8af957ab9bd97f40ac0a6f875ab11057f8a187"
-                    },
-                    {
-                        "expanded_size": 73245119,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ab23dd6960c69d9fa39a8422f2e912ec32097aa7d48a85b49d470f7f4159a61a"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.68",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.67-beta": {
-                "identifier": "796d3ce0-e203-592e-9c2d-e3fcd2fd6441",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 82907402,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a332fddc40243516227d8570bfbb0bc74428db782bc28b0ba3c70ae7518ed734"
-                    },
-                    {
-                        "expanded_size": 82420974,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f433f204320c2bbbf767d3b5f48402e4cc7102c31d7cda4977205bad58ad82b3"
-                    },
-                    {
-                        "expanded_size": 80268492,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77e26803f085586cc042d2571ce55a6d1b1024cc93cef50c03eb13f3c6770cf0"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.67-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.64-beta": {
-                "identifier": "04aa24c7-8c63-5d5f-ae73-ed752aef9f89",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 82880634,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:98ece61345f794ae7a093595bf30512a513bf87130979ebf1f581771b8a59e7f"
-                    },
-                    {
-                        "expanded_size": 82396097,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bf5e91ebd36bd1ddf5bd025550da5539b85d5cd321af1f3f25769d0deca6e602"
-                    },
-                    {
-                        "expanded_size": 80243427,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:074f26e2188f16f3c4f523ce106294c840a66a5f51a3c1dcfab98df45d1c15ab"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.64-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.62-beta": {
-                "identifier": "7611118e-5e81-5fd4-ab14-728c8f665162",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 82871466,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a940d287db8ff9443c49a606c28086fc5fba577246933c2758115332426e1ceb"
-                    },
-                    {
-                        "expanded_size": 82383389,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0179238526423b6b5e3e94e28711b3f3f32e97b321edfc45e64e2fdaa6684b55"
-                    },
-                    {
-                        "expanded_size": 80231315,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:eac1c7659fc4820636592c11121efdb042d804b63a69a1c2ac9fdd014124a211"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.62-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.59-beta": {
-                "identifier": "224c871c-37f1-5e8d-8870-6f5c6809e22b",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 79433113,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c06b0d7903b864acbc5d06ccc90bed20ef6579f3dc7aba3b31956e27df4ab794"
-                    },
-                    {
-                        "expanded_size": 78950268,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:bd65c847f895d09d4532c9dedc5879d30830cd9fc69a80f333aaa03dea4d9de9"
-                    },
-                    {
-                        "expanded_size": 76798342,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9ea95041f02a1428615cd9a75deec650ef914fb6d31de96a319569fadb20f686"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.59-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.58-beta": {
-                "identifier": "86b5adb6-a62f-5709-a854-a590a018899e",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 79421519,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:dd43a99e059a7d8c234d5ba304f10b23449bc7d6f9a5b424422112fd89652ce4"
-                    },
-                    {
-                        "expanded_size": 78948904,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4901e5f3252b6b5f0bc1c385a317d8532b5dc106956f2c19fdf487700d94e86b"
-                    },
-                    {
-                        "expanded_size": 76798777,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3c10673fa96c305341560f8f27f0ae4afe1282dc1e059463a711dfb841677a7d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.58-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.14.54-dev": {
                 "identifier": "2a230242-4c58-5101-a2b7-147f1c82918c",
                 "type": "device-integration",
@@ -5097,270 +4122,10 @@
                         ]
                     }
                 }
-            },
-            "1.14.53-dev": {
-                "identifier": "41a9dceb-4f0b-54ac-bfbd-dca8c1aacd67",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 79376993,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7d013c3648f51170c4ba425cdbd375a1bac426c8c77e5640a21721dd1c6794d9"
-                    },
-                    {
-                        "expanded_size": 78894327,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f4427abbb9f1176cc22d9714e89ef8e50a76043b45e7a51d80650fe51840104e"
-                    },
-                    {
-                        "expanded_size": 76742844,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0927c189dd1de7e1854e48d68b53da14c59a8dd5e3d62aa42837b849a8c155d3"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.53-dev",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.51-beta": {
-                "identifier": "0ecef587-9167-5293-9fd3-5de3b0aec14c",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 81949080,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b5e32e445631359554f5e80c30679f4c7f26a7b7188374c424a7ae52f7594133"
-                    },
-                    {
-                        "expanded_size": 81460813,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ea88777e84a93347300e583014e9ed6c51b49da8b1e44b79ec2d937365727672"
-                    },
-                    {
-                        "expanded_size": 79306477,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1fdb27cb8e29e526d178e96744665847b076adc6801c9c562d30f3a6b37d2e43"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.51-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.50-dev": {
-                "identifier": "104256d4-304a-5c75-81b0-8218fb47d971",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 81291545,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4241d2cf100e0badc8aa24c2a2c3cd0bb5a2a928fdff1913f823fd71dd10a262"
-                    },
-                    {
-                        "expanded_size": 80800229,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:f31ac915ebf5d0e1aee0cf44e1c216661fa1d9e3add33caf97b3e14ab3dc0461"
-                    },
-                    {
-                        "expanded_size": 78646074,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:52c4ccc68a0f150a9a9d6cf3d9037bf778d90d2d4f9383f3b020ddbda4cff834"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.50-dev",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.14.48-dev": {
-                "identifier": "09fa1d32-1eb7-5d85-ba02-fe5964f3961b",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 81277747,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e41f60e7928b3285e182dab21540e258cea901159185016ed8aeb8568641b647"
-                    },
-                    {
-                        "expanded_size": 80790527,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:2283c7710423d24478e5b72b791f660f8610b6a9b5e02d56a04ca6dd8b597997"
-                    },
-                    {
-                        "expanded_size": 78633525,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c637b4a58c579f620bb5f41b33772413328ffdb6af543527e34d4dc93990a013"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.48-dev",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 164869,
+            "downloads": 164980,
             "last_updated": "2026-08-27T17:48:11.735555Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -5665,7 +4430,7 @@
             }
         },
         "repo_info": {
-            "downloads": 22459,
+            "downloads": 22473,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -5959,7 +4724,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9467,
+            "downloads": 9481,
             "last_updated": "2026-08-31T21:56:31.290058Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -7846,7 +6611,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86450,
+            "downloads": 86512,
             "last_updated": "2026-08-14T10:50:23.663125Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -8317,9 +7082,139 @@
             }
         },
         "repo_info": {
-            "downloads": 72870,
+            "downloads": 72892,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
+        }
+    },
+    {
+        "identifier": "williangalvani.example1",
+        "name": "Example 1",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "docker": "williangalvani/blueos-example1",
+        "description": "Hello World",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/example1/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
+        "versions": {
+            "v1.0.1": {
+                "identifier": "bf421443-99eb-57ac-8de4-190157c0c680",
+                "type": "example",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 46802192,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:34d8e4576adb26c8db7a338b595cf01857da21c3a67f14796f0e503b4f0edfbd"
+                    },
+                    {
+                        "expanded_size": 41255503,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:268ee547e87fc7b4c8c6dbd360a1e8a1c10228164e2458d9220b6a06155a8951"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f01e3e89-4f93-5c96-8b6a-5526699bebb1",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 47258668,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:97920e5f8f44d815b8b6f6f2a662e1721e902b43005dd91464c08c56b8e8c66b"
+                    },
+                    {
+                        "expanded_size": 41443310,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:95166dcc031a759856cc1527021093c83261c5a32a18f2329e48e0f3e2c419c0"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >  1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 87937,
+            "last_updated": "2023-05-02T10:57:42.905818Z",
+            "date_registered": "2022-09-20T18:15:02.068256Z"
         }
     },
     {
@@ -8483,7 +7378,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14123,
+            "downloads": 14133,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8718,7 +7613,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9264,
+            "downloads": 9279,
             "last_updated": "2025-06-10T17:33:30.945249Z",
             "date_registered": "2025-03-06T16:25:46.94933Z"
         }
@@ -8851,6 +7746,58 @@
                     }
                 }
             },
+            "v1.0.3": {
+                "identifier": "166bd1cb-1e1b-56ff-a5f5-721e02b95994",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "images": [
+                    {
+                        "expanded_size": 61972606,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:27c382df5571e9d2338b729a022ad7c902e58267e648231eacee78d7169cfe6b"
+                    },
+                    {
+                        "expanded_size": 56520690,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:58add8e210182fa2c96607fb8192b2dfb3f853ebe18c088b9738a50163daf041"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.3",
+                "docs": null,
+                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "v1.0.2": {
                 "identifier": "f11b999a-862a-5908-8c10-57fe46b9d864",
                 "type": "other",
@@ -8900,10 +7847,59 @@
                         "NetworkMode": "host"
                     }
                 }
+            },
+            "v1.0.0": {
+                "identifier": "4d7a08b8-ab08-54b2-8cfb-ae1a6f2acb7b",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
+                "images": [
+                    {
+                        "expanded_size": 62349790,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b84df60bdd753d795c649f5ba2266a3394961da30a94f36a090aea5626ccda53"
+                    },
+                    {
+                        "expanded_size": 56623432,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ca693a1fc97e7937624d08b06c3bd18fba03f22997473cab088ee8a16e4cb213"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "<h1>BlueOS VirtualHere extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<p>To use, first install it in BlueOS:</p>\n<p><code>red-pill\nsudo docker run -d --net=host --privileged --name=blueos-virtualhere --restart=unless-stopped williangalvani/blueos-extension-virtualhere:latest</code></p>\n<h1>Client</h1>\n<p>Download a client from https://www.virtualhere.com/usb_client_software</p>",
+                "support": "https://github.com/Williangalvani/BlueOS-VirtualHere/issues",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 156689,
+            "downloads": 156729,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -9034,7 +8030,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11529,
+            "downloads": 11535,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9048,66 +8044,6 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/usbip/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
         "versions": {
-            "v1.0.4": {
-                "identifier": "1045feeb-4a10-504c-9039-b5c707f9735d",
-                "type": "device-integration",
-                "website": "https://github.com/Williangalvani/BlueOS-UsbIp",
-                "images": [
-                    {
-                        "expanded_size": 50885297,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6c62693850e139fa6a944541f04e071f482a9a6ffdca615a81d8865a4f08bd2f"
-                    },
-                    {
-                        "expanded_size": 49265251,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0c50cfa414ac3b51cdfe9931d77e7913330d129d0a1c13fad76cbcd40f3f2502"
-                    },
-                    {
-                        "expanded_size": 45361150,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:81b18bba6d769a73106932cbc5fbf37452b18c5dc9673e0cb68a937160eab4c4"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [
-                    "communication"
-                ],
-                "extra_links": {},
-                "tag": "v1.0.4",
-                "docs": null,
-                "readme": "<h1>USB/IP extension</h1>\n<p>This exposes usb devices via IP, which can be used in another client device</p>\n<h1>Client</h1>\n<h2>Linux:</h2>\n<p>```</p>\n<h1>load modules</h1>\n<p>sudo modprobe usbip-core\nsudo modprobe vhci-hcd</p>\n<h1>list devices</h1>\n<p>sudo usbip list --remote blueos.local</p>\n<h1>connect to device with bus 1-1.3</h1>\n<p>sudo usbip attach --remote blueos.local --busid 1-1.3</p>\n<p>```</p>\n<h2>Windows</h2>\n<p>Download the 3.6 dev release from https://github.com/cezanne/usbip-win and follow the \"Client\" instructions there.\nThe new \"ude\" driver seemed to work for me.</p>\n<h1>Changelog:</h1>\n<ul>\n<li>v1.0.2:<ul>\n<li>updated to use commander instead of hard-coded ID to talk to host</li>\n</ul>\n</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-UsbIp",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.3": {
                 "identifier": "c9ab154d-70e1-5174-a91c-d8b0e84bcbc2",
                 "type": "device-integration",
@@ -9264,42 +8200,42 @@
             }
         },
         "repo_info": {
-            "downloads": 56942,
+            "downloads": 56956,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
     },
     {
-        "identifier": "williangalvani.example2",
-        "name": "Example 2",
+        "identifier": "williangalvani.example4",
+        "name": "Example 4",
         "website": "https://github.com/Williangalvani/BlueOS-examples/",
-        "docker": "williangalvani/blueos-example2",
-        "description": "Static HTML plus MAVLink data",
-        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/example2/extension_logo.png",
+        "docker": "williangalvani/blueos-example4",
+        "description": "Vuetify + Persistent backend",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/example4/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
         "versions": {
             "v1.0.1": {
-                "identifier": "39888870-c652-52f0-9ead-0640b21526bc",
+                "identifier": "8971d6d2-1339-51d2-b015-bbf05e4f3df9",
                 "type": "example",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
-                        "expanded_size": 46802665,
+                        "expanded_size": 53713690,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:49131f6972848dea860471a4215687166319a4b105422aa1dd6b75a74610d588"
+                        "digest": "sha256:bec0e1bddc646ba1c477fd5767b29302aaff8d38057287949eac54d4815c7c3e"
                     },
                     {
-                        "expanded_size": 41255976,
+                        "expanded_size": 45092996,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:0b5b5c4341d46ae89398405d5eef61fed9ed6f86923451ff0135c855f53a247a"
+                        "digest": "sha256:361210e8893ca847ed186885daf3cf6f06c6a455182e7bb90b8622dbe7945c91"
                     }
                 ],
                 "authors": [
@@ -9325,6 +8261,9 @@
                         "80/tcp": {}
                     },
                     "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
                         "PortBindings": {
                             "80/tcp": [
                                 {
@@ -9336,27 +8275,27 @@
                 }
             },
             "v1.0.0": {
-                "identifier": "76dbd22b-c7a4-566e-9342-5871c558bd88",
+                "identifier": "f9b3fffd-adc2-5d3a-aa12-3c4bdc3220f4",
                 "type": "other",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
-                        "expanded_size": 47259138,
+                        "expanded_size": 51091856,
                         "platform": {
                             "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:330ef2defbb59580f2c5324d03c968b7f43e4073c3a3cc3e4c9620d5ce9d4781"
+                        "digest": "sha256:d6515e5ff51293fd362e88bec27dd55b0451dea1bf541d263f15faa8410a0756"
                     },
                     {
-                        "expanded_size": 41443780,
+                        "expanded_size": 45276851,
                         "platform": {
                             "architecture": "arm",
                             "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:213f70bf5f5252d251419b90fa83845496cb18068c7c6d20399292614d5b0061"
+                        "digest": "sha256:78487700a46fb9c5c27c1738690fdd3e02d9f3a52416355b040ea405b773e4e5"
                     }
                 ],
                 "authors": [
@@ -9382,6 +8321,9 @@
                         "80/tcp": {}
                     },
                     "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
                         "PortBindings": {
                             "80/tcp": [
                                 {
@@ -9394,9 +8336,9 @@
             }
         },
         "repo_info": {
-            "downloads": 92707,
-            "last_updated": "2023-05-02T10:58:10.407395Z",
-            "date_registered": "2022-09-19T20:25:33.201236Z"
+            "downloads": 90461,
+            "last_updated": "2023-05-02T10:59:21.807562Z",
+            "date_registered": "2022-09-19T20:13:46.735725Z"
         }
     },
     {
@@ -9524,9 +8466,832 @@
             }
         },
         "repo_info": {
-            "downloads": 95735,
+            "downloads": 95741,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
+        }
+    },
+    {
+        "identifier": "williangalvani.plc-diagnostics",
+        "name": "Tether Diagnostics",
+        "website": "https://github.com/Williangalvani/plc-extension",
+        "docker": "williangalvani/blueos-plc",
+        "description": "Diagnose issues with your tether",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/plc-diagnostics/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
+        "versions": {
+            "v1.0.3": {
+                "identifier": "32e55347-6b8e-55c2-aaac-f885a82e34ec",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
+                    },
+                    {
+                        "expanded_size": 94089425,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 87971421,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "wiliangalvani@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/williangalvani/plc-extension"
+                },
+                "tag": "v1.0.3",
+                "docs": null,
+                "readme": "<h1>PLC Diagnostics</h1>\n<p>Having thether issues? This extension will help you better understand your link's bandwidth and connection quality</p>",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Willian Galvani",
+                    "email": "wiliangalvani@gmail.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "03921d1c-df43-5492-8887-44e9616df379",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
+                    },
+                    {
+                        "expanded_size": 94089425,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 87971421,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "wiliangalvani@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/williangalvani/plc-extension"
+                },
+                "tag": "v1.0.2",
+                "docs": null,
+                "readme": "<h1>QuickStart-Python-Extension</h1>\n<p>A quick-start repository for building and uploading a Python-focused BlueOS Extension.</p>\n<h2>Intent</h2>\n<p>This is intended to showcase:\n1. How to make a basic Extension with a simple web interface, using Python and some HTML\n2. The difference between code running on the frontend vs the backend\n    - Backend code has access to vehicle hardware and other service APIs, as well as the filesystem (for things like persistent logging)\n    - Frontend code is in charge of the display, and runs in the browser interface (instead of on the vehicle's onboard computer)</p>\n<h2>Usage</h2>\n<p>Forking the repository will try to automatically package and upload your Extension variant to a Docker registry (Docker Hub), using the built in GitHub Action.\nThis process makes use of some <a href=\"https://github.com/BlueOS-community/Deploy-BlueOS-Extension#input-variables\">GitHub Variables</a> that you can configure for your fork.</p>\n<p>It is also possible to manually run the Action (via the Actions tab), or to build and deploy the extension manually on your local machine (although this requires installing the relevant build tools and cloning the repository onto your computer).</p>\n<blockquote>\n<p>\ud83d\udca1<strong>Note:</strong> If you are forking this repository as a starting point for creating your own <a href=\"https://blueos.cloud/docs/blueos/latest/development/extensions\">BlueOS Extension</a>, it is recommended to enable <code>Issues</code> in your fork (via the <code>Settings</code> tab at the top), so that users and co-developers of your Extension can raise problems and make suggestions.</p>\n</blockquote>",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Willian Galvani",
+                    "email": "wiliangalvani@gmail.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.1": {
+                "identifier": "37303bf5-4438-56b4-b632-704649aa3a6e",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100027144,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1e451e2e07c76d97625aabaf4a8748e3e5a8aad58e45fa5b8bf773a25714e365"
+                    },
+                    {
+                        "expanded_size": 94070756,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:852084320d5d8516d94f787aa28ee0e0615087849e78f6bc8533176d8f2a3713"
+                    },
+                    {
+                        "expanded_size": 87951124,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b189e8966331dbaacbd9d21c5583f0bb0c4faf00c9f8c3fd2d6fce2e6b330117"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:48ae6ef7653b04e5ef8153ded54bd7a12a2e89979711a9259fe9982c33938a0a"
+                    },
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "0.0.5": {
+                "identifier": "a9ba0b33-ba29-506b-8425-ac3e621b2181",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
+                    },
+                    {
+                        "expanded_size": 94089425,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 87971421,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "wiliangalvani@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/williangalvani/plc-extension"
+                },
+                "tag": "0.0.5",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Willian Galvani",
+                    "email": "wiliangalvani@gmail.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 32684,
+            "last_updated": "2025-10-15T19:07:10.2706Z",
+            "date_registered": "2024-05-23T03:16:55.205832Z"
+        }
+    },
+    {
+        "identifier": "williangalvani.network-scanner",
+        "name": "Network Scanner",
+        "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner",
+        "docker": "williangalvani/blueos-network-scanner",
+        "description": "Find other devices at your BlueOS network",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/network-scanner/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
+        "versions": {
+            "v1.0.4": {
+                "identifier": "ba43e516-985f-5bfb-a55d-71619255ad2a",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 166688673,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:606acae5c681b8d4500b23fa1dd5eccef8ac5ae9c942b54761ef625fd10c6554"
+                    },
+                    {
+                        "expanded_size": 161521974,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a7a4c30fa4d0791577ac49ec13ec80c7f61c7f3fd73550064b69f5074fe7694f"
+                    },
+                    {
+                        "expanded_size": 139074473,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b0c0ee03db1f8855174ca393296e5edad6088d5e662d9d03297227108586215e"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.4",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.3": {
+                "identifier": "f2419dc7-3cbe-52e5-a1ea-4fc19741f7b8",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 161309683,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6719c16d2edb8adebb57b32788137398cc9bb66cb8619c8fbf65481a9ec99077"
+                    },
+                    {
+                        "expanded_size": 156824186,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2f0a5930e99df255156474da83c8eb3eb4c4ad599967df9f8bee1484498f6fd7"
+                    },
+                    {
+                        "expanded_size": 134610455,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7b3398f704302768bbec38c4822994b24c5e6553e928ec23363d479d8e941228"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.0.3",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    },
+                    {
+                        "expanded_size": 157816879,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c1ed7cbb80575d48f6ca4e1b765a4e3c32ceb1b508becc70e5eb05e5c3eec35"
+                    },
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.2": {
+                "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    },
+                    {
+                        "expanded_size": 157816485,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0d3228f9d5ade13c571c0573bf22aaebdb7791fb32010a3ce64a32649dccae2c"
+                    },
+                    {
+                        "expanded_size": 135355878,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.1": {
+                "identifier": "13bfb792-567e-5440-90bc-47aecc0e6503",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 167205891,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:05abfefd25d3fa05d6ddce099d68ee7df4f2a48cc364eb972e409c164c31bc01"
+                    },
+                    {
+                        "expanded_size": 161690019,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bb52f8f92b786a3576e22519059196a401dfdfcb705c989f8d4696ee165d1995"
+                    },
+                    {
+                        "expanded_size": 139164501,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5e82e94b39b55a9e2eee865259af83d311dbfbae1470fc304c77a9cc93a0efbe"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "9784d249-52a2-57f1-81be-488a862daec0",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 167206981,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0daea257fead5fe6622ac888910e082b8e9ac4b1263907d128db8d8926753f5d"
+                    },
+                    {
+                        "expanded_size": 139162770,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:73768f50b93360ed53bfa76ca220d06e812af178b40f2bfd0ffe5a75dc2a351e"
+                    },
+                    {
+                        "expanded_size": 139162731,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v8",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:730538912fce663c577e2af81fda7b9f706228445bd73c7930d8b07f57b77d3c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 30272,
+            "last_updated": "2025-05-14T20:51:07.385773Z",
+            "date_registered": "2024-05-05T23:27:05.667297Z"
+        }
+    },
+    {
+        "identifier": "williangalvani.blueos-proxy",
+        "name": "BlueOS Proxy",
+        "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+        "docker": "williangalvani/blueos-extension-proxy",
+        "description": "BlueOS Proxy",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/blueos-proxy/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/williangalvani/company_logo.png",
+        "versions": {
+            "v1.0.6": {
+                "identifier": "3210aab9-2ace-53be-a9ed-d7ca2b1b461f",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "images": [
+                    {
+                        "expanded_size": 92075584,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5cad7a6e79851e51159fbab930d3f88c93f36d03a2e25b1e0c58605e8523a41d"
+                    },
+                    {
+                        "expanded_size": 90276046,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:854b6f7d09217f5e7f52fb62706d06fc6b90f697f5b8ae2d42d923886b656b2a"
+                    },
+                    {
+                        "expanded_size": 85211048,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:98484b6ffa1b364badc3cf30cbeb089e34d43fbf7e31d116b3eb7a5d1afbfc39"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.6",
+                "docs": null,
+                "readme": "<h1>Blueos Proxy Extension</h1>\n<p>This allows you to browse the ROV network as if you were in there.\nIt is useful for accessing and configuring routers and other local devices that may not be reachable from the GCS computer.</p>",
+                "support": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {},
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/userdata/blueos-proxy/:/usr/blueos/userdata/blueos-proxy/"
+                        ],
+                        "NetworkMode": "host"
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 43867,
+            "last_updated": "2026-02-10T22:39:44.945961Z",
+            "date_registered": "2023-05-28T18:03:17.343281Z"
         }
     },
     {
@@ -9592,9 +9357,98 @@
             }
         },
         "repo_info": {
-            "downloads": 3371,
+            "downloads": 3372,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
+        }
+    },
+    {
+        "identifier": "bluerobotics.water-linked-dvl",
+        "name": "Water Linked DVL",
+        "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/",
+        "docker": "bluerobotics/blueos-water-linked-dvl",
+        "description": "Enables ROV position holding and navigation",
+        "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/water-linked-dvl/extension_logo.png",
+        "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
+        "versions": {
+            "v1.0.3": {
+                "identifier": "a6397468-59fb-5808-9706-ea15c6948122",
+                "type": "device-integration",
+                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
+                "images": [
+                    {
+                        "expanded_size": 77304661,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5c2dd5704cd10b3cf502f3a47d5f9f0283e846e66d3ebcfa7d8ffe5673eb269f"
+                    },
+                    {
+                        "expanded_size": 75733848,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c11db66e0051d03248c40a8fa06c48737942bc8fe5c3ec0107152cdda8dd479"
+                    },
+                    {
+                        "expanded_size": 71173047,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.3",
+                "docs": null,
+                "readme": "<h1>BlueOS-Water-Linked-DVL</h1>\n<h2>Changelog</h2>\n<h3>v1.0.3</h3>\n<ul>\n<li>Uses an random available port instead of 9001 to avoid conflict</li>\n<li>Updated menu icon</li>\n</ul>\n<h3>v1.0.2</h3>\n<ul>\n<li>Improved style</li>\n</ul>\n<h3>v1.0.1</h3>\n<ul>\n<li>Fixed an issue where the driver was sending Rangefinder messages with invalid data</li>\n</ul>\n<p>This is a docker implementation of a Waterlinked DVL A50 driver as a BlueOS Extension.</p>\n<h2>Install</h2>\n<p>Install it from <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/extensions/\">BlueOS extensions tab</a>.</p>\n<p>The service will show in the \"Extension Manager\" section in BlueOS, where there are some configuration options.</p>",
+                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "9001/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "9001/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 285869,
+            "last_updated": "2025-11-26T18:24:22.732171Z",
+            "date_registered": "2022-06-01T23:43:43.19026Z"
         }
     },
     {
@@ -9606,6 +9460,62 @@
         "extension_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/ros/extension_logo.png",
         "company_logo": "https://williangalvani.github.io/BlueOS-Extensions-Repository/repos/bluerobotics/company_logo.png",
         "versions": {
+            "0.0.2": {
+                "identifier": "73dc76ed-2f14-5fae-a087-aee4886d5fbd",
+                "type": "other",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 370009641,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:75a2bf8947eba791595c30713506e8f94231a656c48f99119c53d17eb09ec72e"
+                    },
+                    {
+                        "expanded_size": 370009669,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a9a2112b8cc7df5fefab629d79aa50c7cf68f6f205afe5f7fa44ed343072517a"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Patrick Jos\u00e9 Pereira",
+                        "email": "patrickelectric@gmail.com"
+                    }
+                ],
+                "filter_tags": [
+                    "ros",
+                    "robot"
+                ],
+                "extra_links": {},
+                "tag": "0.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS ROS extension</h1>\n<p>This extension makes possible to communicate with the vehicle via ROS</p>\n<p>To connect, you just need to run the following commands:\n```sh\nexport ROS_MASTER_URI=http://blueos.local:11311</p>\n<h1>or export ROS_MASTER_URI=http://<vehicle-ip>:11311</vehicle-ip></h1>\n<p>rostopic list # Done, you already have access to it!\n```</p>\n<p>You can also access the data via <a href=\"[url](http://wiki.ros.org/roslibjs)http://wiki.ros.org/roslibjs\">roslibjs</a>.</p>\n<p>```html</p>\n<!DOCTYPE html>\n\n<html>\n<head>\n<meta charset=\"utf-8\"/>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/roslibjs/1.1.0/roslib.min.js\" type=\"text/javascript\"></script>\n<script type=\"text/javascript\">\n  var ros = new ROSLIB.Ros({\n    url : 'ws://blueos.local:8889' // Change if necessary for your vehicle ip\n  });\n\n  ros.on('connection', function() {\n    document.getElementById(\"status\").innerHTML = \"Connected\";\n  });\n\n  ros.on('error', function(error) {\n    document.getElementById(\"status\").innerHTML = \"Error\";\n  });\n\n  ros.on('close', function() {\n    document.getElementById(\"status\").innerHTML = \"Closed\";\n  });\n\n  var txt_listener = new ROSLIB.Topic({\n    ros : ros,\n    name : '/mavros/vfr_hud',\n    messageType : 'mavros_msgs/VFR_HUD'\n  });\n\n  txt_listener.subscribe(function(m) {\n    document.getElementById(\"msg\").innerHTML = JSON.stringify(m);\n  });\n</script>\n</head>\n<body>\n<h1>Simple ROS User Interface</h1>\n<p>Connection status: <span id=\"status\"></span></p>\n<p>Last /mavros/vfr_hud received: <span id=\"msg\"></span></p>\n</body>\n</html>\n<p>```</p>\n<h2>Use a different ROS master origin</h2>\n<p>It's possible to change ROS master for the extension using BlueOS on pirate mode and configuring ROS environments variables under the extension configuration menu.</p>\n<p>A valid configurtion wouyld look like this:</p>\n<p><code>json5\n{\n  \"NetworkMode\": \"host\",\n  \"HostConfig\": {\n  \"Binds\": [\n    \"/dev:/dev:rw\"\n  ],\n    \"Privileged\": true,\n    \"NetworkMode\": \"host\"\n  },\n  \"Env\": [\n    \"ROS_HOSTNAME=192.168.2.2\",\n    \"ROS_MASTER_URI=http://192.168.2.3:11311\",\n    \"ROS_IP=192.168.2.2\"\n  ]\n}</code></p>\n<p>For more information about it, check <a href=\"https://blueos.cloud/docs/blueos/1.1/development/extensions/\">BlueOS documentation</a>.</p>",
+                "support": null,
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Binds": [
+                            "/dev:/dev:rw"
+                        ],
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "0.0.1": {
                 "identifier": "e5208a5f-f0e7-5baf-a9b3-d193cc19f3f0",
                 "type": "other",
@@ -9655,7 +9565,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12105,
+            "downloads": 12111,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -9724,7 +9634,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17249,
+            "downloads": 17269,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -9800,7 +9710,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31075,
+            "downloads": 31102,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -9864,7 +9774,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4805,
+            "downloads": 4807,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -10095,7 +10005,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13700,
+            "downloads": 13728,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -10341,7 +10251,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21671,
+            "downloads": 21683,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
